@@ -832,17 +832,6 @@
               "desc_fr": "Système de balises sur le rivage Brisé ouvrant des portails sous le Sentinax, pouvant faire apparaître Apocron, Brutallus, Malificus ou Si'vash."
             },
             {
-              "name": "Invasion Points – Argus",
-              "status": "untested",
-              "note": "Base code in place, untested",
-              "name_fr": "Points d'invasion – Argus",
-              "note_fr": "Code de base en place, non testé",
-              "image": "images/events/invasion-points.jpg",
-              "icon": "images/events/icones/argus.png",
-              "desc": "Minor invasion points on Argus, rotating between Krokuun, Mac'Aree and the Antoran Wastes.",
-              "desc_fr": "Points d'invasion mineurs sur Argus, en rotation entre Krokuun, Mac'Aree et les terres Antoréennes."
-            },
-            {
               "name": "Legionfall – Broken Shore",
               "status": "untested",
               "note": "Base code in place, untested",
@@ -852,6 +841,17 @@
               "desc": "Players pool their resources on the Broken Shore to raise the Mage Tower, the Command Center and the Nether Disruptor, each opening its own rewards.",
               "desc_fr": "Les joueurs mettent leurs ressources en commun sur le rivage Brisé pour bâtir la tour de mage, le centre de commandement et le disrupteur du Néant, chacun ouvrant ses propres récompenses.",
               "icon": "images/events/icones/legionfall.png"
+            },
+            {
+              "name": "Invasion Points – Argus",
+              "status": "untested",
+              "note": "Base code in place, untested",
+              "name_fr": "Points d'invasion – Argus",
+              "note_fr": "Code de base en place, non testé",
+              "image": "images/events/invasion-points.jpg",
+              "icon": "images/events/icones/argus.png",
+              "desc": "Minor invasion points on Argus, rotating between Krokuun, Mac'Aree and the Antoran Wastes.",
+              "desc_fr": "Points d'invasion mineurs sur Argus, en rotation entre Krokuun, Mac'Aree et les terres Antoréennes."
             }
           ]
         }

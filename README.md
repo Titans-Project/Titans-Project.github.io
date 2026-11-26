@@ -17,3 +17,5 @@ Each entry looks like this:
 `status` is one of `working` (green), `partial` (yellow), `progress` (orange), `broken` (red, not working) or `untested` (grey). Artifact weapon quests and world bosses also carry a `group` (the class) or a `detail` (specialization, zone).
 
 The page is in English and French: `name_fr`, `detail_fr`, `group_fr`, `note_fr` and `title_fr` hold the French text, and the English one is shown when they are missing.
+
+A section with `"layout": "feature"` (Legion events) shows each entry as a row with a picture (`image`), an optional map icon in its corner (`icon`) and a short description (`desc`, `desc_fr`).

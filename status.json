@@ -805,38 +805,58 @@
             {
               "name": "Demon Invasions – Azeroth (pre-patch event)",
               "status": "progress",
-              "name_fr": "Invasions démoniaques – Azeroth (événement d'avant-extension)"
+              "name_fr": "Invasions démoniaques – Azeroth (événement d'avant-extension)",
+              "image": "images/events/demon-invasions.jpg",
+              "icon": "images/events/icones/invasion.png",
+              "desc": "Demon invasions strike the old continents of Azeroth before the Broken Isles open.",
+              "desc_fr": "Invasions démoniaques sur les anciens continents d'Azeroth, avant l'ouverture des îles Brisées."
             },
             {
               "name": "Legion Assaults – Broken Isles",
               "status": "progress",
-              "name_fr": "Assauts de la Légion – îles Brisées"
+              "name_fr": "Assauts de la Légion – îles Brisées",
+              "image": "images/events/legion-assaults.jpg",
+              "icon": "images/events/icones/assaut.png",
+              "desc": "The Legion invades Azsuna, Val'sharah, Highmountain and Stormheim in turn: world quests, a scenario and a final commander to bring down.",
+              "desc_fr": "La Légion envahit tour à tour Azsuna, Val'sharah, Haut-Roc et Tornheim : expéditions, scénario et commandant final à abattre."
             },
             {
               "name": "Sentinax – Broken Shore",
               "status": "untested",
               "note": "Base code in place, untested",
               "name_fr": "Sentinax – rivage Brisé",
-              "note_fr": "Code de base en place, non testé"
+              "note_fr": "Code de base en place, non testé",
+              "image": "images/events/sentinax.jpg",
+              "icon": "images/events/icones/sentinax.png",
+              "desc": "Beacons on the Broken Shore open portals beneath the Sentinax and can summon Apocron, Brutallus, Malificus or Si'vash.",
+              "desc_fr": "Système de balises sur le rivage Brisé ouvrant des portails sous le Sentinax, pouvant faire apparaître Apocron, Brutallus, Malificus ou Si'vash."
             },
             {
               "name": "Invasion Points – Argus",
               "status": "untested",
               "note": "Base code in place, untested",
               "name_fr": "Points d'invasion – Argus",
-              "note_fr": "Code de base en place, non testé"
+              "note_fr": "Code de base en place, non testé",
+              "image": "images/events/invasion-points.jpg",
+              "icon": "images/events/icones/argus.png",
+              "desc": "Minor invasion points on Argus, rotating between Krokuun, Mac'Aree and the Antoran Wastes.",
+              "desc_fr": "Points d'invasion mineurs sur Argus, en rotation entre Krokuun, Mac'Aree et les terres Antoréennes."
             },
             {
               "name": "Legionfall – Broken Shore",
               "status": "untested",
               "note": "Base code in place, untested",
               "name_fr": "Légion déchue – rivage Brisé",
-              "note_fr": "Code de base en place, non testé"
+              "note_fr": "Code de base en place, non testé",
+              "image": "images/events/legionfall.jpg",
+              "desc": "Players pool their resources on the Broken Shore to raise the Mage Tower, the Command Center and the Nether Disruptor, each opening its own rewards.",
+              "desc_fr": "Les joueurs mettent leurs ressources en commun sur le rivage Brisé pour bâtir la tour de mage, le centre de commandement et le disrupteur du Néant, chacun ouvrant ses propres récompenses."
             }
           ]
         }
       ],
-      "title_fr": "Événements de Legion"
+      "title_fr": "Événements de Legion",
+      "layout": "feature"
     },
     {
       "title": "Holidays",

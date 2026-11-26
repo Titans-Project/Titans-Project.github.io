@@ -16,164 +16,290 @@
 <meta name="description" content="What works, what is in progress and what is still untested in LegionCore — Reforged, the World of Warcraft: Legion 7.3.5 server emulator.">
 <style>
 :root {
-  --bg: #f6f5f2; --surface: #ffffff; --text: #1d1f23; --muted: #646973; --line: #e3e1db;
-  --accent: #6b4fd8;
-  --working: #1f8a4c; --partial: #b58a00; --progress: #d0661b; --untested: #c23a3a;
-  --working-bg: #e5f4ea; --partial-bg: #fbf3d6; --progress-bg: #fcebdd; --untested-bg: #f9e3e3;
+  --bg: #f4f3ef; --surface: #ffffff; --surface-2: #faf9f6; --text: #1c1e22; --muted: #63676f; --line: #e2e0da;
+  --accent: #6a4fd6; --accent-soft: #efebfd;
+  --working: #1f8a4c; --partial: #c39300; --progress: #d4661a; --broken: #cc3333; --untested: #c3c6cc;
+  --working-bg: #e3f3e8; --partial-bg: #fbf2d3; --progress-bg: #fcead9; --broken-bg: #f9e1e1; --untested-bg: #f0f1f3;
+  --untested-text: #7b8089;
+  --shadow: 0 1px 2px rgba(20,20,30,.05), 0 4px 14px rgba(20,20,30,.05);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #131417; --surface: #1c1e22; --text: #e8e8ea; --muted: #9a9ea7; --line: #2c2f35;
-    --accent: #a08cff;
-    --working: #4cc47e; --partial: #e2c04a; --progress: #f0914d; --untested: #f07070;
-    --working-bg: #183323; --partial-bg: #352d12; --progress-bg: #3a2414; --untested-bg: #3a1c1c;
+    --bg: #121316; --surface: #1b1d21; --surface-2: #17191c; --text: #e7e8ea; --muted: #9a9ea6; --line: #2b2e34;
+    --accent: #a48fff; --accent-soft: #262140;
+    --working: #4cc47e; --partial: #e3c24d; --progress: #f0914d; --broken: #f06a6a; --untested: #5d626b;
+    --working-bg: #16301f; --partial-bg: #332b11; --progress-bg: #382313; --broken-bg: #3a1b1b; --untested-bg: #25282d;
+    --untested-text: #a2a6ae;
+    --shadow: none;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #131417; --surface: #1c1e22; --text: #e8e8ea; --muted: #9a9ea7; --line: #2c2f35;
-  --accent: #a08cff;
-  --working: #4cc47e; --partial: #e2c04a; --progress: #f0914d; --untested: #f07070;
-  --working-bg: #183323; --partial-bg: #352d12; --progress-bg: #3a2414; --untested-bg: #3a1c1c;
+  --bg: #121316; --surface: #1b1d21; --surface-2: #17191c; --text: #e7e8ea; --muted: #9a9ea6; --line: #2b2e34;
+  --accent: #a48fff; --accent-soft: #262140;
+  --working: #4cc47e; --partial: #e3c24d; --progress: #f0914d; --broken: #f06a6a; --untested: #5d626b;
+  --working-bg: #16301f; --partial-bg: #332b11; --progress-bg: #382313; --broken-bg: #3a1b1b; --untested-bg: #25282d;
+  --untested-text: #a2a6ae;
+  --shadow: none;
 }
 * { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
 body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
 a { color: var(--accent); }
-.wrap { max-width: 1040px; margin: 0 auto; padding: 32px 16px 64px; }
-header h1 { margin: 0 0 4px; font-size: 28px; letter-spacing: -0.01em; }
-header p { margin: 0; color: var(--muted); }
-header .links { margin-top: 10px; font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; }
+button { font: inherit; color: inherit; }
+.wrap { max-width: 1120px; margin: 0 auto; padding: 28px 16px 64px; }
 
-.summary { margin: 28px 0 8px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; }
-.bar { display: flex; height: 12px; border-radius: 6px; overflow: hidden; background: var(--line); }
+/* header */
+.top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+.top h1 { margin: 0; font-size: 28px; letter-spacing: -0.015em; line-height: 1.2; }
+.top p { margin: 4px 0 0; color: var(--muted); }
+.links { margin-top: 10px; font-size: 14px; display: flex; gap: 16px; flex-wrap: wrap; align-items: center; }
+.links .muted { color: var(--muted); }
+.lang { display: inline-flex; border: 1px solid var(--line); border-radius: 999px; padding: 3px; background: var(--surface); }
+.lang button { border: 0; background: none; padding: 4px 12px; border-radius: 999px; cursor: pointer; font-size: 13px; font-weight: 600; color: var(--muted); }
+.lang button[aria-pressed="true"] { background: var(--accent); color: #fff; }
+
+/* overview */
+.overview { margin-top: 24px; background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 18px 20px; box-shadow: var(--shadow); }
+.overview .big { display: flex; align-items: baseline; gap: 10px; margin-bottom: 12px; flex-wrap: wrap; }
+.overview .big b { font-size: 30px; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.overview .big span { color: var(--muted); }
+.bar { display: flex; height: 10px; border-radius: 5px; overflow: hidden; background: var(--untested-bg); }
 .bar span { display: block; height: 100%; }
-.counts { display: flex; flex-wrap: wrap; gap: 8px 22px; margin-top: 12px; font-size: 14px; color: var(--muted); }
-.counts b { color: var(--text); font-variant-numeric: tabular-nums; }
-
-.tools { position: sticky; top: 0; z-index: 2; background: var(--bg); padding: 12px 0; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; border-bottom: 1px solid var(--line); }
-.chip { border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 999px; padding: 5px 12px; font: inherit; font-size: 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
-.chip[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
-.search { flex: 1 1 200px; min-width: 0; border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 999px; padding: 6px 14px; font: inherit; font-size: 14px; }
+.legend { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.chip { border: 1px solid var(--line); background: var(--surface); border-radius: 999px; padding: 4px 11px; font-size: 13px; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.chip b { font-variant-numeric: tabular-nums; }
+.chip[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
 .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex: none; }
 
-nav.toc { display: flex; flex-wrap: wrap; gap: 6px 14px; margin: 16px 0 4px; font-size: 14px; }
+.searchrow { margin: 18px 0 6px; display: flex; gap: 10px; align-items: center; }
+.search { flex: 1; min-width: 0; border: 1px solid var(--line); background: var(--surface); color: var(--text); border-radius: 10px; padding: 9px 14px; font: inherit; }
+.search:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
 
-section { margin-top: 30px; }
-section h2 { font-size: 19px; margin: 0 0 10px; display: flex; align-items: baseline; gap: 10px; }
-section h2 small { font-size: 13px; font-weight: 400; color: var(--muted); }
-h3 { font-size: 14px; text-transform: uppercase; letter-spacing: .05em; color: var(--muted); margin: 18px 0 6px; }
-.card { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
-table { width: 100%; border-collapse: collapse; }
-td { padding: 9px 14px; border-top: 1px solid var(--line); vertical-align: top; }
-tr:first-child td { border-top: 0; }
-td.st { width: 1%; white-space: nowrap; }
-td .detail { color: var(--muted); font-size: 13px; }
-tr.cls td { background: var(--bg); font-weight: 600; font-size: 13px; padding-top: 6px; padding-bottom: 6px; }
-.pill { display: inline-flex; align-items: center; gap: 6px; border-radius: 999px; padding: 2px 10px; font-size: 13px; white-space: nowrap; }
-.pill.working { color: var(--working); background: var(--working-bg); }
-.pill.partial { color: var(--partial); background: var(--partial-bg); }
-.pill.progress { color: var(--progress); background: var(--progress-bg); }
-.pill.untested { color: var(--untested); background: var(--untested-bg); }
-.note { display: block; color: var(--muted); font-size: 13px; }
-.empty { color: var(--muted); padding: 12px 14px; }
-footer { margin-top: 40px; color: var(--muted); font-size: 13px; }
-@media (max-width: 560px) {
-  td { padding: 8px 10px; }
-  .pill { padding: 2px 8px; }
+/* category cards */
+.cats { display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 14px; margin-top: 16px; }
+.cat { text-align: left; border: 1px solid var(--line); background: var(--surface); border-radius: 14px; padding: 16px 16px 14px; cursor: pointer; box-shadow: var(--shadow); transition: transform .12s ease, border-color .12s ease; display: flex; flex-direction: column; gap: 10px; }
+.cat:hover { transform: translateY(-2px); border-color: var(--accent); }
+.cat:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.cat h2 { margin: 0; font-size: 16px; }
+.cat .sub { color: var(--muted); font-size: 13px; }
+.cat .sub b { color: var(--text); font-variant-numeric: tabular-nums; }
+.pips { display: flex; flex-wrap: wrap; gap: 4px; }
+.pip { width: 11px; height: 11px; border-radius: 3px; }
+
+/* category view */
+.view-head { display: flex; align-items: center; gap: 12px; margin-top: 22px; flex-wrap: wrap; }
+.back { border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 6px 12px; cursor: pointer; font-size: 14px; }
+.back:hover { border-color: var(--accent); }
+.view-head h2 { margin: 0; font-size: 22px; letter-spacing: -0.01em; }
+.view-head .sub { color: var(--muted); font-size: 14px; }
+h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin: 24px 0 10px; }
+.tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 10px; }
+.tile { background: var(--surface); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 10px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.tile .name { font-weight: 600; line-height: 1.3; overflow-wrap: anywhere; }
+.tile .detail { color: var(--muted); font-size: 13px; }
+.tile .note { color: var(--muted); font-size: 12.5px; }
+.tile .where { color: var(--muted); font-size: 12px; }
+.label { font-size: 12.5px; font-weight: 600; color: var(--c); display: inline-flex; align-items: center; gap: 5px; margin-top: 2px; }
+.untested-c .label { color: var(--untested-text); }
+
+/* classes: one card per class with its specializations */
+.classes { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
+.class { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
+.class h4 { margin: 0; padding: 10px 14px; font-size: 15px; background: var(--surface-2); border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.class h4 .pips { gap: 3px; }
+.spec { display: grid; grid-template-columns: 10px 1fr auto; gap: 10px; align-items: center; padding: 9px 14px; border-top: 1px solid var(--line); }
+.spec:first-of-type { border-top: 0; }
+.spec .w { min-width: 0; }
+.spec .w div { font-weight: 600; font-size: 14px; line-height: 1.3; }
+.spec .w small { color: var(--muted); font-size: 12.5px; }
+.spec .label { margin: 0; white-space: nowrap; }
+.empty { color: var(--muted); padding: 18px 2px; }
+footer { margin-top: 44px; color: var(--muted); font-size: 13px; border-top: 1px solid var(--line); padding-top: 16px; }
+@media (max-width: 520px) {
+  .top h1 { font-size: 24px; }
+  .cats { grid-template-columns: 1fr 1fr; gap: 10px; }
+  .cat { padding: 12px; }
+  .cat h2 { font-size: 14.5px; }
+  .pip { width: 9px; height: 9px; }
+  .classes { grid-template-columns: 1fr; }
+  .spec .label span.t { display: none; }
 }
+@media (prefers-reduced-motion: reduce) { .cat { transition: none; } html { scroll-behavior: auto; } }
 </style>
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <h1>LegionCore — Reforged</h1>
-    <p>Development tracker: what works, what is in progress and what is still untested.</p>
-    <div class="links">
-      <a href="https://github.com/Titans-Project/LegionCore-Reforged">Repository</a>
-      <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">Report a bug</a>
-      <span id="updated"></span>
+  <div class="top">
+    <div>
+      <h1>LegionCore — Reforged</h1>
+      <p id="tagline"></p>
+      <div class="links">
+        <a href="https://github.com/Titans-Project/LegionCore-Reforged" id="l-repo"></a>
+        <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md" id="l-bug"></a>
+        <span class="muted" id="updated"></span>
+      </div>
     </div>
-  </header>
-
-  <div class="summary" id="summary"></div>
-
-  <div class="tools" role="toolbar" aria-label="Filters">
-    <input class="search" id="search" type="search" placeholder="Search a dungeon, a class, a holiday…" aria-label="Search">
-    <span id="chips"></span>
+    <div class="lang" role="group" aria-label="Language">
+      <button data-lang="fr">FR</button><button data-lang="en">EN</button>
+    </div>
   </div>
-  <nav class="toc" id="toc"></nav>
-  <main id="content"><p class="empty">Loading…</p></main>
 
-  <footer>
-    <p><b>Working</b> does not mean bug-free: small bugs may remain. When something does not behave as it did on retail, please <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">open an issue</a>.</p>
-  </footer>
+  <div class="overview" id="overview"></div>
+  <div class="searchrow"><input class="search" id="search" type="search"></div>
+  <main id="main"><p class="empty">…</p></main>
+
+  <footer id="footer"></footer>
 </div>
 <script>
-const LABELS = { working: 'Working', partial: 'Partially working', progress: 'In progress', untested: 'Untested' };
-const ORDER = ['working', 'partial', 'progress', 'untested'];
-const active = new Set();
+const ORDER = ['working', 'partial', 'progress', 'broken', 'untested'];
+const T = {
+  en: {
+    tagline: 'Development tracker: what works, what is in progress and what is still untested.',
+    repo: 'Repository', bug: 'Report a bug', updated: d => 'Updated ' + d,
+    working: 'Working', partial: 'Partially working', progress: 'In progress', broken: 'Not working', untested: 'Untested',
+    overall: 'working', of: 'of', summary: n => 'of ' + n + ' items working', search: 'Search a dungeon, a class, a holiday…',
+    back: '← All categories', results: n => n + (n === 1 ? ' result' : ' results'), none: 'Nothing matches.',
+    footer: '<b>Working</b> does not mean bug-free: small bugs may remain. When something does not behave as it did on retail, please <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">open an issue</a>.',
+    title: 'Reforged Development Tracker', locale: 'en-GB'
+  },
+  fr: {
+    tagline: 'Suivi du développement : ce qui fonctionne, ce qui est en cours et ce qui reste à tester.',
+    repo: 'Dépôt', bug: 'Signaler un bug', updated: d => 'Mis à jour le ' + d,
+    working: 'Fonctionnel', partial: 'Partiellement fonctionnel', progress: 'En cours', broken: 'Non fonctionnel', untested: 'Non testé',
+    overall: 'fonctionnels', of: 'sur', summary: n => 'éléments fonctionnels sur ' + n, search: 'Chercher un donjon, une classe, une fête…',
+    back: '← Toutes les catégories', results: n => n + ' résultat' + (n > 1 ? 's' : ''), none: 'Aucun résultat.',
+    footer: '<b>Fonctionnel</b> ne veut pas dire sans bug : de petits défauts peuvent rester. Quand quelque chose ne se comporte pas comme sur les serveurs officiels, <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">ouvrez un ticket</a>.',
+    title: 'Suivi du développement de Reforged', locale: 'fr-FR'
+  }
+};
+const store = {
+  get(k) { try { return localStorage.getItem(k); } catch (e) { return null; } },
+  set(k, v) { try { localStorage.setItem(k, v); } catch (e) {} }
+};
+let lang = new URLSearchParams(location.search).get('lang') || store.get('lang') || ((navigator.language || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en');
+if (!T[lang]) lang = 'en';
 let data, query = '';
+const active = new Set();
 
 const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
 const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
-const pill = st => `<span class="pill ${st}"><span class="dot" style="background:var(--${st})"></span>${LABELS[st]}</span>`;
-const all = () => data.sections.flatMap(s => s.groups.flatMap(g => g.items));
+const tr = (o, k) => (lang === 'fr' && o[k + '_fr']) || o[k];
+const t = k => T[lang][k];
+const items = s => s.groups.flatMap(g => g.items);
+const all = () => data.sections.flatMap(items);
+const count = list => Object.fromEntries(ORDER.map(k => [k, list.filter(i => i.status === k).length]));
+const label = st => `<span class="label"><span class="dot" style="background:var(--${st})"></span><span class="t">${t(st)}</span></span>`;
+const pips = list => `<div class="pips" aria-hidden="true">${list.map(i => `<span class="pip" style="background:var(--${i.status})"></span>`).join('')}</div>`;
+const bar = c => { const n = ORDER.reduce((a, k) => a + c[k], 0) || 1;
+  return `<div class="bar">${ORDER.map(k => `<span style="width:${c[k] / n * 100}%;background:var(--${k})"></span>`).join('')}</div>`; };
 
 function matches(it, s, g) {
   if (active.size && !active.has(it.status)) return false;
   if (!query) return true;
-  const hay = [it.name, it.detail, it.group, it.note, s.title, g.title].filter(Boolean).join(' ').toLowerCase();
+  const hay = ['name', 'detail', 'group', 'note'].flatMap(k => [it[k], it[k + '_fr']])
+    .concat([s.title, s.title_fr, g.title, g.title_fr]).filter(Boolean).join(' ').toLowerCase();
   return query.split(/\s+/).every(w => hay.includes(w));
 }
 
-function summary() {
-  const items = all(), n = items.length;
-  const c = Object.fromEntries(ORDER.map(k => [k, items.filter(i => i.status === k).length]));
-  document.getElementById('summary').innerHTML =
-    `<div class="bar" role="img" aria-label="${ORDER.map(k => `${c[k]} ${LABELS[k].toLowerCase()}`).join(', ')}">` +
-    ORDER.map(k => `<span style="width:${c[k] / n * 100}%;background:var(--${k})"></span>`).join('') + `</div>` +
-    `<div class="counts">` + ORDER.map(k => `<span><span class="dot" style="background:var(--${k})"></span> ${LABELS[k]} <b>${c[k]}</b></span>`).join('') +
-    `<span>Total <b>${n}</b></span></div>`;
-  document.getElementById('chips').innerHTML = ORDER.map(k =>
-    `<button class="chip" data-st="${k}" aria-pressed="${active.has(k)}"><span class="dot" style="background:var(--${k})"></span>${LABELS[k]}</button>`).join(' ');
+function overview() {
+  const list = all(), c = count(list);
+  document.getElementById('overview').innerHTML =
+    `<div class="big"><b>${c.working}</b><span>${T[lang].summary(list.length)}</span></div>` + bar(c) +
+    `<div class="legend">` + ORDER.map(k =>
+      `<button class="chip" data-st="${k}" aria-pressed="${active.has(k)}"><span class="dot" style="background:var(--${k})"></span>${t(k)} <b>${c[k]}</b></button>`).join('') + `</div>`;
 }
 
-function rows(g, s) {
-  const its = g.items.filter(it => matches(it, s, g));
-  if (!its.length) return '';
-  let html = '', prev = null;
-  for (const it of its) {
-    if (it.group && it.group !== prev) { html += `<tr class="cls"><td colspan="2">${esc(it.group)}</td></tr>`; prev = it.group; }
-    const detail = it.detail ? ` <span class="detail">· ${esc(it.detail)}</span>` : '';
-    const note = it.note ? `<span class="note">${esc(it.note)}</span>` : '';
-    html += `<tr><td>${esc(it.name)}${detail}${note}</td><td class="st">${pill(it.status)}</td></tr>`;
-  }
-  return (g.title ? `<h3>${esc(g.title)}</h3>` : '') + `<div class="card"><table>${html}</table></div>`;
+function tile(it, s, showWhere) {
+  const st = it.status;
+  const detail = it.detail ? `<div class="detail">${esc(tr(it, 'detail'))}</div>` : '';
+  const grp = it.group ? `<div class="detail">${esc(tr(it, 'group'))}</div>` : '';
+  const note = it.note ? `<div class="note">${esc(tr(it, 'note'))}</div>` : '';
+  const where = showWhere ? `<div class="where">${esc(tr(s, 'title'))}</div>` : '';
+  return `<div class="tile ${st}-c" style="--c:var(--${st})"><div class="name">${esc(tr(it, 'name'))}</div>${grp}${detail}${note}${label(st)}${where}</div>`;
+}
+
+function classCards(g, s) {
+  const by = new Map();
+  for (const it of g.items) if (matches(it, s, g)) { if (!by.has(it.group)) by.set(it.group, []); by.get(it.group).push(it); }
+  if (!by.size) return '';
+  return `<div class="classes">` + [...by.values()].map(list => {
+    const name = tr(list[0], 'group');
+    return `<div class="class"><h4><span>${esc(name)}</span>${pips(list)}</h4>` + list.map(it =>
+      `<div class="spec"><span class="dot" style="background:var(--${it.status})"></span><div class="w"><div>${esc(tr(it, 'name'))}</div><small>${esc(tr(it, 'detail'))}${it.note ? ' · ' + esc(tr(it, 'note')) : ''}</small></div>${label(it.status)}</div>`).join('') + `</div>`;
+  }).join('') + `</div>`;
+}
+
+function groupHtml(g, s) {
+  const head = g.title ? `<h3>${esc(tr(g, 'title'))}</h3>` : '';
+  if (g.items.some(i => i.group)) { const body = classCards(g, s); return body ? head + body : ''; }
+  const list = g.items.filter(it => matches(it, s, g));
+  return list.length ? head + `<div class="tiles">${list.map(it => tile(it, s)).join('')}</div>` : '';
+}
+
+function home() {
+  return `<div class="cats">` + data.sections.map(s => {
+    const list = items(s), c = count(list);
+    return `<button class="cat" data-cat="${slug(s.title)}"><h2>${esc(tr(s, 'title'))}</h2>
+      <div class="sub"><b>${c.working}</b> ${t('of')} ${list.length} ${t('overall')}</div>${pips(list)}</button>`;
+  }).join('') + `</div>`;
+}
+
+function section(s) {
+  const list = items(s), c = count(list);
+  const body = s.groups.map(g => groupHtml(g, s)).join('');
+  return `<div class="view-head"><button class="back" data-cat="">${t('back')}</button><h2>${esc(tr(s, 'title'))}</h2>
+    <span class="sub">${c.working} ${t('of')} ${list.length} ${t('overall')}</span></div>` + (body || `<p class="empty">${t('none')}</p>`);
+}
+
+function results() {
+  const out = [];
+  for (const s of data.sections) for (const g of s.groups) for (const it of g.items) if (matches(it, s, g)) out.push(tile(it, s, true));
+  return `<div class="view-head"><button class="back" data-cat="" id="clear">${t('back')}</button><span class="sub">${T[lang].results(out.length)}</span></div>` +
+    (out.length ? `<div class="tiles" style="margin-top:14px">${out.join('')}</div>` : `<p class="empty">${t('none')}</p>`);
 }
 
 function render() {
-  const out = [];
-  for (const s of data.sections) {
-    const body = s.groups.map(g => rows(g, s)).join('');
-    if (!body) continue;
-    const items = s.groups.flatMap(g => g.items), ok = items.filter(i => i.status === 'working').length;
-    out.push(`<section id="${slug(s.title)}"><h2>${esc(s.title)} <small>${ok} of ${items.length} working</small></h2>${body}</section>`);
+  document.documentElement.lang = lang;
+  document.title = t('title');
+  document.getElementById('tagline').textContent = t('tagline');
+  document.getElementById('l-repo').textContent = t('repo');
+  document.getElementById('l-bug').textContent = t('bug');
+  document.getElementById('search').placeholder = t('search');
+  document.getElementById('footer').innerHTML = `<p>${t('footer')}</p>`;
+  document.querySelectorAll('.lang button').forEach(b => b.setAttribute('aria-pressed', b.dataset.lang === lang));
+  if (data) {
+    const d = new Date(data.updated + 'T12:00:00Z').toLocaleDateString(t('locale'), { day: 'numeric', month: 'long', year: 'numeric' });
+    document.getElementById('updated').textContent = T[lang].updated(d);
+    overview();
+    const cat = decodeURIComponent(location.hash.slice(1));
+    const s = data.sections.find(x => slug(x.title) === cat);
+    const main = document.getElementById('main');
+    if (query) main.innerHTML = results();
+    else if (s) main.innerHTML = section(s);
+    else main.innerHTML = home() + (active.size ? results().replace(/^<div class="view-head">[\s\S]*?<\/div>/, '') : '');
   }
-  document.getElementById('content').innerHTML = out.join('') || '<p class="empty">Nothing matches these filters.</p>';
-  document.getElementById('toc').innerHTML = data.sections.map(s => `<a href="#${slug(s.title)}">${esc(s.title)}</a>`).join('');
 }
 
-document.getElementById('chips').addEventListener('click', e => {
-  const b = e.target.closest('.chip'); if (!b) return;
-  const k = b.dataset.st; active.has(k) ? active.delete(k) : active.add(k);
-  b.setAttribute('aria-pressed', active.has(k)); render();
+document.addEventListener('click', e => {
+  const l = e.target.closest('.lang button');
+  if (l) { lang = l.dataset.lang; store.set('lang', lang); render(); return; }
+  const chip = e.target.closest('.chip');
+  if (chip) { const k = chip.dataset.st; active.has(k) ? active.delete(k) : active.add(k); render(); return; }
+  const c = e.target.closest('[data-cat]');
+  if (c) {
+    if (c.id === 'clear') { query = ''; document.getElementById('search').value = ''; active.clear(); }
+    const h = c.dataset.cat;
+    if (h) location.hash = h; else { history.pushState(null, '', location.pathname + location.search); render(); }
+    window.scrollTo({ top: document.getElementById('overview').offsetTop - 8 });
+  }
 });
+window.addEventListener('hashchange', render);
+window.addEventListener('popstate', render);
 document.getElementById('search').addEventListener('input', e => { query = e.target.value.trim().toLowerCase(); render(); });
 
-fetch('status.json', { cache: 'no-cache' }).then(r => r.json()).then(d => {
-  data = d;
-  document.getElementById('updated').textContent = 'Updated ' + new Date(d.updated + 'T12:00:00Z').toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
-  summary(); render();
-}).catch(() => { document.getElementById('content').innerHTML = '<p class="empty">The status list could not be loaded.</p>'; });
+render();
+fetch('status.json', { cache: 'no-cache' }).then(r => r.json()).then(d => { data = d; render(); })
+  .catch(() => { document.getElementById('main').innerHTML = '<p class="empty">status.json ?</p>'; });
 </script>
 </body>
 </html>

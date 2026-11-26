@@ -9,23 +9,28 @@
           "items": [
             {
               "name": "Artifacts",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Armes prodigieuses"
             },
             {
               "name": "Mythic+ (with the weekly chest)",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Mythique+ (avec le coffre hebdomadaire)"
             },
             {
               "name": "Timewalking",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Marcheurs du temps"
             },
             {
               "name": "Dungeon and Raid Finder",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Recherche de donjon et de raid"
             },
             {
               "name": "Adventure Guide",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Guide de l'aventurier"
             },
             {
               "name": "Transmogrification",
@@ -33,47 +38,58 @@
             },
             {
               "name": "Pet battles",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Combats de mascottes"
             },
             {
               "name": "Reputations",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Réputations"
             },
             {
               "name": "Guilds",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Guildes"
             },
             {
               "name": "Auction house",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Hôtel des ventes"
             },
             {
               "name": "Mail",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Courrier"
             },
             {
               "name": "Calendar",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Calendrier"
             },
             {
               "name": "Battlegrounds and arenas",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Champs de bataille et arènes"
             },
             {
               "name": "Honor levels, prestige and PvP talents",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Niveaux d'honneur, prestige et talents JcJ"
             },
             {
               "name": "PvP seasons",
-              "status": "progress"
+              "status": "progress",
+              "name_fr": "Saisons JcJ"
             },
             {
               "name": "World Quests",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Expéditions"
             }
           ]
         }
-      ]
+      ],
+      "title_fr": "Systèmes"
     },
     {
       "title": "Leveling",
@@ -83,24 +99,30 @@
           "items": [
             {
               "name": "Starting zones",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Zones de départ"
             },
             {
               "name": "Dark Portal introduction (Tanaan Jungle)",
-              "status": "progress"
+              "status": "progress",
+              "name_fr": "Introduction de la Porte des Ténèbres (jungle de Tanaan)"
             },
             {
               "name": "Garrison introduction quests",
               "status": "untested",
-              "note": "Alliance working · Horde untested"
+              "note": "Alliance working · Horde untested",
+              "name_fr": "Quêtes d'introduction du fief",
+              "note_fr": "Alliance fonctionnelle · Horde non testée"
             },
             {
               "name": "Warlords of Draenor zones",
-              "status": "progress"
+              "status": "progress",
+              "name_fr": "Zones de Warlords of Draenor"
             }
           ]
         }
-      ]
+      ],
+      "title_fr": "Montée en niveau"
     },
     {
       "title": "Classes",
@@ -110,38 +132,47 @@
           "items": [
             {
               "name": "Class spells and talents",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Sorts et talents de classe"
             },
             {
               "name": "Demon Hunter introduction",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Introduction du chasseur de démons"
             },
             {
               "name": "Death Knight introduction",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Introduction du chevalier de la mort"
             }
           ]
         }
-      ]
+      ],
+      "title_fr": "Classes"
     },
     {
       "title": "Class halls and campaigns",
       "groups": [
         {
-          "title": "Shared systems",
+          "title": "Class hall systems",
           "items": [
             {
-              "name": "Shared class hall systems (artifact forge, appearances, missions and champions)",
-              "status": "progress"
+              "name": "Class hall systems",
+              "status": "progress",
+              "name_fr": "Systèmes des domaines de classe",
+              "note": "Artifact forge, appearances, missions and champions",
+              "note_fr": "Forge d'arme prodigieuse, apparences, missions et champions"
             }
-          ]
+          ],
+          "title_fr": "Systèmes des domaines"
         },
         {
           "title": "Class hall campaigns",
           "items": [
             {
               "name": "Warrior",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Guerrier"
             },
             {
               "name": "Paladin",
@@ -149,19 +180,23 @@
             },
             {
               "name": "Hunter",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Chasseur"
             },
             {
               "name": "Rogue",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Voleur"
             },
             {
               "name": "Priest",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Prêtre"
             },
             {
               "name": "Shaman",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Chaman"
             },
             {
               "name": "Mage",
@@ -169,25 +204,31 @@
             },
             {
               "name": "Warlock",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Démoniste"
             },
             {
               "name": "Monk",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Moine"
             },
             {
               "name": "Druid",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Druide"
             },
             {
               "name": "Death Knight",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Chevalier de la mort"
             },
             {
               "name": "Demon Hunter",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Chasseur de démons"
             }
-          ]
+          ],
+          "title_fr": "Campagnes de domaine"
         },
         {
           "title": "Artifact weapon quests",
@@ -196,221 +237,319 @@
               "name": "Strom'kar, the Warbreaker",
               "group": "Warrior",
               "detail": "Arms",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Strom’kar, le Brise-Guerre",
+              "detail_fr": "Armes",
+              "group_fr": "Guerrier"
             },
             {
               "name": "Warswords of the Valarjar",
               "group": "Warrior",
               "detail": "Fury",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Épées de guerre des Valarjar",
+              "detail_fr": "Fureur",
+              "group_fr": "Guerrier"
             },
             {
               "name": "Scale of the Earth-Warder",
               "group": "Warrior",
               "detail": "Protection",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Écaille du Gardeterre",
+              "group_fr": "Guerrier"
             },
             {
               "name": "The Silver Hand",
               "group": "Paladin",
               "detail": "Holy",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Main-d’Argent",
+              "detail_fr": "Sacré"
             },
             {
               "name": "Truthguard",
               "group": "Paladin",
               "detail": "Protection",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Garde-Vérité"
             },
             {
               "name": "Ashbringer",
               "group": "Paladin",
               "detail": "Retribution",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Porte-Cendres",
+              "detail_fr": "Vindicte"
             },
             {
               "name": "Titanstrike",
               "group": "Hunter",
               "detail": "Beast Mastery",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Choc des Titans",
+              "detail_fr": "Maîtrise des bêtes",
+              "group_fr": "Chasseur"
             },
             {
               "name": "Thas'dorah, Legacy of the Windrunners",
               "group": "Hunter",
               "detail": "Marksmanship",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Thas’dorah, héritage des Coursevent",
+              "detail_fr": "Précision",
+              "group_fr": "Chasseur"
             },
             {
               "name": "Talonclaw",
               "group": "Hunter",
               "detail": "Survival",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Griffe-Serre",
+              "detail_fr": "Survie",
+              "group_fr": "Chasseur"
             },
             {
               "name": "The Kingslayers",
               "group": "Rogue",
               "detail": "Assassination",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Les Régicides",
+              "detail_fr": "Assassinat",
+              "group_fr": "Voleur"
             },
             {
               "name": "The Dreadblades",
               "group": "Rogue",
               "detail": "Outlaw",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Lames d’effroi",
+              "detail_fr": "Hors-la-loi",
+              "group_fr": "Voleur"
             },
             {
               "name": "Fangs of the Devourer",
               "group": "Rogue",
               "detail": "Subtlety",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Crocs du Dévoreur",
+              "detail_fr": "Finesse",
+              "group_fr": "Voleur"
             },
             {
               "name": "Light's Wrath",
               "group": "Priest",
               "detail": "Discipline",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Courroux-de-Lumière",
+              "group_fr": "Prêtre"
             },
             {
               "name": "T'uure, Beacon of the Naaru",
               "group": "Priest",
               "detail": "Holy",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "T’uure, guide des naaru",
+              "detail_fr": "Sacré",
+              "group_fr": "Prêtre"
             },
             {
               "name": "Xal'atath, Blade of the Black Empire",
               "group": "Priest",
               "detail": "Shadow",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Xal’atath, lame de l’Empire noir",
+              "detail_fr": "Ombre",
+              "group_fr": "Prêtre"
             },
             {
               "name": "The Fist of Ra-den",
               "group": "Shaman",
               "detail": "Elemental",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Poing de Ra Den",
+              "detail_fr": "Élémentaire",
+              "group_fr": "Chaman"
             },
             {
               "name": "Doomhammer",
               "group": "Shaman",
               "detail": "Enhancement",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Marteau-du-Destin",
+              "detail_fr": "Amélioration",
+              "group_fr": "Chaman"
             },
             {
               "name": "Sharas'dal, Scepter of Tides",
               "group": "Shaman",
               "detail": "Restoration",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Sharas’dal, sceptre des marées",
+              "detail_fr": "Restauration",
+              "group_fr": "Chaman"
             },
             {
               "name": "Aluneth",
               "group": "Mage",
               "detail": "Arcane",
-              "status": "untested"
+              "status": "untested",
+              "detail_fr": "Arcanes"
             },
             {
               "name": "Felo'melorn",
               "group": "Mage",
               "detail": "Fire",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Felo’melorn",
+              "detail_fr": "Feu"
             },
             {
               "name": "Ebonchill",
               "group": "Mage",
               "detail": "Frost",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Frissébène",
+              "detail_fr": "Givre"
             },
             {
               "name": "Ulthalesh, the Deadwind Harvester",
               "group": "Warlock",
               "detail": "Affliction",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Ulthalesh, la faux de Deuillevent",
+              "group_fr": "Démoniste"
             },
             {
               "name": "Skull of the Man'ari",
               "group": "Warlock",
               "detail": "Demonology",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Crâne du Man’ari",
+              "detail_fr": "Démonologie",
+              "group_fr": "Démoniste"
             },
             {
               "name": "Scepter of Sargeras",
               "group": "Warlock",
               "detail": "Destruction",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Sceptre de Sargeras",
+              "group_fr": "Démoniste"
             },
             {
               "name": "Fu Zan, the Wanderer's Companion",
               "group": "Monk",
               "detail": "Brewmaster",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Fu Zan, compagnon de l’explorateur",
+              "detail_fr": "Maître brasseur",
+              "group_fr": "Moine"
             },
             {
               "name": "Sheilun, Staff of the Mists",
               "group": "Monk",
               "detail": "Mistweaver",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Sheilun, bâton des brumes",
+              "detail_fr": "Tisse-brume",
+              "group_fr": "Moine"
             },
             {
               "name": "Fists of the Heavens",
               "group": "Monk",
               "detail": "Windwalker",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Poings des cieux",
+              "detail_fr": "Marche-vent",
+              "group_fr": "Moine"
             },
             {
               "name": "Scythe of Elune",
               "group": "Druid",
               "detail": "Balance",
-              "status": "progress"
+              "status": "progress",
+              "name_fr": "Faux d’Élune",
+              "detail_fr": "Équilibre",
+              "group_fr": "Druide",
+              "note": "Introduction quests in progress",
+              "note_fr": "Quêtes d'introduction en cours"
             },
             {
               "name": "Fangs of Ashamane",
               "group": "Druid",
               "detail": "Feral",
-              "status": "progress"
+              "status": "untested",
+              "name_fr": "Crocs d’Ashamane",
+              "detail_fr": "Farouche",
+              "group_fr": "Druide"
             },
             {
               "name": "Claws of Ursoc",
               "group": "Druid",
               "detail": "Guardian",
-              "status": "progress"
+              "status": "untested",
+              "name_fr": "Griffes d’Ursoc",
+              "detail_fr": "Gardien",
+              "group_fr": "Druide"
             },
             {
               "name": "G'Hanir, the Mother Tree",
               "group": "Druid",
               "detail": "Restoration",
-              "status": "progress"
+              "status": "untested",
+              "name_fr": "G’Hanir, l’Arbre-Mère",
+              "detail_fr": "Restauration",
+              "group_fr": "Druide"
             },
             {
               "name": "Maw of the Damned",
               "group": "Death Knight",
               "detail": "Blood",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Gueule-du-Damné",
+              "detail_fr": "Sang",
+              "group_fr": "Chevalier de la mort"
             },
             {
               "name": "Blades of the Fallen Prince",
               "group": "Death Knight",
               "detail": "Frost",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Lames du prince déchu",
+              "detail_fr": "Givre",
+              "group_fr": "Chevalier de la mort"
             },
             {
               "name": "Apocalypse",
               "group": "Death Knight",
               "detail": "Unholy",
-              "status": "untested"
+              "status": "untested",
+              "detail_fr": "Impie",
+              "group_fr": "Chevalier de la mort"
             },
             {
               "name": "Twinblades of the Deceiver",
               "group": "Demon Hunter",
               "detail": "Havoc",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Lames jumelles du Trompeur",
+              "detail_fr": "Dévastation",
+              "group_fr": "Chasseur de démons"
             },
             {
               "name": "Aldrachi Warblades",
               "group": "Demon Hunter",
               "detail": "Vengeance",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Lames de guerre des Aldrachi",
+              "group_fr": "Chasseur de démons"
             }
-          ]
+          ],
+          "title_fr": "Quêtes d'arme prodigieuse"
         }
-      ]
+      ],
+      "title_fr": "Domaines de classe"
     },
     {
       "title": "Dungeons and raids",
@@ -420,84 +559,105 @@
           "items": [
             {
               "name": "Assault on Violet Hold",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "L’assaut sur le fort Pourpre"
             },
             {
               "name": "Black Rook Hold",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Bastion du Freux"
             },
             {
               "name": "Court of Stars",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Cour des Étoiles"
             },
             {
               "name": "Darkheart Thicket",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Fourré Sombrecœur"
             },
             {
               "name": "Eye of Azshara",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "L’Œil d’Azshara"
             },
             {
               "name": "Halls of Valor",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Salles des Valeureux"
             },
             {
               "name": "Maw of Souls",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Gueule des âmes"
             },
             {
               "name": "Neltharion's Lair",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Repaire de Neltharion"
             },
             {
               "name": "The Arcway",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "L’Arcavia"
             },
             {
               "name": "Vault of the Wardens",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Caveau des Gardiennes"
             },
             {
               "name": "Return to Karazhan",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Retour à Karazhan"
             },
             {
               "name": "Cathedral of Eternal Night",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Cathédrale de la Nuit éternelle"
             },
             {
               "name": "Seat of the Triumvirate",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Siège du triumvirat"
             }
-          ]
+          ],
+          "title_fr": "Donjons"
         },
         {
           "title": "Raids",
           "items": [
             {
               "name": "The Emerald Nightmare",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Le Cauchemar d’émeraude"
             },
             {
               "name": "Trial of Valor",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Le Jugement des Valeureux"
             },
             {
               "name": "The Nighthold",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Palais Sacrenuit"
             },
             {
               "name": "Tomb of Sargeras",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Tombe de Sargeras"
             },
             {
               "name": "Antorus, the Burning Throne",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Antorus, le Trône ardent"
             }
-          ]
+          ],
+          "title_fr": "Raids"
         }
-      ]
+      ],
+      "title_fr": "Donjons et raids"
     },
     {
       "title": "World bosses",
@@ -518,7 +678,8 @@
             {
               "name": "Withered J'im",
               "detail": "Azsuna",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "J’im le Flétri"
             },
             {
               "name": "Ana-Mouz",
@@ -528,72 +689,91 @@
             {
               "name": "Na'zak the Fiend",
               "detail": "Suramar",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Na’zak le démon"
             },
             {
               "name": "Humongris",
               "detail": "Val'sharah",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Balmorgue",
+              "detail_fr": "Val’sharah"
             },
             {
               "name": "Shar'thos",
               "detail": "Val'sharah",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Shar’thos",
+              "detail_fr": "Val’sharah"
             },
             {
               "name": "Drugon the Frostblood",
               "detail": "Highmountain",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Drugon le Givre-Sang",
+              "detail_fr": "Haut-Roc"
             },
             {
               "name": "Flotsam",
               "detail": "Highmountain",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Débris",
+              "detail_fr": "Haut-Roc"
             },
             {
               "name": "Nithogg",
               "detail": "Stormheim",
-              "status": "untested"
+              "status": "untested",
+              "detail_fr": "Tornheim"
             },
             {
               "name": "The Soultakers",
               "detail": "Stormheim",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Les faucheurs d’âmes",
+              "detail_fr": "Tornheim"
             },
             {
               "name": "Apocron",
               "detail": "Broken Shore",
-              "status": "untested"
+              "status": "untested",
+              "detail_fr": "Rivage Brisé"
             },
             {
               "name": "Brutallus",
               "detail": "Broken Shore",
-              "status": "untested"
+              "status": "untested",
+              "detail_fr": "Rivage Brisé"
             },
             {
               "name": "Malificus",
               "detail": "Broken Shore",
-              "status": "untested"
+              "status": "untested",
+              "detail_fr": "Rivage Brisé"
             },
             {
               "name": "Si'vash",
               "detail": "Broken Shore",
-              "status": "untested"
+              "status": "untested",
+              "detail_fr": "Rivage Brisé"
             },
             {
               "name": "Inquisitor Meto",
               "detail": "Argus",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Inquisiteur Méto"
             },
             {
               "name": "Matron Folnuna",
               "detail": "Argus",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Matrone Folnuna"
             },
             {
               "name": "Mistress Alluradel",
               "detail": "Argus",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Maîtresse Alluradel"
             },
             {
               "name": "Occularus",
@@ -603,7 +783,8 @@
             {
               "name": "Pit Lord Vilemus",
               "detail": "Argus",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Seigneur des abîmes Vilemus"
             },
             {
               "name": "Sotanathor",
@@ -612,7 +793,8 @@
             }
           ]
         }
-      ]
+      ],
+      "title_fr": "Boss mondiaux"
     },
     {
       "title": "Legion events",
@@ -622,30 +804,39 @@
           "items": [
             {
               "name": "Demon Invasions – Azeroth (pre-patch event)",
-              "status": "progress"
+              "status": "progress",
+              "name_fr": "Invasions démoniaques – Azeroth (événement d'avant-extension)"
             },
             {
               "name": "Legion Assaults – Broken Isles",
-              "status": "progress"
+              "status": "progress",
+              "name_fr": "Assauts de la Légion – îles Brisées"
             },
             {
               "name": "Sentinax – Broken Shore",
               "status": "untested",
-              "note": "Base code in place, untested"
+              "note": "Base code in place, untested",
+              "name_fr": "Sentinax – rivage Brisé",
+              "note_fr": "Code de base en place, non testé"
             },
             {
               "name": "Invasion Points – Argus",
               "status": "untested",
-              "note": "Base code in place, untested"
+              "note": "Base code in place, untested",
+              "name_fr": "Points d'invasion – Argus",
+              "note_fr": "Code de base en place, non testé"
             },
             {
               "name": "Legionfall – Broken Shore",
               "status": "untested",
-              "note": "Base code in place, untested"
+              "note": "Base code in place, untested",
+              "name_fr": "Légion déchue – rivage Brisé",
+              "note_fr": "Code de base en place, non testé"
             }
           ]
         }
-      ]
+      ],
+      "title_fr": "Événements de Legion"
     },
     {
       "title": "Holidays",
@@ -655,63 +846,78 @@
           "items": [
             {
               "name": "Lunar Festival",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Fête lunaire"
             },
             {
               "name": "Love is in the Air",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "De l'amour dans l'air"
             },
             {
               "name": "Noblegarden",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Le Jardin des nobles"
             },
             {
               "name": "Children's Week",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Semaine des enfants"
             },
             {
               "name": "Midsummer Fire Festival",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Fête du Feu du solstice d'été"
             },
             {
               "name": "Pirates' Day",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Jour des pirates"
             },
             {
               "name": "Brewfest",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Fête des Brasseurs"
             },
             {
               "name": "Harvest Festival",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Fête des moissons"
             },
             {
               "name": "Hallow's End",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Sanssaint"
             },
             {
               "name": "Day of the Dead",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Jour des morts"
             },
             {
               "name": "Pilgrim's Bounty",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Les Bienfaits du pèlerin"
             },
             {
               "name": "Feast of Winter Veil",
-              "status": "partial"
+              "status": "partial",
+              "name_fr": "Voile d'hiver"
             },
             {
               "name": "Darkmoon Faire",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Foire de Sombrelune"
             },
             {
               "name": "WoW's Anniversary",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Anniversaire de WoW"
             }
           ]
         }
-      ]
+      ],
+      "title_fr": "Fêtes"
     },
     {
       "title": "Micro-holidays",
@@ -721,63 +927,78 @@
           "items": [
             {
               "name": "Auction House Dance Party",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Fête dansante de l’hôtel des ventes"
             },
             {
               "name": "Call of the Scarab",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Appel du Scarabée"
             },
             {
               "name": "Darkmoon Faire Concert",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Concert de la foire de Sombrelune"
             },
             {
               "name": "Glowcap Festival",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Fête des chapeluisants"
             },
             {
               "name": "Great Gnomeregan Run",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Le Grand Prix de Gnomeregan"
             },
             {
               "name": "Hatching of the Hippogryphs",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Naissance des hippogriffes"
             },
             {
               "name": "Kirin Tor Tavern Crawl",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Tournée des tavernes du Kirin Tor"
             },
             {
               "name": "March of the Tadpoles",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Marche des têtards"
             },
             {
               "name": "Moonkin Festival",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Fête des Séléniens"
             },
             {
               "name": "Spring Balloon Festival",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Printemps des montgolfières"
             },
             {
               "name": "Thousand Boat Bash",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Embarquement pour les Mille pointes"
             },
             {
               "name": "Trial of Style",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Épreuve du style"
             },
             {
               "name": "Un'Goro Madness",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Paléon’Goro"
             },
             {
               "name": "Volunteer Guard Day",
-              "status": "untested"
+              "status": "untested",
+              "name_fr": "Journée des gardes volontaires"
             }
           ]
         }
-      ]
+      ],
+      "title_fr": "Micro-fêtes"
     },
     {
       "title": "Other",
@@ -787,20 +1008,25 @@
           "items": [
             {
               "name": "Brawler's Guild",
-              "status": "working"
+              "status": "working",
+              "name_fr": "Guilde des bagarreurs"
             },
             {
               "name": "Garrison (Draenor)",
-              "status": "progress"
+              "status": "progress",
+              "name_fr": "Fief (Draenor)"
             },
             {
               "name": "Isle of Thunder opening",
               "status": "untested",
-              "note": "Base code in place, untested"
+              "note": "Base code in place, untested",
+              "name_fr": "Ouverture de l'île du Tonnerre",
+              "note_fr": "Code de base en place, non testé"
             }
           ]
         }
-      ]
+      ],
+      "title_fr": "Autres"
     }
   ]
 }

@@ -850,7 +850,8 @@
               "note_fr": "Code de base en place, non testé",
               "image": "images/events/legionfall.jpg",
               "desc": "Players pool their resources on the Broken Shore to raise the Mage Tower, the Command Center and the Nether Disruptor, each opening its own rewards.",
-              "desc_fr": "Les joueurs mettent leurs ressources en commun sur le rivage Brisé pour bâtir la tour de mage, le centre de commandement et le disrupteur du Néant, chacun ouvrant ses propres récompenses."
+              "desc_fr": "Les joueurs mettent leurs ressources en commun sur le rivage Brisé pour bâtir la tour de mage, le centre de commandement et le disrupteur du Néant, chacun ouvrant ses propres récompenses.",
+              "icon": "images/events/icones/legionfall.png"
             }
           ]
         }

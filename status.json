@@ -1,0 +1,806 @@
+{
+  "updated": "2026-11-26",
+  "sections": [
+    {
+      "title": "Systems",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Artifacts",
+              "status": "working"
+            },
+            {
+              "name": "Mythic+ (with the weekly chest)",
+              "status": "working"
+            },
+            {
+              "name": "Timewalking",
+              "status": "working"
+            },
+            {
+              "name": "Dungeon and Raid Finder",
+              "status": "working"
+            },
+            {
+              "name": "Adventure Guide",
+              "status": "working"
+            },
+            {
+              "name": "Transmogrification",
+              "status": "working"
+            },
+            {
+              "name": "Pet battles",
+              "status": "working"
+            },
+            {
+              "name": "Reputations",
+              "status": "working"
+            },
+            {
+              "name": "Guilds",
+              "status": "working"
+            },
+            {
+              "name": "Auction house",
+              "status": "working"
+            },
+            {
+              "name": "Mail",
+              "status": "working"
+            },
+            {
+              "name": "Calendar",
+              "status": "working"
+            },
+            {
+              "name": "Battlegrounds and arenas",
+              "status": "working"
+            },
+            {
+              "name": "Honor levels, prestige and PvP talents",
+              "status": "working"
+            },
+            {
+              "name": "PvP seasons",
+              "status": "progress"
+            },
+            {
+              "name": "World Quests",
+              "status": "working"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Leveling",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Starting zones",
+              "status": "working"
+            },
+            {
+              "name": "Dark Portal introduction (Tanaan Jungle)",
+              "status": "progress"
+            },
+            {
+              "name": "Garrison introduction quests",
+              "status": "untested",
+              "note": "Alliance working · Horde untested"
+            },
+            {
+              "name": "Warlords of Draenor zones",
+              "status": "progress"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Classes",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Class spells and talents",
+              "status": "working"
+            },
+            {
+              "name": "Demon Hunter introduction",
+              "status": "working"
+            },
+            {
+              "name": "Death Knight introduction",
+              "status": "working"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Class halls and campaigns",
+      "groups": [
+        {
+          "title": "Shared systems",
+          "items": [
+            {
+              "name": "Shared class hall systems (artifact forge, appearances, missions and champions)",
+              "status": "progress"
+            }
+          ]
+        },
+        {
+          "title": "Class hall campaigns",
+          "items": [
+            {
+              "name": "Warrior",
+              "status": "untested"
+            },
+            {
+              "name": "Paladin",
+              "status": "untested"
+            },
+            {
+              "name": "Hunter",
+              "status": "untested"
+            },
+            {
+              "name": "Rogue",
+              "status": "untested"
+            },
+            {
+              "name": "Priest",
+              "status": "untested"
+            },
+            {
+              "name": "Shaman",
+              "status": "untested"
+            },
+            {
+              "name": "Mage",
+              "status": "untested"
+            },
+            {
+              "name": "Warlock",
+              "status": "untested"
+            },
+            {
+              "name": "Monk",
+              "status": "untested"
+            },
+            {
+              "name": "Druid",
+              "status": "untested"
+            },
+            {
+              "name": "Death Knight",
+              "status": "untested"
+            },
+            {
+              "name": "Demon Hunter",
+              "status": "untested"
+            }
+          ]
+        },
+        {
+          "title": "Artifact weapon quests",
+          "items": [
+            {
+              "name": "Strom'kar, the Warbreaker",
+              "group": "Warrior",
+              "detail": "Arms",
+              "status": "untested"
+            },
+            {
+              "name": "Warswords of the Valarjar",
+              "group": "Warrior",
+              "detail": "Fury",
+              "status": "untested"
+            },
+            {
+              "name": "Scale of the Earth-Warder",
+              "group": "Warrior",
+              "detail": "Protection",
+              "status": "untested"
+            },
+            {
+              "name": "The Silver Hand",
+              "group": "Paladin",
+              "detail": "Holy",
+              "status": "untested"
+            },
+            {
+              "name": "Truthguard",
+              "group": "Paladin",
+              "detail": "Protection",
+              "status": "untested"
+            },
+            {
+              "name": "Ashbringer",
+              "group": "Paladin",
+              "detail": "Retribution",
+              "status": "untested"
+            },
+            {
+              "name": "Titanstrike",
+              "group": "Hunter",
+              "detail": "Beast Mastery",
+              "status": "untested"
+            },
+            {
+              "name": "Thas'dorah, Legacy of the Windrunners",
+              "group": "Hunter",
+              "detail": "Marksmanship",
+              "status": "untested"
+            },
+            {
+              "name": "Talonclaw",
+              "group": "Hunter",
+              "detail": "Survival",
+              "status": "untested"
+            },
+            {
+              "name": "The Kingslayers",
+              "group": "Rogue",
+              "detail": "Assassination",
+              "status": "untested"
+            },
+            {
+              "name": "The Dreadblades",
+              "group": "Rogue",
+              "detail": "Outlaw",
+              "status": "untested"
+            },
+            {
+              "name": "Fangs of the Devourer",
+              "group": "Rogue",
+              "detail": "Subtlety",
+              "status": "untested"
+            },
+            {
+              "name": "Light's Wrath",
+              "group": "Priest",
+              "detail": "Discipline",
+              "status": "untested"
+            },
+            {
+              "name": "T'uure, Beacon of the Naaru",
+              "group": "Priest",
+              "detail": "Holy",
+              "status": "untested"
+            },
+            {
+              "name": "Xal'atath, Blade of the Black Empire",
+              "group": "Priest",
+              "detail": "Shadow",
+              "status": "untested"
+            },
+            {
+              "name": "The Fist of Ra-den",
+              "group": "Shaman",
+              "detail": "Elemental",
+              "status": "untested"
+            },
+            {
+              "name": "Doomhammer",
+              "group": "Shaman",
+              "detail": "Enhancement",
+              "status": "untested"
+            },
+            {
+              "name": "Sharas'dal, Scepter of Tides",
+              "group": "Shaman",
+              "detail": "Restoration",
+              "status": "untested"
+            },
+            {
+              "name": "Aluneth",
+              "group": "Mage",
+              "detail": "Arcane",
+              "status": "untested"
+            },
+            {
+              "name": "Felo'melorn",
+              "group": "Mage",
+              "detail": "Fire",
+              "status": "untested"
+            },
+            {
+              "name": "Ebonchill",
+              "group": "Mage",
+              "detail": "Frost",
+              "status": "untested"
+            },
+            {
+              "name": "Ulthalesh, the Deadwind Harvester",
+              "group": "Warlock",
+              "detail": "Affliction",
+              "status": "untested"
+            },
+            {
+              "name": "Skull of the Man'ari",
+              "group": "Warlock",
+              "detail": "Demonology",
+              "status": "untested"
+            },
+            {
+              "name": "Scepter of Sargeras",
+              "group": "Warlock",
+              "detail": "Destruction",
+              "status": "untested"
+            },
+            {
+              "name": "Fu Zan, the Wanderer's Companion",
+              "group": "Monk",
+              "detail": "Brewmaster",
+              "status": "untested"
+            },
+            {
+              "name": "Sheilun, Staff of the Mists",
+              "group": "Monk",
+              "detail": "Mistweaver",
+              "status": "untested"
+            },
+            {
+              "name": "Fists of the Heavens",
+              "group": "Monk",
+              "detail": "Windwalker",
+              "status": "untested"
+            },
+            {
+              "name": "Scythe of Elune",
+              "group": "Druid",
+              "detail": "Balance",
+              "status": "progress"
+            },
+            {
+              "name": "Fangs of Ashamane",
+              "group": "Druid",
+              "detail": "Feral",
+              "status": "progress"
+            },
+            {
+              "name": "Claws of Ursoc",
+              "group": "Druid",
+              "detail": "Guardian",
+              "status": "progress"
+            },
+            {
+              "name": "G'Hanir, the Mother Tree",
+              "group": "Druid",
+              "detail": "Restoration",
+              "status": "progress"
+            },
+            {
+              "name": "Maw of the Damned",
+              "group": "Death Knight",
+              "detail": "Blood",
+              "status": "untested"
+            },
+            {
+              "name": "Blades of the Fallen Prince",
+              "group": "Death Knight",
+              "detail": "Frost",
+              "status": "untested"
+            },
+            {
+              "name": "Apocalypse",
+              "group": "Death Knight",
+              "detail": "Unholy",
+              "status": "untested"
+            },
+            {
+              "name": "Twinblades of the Deceiver",
+              "group": "Demon Hunter",
+              "detail": "Havoc",
+              "status": "untested"
+            },
+            {
+              "name": "Aldrachi Warblades",
+              "group": "Demon Hunter",
+              "detail": "Vengeance",
+              "status": "working"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Dungeons and raids",
+      "groups": [
+        {
+          "title": "Dungeons",
+          "items": [
+            {
+              "name": "Assault on Violet Hold",
+              "status": "partial"
+            },
+            {
+              "name": "Black Rook Hold",
+              "status": "untested"
+            },
+            {
+              "name": "Court of Stars",
+              "status": "untested"
+            },
+            {
+              "name": "Darkheart Thicket",
+              "status": "untested"
+            },
+            {
+              "name": "Eye of Azshara",
+              "status": "untested"
+            },
+            {
+              "name": "Halls of Valor",
+              "status": "untested"
+            },
+            {
+              "name": "Maw of Souls",
+              "status": "untested"
+            },
+            {
+              "name": "Neltharion's Lair",
+              "status": "untested"
+            },
+            {
+              "name": "The Arcway",
+              "status": "untested"
+            },
+            {
+              "name": "Vault of the Wardens",
+              "status": "untested"
+            },
+            {
+              "name": "Return to Karazhan",
+              "status": "untested"
+            },
+            {
+              "name": "Cathedral of Eternal Night",
+              "status": "untested"
+            },
+            {
+              "name": "Seat of the Triumvirate",
+              "status": "untested"
+            }
+          ]
+        },
+        {
+          "title": "Raids",
+          "items": [
+            {
+              "name": "The Emerald Nightmare",
+              "status": "untested"
+            },
+            {
+              "name": "Trial of Valor",
+              "status": "untested"
+            },
+            {
+              "name": "The Nighthold",
+              "status": "untested"
+            },
+            {
+              "name": "Tomb of Sargeras",
+              "status": "untested"
+            },
+            {
+              "name": "Antorus, the Burning Throne",
+              "status": "untested"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "World bosses",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Calamir",
+              "detail": "Azsuna",
+              "status": "untested"
+            },
+            {
+              "name": "Levantus",
+              "detail": "Azsuna",
+              "status": "untested"
+            },
+            {
+              "name": "Withered J'im",
+              "detail": "Azsuna",
+              "status": "untested"
+            },
+            {
+              "name": "Ana-Mouz",
+              "detail": "Suramar",
+              "status": "untested"
+            },
+            {
+              "name": "Na'zak the Fiend",
+              "detail": "Suramar",
+              "status": "untested"
+            },
+            {
+              "name": "Humongris",
+              "detail": "Val'sharah",
+              "status": "untested"
+            },
+            {
+              "name": "Shar'thos",
+              "detail": "Val'sharah",
+              "status": "working"
+            },
+            {
+              "name": "Drugon the Frostblood",
+              "detail": "Highmountain",
+              "status": "untested"
+            },
+            {
+              "name": "Flotsam",
+              "detail": "Highmountain",
+              "status": "untested"
+            },
+            {
+              "name": "Nithogg",
+              "detail": "Stormheim",
+              "status": "untested"
+            },
+            {
+              "name": "The Soultakers",
+              "detail": "Stormheim",
+              "status": "untested"
+            },
+            {
+              "name": "Apocron",
+              "detail": "Broken Shore",
+              "status": "untested"
+            },
+            {
+              "name": "Brutallus",
+              "detail": "Broken Shore",
+              "status": "untested"
+            },
+            {
+              "name": "Malificus",
+              "detail": "Broken Shore",
+              "status": "untested"
+            },
+            {
+              "name": "Si'vash",
+              "detail": "Broken Shore",
+              "status": "untested"
+            },
+            {
+              "name": "Inquisitor Meto",
+              "detail": "Argus",
+              "status": "untested"
+            },
+            {
+              "name": "Matron Folnuna",
+              "detail": "Argus",
+              "status": "untested"
+            },
+            {
+              "name": "Mistress Alluradel",
+              "detail": "Argus",
+              "status": "untested"
+            },
+            {
+              "name": "Occularus",
+              "detail": "Argus",
+              "status": "untested"
+            },
+            {
+              "name": "Pit Lord Vilemus",
+              "detail": "Argus",
+              "status": "untested"
+            },
+            {
+              "name": "Sotanathor",
+              "detail": "Argus",
+              "status": "untested"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Legion events",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Demon Invasions – Azeroth (pre-patch event)",
+              "status": "progress"
+            },
+            {
+              "name": "Legion Assaults – Broken Isles",
+              "status": "progress"
+            },
+            {
+              "name": "Sentinax – Broken Shore",
+              "status": "untested",
+              "note": "Base code in place, untested"
+            },
+            {
+              "name": "Invasion Points – Argus",
+              "status": "untested",
+              "note": "Base code in place, untested"
+            },
+            {
+              "name": "Legionfall – Broken Shore",
+              "status": "untested",
+              "note": "Base code in place, untested"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Holidays",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Lunar Festival",
+              "status": "partial"
+            },
+            {
+              "name": "Love is in the Air",
+              "status": "partial"
+            },
+            {
+              "name": "Noblegarden",
+              "status": "partial"
+            },
+            {
+              "name": "Children's Week",
+              "status": "partial"
+            },
+            {
+              "name": "Midsummer Fire Festival",
+              "status": "partial"
+            },
+            {
+              "name": "Pirates' Day",
+              "status": "partial"
+            },
+            {
+              "name": "Brewfest",
+              "status": "partial"
+            },
+            {
+              "name": "Harvest Festival",
+              "status": "partial"
+            },
+            {
+              "name": "Hallow's End",
+              "status": "working"
+            },
+            {
+              "name": "Day of the Dead",
+              "status": "partial"
+            },
+            {
+              "name": "Pilgrim's Bounty",
+              "status": "partial"
+            },
+            {
+              "name": "Feast of Winter Veil",
+              "status": "partial"
+            },
+            {
+              "name": "Darkmoon Faire",
+              "status": "working"
+            },
+            {
+              "name": "WoW's Anniversary",
+              "status": "untested"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Micro-holidays",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Auction House Dance Party",
+              "status": "working"
+            },
+            {
+              "name": "Call of the Scarab",
+              "status": "working"
+            },
+            {
+              "name": "Darkmoon Faire Concert",
+              "status": "working"
+            },
+            {
+              "name": "Glowcap Festival",
+              "status": "untested"
+            },
+            {
+              "name": "Great Gnomeregan Run",
+              "status": "untested"
+            },
+            {
+              "name": "Hatching of the Hippogryphs",
+              "status": "untested"
+            },
+            {
+              "name": "Kirin Tor Tavern Crawl",
+              "status": "untested"
+            },
+            {
+              "name": "March of the Tadpoles",
+              "status": "untested"
+            },
+            {
+              "name": "Moonkin Festival",
+              "status": "untested"
+            },
+            {
+              "name": "Spring Balloon Festival",
+              "status": "untested"
+            },
+            {
+              "name": "Thousand Boat Bash",
+              "status": "untested"
+            },
+            {
+              "name": "Trial of Style",
+              "status": "untested"
+            },
+            {
+              "name": "Un'Goro Madness",
+              "status": "working"
+            },
+            {
+              "name": "Volunteer Guard Day",
+              "status": "untested"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Other",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Brawler's Guild",
+              "status": "working"
+            },
+            {
+              "name": "Garrison (Draenor)",
+              "status": "progress"
+            },
+            {
+              "name": "Isle of Thunder opening",
+              "status": "untested",
+              "note": "Base code in place, untested"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -100,8 +100,7 @@
               "name": "Class trial",
               "name_fr": "Essai de classe",
               "status": "broken",
-              "note": "Work in progress",
-              "note_fr": "En cours de développement"
+              "also": "progress"
             }
           ]
         }

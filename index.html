@@ -102,6 +102,8 @@ h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: v
 .tile .where { color: var(--muted); font-size: 12px; }
 .label { font-size: 12.5px; font-weight: 600; color: var(--c); display: inline-flex; align-items: center; gap: 5px; margin-top: 2px; }
 .untested-c .label { color: var(--untested-text); }
+.labels { display: flex; flex-wrap: wrap; gap: 4px 12px; }
+.label.also { opacity: .9; }
 .tile.with-icon { flex-direction: row; align-items: center; gap: 12px; }
 .tile .tbody { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .tile .ticon { flex: none; width: 40px; height: 40px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
@@ -226,7 +228,7 @@ const t = k => T[lang][k];
 const items = s => s.groups.flatMap(g => g.items);
 const all = () => data.sections.flatMap(items);
 const count = list => Object.fromEntries(ORDER.map(k => [k, list.filter(i => i.status === k).length]));
-const label = st => `<span class="label"><span class="dot" style="background:var(--${st})"></span><span class="t">${t(st)}</span></span>`;
+const label = st => `<span class="label" style="--c:var(--${st})"><span class="dot" style="background:var(--${st})"></span><span class="t">${t(st)}</span></span>`;
 const pips = list => `<div class="pips" aria-hidden="true">${list.map(i => `<span class="pip" style="background:var(--${i.status})"></span>`).join('')}</div>`;
 const bar = c => { const n = ORDER.reduce((a, k) => a + c[k], 0) || 1;
   return `<div class="bar">${ORDER.map(k => `<span style="width:${c[k] / n * 100}%;background:var(--${k})"></span>`).join('')}</div>`; };
@@ -253,7 +255,7 @@ function tile(it, s, showWhere) {
   const grp = it.group ? `<div class="detail">${esc(tr(it, 'group'))}</div>` : '';
   const note = it.note ? `<div class="note">${esc(tr(it, 'note'))}</div>` : '';
   const where = showWhere ? `<div class="where">${esc(tr(s, 'title'))}</div>` : '';
-  const body = `<div class="name">${esc(tr(it, 'name'))}</div>${grp}${detail}${note}${label(st)}${where}`;
+  const body = `<div class="name">${esc(tr(it, 'name'))}</div>${grp}${detail}${note}<div class="labels">${label(st)}${it.also ? label(it.also) : ''}</div>${where}`;
   if (!it.icon) return `<div class="tile ${st}-c" style="--c:var(--${st})">${body}</div>`;
   const wide = it.icon.endsWith('.png') ? ' wide' : '';
   return `<div class="tile with-icon ${st}-c" style="--c:var(--${st})"><img class="ticon${wide}" src="${esc(it.icon)}" alt="" loading="lazy"><div class="tbody">${body}</div></div>`;

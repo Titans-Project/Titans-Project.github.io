@@ -85,6 +85,23 @@
               "name": "World Quests",
               "status": "working",
               "name_fr": "Expéditions"
+            },
+            {
+              "name": "Template characters",
+              "name_fr": "Personnages modèles",
+              "status": "working"
+            },
+            {
+              "name": "Character boost",
+              "name_fr": "Sésame",
+              "status": "working"
+            },
+            {
+              "name": "Class trial",
+              "name_fr": "Essai de classe",
+              "status": "broken",
+              "note": "Work in progress",
+              "note_fr": "En cours de développement"
             }
           ]
         }

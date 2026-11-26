@@ -25,12 +25,12 @@
             {
               "name": "Dungeon and Raid Finder",
               "status": "working",
-              "name_fr": "Recherche de donjon et de raid"
+              "name_fr": "Recherche de groupe (donjons et raids)"
             },
             {
               "name": "Adventure Guide",
               "status": "working",
-              "name_fr": "Guide de l'aventurier"
+              "name_fr": "Guide de l’aventurier"
             },
             {
               "name": "Transmogrification",
@@ -74,7 +74,7 @@
             {
               "name": "Honor levels, prestige and PvP talents",
               "status": "working",
-              "name_fr": "Niveaux d'honneur, prestige et talents JcJ"
+              "name_fr": "Niveaux d’honneur, prestige et talents d’honneur"
             },
             {
               "name": "PvP seasons",
@@ -144,6 +144,11 @@
               "name": "Death Knight introduction",
               "status": "working",
               "name_fr": "Introduction du chevalier de la mort"
+            },
+            {
+              "name": "Monk introduction",
+              "name_fr": "Introduction du moine",
+              "status": "untested"
             }
           ]
         }
@@ -323,7 +328,7 @@
               "group": "Rogue",
               "detail": "Outlaw",
               "status": "untested",
-              "name_fr": "Lames d’effroi",
+              "name_fr": "Les lames d’effroi",
               "detail_fr": "Hors-la-loi",
               "group_fr": "Voleur"
             },
@@ -332,7 +337,7 @@
               "group": "Rogue",
               "detail": "Subtlety",
               "status": "untested",
-              "name_fr": "Crocs du Dévoreur",
+              "name_fr": "Les crocs du Dévoreur",
               "detail_fr": "Finesse",
               "group_fr": "Voleur"
             },
@@ -367,7 +372,7 @@
               "group": "Shaman",
               "detail": "Elemental",
               "status": "untested",
-              "name_fr": "Poing de Ra Den",
+              "name_fr": "Le Poing de Ra Den",
               "detail_fr": "Élémentaire",
               "group_fr": "Chaman"
             },
@@ -425,7 +430,7 @@
               "group": "Warlock",
               "detail": "Demonology",
               "status": "untested",
-              "name_fr": "Crâne du Man’ari",
+              "name_fr": "Le crâne du Man’ari",
               "detail_fr": "Démonologie",
               "group_fr": "Démoniste"
             },
@@ -469,7 +474,7 @@
               "group": "Druid",
               "detail": "Balance",
               "status": "progress",
-              "name_fr": "Faux d’Élune",
+              "name_fr": "La faux d’Élune",
               "detail_fr": "Équilibre",
               "group_fr": "Druide",
               "note": "Introduction quests in progress",
@@ -480,7 +485,7 @@
               "group": "Druid",
               "detail": "Feral",
               "status": "untested",
-              "name_fr": "Crocs d’Ashamane",
+              "name_fr": "Les crocs d’Ashamane",
               "detail_fr": "Farouche",
               "group_fr": "Druide"
             },
@@ -489,7 +494,7 @@
               "group": "Druid",
               "detail": "Guardian",
               "status": "untested",
-              "name_fr": "Griffes d’Ursoc",
+              "name_fr": "Les griffes d’Ursoc",
               "detail_fr": "Gardien",
               "group_fr": "Druide"
             },
@@ -533,7 +538,7 @@
               "group": "Demon Hunter",
               "detail": "Havoc",
               "status": "untested",
-              "name_fr": "Lames jumelles du Trompeur",
+              "name_fr": "Les lames jumelles du Trompeur",
               "detail_fr": "Dévastation",
               "group_fr": "Chasseur de démons"
             },
@@ -542,7 +547,7 @@
               "group": "Demon Hunter",
               "detail": "Vengeance",
               "status": "working",
-              "name_fr": "Lames de guerre des Aldrachi",
+              "name_fr": "Les lames de guerre des Aldrachi",
               "group_fr": "Chasseur de démons"
             }
           ],
@@ -560,67 +565,80 @@
             {
               "name": "Assault on Violet Hold",
               "status": "partial",
-              "name_fr": "L’assaut sur le fort Pourpre"
+              "name_fr": "L’assaut sur le fort Pourpre",
+              "image": "images/instances/assault-on-violet-hold.jpg"
             },
             {
               "name": "Black Rook Hold",
               "status": "untested",
-              "name_fr": "Bastion du Freux"
+              "name_fr": "Bastion du Freux",
+              "image": "images/instances/black-rook-hold.jpg"
             },
             {
               "name": "Court of Stars",
               "status": "untested",
-              "name_fr": "Cour des Étoiles"
+              "name_fr": "Cour des Étoiles",
+              "image": "images/instances/court-of-stars.jpg"
             },
             {
               "name": "Darkheart Thicket",
               "status": "untested",
-              "name_fr": "Fourré Sombrecœur"
+              "name_fr": "Fourré Sombrecœur",
+              "image": "images/instances/darkheart-thicket.jpg"
             },
             {
               "name": "Eye of Azshara",
               "status": "untested",
-              "name_fr": "L’Œil d’Azshara"
+              "name_fr": "L’Œil d’Azshara",
+              "image": "images/instances/eye-of-azshara.jpg"
             },
             {
               "name": "Halls of Valor",
               "status": "untested",
-              "name_fr": "Salles des Valeureux"
+              "name_fr": "Salles des Valeureux",
+              "image": "images/instances/halls-of-valor.jpg"
             },
             {
               "name": "Maw of Souls",
               "status": "untested",
-              "name_fr": "Gueule des âmes"
+              "name_fr": "Gueule des âmes",
+              "image": "images/instances/maw-of-souls.jpg"
             },
             {
               "name": "Neltharion's Lair",
               "status": "untested",
-              "name_fr": "Repaire de Neltharion"
+              "name_fr": "Repaire de Neltharion",
+              "image": "images/instances/neltharions-lair.jpg"
             },
             {
               "name": "The Arcway",
               "status": "untested",
-              "name_fr": "L’Arcavia"
+              "name_fr": "L’Arcavia",
+              "image": "images/instances/the-arcway.jpg"
             },
             {
               "name": "Vault of the Wardens",
               "status": "untested",
-              "name_fr": "Caveau des Gardiennes"
+              "name_fr": "Caveau des Gardiennes",
+              "image": "images/instances/vault-of-the-wardens.jpg"
             },
             {
               "name": "Return to Karazhan",
               "status": "untested",
-              "name_fr": "Retour à Karazhan"
+              "name_fr": "Retour à Karazhan",
+              "image": "images/instances/karazhan.jpg"
             },
             {
               "name": "Cathedral of Eternal Night",
               "status": "untested",
-              "name_fr": "Cathédrale de la Nuit éternelle"
+              "name_fr": "Cathédrale de la Nuit éternelle",
+              "image": "images/instances/cathedral-of-eternal-night.jpg"
             },
             {
               "name": "Seat of the Triumvirate",
               "status": "untested",
-              "name_fr": "Siège du triumvirat"
+              "name_fr": "Siège du triumvirat",
+              "image": "images/instances/seat-of-triumvirate.jpg"
             }
           ],
           "title_fr": "Donjons"
@@ -631,33 +649,39 @@
             {
               "name": "The Emerald Nightmare",
               "status": "untested",
-              "name_fr": "Le Cauchemar d’émeraude"
+              "name_fr": "Le Cauchemar d’émeraude",
+              "image": "images/instances/the-emerald-nightmare.jpg"
             },
             {
               "name": "Trial of Valor",
               "status": "untested",
-              "name_fr": "Le Jugement des Valeureux"
+              "name_fr": "Le Jugement des Valeureux",
+              "image": "images/instances/trial-of-valor.jpg"
             },
             {
               "name": "The Nighthold",
               "status": "untested",
-              "name_fr": "Palais Sacrenuit"
+              "name_fr": "Palais Sacrenuit",
+              "image": "images/instances/the-nighthold.jpg"
             },
             {
               "name": "Tomb of Sargeras",
               "status": "untested",
-              "name_fr": "Tombe de Sargeras"
+              "name_fr": "Tombe de Sargeras",
+              "image": "images/instances/tomb-of-sargeras.jpg"
             },
             {
               "name": "Antorus, the Burning Throne",
               "status": "untested",
-              "name_fr": "Antorus, le Trône ardent"
+              "name_fr": "Antorus, le Trône ardent",
+              "image": "images/instances/antorus-the-burning-throne.jpg"
             }
           ],
           "title_fr": "Raids"
         }
       ],
-      "title_fr": "Donjons et raids"
+      "title_fr": "Donjons et raids",
+      "layout": "hero"
     },
     {
       "title": "World bosses",
@@ -668,133 +692,154 @@
             {
               "name": "Calamir",
               "detail": "Azsuna",
-              "status": "untested"
+              "status": "untested",
+              "icon": "images/boss/calamir.png"
             },
             {
               "name": "Levantus",
               "detail": "Azsuna",
-              "status": "untested"
+              "status": "untested",
+              "icon": "images/boss/levantus.png"
             },
             {
               "name": "Withered J'im",
               "detail": "Azsuna",
               "status": "untested",
-              "name_fr": "J’im le Flétri"
+              "name_fr": "J’im le Flétri",
+              "icon": "images/boss/withered-jim.png"
             },
             {
               "name": "Ana-Mouz",
               "detail": "Suramar",
-              "status": "untested"
+              "status": "untested",
+              "icon": "images/boss/ana-mouz.png"
             },
             {
               "name": "Na'zak the Fiend",
               "detail": "Suramar",
               "status": "untested",
-              "name_fr": "Na’zak le démon"
+              "name_fr": "Na’zak le démon",
+              "icon": "images/boss/nazak-the-fiend.png"
             },
             {
               "name": "Humongris",
               "detail": "Val'sharah",
               "status": "untested",
               "name_fr": "Balmorgue",
-              "detail_fr": "Val’sharah"
+              "detail_fr": "Val’sharah",
+              "icon": "images/boss/humongris.png"
             },
             {
               "name": "Shar'thos",
               "detail": "Val'sharah",
               "status": "working",
               "name_fr": "Shar’thos",
-              "detail_fr": "Val’sharah"
+              "detail_fr": "Val’sharah",
+              "icon": "images/boss/sharthos.png"
             },
             {
               "name": "Drugon the Frostblood",
               "detail": "Highmountain",
               "status": "untested",
               "name_fr": "Drugon le Givre-Sang",
-              "detail_fr": "Haut-Roc"
+              "detail_fr": "Haut-Roc",
+              "icon": "images/boss/drugon-the-frostblood.png"
             },
             {
               "name": "Flotsam",
               "detail": "Highmountain",
               "status": "untested",
               "name_fr": "Débris",
-              "detail_fr": "Haut-Roc"
+              "detail_fr": "Haut-Roc",
+              "icon": "images/boss/flotsam.png"
             },
             {
               "name": "Nithogg",
               "detail": "Stormheim",
               "status": "untested",
-              "detail_fr": "Tornheim"
+              "detail_fr": "Tornheim",
+              "icon": "images/boss/nithogg.png"
             },
             {
               "name": "The Soultakers",
               "detail": "Stormheim",
               "status": "untested",
               "name_fr": "Les faucheurs d’âmes",
-              "detail_fr": "Tornheim"
+              "detail_fr": "Tornheim",
+              "icon": "images/boss/the-soultakers.png"
             },
             {
               "name": "Apocron",
               "detail": "Broken Shore",
               "status": "untested",
-              "detail_fr": "Rivage Brisé"
+              "detail_fr": "Rivage Brisé",
+              "icon": "images/boss/felreaver.png"
             },
             {
               "name": "Brutallus",
               "detail": "Broken Shore",
               "status": "untested",
-              "detail_fr": "Rivage Brisé"
+              "detail_fr": "Rivage Brisé",
+              "icon": "images/boss/brutallus.png"
             },
             {
               "name": "Malificus",
               "detail": "Broken Shore",
               "status": "untested",
-              "detail_fr": "Rivage Brisé"
+              "detail_fr": "Rivage Brisé",
+              "icon": "images/boss/malificus.png"
             },
             {
               "name": "Si'vash",
               "detail": "Broken Shore",
               "status": "untested",
-              "detail_fr": "Rivage Brisé"
+              "detail_fr": "Rivage Brisé",
+              "icon": "images/boss/sivash.png"
             },
             {
               "name": "Inquisitor Meto",
               "detail": "Argus",
               "status": "untested",
-              "name_fr": "Inquisiteur Méto"
+              "name_fr": "Inquisiteur Méto",
+              "icon": "images/boss/inquisitormeto.png"
             },
             {
               "name": "Matron Folnuna",
               "detail": "Argus",
               "status": "untested",
-              "name_fr": "Matrone Folnuna"
+              "name_fr": "Matrone Folnuna",
+              "icon": "images/boss/matronfolnuna.png"
             },
             {
               "name": "Mistress Alluradel",
               "detail": "Argus",
               "status": "untested",
-              "name_fr": "Maîtresse Alluradel"
+              "name_fr": "Maîtresse Alluradel",
+              "icon": "images/boss/mistressalluradel.png"
             },
             {
               "name": "Occularus",
               "detail": "Argus",
-              "status": "untested"
+              "status": "untested",
+              "icon": "images/boss/occularus.png"
             },
             {
               "name": "Pit Lord Vilemus",
               "detail": "Argus",
               "status": "untested",
-              "name_fr": "Seigneur des abîmes Vilemus"
+              "name_fr": "Seigneur des abîmes Vilemus",
+              "icon": "images/boss/pitlordvilemus.png"
             },
             {
               "name": "Sotanathor",
               "detail": "Argus",
-              "status": "untested"
+              "status": "untested",
+              "icon": "images/boss/sotanathor.png"
             }
           ]
         }
       ],
-      "title_fr": "Boss mondiaux"
+      "title_fr": "Boss hors instance"
     },
     {
       "title": "Legion events",
@@ -835,23 +880,23 @@
               "name": "Legionfall – Broken Shore",
               "status": "untested",
               "note": "Base code in place, untested",
-              "name_fr": "Légion déchue – rivage Brisé",
+              "name_fr": "Déclin de la Légion – rivage Brisé",
               "note_fr": "Code de base en place, non testé",
               "image": "images/events/legionfall.jpg",
               "desc": "Players pool their resources on the Broken Shore to raise the Mage Tower, the Command Center and the Nether Disruptor, each opening its own rewards.",
-              "desc_fr": "Les joueurs mettent leurs ressources en commun sur le rivage Brisé pour bâtir la tour de mage, le centre de commandement et le disrupteur du Néant, chacun ouvrant ses propres récompenses.",
+              "desc_fr": "Les joueurs mettent leurs ressources en commun sur le rivage Brisé pour bâtir la tour des mages, la base stratégique et le disrupteur de Néant, chacun ouvrant ses propres récompenses.",
               "icon": "images/events/icones/legionfall.png"
             },
             {
               "name": "Invasion Points – Argus",
               "status": "untested",
               "note": "Base code in place, untested",
-              "name_fr": "Points d'invasion – Argus",
+              "name_fr": "Sites d’invasion – Argus",
               "note_fr": "Code de base en place, non testé",
               "image": "images/events/invasion-points.jpg",
               "icon": "images/events/icones/argus.png",
               "desc": "Minor invasion points on Argus, rotating between Krokuun, Mac'Aree and the Antoran Wastes.",
-              "desc_fr": "Points d'invasion mineurs sur Argus, en rotation entre Krokuun, Mac'Aree et les terres Antoréennes."
+              "desc_fr": "Sites d’invasion mineurs sur Argus, en rotation entre Krokuun, Mac’Aree et les étendues Antoréennes."
             }
           ]
         }
@@ -860,166 +905,190 @@
       "layout": "feature"
     },
     {
-      "title": "Holidays",
+      "title": "Holidays and micro-holidays",
       "groups": [
         {
-          "title": null,
+          "title": "Holidays",
           "items": [
             {
               "name": "Lunar Festival",
               "status": "partial",
-              "name_fr": "Fête lunaire"
+              "name_fr": "Fête lunaire",
+              "icon": "images/fetes/lunarfestivalstart.jpg"
             },
             {
               "name": "Love is in the Air",
               "status": "partial",
-              "name_fr": "De l'amour dans l'air"
+              "name_fr": "De l'amour dans l'air",
+              "icon": "images/fetes/loveintheairstart.jpg"
             },
             {
               "name": "Noblegarden",
               "status": "partial",
-              "name_fr": "Le Jardin des nobles"
+              "name_fr": "Le Jardin des nobles",
+              "icon": "images/fetes/noblegardenstart.jpg"
             },
             {
               "name": "Children's Week",
               "status": "partial",
-              "name_fr": "Semaine des enfants"
+              "name_fr": "Semaine des enfants",
+              "icon": "images/fetes/childrensweekstart.jpg"
             },
             {
               "name": "Midsummer Fire Festival",
               "status": "partial",
-              "name_fr": "Fête du Feu du solstice d'été"
+              "name_fr": "Fête du Feu du solstice d'été",
+              "icon": "images/fetes/midsummerstart.jpg"
             },
             {
               "name": "Pirates' Day",
               "status": "partial",
-              "name_fr": "Jour des pirates"
+              "name_fr": "Jour des pirates",
+              "icon": "images/fetes/piratesday.jpg"
             },
             {
               "name": "Brewfest",
               "status": "partial",
-              "name_fr": "Fête des Brasseurs"
+              "name_fr": "Fête des Brasseurs",
+              "icon": "images/fetes/brewfeststart.jpg"
             },
             {
               "name": "Harvest Festival",
               "status": "partial",
-              "name_fr": "Fête des moissons"
+              "name_fr": "Fête des moissons",
+              "icon": "images/fetes/harvestfestivalstart.jpg"
             },
             {
               "name": "Hallow's End",
               "status": "working",
-              "name_fr": "Sanssaint"
+              "name_fr": "Sanssaint",
+              "icon": "images/fetes/hallowsendstart.jpg"
             },
             {
               "name": "Day of the Dead",
               "status": "partial",
-              "name_fr": "Jour des morts"
+              "name_fr": "Jour des morts",
+              "icon": "images/fetes/dayofthedeadstart.jpg"
             },
             {
               "name": "Pilgrim's Bounty",
               "status": "partial",
-              "name_fr": "Les Bienfaits du pèlerin"
+              "name_fr": "Les Bienfaits du pèlerin",
+              "icon": "images/fetes/harvestfestivalstart.jpg"
             },
             {
               "name": "Feast of Winter Veil",
               "status": "partial",
-              "name_fr": "Voile d'hiver"
+              "name_fr": "Voile d'hiver",
+              "icon": "images/fetes/winterveilstart.jpg"
             },
             {
               "name": "Darkmoon Faire",
               "status": "working",
-              "name_fr": "Foire de Sombrelune"
+              "name_fr": "Foire de Sombrelune",
+              "icon": "images/fetes/darkmoonfaireelwynnstart.jpg"
             },
             {
               "name": "WoW's Anniversary",
-              "status": "untested",
-              "name_fr": "Anniversaire de WoW"
+              "status": "broken",
+              "name_fr": "Anniversaire de WoW",
+              "icon": "images/fetes/anniversarystart.jpg"
             }
-          ]
-        }
-      ],
-      "title_fr": "Fêtes"
-    },
-    {
-      "title": "Micro-holidays",
-      "groups": [
+          ],
+          "title_fr": "Fêtes"
+        },
         {
-          "title": null,
+          "title": "Micro-holidays",
           "items": [
             {
               "name": "Auction House Dance Party",
               "status": "working",
-              "name_fr": "Fête dansante de l’hôtel des ventes"
+              "name_fr": "Fête dansante de l’hôtel des ventes",
+              "icon": "images/fetes/danceday.jpg"
             },
             {
               "name": "Call of the Scarab",
               "status": "working",
-              "name_fr": "Appel du Scarabée"
+              "name_fr": "Appel du Scarabée",
+              "icon": "images/fetes/callofthescarabstart.jpg"
             },
             {
               "name": "Darkmoon Faire Concert",
               "status": "working",
-              "name_fr": "Concert de la foire de Sombrelune"
+              "name_fr": "Concert de la foire de Sombrelune",
+              "icon": "images/fetes/inv_misc_drum_01.jpg"
             },
             {
               "name": "Glowcap Festival",
               "status": "untested",
-              "name_fr": "Fête des chapeluisants"
+              "name_fr": "Fête des chapeluisants",
+              "icon": "images/fetes/glowcapfestival.jpg"
             },
             {
               "name": "Great Gnomeregan Run",
               "status": "untested",
-              "name_fr": "Le Grand Prix de Gnomeregan"
+              "name_fr": "Le Grand Prix de Gnomeregan",
+              "icon": "images/fetes/runningofthegnomesstart.jpg"
             },
             {
               "name": "Hatching of the Hippogryphs",
               "status": "untested",
-              "name_fr": "Naissance des hippogriffes"
+              "name_fr": "Naissance des hippogriffes",
+              "icon": "images/fetes/hatchingofthehippogryphs.jpg"
             },
             {
               "name": "Kirin Tor Tavern Crawl",
               "status": "untested",
-              "name_fr": "Tournée des tavernes du Kirin Tor"
+              "name_fr": "Tournée des tavernes du Kirin Tor",
+              "icon": "images/fetes/taverncrawl.jpg"
             },
             {
               "name": "March of the Tadpoles",
               "status": "untested",
-              "name_fr": "Marche des têtards"
+              "name_fr": "Marche des têtards",
+              "icon": "images/fetes/marchofthetadpoles.jpg"
             },
             {
               "name": "Moonkin Festival",
               "status": "untested",
-              "name_fr": "Fête des Séléniens"
+              "name_fr": "Fête des Séléniens",
+              "icon": "images/fetes/moonkinfestival.jpg"
             },
             {
               "name": "Spring Balloon Festival",
               "status": "untested",
-              "name_fr": "Printemps des montgolfières"
+              "name_fr": "Printemps des montgolfières",
+              "icon": "images/fetes/springballoonfestivalstart.jpg"
             },
             {
               "name": "Thousand Boat Bash",
               "status": "untested",
-              "name_fr": "Embarquement pour les Mille pointes"
+              "name_fr": "Embarquement pour les Mille pointes",
+              "icon": "images/fetes/thousandboatbashstart.jpg"
             },
             {
               "name": "Trial of Style",
               "status": "untested",
-              "name_fr": "Épreuve du style"
+              "name_fr": "Épreuve du style",
+              "icon": "images/fetes/transmogpopularityconteststart.jpg"
             },
             {
               "name": "Un'Goro Madness",
               "status": "working",
-              "name_fr": "Paléon’Goro"
+              "name_fr": "Paléon’Goro",
+              "icon": "images/fetes/ungoromadnessstart.jpg"
             },
             {
               "name": "Volunteer Guard Day",
               "status": "untested",
-              "name_fr": "Journée des gardes volontaires"
+              "name_fr": "Journée des gardes volontaires",
+              "icon": "images/fetes/volunteerguardday.jpg"
             }
-          ]
+          ],
+          "title_fr": "Micro-fêtes"
         }
       ],
-      "title_fr": "Micro-fêtes"
+      "title_fr": "Fêtes et micro-fêtes"
     },
     {
       "title": "Other",
@@ -1030,12 +1099,7 @@
             {
               "name": "Brawler's Guild",
               "status": "working",
-              "name_fr": "Guilde des bagarreurs"
-            },
-            {
-              "name": "Garrison (Draenor)",
-              "status": "progress",
-              "name_fr": "Fief (Draenor)"
+              "name_fr": "Guilde des Bastonneurs"
             },
             {
               "name": "Isle of Thunder opening",
@@ -1043,6 +1107,233 @@
               "note": "Base code in place, untested",
               "name_fr": "Ouverture de l'île du Tonnerre",
               "note_fr": "Code de base en place, non testé"
+            }
+          ]
+        },
+        {
+          "title": "Garrison (Draenor)",
+          "title_fr": "Fief (Draenor)",
+          "items": [
+            {
+              "name": "Garrison (overall)",
+              "status": "progress",
+              "name_fr": "Fief (ensemble)"
+            },
+            {
+              "name": "Garrison invasions",
+              "name_fr": "Invasions du fief",
+              "status": "partial"
+            },
+            {
+              "name": "Apexis assaults",
+              "name_fr": "Assauts Apexis",
+              "status": "partial"
+            }
+          ]
+        },
+        {
+          "title": "Small buildings",
+          "title_fr": "Petits bâtiments",
+          "items": [
+            {
+              "name": "Alchemy Lab",
+              "name_fr": "Laboratoire d’alchimie",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Enchanter's Study",
+              "name_fr": "Cabinet d’enchanteur",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Engineering Works",
+              "name_fr": "Pôle d’ingénierie",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Scribe's Quarters",
+              "name_fr": "Étude de scribe",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Gem Boutique",
+              "name_fr": "Boutique de gemmes",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "The Tannery",
+              "name_fr": "Tannerie",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Tailoring Emporium",
+              "name_fr": "Atelier de couture",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "The Forge",
+              "name_fr": "Forge",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Salvage Yard",
+              "name_fr": "Centre de tri",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Storehouse",
+              "name_fr": "Entrepôt",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            }
+          ]
+        },
+        {
+          "title": "Medium buildings",
+          "title_fr": "Bâtiments moyens",
+          "items": [
+            {
+              "name": "Barn",
+              "name_fr": "Grange",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Gladiator's Sanctum",
+              "name_fr": "Sanctum du Gladiateur",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Lumber Mill",
+              "name_fr": "Scierie",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Trading Post",
+              "name_fr": "Comptoir",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Lunarfall Inn / Frostwall Tavern",
+              "name_fr": "Auberge de Chutelune / Taverne de Mur-de-Givre",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            }
+          ]
+        },
+        {
+          "title": "Large buildings",
+          "title_fr": "Grands bâtiments",
+          "items": [
+            {
+              "name": "Barracks",
+              "name_fr": "Caserne",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Dwarven Bunker / War Mill",
+              "name_fr": "Fortin nain / Usine de guerre",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Gnomish Gearworks / Goblin Workshop",
+              "name_fr": "Atelier gnome / Atelier gobelin",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Mage Tower / Spirit Lodge",
+              "name_fr": "Tour des mages / Autel des esprits",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Stables",
+              "name_fr": "Écuries",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            }
+          ]
+        },
+        {
+          "title": "Special buildings",
+          "title_fr": "Bâtiments spéciaux",
+          "items": [
+            {
+              "name": "Town hall (garrison level)",
+              "name_fr": "Hôtel de ville (niveau du fief)",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Herb Garden",
+              "name_fr": "Jardin de simples",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Lunarfall Excavation / Frostwall Mines",
+              "name_fr": "Excavation de Chutelune / Mine de Mur-de-Givre",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Fishing Shack",
+              "name_fr": "Cabane de pêche",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Menagerie",
+              "name_fr": "Ménagerie",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
+            },
+            {
+              "name": "Lunarfall Shipyard / Frostwall Shipyard",
+              "name_fr": "Chantier naval de Chutelune / Chantier naval de Mur-de-Givre",
+              "status": "untested",
+              "detail": "Levels 1 to 3",
+              "detail_fr": "Niveaux 1 à 3"
             }
           ]
         }

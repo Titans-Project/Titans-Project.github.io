@@ -883,10 +883,8 @@
             },
             {
               "name": "Sentinax – Broken Shore",
-              "status": "untested",
-              "note": "Base code in place, untested",
+              "status": "partial",
               "name_fr": "Sentinax – rivage Brisé",
-              "note_fr": "Code de base en place, non testé",
               "image": "images/events/sentinax.jpg",
               "icon": "images/events/icones/sentinax.png",
               "desc": "Beacons on the Broken Shore open portals beneath the Sentinax and can summon Apocron, Brutallus, Malificus or Si'vash.",
@@ -894,10 +892,8 @@
             },
             {
               "name": "Legionfall – Broken Shore",
-              "status": "untested",
-              "note": "Base code in place, untested",
+              "status": "broken",
               "name_fr": "Déclin de la Légion – rivage Brisé",
-              "note_fr": "Code de base en place, non testé",
               "image": "images/events/legionfall.jpg",
               "desc": "Players pool their resources on the Broken Shore to raise the Mage Tower, the Command Center and the Nether Disruptor, each opening its own rewards.",
               "desc_fr": "Les joueurs mettent leurs ressources en commun sur le rivage Brisé pour bâtir la tour des mages, la base stratégique et le disrupteur de Néant, chacun ouvrant ses propres récompenses.",

@@ -519,63 +519,6 @@
       "era": "general"
     },
     {
-      "title": "Other",
-      "groups": [
-        {
-          "title": null,
-          "items": [
-            {
-              "name": "Brawler's Guild",
-              "status": "working",
-              "name_fr": "Guilde des Bastonneurs",
-              "icon": "images/autres/inv_tabard_brawlersguildalliance.jpg"
-            },
-            {
-              "name": "Isle of Thunder opening",
-              "status": "untested",
-              "note": "Base code in place, untested",
-              "name_fr": "Ouverture de l'île du Tonnerre",
-              "note_fr": "Code de base en place, non testé",
-              "icon": "images/autres/spell_nature_callstorm.jpg"
-            }
-          ]
-        },
-        {
-          "title": "Pet battles",
-          "title_fr": "Combats de mascottes",
-          "items": [
-            {
-              "name": "Broken Isles tamers",
-              "status": "untested",
-              "name_fr": "Dresseurs des Îles Brisées",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_battlepettraining.jpg"
-            },
-            {
-              "name": "Celestial Tournament",
-              "status": "untested",
-              "name_fr": "Tournoi céleste",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_celestialserpentmount.jpg"
-            },
-            {
-              "name": "Wailing Caverns pet battle dungeon",
-              "status": "untested",
-              "name_fr": "Cavernes des Lamentations (combats de mascottes)",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_achievement_win10pvp.jpg"
-            },
-            {
-              "name": "Deadmines pet battle dungeon",
-              "status": "untested",
-              "name_fr": "Mortemines (combats de mascottes)",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_achievement_win5000pvp.jpg"
-            }
-          ]
-        }
-      ],
-      "title_fr": "Autres",
-      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_bag_10.jpg",
-      "era": "general"
-    },
-    {
       "title": "Toys",
       "title_fr": "Jouets",
       "optional": true,
@@ -4059,6 +4002,63 @@
           ]
         }
       ],
+      "era": "general"
+    },
+    {
+      "title": "Other",
+      "groups": [
+        {
+          "title": null,
+          "items": [
+            {
+              "name": "Brawler's Guild",
+              "status": "working",
+              "name_fr": "Guilde des Bastonneurs",
+              "icon": "images/autres/inv_tabard_brawlersguildalliance.jpg"
+            },
+            {
+              "name": "Isle of Thunder opening",
+              "status": "untested",
+              "note": "Base code in place, untested",
+              "name_fr": "Ouverture de l'île du Tonnerre",
+              "note_fr": "Code de base en place, non testé",
+              "icon": "images/autres/spell_nature_callstorm.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Pet battles",
+          "title_fr": "Combats de mascottes",
+          "items": [
+            {
+              "name": "Broken Isles tamers",
+              "status": "untested",
+              "name_fr": "Dresseurs des Îles Brisées",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_battlepettraining.jpg"
+            },
+            {
+              "name": "Celestial Tournament",
+              "status": "untested",
+              "name_fr": "Tournoi céleste",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_celestialserpentmount.jpg"
+            },
+            {
+              "name": "Wailing Caverns pet battle dungeon",
+              "status": "untested",
+              "name_fr": "Cavernes des Lamentations (combats de mascottes)",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_achievement_win10pvp.jpg"
+            },
+            {
+              "name": "Deadmines pet battle dungeon",
+              "status": "untested",
+              "name_fr": "Mortemines (combats de mascottes)",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_achievement_win5000pvp.jpg"
+            }
+          ]
+        }
+      ],
+      "title_fr": "Autres",
+      "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_bag_10.jpg",
       "era": "general"
     },
     {

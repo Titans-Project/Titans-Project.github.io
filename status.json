@@ -1092,7 +1092,7 @@
             },
             {
               "name": "Volunteer Guard Day",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Journée des gardes volontaires",
               "icon": "images/fetes/volunteerguardday.jpg"
             }

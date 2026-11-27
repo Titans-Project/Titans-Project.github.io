@@ -578,7 +578,7 @@
             },
             {
               "name": "Adopted Puppy Crate",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Caisse de chiots adoptés",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_crate_02.jpg",
               "wowhead": "item=144072"
@@ -844,7 +844,7 @@
             },
             {
               "name": "Blessing of the Old God",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bénédiction du Dieu très ancien",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_oldgodtrinket.jpg",
               "wowhead": "item=64481"
@@ -858,14 +858,14 @@
             },
             {
               "name": "Blingtron 4000",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bling-o-tron 4000",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_lilsmoky.jpg",
               "wowhead": "item=87214"
             },
             {
               "name": "Blingtron 5000",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bling-o-tron 5000",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_blingtron.jpg",
               "wowhead": "item=111821"
@@ -1194,42 +1194,42 @@
             },
             {
               "name": "Crate of Bobbers: Can of Worms",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Caisse de flotteurs : boîte de vers",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_pet_worm.jpg",
               "wowhead": "item=142528"
             },
             {
               "name": "Crate of Bobbers: Cat Head",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Caisse de flotteurs : tête de chat",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_catstatueemeraldeyes.jpg",
               "wowhead": "item=142529"
             },
             {
               "name": "Crate of Bobbers: Murloc Head",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Caisse de flotteurs : tête de murloc",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_head_murloc_01.jpg",
               "wowhead": "item=142532"
             },
             {
               "name": "Crate of Bobbers: Squeaky Duck",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Caisse de flotteurs : canard en plastique",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_g_fishingbobber_05.jpg",
               "wowhead": "item=142531"
             },
             {
               "name": "Crate of Bobbers: Tugboat",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Caisse de flotteurs : remorqueur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_garrison_cargoship.jpg",
               "wowhead": "item=142530"
             },
             {
               "name": "Crate of Bobbers: Wooden Pepe",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Caisse de flotteurs : Pépé en bois",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_garrison_orangebird.jpg",
               "wowhead": "item=143662"
@@ -1369,7 +1369,7 @@
             },
             {
               "name": "Dazzling Rod",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bâtonnet éblouissant",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_wand_21.jpg",
               "wowhead": "item=127859"
@@ -2685,7 +2685,7 @@
             },
             {
               "name": "Outrider's Bridle Chain",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bride en chaîne du voltigeur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_trinket6oih_wolf1.jpg",
               "wowhead": "item=120276"
@@ -2748,7 +2748,7 @@
             },
             {
               "name": "Permanent Time Bubble",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bulle temporelle permanente",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/creatureportrait_bubble.jpg",
               "wowhead": "item=115472"
@@ -3294,7 +3294,7 @@
             },
             {
               "name": "Stave of Fur and Claw",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bâton de fourrure et griffes",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_wand_01.jpg",
               "wowhead": "item=66888"

@@ -137,11 +137,12 @@ a.whl:hover { color: var(--accent-strong); text-decoration: underline; }
 .view-head .sub { color: var(--muted); font-size: 14px; }
 h3.group { font-size: 12.5px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 26px 0 10px; display: flex; align-items: center; gap: 10px; }
 h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
-.pagehead { grid-column: 1 / -1; margin: 14px 0 2px; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 4px; }
-.pagehead:first-child { margin-top: 0; }
+.pagehead { margin: 18px 0 8px; font-size: 13px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 4px; }
+.pagehead:first-of-type { margin-top: 4px; }
 .tiles { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px; }
 .tiles.paged { grid-template-columns: repeat(3, minmax(0, 1fr)); }
-@media (max-width: 760px) { .tiles.paged { grid-template-columns: 1fr; } }
+.tiles.paged > .tile { grid-row: var(--gr); grid-column: var(--gc); }
+@media (max-width: 760px) { .tiles.paged { grid-template-columns: 1fr; } .tiles.paged > .tile { grid-row: auto; grid-column: auto; } }
 .tile { background: var(--surface); background: linear-gradient(90deg, color-mix(in srgb, var(--c) 20%, var(--surface)) 0%, var(--surface) 65%); border: 1px solid var(--line); border-left: 4px solid var(--c); border-radius: 11px; padding: 10px 12px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .tile .name { font-weight: 600; line-height: 1.3; overflow-wrap: anywhere; }
 .tile .detail { color: var(--muted); font-size: 13px; }
@@ -444,14 +445,16 @@ function groupHtml(g, s) {
   // same order and pages as the in-game collection: names compared character by character, capitals before small letters and accented letters after z
   if (s.paged) {
     const sorted = [...g.items].sort((a, b) => { const x = tr(a, 'name'), y = tr(b, 'name'); return x < y ? -1 : x > y ? 1 : 0; });
-    let html = '', page = 0;
-    sorted.forEach((it, i) => {
-      if (!matches(it, s, g)) return;
-      const p = Math.floor(i / s.paged) + 1;
-      if (p !== page) { page = p; html += `<div class="pagehead">${t('page')} ${p}</div>`; }
-      html += tile(it, s);
-    });
-    return html ? head + `<div class="tiles paged">${html}</div>` : '';
+    let html = '';
+    for (let first = 0; first < sorted.length; first += s.paged) {
+      // each toy keeps its in-game slot, three per row; read column after column, as listed when testing
+      const cells = sorted.slice(first, first + s.paged).map((it, k) => ({ it, r: Math.floor(k / 3), c: k % 3 }))
+        .filter(x => matches(x.it, s, g)).sort((a, b) => a.c - b.c || a.r - b.r);
+      if (!cells.length) continue;
+      html += `<div class="pagehead">${t('page')} ${first / s.paged + 1}</div><div class="tiles paged">`
+        + cells.map(x => tile(x.it, s).replace('style="--c:', `style="--gr:${x.r + 1};--gc:${x.c + 1};--c:`)).join('') + '</div>';
+    }
+    return html ? head + html : '';
   }
   const list = g.items.filter(it => matches(it, s, g));
   if (!list.length) return '';

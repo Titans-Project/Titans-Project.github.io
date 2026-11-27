@@ -5193,6 +5193,157 @@
           "title": null,
           "items": [
             {
+              "name": "Aman'Thul's Vision",
+              "status": "working",
+              "name_fr": "Vision d’Aman’Thul",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_antorus_turquoise.jpg",
+              "wowhead": "item=154172"
+            },
+            {
+              "name": "Archimonde's Hatred Reborn",
+              "status": "untested",
+              "name_fr": "Haine renouvelée d'Archimonde",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_elementalshields.jpg",
+              "wowhead": "item=144249"
+            },
+            {
+              "name": "Insignia of the Grand Army",
+              "status": "working",
+              "name_fr": "Insigne de la grande armée",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_60.jpg",
+              "wowhead": "item=152626"
+            },
+            {
+              "name": "Kil'jaeden's Burning Wish",
+              "status": "working",
+              "name_fr": "Souhait ardent de Kil'jaeden",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/sha_spell_fire_bluepyroblast_nightmare.jpg",
+              "wowhead": "item=144259"
+            },
+            {
+              "name": "Prydaz, Xavaric's Magnum Opus",
+              "status": "untested",
+              "name_fr": "Prydaz, chef-d'œuvre de Xavaric",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_necklace15.jpg",
+              "wowhead": "item=132444"
+            },
+            {
+              "name": "Sephuz's Secret",
+              "status": "working",
+              "name_fr": "Secret de Sephuz",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_149.jpg",
+              "wowhead": "item=132452"
+            },
+            {
+              "name": "Velen's Future Sight",
+              "status": "untested",
+              "name_fr": "Vision future de Velen",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_healingfocus.jpg",
+              "wowhead": "item=144258"
+            },
+            {
+              "name": "Aggramar's Stride",
+              "status": "untested",
+              "name_fr": "Foulée d'Aggramar",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_raidpaladin_i_01.jpg",
+              "detail": "Plate",
+              "detail_fr": "Plaques",
+              "wowhead": "item=132443"
+            },
+            {
+              "name": "Celumbra, the Night's Dichotomy",
+              "status": "untested",
+              "name_fr": "Celumbra, la dichotomie nocturne",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_cloth_raidwarlock_l_01.jpg",
+              "detail": "Cloth",
+              "detail_fr": "Tissu",
+              "wowhead": "item=146666"
+            },
+            {
+              "name": "Cinidaria, the Symbiote",
+              "status": "untested",
+              "name_fr": "Cinidaria, le symbiote",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_leather_raiddruid_m_01belt.jpg",
+              "detail": "Leather",
+              "detail_fr": "Cuir",
+              "wowhead": "item=133976"
+            },
+            {
+              "name": "Norgannon's Foresight",
+              "status": "working",
+              "name_fr": "Prescience de Norgannon",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_fabric_01.jpg",
+              "detail": "Cloth",
+              "detail_fr": "Tissu",
+              "wowhead": "item=132455"
+            },
+            {
+              "name": "Rethu's Incessant Courage",
+              "status": "untested",
+              "name_fr": "Courage perpétuel de Rethu",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_plate_draenorcrafted_d_01buckle.jpg",
+              "detail": "Plate",
+              "detail_fr": "Plaques",
+              "wowhead": "item=146667"
+            },
+            {
+              "name": "Roots of Shaladrassil",
+              "status": "untested",
+              "name_fr": "Racines de Shaladrassil",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_mail_17.jpg",
+              "detail": "Mail",
+              "detail_fr": "Mailles",
+              "wowhead": "item=132466"
+            },
+            {
+              "name": "The Sentinel's Eternal Refuge",
+              "status": "untested",
+              "name_fr": "Refuge éternel de la sentinelle",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_leather_raiddemonhuntermythic_q_02boots.jpg",
+              "detail": "Leather",
+              "detail_fr": "Cuir",
+              "wowhead": "item=146669"
+            },
+            {
+              "name": "Vigilance Perch",
+              "status": "untested",
+              "name_fr": "Perchoir de vigilance",
+              "group": "All classes",
+              "group_fr": "Toutes les classes",
+              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_glove_mail_vrykuldragonrider_b_01.jpg",
+              "detail": "Mail",
+              "detail_fr": "Mailles",
+              "wowhead": "item=146668"
+            },
+            {
               "name": "Ararat's Bloodmirror",
               "status": "untested",
               "name_fr": "Miroir de sang d'Ararat",
@@ -7351,157 +7502,6 @@
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_legionquest100_b_01.jpg",
               "wowhead": "item=137091"
-            },
-            {
-              "name": "Aman'Thul's Vision",
-              "status": "working",
-              "name_fr": "Vision d’Aman’Thul",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_antorus_turquoise.jpg",
-              "wowhead": "item=154172"
-            },
-            {
-              "name": "Archimonde's Hatred Reborn",
-              "status": "untested",
-              "name_fr": "Haine renouvelée d'Archimonde",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/spell_nature_elementalshields.jpg",
-              "wowhead": "item=144249"
-            },
-            {
-              "name": "Insignia of the Grand Army",
-              "status": "working",
-              "name_fr": "Insigne de la grande armée",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_60.jpg",
-              "wowhead": "item=152626"
-            },
-            {
-              "name": "Kil'jaeden's Burning Wish",
-              "status": "working",
-              "name_fr": "Souhait ardent de Kil'jaeden",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/sha_spell_fire_bluepyroblast_nightmare.jpg",
-              "wowhead": "item=144259"
-            },
-            {
-              "name": "Prydaz, Xavaric's Magnum Opus",
-              "status": "untested",
-              "name_fr": "Prydaz, chef-d'œuvre de Xavaric",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_necklace15.jpg",
-              "wowhead": "item=132444"
-            },
-            {
-              "name": "Sephuz's Secret",
-              "status": "working",
-              "name_fr": "Secret de Sephuz",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_149.jpg",
-              "wowhead": "item=132452"
-            },
-            {
-              "name": "Velen's Future Sight",
-              "status": "untested",
-              "name_fr": "Vision future de Velen",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/spell_holy_healingfocus.jpg",
-              "wowhead": "item=144258"
-            },
-            {
-              "name": "Aggramar's Stride",
-              "status": "untested",
-              "name_fr": "Foulée d'Aggramar",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_plate_raidpaladin_i_01.jpg",
-              "detail": "Plate",
-              "detail_fr": "Plaques",
-              "wowhead": "item=132443"
-            },
-            {
-              "name": "Celumbra, the Night's Dichotomy",
-              "status": "untested",
-              "name_fr": "Celumbra, la dichotomie nocturne",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_cloth_raidwarlock_l_01.jpg",
-              "detail": "Cloth",
-              "detail_fr": "Tissu",
-              "wowhead": "item=146666"
-            },
-            {
-              "name": "Cinidaria, the Symbiote",
-              "status": "untested",
-              "name_fr": "Cinidaria, le symbiote",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_leather_raiddruid_m_01belt.jpg",
-              "detail": "Leather",
-              "detail_fr": "Cuir",
-              "wowhead": "item=133976"
-            },
-            {
-              "name": "Norgannon's Foresight",
-              "status": "working",
-              "name_fr": "Prescience de Norgannon",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_fabric_01.jpg",
-              "detail": "Cloth",
-              "detail_fr": "Tissu",
-              "wowhead": "item=132455"
-            },
-            {
-              "name": "Rethu's Incessant Courage",
-              "status": "untested",
-              "name_fr": "Courage perpétuel de Rethu",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_plate_draenorcrafted_d_01buckle.jpg",
-              "detail": "Plate",
-              "detail_fr": "Plaques",
-              "wowhead": "item=146667"
-            },
-            {
-              "name": "Roots of Shaladrassil",
-              "status": "untested",
-              "name_fr": "Racines de Shaladrassil",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_mail_17.jpg",
-              "detail": "Mail",
-              "detail_fr": "Mailles",
-              "wowhead": "item=132466"
-            },
-            {
-              "name": "The Sentinel's Eternal Refuge",
-              "status": "untested",
-              "name_fr": "Refuge éternel de la sentinelle",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_leather_raiddemonhuntermythic_q_02boots.jpg",
-              "detail": "Leather",
-              "detail_fr": "Cuir",
-              "wowhead": "item=146669"
-            },
-            {
-              "name": "Vigilance Perch",
-              "status": "untested",
-              "name_fr": "Perchoir de vigilance",
-              "group": "All classes",
-              "group_fr": "Toutes les classes",
-              "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_glove_mail_vrykuldragonrider_b_01.jpg",
-              "detail": "Mail",
-              "detail_fr": "Mailles",
-              "wowhead": "item=146668"
             }
           ]
         }

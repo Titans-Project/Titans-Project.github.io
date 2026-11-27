@@ -212,6 +212,8 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .ver:hover { border-color: var(--accent); }
 .ver[aria-current="true"] { border-color: var(--accent); background: var(--accent-soft); }
 .ver.dev { border-style: dashed; }
+.ver.newest { border: 2px solid var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), 0 0 18px -4px var(--accent); }
+.ver.newest b { color: var(--accent-strong); }
 .ver.dev .latest { color: var(--progress); }
 .rhead .pre.devbadge { color: var(--accent-strong); background: var(--accent-soft); }
 .devnote { margin: 12px 24px 0; padding: 10px 14px; border-left: 4px solid var(--progress); background: var(--surface-2); border-radius: 0 10px 10px 0; color: var(--muted); font-size: 14px; }
@@ -344,8 +346,8 @@ const T = {
     working: 'Working', partial: 'Partially working', progress: 'In progress', broken: 'Not working', untested: 'Untested',
     search: 'Search a dungeon, a class, a holiday…',
     back: '← All categories', results: n => n + (n === 1 ? ' result' : ' results'), none: 'Nothing matches.', page: 'Page', allspecs: 'All specializations',
-    versions: 'Versions', latest: 'Latest', pre: 'Pre-release', ongh: 'View on GitHub', released: d => 'Released ' + d,
-    fixes: 'fixes', changes: 'changes', crashes: 'crashes fixed', loading: 'Loading the release notes…', noreleases: 'The release notes could not be loaded.', indev: 'In progress', devbadge: 'Not released yet', devupdated: d => 'Updated ' + d, devnote: 'The fixes made since the last version. The list grows as they land, and they will make up the next version.',
+    versions: 'Versions', latest: 'Latest update', pre: 'Pre-release', ongh: 'View on GitHub', released: d => 'Released ' + d,
+    fixes: 'fixes', changes: 'changes', crashes: 'crashes fixed', loading: 'Loading the release notes…', noreleases: 'The release notes could not be loaded.', indev: 'In progress', devbadge: 'Already pushed', devupdated: d => 'Updated ' + d, devnote: 'The fixes pushed since the last version: they are already in the repository, and the list grows as new ones land until the next version gathers them.',
     footer: '<b>Working</b> does not mean bug-free: small bugs may remain. When something does not behave as it did on retail, please <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">open an issue</a>. Item, quest and creature tooltips by <a href="https://www.wowhead.com">Wowhead</a>.',
     title: 'Reforged Development Tracker', locale: 'en-GB'
   },
@@ -356,8 +358,8 @@ const T = {
     working: 'Fonctionnel', partial: 'Partiellement fonctionnel', progress: 'En cours', broken: 'Non fonctionnel', untested: 'Non testé',
     search: 'Chercher un donjon, une classe, une fête…',
     back: '← Toutes les catégories', results: n => n + ' résultat' + (n > 1 ? 's' : ''), none: 'Aucun résultat.', page: 'Page', allspecs: 'Toutes les spécialisations',
-    versions: 'Versions', latest: 'Dernière', pre: 'Préversion', ongh: 'Voir sur GitHub', released: d => 'Publiée le ' + d,
-    fixes: 'correctifs', changes: 'changements', crashes: 'plantages corrigés', loading: 'Chargement des notes de version…', noreleases: 'Les notes de version n’ont pas pu être chargées.', indev: 'En cours', devbadge: 'Pas encore publiés', devupdated: d => 'Mise à jour le ' + d, devnote: 'Les correctifs faits depuis la dernière version. La liste s’allonge au fil des corrections, et ils formeront la prochaine version.',
+    versions: 'Versions', latest: 'Dernière mise à jour', pre: 'Préversion', ongh: 'Voir sur GitHub', released: d => 'Publiée le ' + d,
+    fixes: 'correctifs', changes: 'changements', crashes: 'plantages corrigés', loading: 'Chargement des notes de version…', noreleases: 'Les notes de version n’ont pas pu être chargées.', indev: 'En cours', devbadge: 'Déjà poussés', devupdated: d => 'Mise à jour le ' + d, devnote: 'Les correctifs poussés depuis la dernière version : ils sont déjà dans le dépôt, et la liste s’allonge au fil des corrections jusqu’à ce que la prochaine version les regroupe.',
     footer: '<b>Fonctionnel</b> ne veut pas dire sans bug : de petits défauts peuvent rester. Quand quelque chose ne se comporte pas comme sur les serveurs officiels, <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">ouvrez un ticket</a>. Infobulles des objets, quêtes et créatures par <a href="https://www.wowhead.com/fr">Wowhead</a>.',
     title: 'Suivi du développement de Reforged', locale: 'fr-FR'
   }
@@ -623,7 +625,7 @@ function updates(tag) {
   const st = stats(r.body);
   const devButton = upcoming ? `<button class="ver dev" data-ver="${esc(upcoming.tag)}" aria-current="${dev}">
       <span class="latest">${t('indev')}</span><b class="long">${esc(tr(upcoming, 'title'))}</b><span>${fmtDate(upcoming.date)}</span></button>` : '';
-  const list = devButton + releases.map((x, i) => `<button class="ver" data-ver="${esc(x.tag)}" aria-current="${!dev && x.tag === r.tag}">
+  const list = devButton + releases.map((x, i) => `<button class="ver${i === 0 ? ' newest' : ''}" data-ver="${esc(x.tag)}" aria-current="${!dev && x.tag === r.tag}">
       ${i === 0 ? `<span class="latest">${t('latest')}</span>` : ''}<b>${esc(x.tag)}</b><span>${fmtDate(x.date)}</span></button>`).join('');
   const chips = [['fix', st.fix, 'fixes'], ['change', st.change, 'changes'], ['crash', st.crash, 'crashes']]
     .filter(c => c[1]).map(([k, n, l]) => `<span class="rstat"><span class="tag ${k}" style="margin:0">${k}</span><b>${n}</b> ${t(l)}</span>`).join('');

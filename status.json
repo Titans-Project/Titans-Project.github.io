@@ -627,7 +627,7 @@
             },
             {
               "name": "Ancient Amber",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Ambre ancien",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_insect-in-amber.jpg",
               "wowhead": "item=69776"
@@ -676,7 +676,7 @@
             },
             {
               "name": "Arcano-Shower",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Arcano-douche",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_shaman_fortifyingwaters.jpg",
               "wowhead": "item=141297"
@@ -704,7 +704,7 @@
             },
             {
               "name": "Arrival of the Naaru",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Arrivée des Naaru",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_naarucrystal.jpg",
               "wowhead": "item=64456"
@@ -837,7 +837,7 @@
             },
             {
               "name": "Blazing Wings",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Ailes flamboyantes",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_leather_firelandsdruid_d_01.jpg",
               "wowhead": "item=116115"
@@ -900,7 +900,7 @@
             },
             {
               "name": "Bodyguard Miniaturization Device",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Appareil de miniaturisation de garde du corps",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_siege_engineer_magnetic_lasso.jpg",
               "wowhead": "item=122298"
@@ -1089,7 +1089,7 @@
             },
             {
               "name": "Cloud Ring",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Anneau nuageux",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_monk_surgingmist.jpg",
               "wowhead": "item=89222"
@@ -1397,7 +1397,7 @@
             },
             {
               "name": "Demon Hunter's Aspect",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Apparence de chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/achievement_boss_illidan.jpg",
               "wowhead": "item=79769"
@@ -1544,7 +1544,7 @@
             },
             {
               "name": "Eternal Black Diamond Ring",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Anneau éternel au diamant noir",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cutgemnormal2.jpg",
               "wowhead": "item=134007"
@@ -1936,7 +1936,7 @@
             },
             {
               "name": "Goren Garb",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Atours de goren",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_stonetablet_06.jpg",
               "wowhead": "item=118716"
@@ -1971,7 +1971,7 @@
             },
             {
               "name": "Gurboggle's Gleaming Bauble",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Babiole luisante de Globulle",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_enchantedpearlf.jpg",
               "wowhead": "item=133511"
@@ -2111,7 +2111,7 @@
             },
             {
               "name": "Hunter's Call",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Appel du chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_hunter_bestialdiscipline.jpg",
               "wowhead": "item=136855"
@@ -2573,7 +2573,7 @@
             },
             {
               "name": "Mylune's Call",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Appel de Mylune",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_flute_01.jpg",
               "wowhead": "item=70159"
@@ -2951,7 +2951,7 @@
             },
             {
               "name": "Ring of Broken Promises",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Anneau des promesses brisées",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_60dungeon_ring5b.jpg",
               "wowhead": "item=116067"
@@ -3007,7 +3007,7 @@
             },
             {
               "name": "S.E.L.F.I.E. Camera MkII",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Appareil photo P.R.O.F.I.L. Mod.II",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_-selfiecamera_01.jpg",
               "wowhead": "item=122674"
@@ -3896,7 +3896,7 @@
             },
             {
               "name": "Wisp Amulet",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Amulette de feu follet",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_wispamulet.jpg",
               "wowhead": "item=64651"

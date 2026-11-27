@@ -4002,7 +4002,8 @@
           ]
         }
       ],
-      "era": "general"
+      "era": "general",
+      "paged": 18
     },
     {
       "title": "Other",
@@ -7717,7 +7718,7 @@
             },
             {
               "name": "Supreme Lord Kazzak",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Seigneur suprême Kazzak",
               "icon": "images/boss/supreme-lord-kazzak.png"
             }

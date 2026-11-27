@@ -6553,7 +6553,7 @@
             },
             {
               "name": "Soul of the Archmage",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Ame de l'archimage",
               "group": "Mage",
               "group_fr": "Mage",
@@ -7372,7 +7372,7 @@
             },
             {
               "name": "Insignia of the Grand Army",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Insigne de la grande armée",
               "group": "All classes",
               "group_fr": "Toutes les classes",
@@ -7381,7 +7381,7 @@
             },
             {
               "name": "Kil'jaeden's Burning Wish",
-              "status": "broken",
+              "status": "working",
               "name_fr": "Souhait ardent de Kil'jaeden",
               "group": "All classes",
               "group_fr": "Toutes les classes",
@@ -7399,7 +7399,7 @@
             },
             {
               "name": "Sephuz's Secret",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Secret de Sephuz",
               "group": "All classes",
               "group_fr": "Toutes les classes",

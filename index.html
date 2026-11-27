@@ -173,7 +173,7 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .class h4 .cname { display: inline-flex; align-items: center; gap: 10px; }
 .class h4 img { width: 28px; height: 28px; border-radius: 6px; border: 1px solid rgba(0,0,0,.45); }
 .class h4 .pips { gap: 3px; }
-.spec { display: grid; grid-template-columns: 10px 1fr auto; gap: 10px; align-items: center; padding: 9px 14px; border-top: 1px solid var(--line); }
+.spec { display: grid; grid-template-columns: 10px 1fr auto; gap: 10px; align-items: center; padding: 9px 14px; border-top: 1px solid var(--line); background: linear-gradient(90deg, color-mix(in srgb, var(--c, transparent) 18%, transparent) 0%, transparent 60%); box-shadow: inset 3px 0 0 var(--c, transparent); }
 .spec.iconed { grid-template-columns: 32px 1fr auto; }
 .spec .sicon { width: 32px; height: 32px; border-radius: 6px; border: 1px solid rgba(0,0,0,.45); }
 .spec:first-of-type { border-top: 0; }
@@ -424,7 +424,7 @@ function classCards(g, s) {
     const head = cls ? `<span class="cname"><img src="images/classes/classicon_${cls[0]}.jpg" alt="">${esc(name)}</span>` : `<span>${esc(name)}</span>`;
     // a long list (legendary items, or a card that is no class) runs the whole width, its rows in columns
     return `<div class="class${!cls || s.wide ? ' wide' : ''}"${cls ? ` style="--cc:${cls[1]}"` : ''}><h4>${head}</h4><div class="specs">` + list.map(it =>
-      `<div class="spec${it.icon ? ' iconed' : ''}">${it.icon ? `<img class="sicon" src="${esc(it.icon)}" alt="" loading="lazy">` : `<span class="dot" style="background:var(--${it.status})"></span>`}<div class="w"><div>${whName(it)}</div>${it.detail || it.note ? `<small>${[it.detail && esc(tr(it, 'detail')), it.note && esc(tr(it, 'note'))].filter(Boolean).join(' · ')}</small>` : ''}</div>${label(it.status)}</div>`).join('') + `</div></div>`;
+      `<div class="spec${it.icon ? ' iconed' : ''}" style="--c:var(--${it.status})">${it.icon ? `<img class="sicon" src="${esc(it.icon)}" alt="" loading="lazy">` : `<span class="dot" style="background:var(--${it.status})"></span>`}<div class="w"><div>${whName(it)}</div>${it.detail || it.note ? `<small>${[it.detail && esc(tr(it, 'detail')), it.note && esc(tr(it, 'note'))].filter(Boolean).join(' · ')}</small>` : ''}</div>${label(it.status)}</div>`).join('') + `</div></div>`;
   }).join('') + `</div>`;
 }
 

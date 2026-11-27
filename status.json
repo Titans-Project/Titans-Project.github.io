@@ -1074,7 +1074,7 @@
             },
             {
               "name": "Thousand Boat Bash",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Embarquement pour les Mille pointes",
               "icon": "images/fetes/thousandboatbashstart.jpg"
             },

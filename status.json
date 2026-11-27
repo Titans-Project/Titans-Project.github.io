@@ -10,97 +10,116 @@
             {
               "name": "Artifacts",
               "status": "working",
-              "name_fr": "Armes prodigieuses"
+              "name_fr": "Armes prodigieuses",
+              "icon": "images/systemes/inv_artifact_xp05.jpg"
             },
             {
               "name": "Mythic+ (with the weekly chest)",
               "status": "working",
-              "name_fr": "Mythique+ (avec le coffre hebdomadaire)"
+              "name_fr": "Mythique+ (avec le coffre hebdomadaire)",
+              "icon": "images/systemes/inv_relics_hourglass.jpg"
             },
             {
               "name": "Timewalking",
               "status": "working",
-              "name_fr": "Marcheurs du temps"
+              "name_fr": "Marcheurs du temps",
+              "icon": "images/systemes/spell_holy_borrowedtime.jpg"
             },
             {
               "name": "Dungeon and Raid Finder",
               "status": "working",
-              "name_fr": "Recherche de groupe (donjons et raids)"
+              "name_fr": "Recherche de groupe (donjons et raids)",
+              "icon": "images/systemes/inv_misc_groupneedmore.jpg"
             },
             {
               "name": "Adventure Guide",
               "status": "working",
-              "name_fr": "Guide de l’aventurier"
+              "name_fr": "Guide de l’aventurier",
+              "icon": "images/systemes/inv_misc_book_07.jpg"
             },
             {
               "name": "Transmogrification",
-              "status": "working"
+              "status": "working",
+              "icon": "images/systemes/inv_arcane_orb.jpg"
             },
             {
               "name": "Pet battles",
               "status": "working",
-              "name_fr": "Combats de mascottes"
+              "name_fr": "Combats de mascottes",
+              "icon": "images/systemes/inv_pet_battlepettraining.jpg"
             },
             {
               "name": "Reputations",
               "status": "working",
-              "name_fr": "Réputations"
+              "name_fr": "Réputations",
+              "icon": "images/systemes/achievement_reputation_01.jpg"
             },
             {
               "name": "Guilds",
               "status": "working",
-              "name_fr": "Guildes"
+              "name_fr": "Guildes",
+              "icon": "images/systemes/inv_shirt_guildtabard_01.jpg"
             },
             {
               "name": "Auction house",
               "status": "working",
-              "name_fr": "Hôtel des ventes"
+              "name_fr": "Hôtel des ventes",
+              "icon": "images/systemes/inv_misc_coin_02.jpg"
             },
             {
               "name": "Mail",
               "status": "working",
-              "name_fr": "Courrier"
+              "name_fr": "Courrier",
+              "icon": "images/systemes/inv_letter_15.jpg"
             },
             {
               "name": "Calendar",
               "status": "working",
-              "name_fr": "Calendrier"
+              "name_fr": "Calendrier",
+              "icon": "images/systemes/inv_misc_pocketwatch_01.jpg"
             },
             {
               "name": "Battlegrounds and arenas",
               "status": "working",
-              "name_fr": "Champs de bataille et arènes"
+              "name_fr": "Champs de bataille et arènes",
+              "icon": "images/systemes/achievement_arena_3v3_7.jpg"
             },
             {
               "name": "Honor levels, prestige and PvP talents",
               "status": "working",
-              "name_fr": "Niveaux d’honneur, prestige et talents d’honneur"
+              "name_fr": "Niveaux d’honneur, prestige et talents d’honneur",
+              "icon": "images/systemes/ability_pvp_gladiatormedallion.jpg"
             },
             {
               "name": "PvP seasons",
               "status": "progress",
-              "name_fr": "Saisons JcJ"
+              "name_fr": "Saisons JcJ",
+              "icon": "images/systemes/achievement_featsofstrength_gladiator_10.jpg"
             },
             {
               "name": "World Quests",
               "status": "working",
-              "name_fr": "Expéditions"
+              "name_fr": "Expéditions",
+              "icon": "images/systemes/inv_misc_map08.jpg"
             },
             {
               "name": "Template characters",
               "name_fr": "Personnages modèles",
-              "status": "working"
+              "status": "working",
+              "icon": "images/systemes/achievement_level_110.jpg"
             },
             {
               "name": "Character boost",
               "name_fr": "Sésame",
-              "status": "working"
+              "status": "working",
+              "icon": "images/systemes/ui_promotion_characterboost.jpg"
             },
             {
               "name": "Class trial",
               "name_fr": "Essai de classe",
               "status": "broken",
-              "also": "progress"
+              "also": "progress",
+              "icon": "images/systemes/achievement_level_100.jpg"
             }
           ]
         }
@@ -116,24 +135,28 @@
             {
               "name": "Starting zones",
               "status": "working",
-              "name_fr": "Zones de départ"
+              "name_fr": "Zones de départ",
+              "icon": "images/systemes/inv_misc_map_01.jpg"
             },
             {
               "name": "Dark Portal introduction (Tanaan Jungle)",
               "status": "progress",
-              "name_fr": "Introduction de la Porte des Ténèbres (jungle de Tanaan)"
+              "name_fr": "Introduction de la Porte des Ténèbres (jungle de Tanaan)",
+              "icon": "images/systemes/achievement_zone_tanaanjungle.jpg"
             },
             {
               "name": "Garrison introduction quests",
               "status": "untested",
               "note": "Alliance working · Horde untested",
               "name_fr": "Quêtes d'introduction du fief",
-              "note_fr": "Alliance fonctionnelle · Horde non testée"
+              "note_fr": "Alliance fonctionnelle · Horde non testée",
+              "icon": "images/fief/achievement_garrison_tier01_alliance.jpg"
             },
             {
               "name": "Warlords of Draenor zones",
               "status": "progress",
-              "name_fr": "Zones de Warlords of Draenor"
+              "name_fr": "Zones de Warlords of Draenor",
+              "icon": "images/systemes/achievement_zone_draenor_01.jpg"
             }
           ]
         }
@@ -149,22 +172,32 @@
             {
               "name": "Class spells and talents",
               "status": "working",
-              "name_fr": "Sorts et talents de classe"
-            },
+              "name_fr": "Sorts et talents de classe",
+              "icon": "images/classes/inv_misc_book_09.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Introductions",
+          "title_fr": "Introductions",
+          "items": [
             {
-              "name": "Demon Hunter introduction",
-              "status": "working",
-              "name_fr": "Introduction du chasseur de démons"
+              "name": "Monk introduction",
+              "name_fr": "Introduction du moine",
+              "status": "untested",
+              "icon": "images/classes/classicon_monk.jpg"
             },
             {
               "name": "Death Knight introduction",
               "status": "working",
-              "name_fr": "Introduction du chevalier de la mort"
+              "name_fr": "Introduction du chevalier de la mort",
+              "icon": "images/classes/classicon_deathknight.jpg"
             },
             {
-              "name": "Monk introduction",
-              "name_fr": "Introduction du moine",
-              "status": "untested"
+              "name": "Demon Hunter introduction",
+              "status": "working",
+              "name_fr": "Introduction du chasseur de démons",
+              "icon": "images/classes/classicon_demonhunter.jpg"
             }
           ]
         }
@@ -193,60 +226,72 @@
             {
               "name": "Warrior",
               "status": "untested",
-              "name_fr": "Guerrier"
+              "name_fr": "Guerrier",
+              "icon": "images/classes/classicon_warrior.jpg"
             },
             {
               "name": "Paladin",
-              "status": "untested"
+              "status": "untested",
+              "icon": "images/classes/classicon_paladin.jpg"
             },
             {
               "name": "Hunter",
               "status": "untested",
-              "name_fr": "Chasseur"
+              "name_fr": "Chasseur",
+              "icon": "images/classes/classicon_hunter.jpg"
             },
             {
               "name": "Rogue",
               "status": "untested",
-              "name_fr": "Voleur"
+              "name_fr": "Voleur",
+              "icon": "images/classes/classicon_rogue.jpg"
             },
             {
               "name": "Priest",
               "status": "untested",
-              "name_fr": "Prêtre"
+              "name_fr": "Prêtre",
+              "icon": "images/classes/classicon_priest.jpg"
             },
             {
               "name": "Shaman",
               "status": "untested",
-              "name_fr": "Chaman"
+              "name_fr": "Chaman",
+              "icon": "images/classes/classicon_shaman.jpg"
             },
             {
               "name": "Mage",
-              "status": "untested"
+              "status": "untested",
+              "icon": "images/classes/classicon_mage.jpg"
             },
             {
               "name": "Warlock",
               "status": "untested",
-              "name_fr": "Démoniste"
+              "name_fr": "Démoniste",
+              "icon": "images/classes/classicon_warlock.jpg"
             },
             {
               "name": "Monk",
               "status": "untested",
-              "name_fr": "Moine"
+              "name_fr": "Moine",
+              "icon": "images/classes/classicon_monk.jpg"
             },
             {
               "name": "Druid",
               "status": "untested",
-              "name_fr": "Druide"
+              "name_fr": "Druide",
+              "icon": "images/classes/classicon_druid.jpg"
             },
             {
               "name": "Death Knight",
               "status": "untested",
-              "name_fr": "Chevalier de la mort"
+              "name_fr": "Chevalier de la mort",
+              "icon": "images/classes/classicon_deathknight.jpg"
             },
             {
               "name": "Demon Hunter",
               "status": "untested",
-              "name_fr": "Chasseur de démons"
+              "name_fr": "Chasseur de démons",
+              "icon": "images/classes/classicon_demonhunter.jpg"
             }
           ],
           "title_fr": "Campagnes de domaine"
@@ -261,7 +306,8 @@
               "status": "untested",
               "name_fr": "Strom’kar, le Brise-Guerre",
               "detail_fr": "Armes",
-              "group_fr": "Guerrier"
+              "group_fr": "Guerrier",
+              "icon": "images/armes/inv_sword_2h_artifactarathor_d_01.jpg"
             },
             {
               "name": "Warswords of the Valarjar",
@@ -270,7 +316,8 @@
               "status": "untested",
               "name_fr": "Épées de guerre des Valarjar",
               "detail_fr": "Fureur",
-              "group_fr": "Guerrier"
+              "group_fr": "Guerrier",
+              "icon": "images/armes/inv_sword_1h_artifactvigfus_d_01.jpg"
             },
             {
               "name": "Scale of the Earth-Warder",
@@ -278,7 +325,8 @@
               "detail": "Protection",
               "status": "untested",
               "name_fr": "Écaille du Gardeterre",
-              "group_fr": "Guerrier"
+              "group_fr": "Guerrier",
+              "icon": "images/armes/inv_shield_1h_artifactmagnar_d_01.jpg"
             },
             {
               "name": "The Silver Hand",
@@ -286,14 +334,16 @@
               "detail": "Holy",
               "status": "untested",
               "name_fr": "Main-d’Argent",
-              "detail_fr": "Sacré"
+              "detail_fr": "Sacré",
+              "icon": "images/armes/inv_mace_2h_artifactsilverhand_d_01.jpg"
             },
             {
               "name": "Truthguard",
               "group": "Paladin",
               "detail": "Protection",
               "status": "untested",
-              "name_fr": "Garde-Vérité"
+              "name_fr": "Garde-Vérité",
+              "icon": "images/armes/inv_shield_1h_artifactnorgannon_d_01.jpg"
             },
             {
               "name": "Ashbringer",
@@ -301,7 +351,8 @@
               "detail": "Retribution",
               "status": "untested",
               "name_fr": "Porte-Cendres",
-              "detail_fr": "Vindicte"
+              "detail_fr": "Vindicte",
+              "icon": "images/armes/inv_sword_2h_artifactashbringer_d_01.jpg"
             },
             {
               "name": "Titanstrike",
@@ -310,7 +361,8 @@
               "status": "untested",
               "name_fr": "Choc des Titans",
               "detail_fr": "Maîtrise des bêtes",
-              "group_fr": "Chasseur"
+              "group_fr": "Chasseur",
+              "icon": "images/armes/inv_firearm_2h_artifactlegion_d_01.jpg"
             },
             {
               "name": "Thas'dorah, Legacy of the Windrunners",
@@ -319,7 +371,8 @@
               "status": "untested",
               "name_fr": "Thas’dorah, héritage des Coursevent",
               "detail_fr": "Précision",
-              "group_fr": "Chasseur"
+              "group_fr": "Chasseur",
+              "icon": "images/armes/inv_bow_1h_artifactwindrunner_d_02.jpg"
             },
             {
               "name": "Talonclaw",
@@ -328,7 +381,8 @@
               "status": "untested",
               "name_fr": "Griffe-Serre",
               "detail_fr": "Survie",
-              "group_fr": "Chasseur"
+              "group_fr": "Chasseur",
+              "icon": "images/armes/inv_polearm_2h_artifacteagle_d_01.jpg"
             },
             {
               "name": "The Kingslayers",
@@ -337,7 +391,8 @@
               "status": "untested",
               "name_fr": "Les Régicides",
               "detail_fr": "Assassinat",
-              "group_fr": "Voleur"
+              "group_fr": "Voleur",
+              "icon": "images/armes/inv_knife_1h_artifactgarona_d_01.jpg"
             },
             {
               "name": "The Dreadblades",
@@ -346,7 +401,8 @@
               "status": "untested",
               "name_fr": "Les lames d’effroi",
               "detail_fr": "Hors-la-loi",
-              "group_fr": "Voleur"
+              "group_fr": "Voleur",
+              "icon": "images/armes/inv_sword_1h_artifactskywall_d_01.jpg"
             },
             {
               "name": "Fangs of the Devourer",
@@ -355,7 +411,8 @@
               "status": "untested",
               "name_fr": "Les crocs du Dévoreur",
               "detail_fr": "Finesse",
-              "group_fr": "Voleur"
+              "group_fr": "Voleur",
+              "icon": "images/armes/inv_knife_1h_artifactfangs_d_01.jpg"
             },
             {
               "name": "Light's Wrath",
@@ -363,7 +420,8 @@
               "detail": "Discipline",
               "status": "untested",
               "name_fr": "Courroux-de-Lumière",
-              "group_fr": "Prêtre"
+              "group_fr": "Prêtre",
+              "icon": "images/armes/inv_staff_2h_artifacttome_d_01.jpg"
             },
             {
               "name": "T'uure, Beacon of the Naaru",
@@ -372,7 +430,8 @@
               "status": "untested",
               "name_fr": "T’uure, guide des naaru",
               "detail_fr": "Sacré",
-              "group_fr": "Prêtre"
+              "group_fr": "Prêtre",
+              "icon": "images/armes/inv_mace_1h_artifactheartofkure_d_01.jpg"
             },
             {
               "name": "Xal'atath, Blade of the Black Empire",
@@ -381,7 +440,8 @@
               "status": "untested",
               "name_fr": "Xal’atath, lame de l’Empire noir",
               "detail_fr": "Ombre",
-              "group_fr": "Prêtre"
+              "group_fr": "Prêtre",
+              "icon": "images/armes/inv_knife_1h_artifactcthun_d_01.jpg"
             },
             {
               "name": "The Fist of Ra-den",
@@ -390,7 +450,8 @@
               "status": "untested",
               "name_fr": "Le Poing de Ra Den",
               "detail_fr": "Élémentaire",
-              "group_fr": "Chaman"
+              "group_fr": "Chaman",
+              "icon": "images/armes/inv_hand_1h_artifactstormfist_d_01.jpg"
             },
             {
               "name": "Doomhammer",
@@ -399,7 +460,8 @@
               "status": "untested",
               "name_fr": "Marteau-du-Destin",
               "detail_fr": "Amélioration",
-              "group_fr": "Chaman"
+              "group_fr": "Chaman",
+              "icon": "images/armes/inv_mace_1h_doomhammer.jpg"
             },
             {
               "name": "Sharas'dal, Scepter of Tides",
@@ -408,14 +470,16 @@
               "status": "untested",
               "name_fr": "Sharas’dal, sceptre des marées",
               "detail_fr": "Restauration",
-              "group_fr": "Chaman"
+              "group_fr": "Chaman",
+              "icon": "images/armes/inv_mace_1h_artifactazshara_d_01.jpg"
             },
             {
               "name": "Aluneth",
               "group": "Mage",
               "detail": "Arcane",
               "status": "untested",
-              "detail_fr": "Arcanes"
+              "detail_fr": "Arcanes",
+              "icon": "images/armes/inv_staff_2h_artifactaegwynsstaff_d_01.jpg"
             },
             {
               "name": "Felo'melorn",
@@ -423,7 +487,8 @@
               "detail": "Fire",
               "status": "untested",
               "name_fr": "Felo’melorn",
-              "detail_fr": "Feu"
+              "detail_fr": "Feu",
+              "icon": "images/armes/inv_sword_1h_artifactfelomelorn_d_01.jpg"
             },
             {
               "name": "Ebonchill",
@@ -431,7 +496,8 @@
               "detail": "Frost",
               "status": "untested",
               "name_fr": "Frissébène",
-              "detail_fr": "Givre"
+              "detail_fr": "Givre",
+              "icon": "images/armes/inv_staff_2h_artifactantonidas_d_01.jpg"
             },
             {
               "name": "Ulthalesh, the Deadwind Harvester",
@@ -439,7 +505,8 @@
               "detail": "Affliction",
               "status": "untested",
               "name_fr": "Ulthalesh, la faux de Deuillevent",
-              "group_fr": "Démoniste"
+              "group_fr": "Démoniste",
+              "icon": "images/armes/inv_staff_2h_artifactdeadwind_d_01.jpg"
             },
             {
               "name": "Skull of the Man'ari",
@@ -448,7 +515,8 @@
               "status": "untested",
               "name_fr": "Le crâne du Man’ari",
               "detail_fr": "Démonologie",
-              "group_fr": "Démoniste"
+              "group_fr": "Démoniste",
+              "icon": "images/armes/inv_offhand_1h_artifactskulloferedar_d_01.jpg"
             },
             {
               "name": "Scepter of Sargeras",
@@ -456,7 +524,8 @@
               "detail": "Destruction",
               "status": "untested",
               "name_fr": "Sceptre de Sargeras",
-              "group_fr": "Démoniste"
+              "group_fr": "Démoniste",
+              "icon": "images/armes/inv_staff_2h_artifactsargeras_d_01.jpg"
             },
             {
               "name": "Fu Zan, the Wanderer's Companion",
@@ -465,7 +534,8 @@
               "status": "untested",
               "name_fr": "Fu Zan, compagnon de l’explorateur",
               "detail_fr": "Maître brasseur",
-              "group_fr": "Moine"
+              "group_fr": "Moine",
+              "icon": "images/armes/inv_staff_2h_artifactmonkeyking_d_01.jpg"
             },
             {
               "name": "Sheilun, Staff of the Mists",
@@ -474,7 +544,8 @@
               "status": "untested",
               "name_fr": "Sheilun, bâton des brumes",
               "detail_fr": "Tisse-brume",
-              "group_fr": "Moine"
+              "group_fr": "Moine",
+              "icon": "images/armes/inv_staff_2h_artifactshaohao_d_01.jpg"
             },
             {
               "name": "Fists of the Heavens",
@@ -483,7 +554,8 @@
               "status": "untested",
               "name_fr": "Poings des cieux",
               "detail_fr": "Marche-vent",
-              "group_fr": "Moine"
+              "group_fr": "Moine",
+              "icon": "images/armes/inv_hand_1h_artifactskywall_d_01.jpg"
             },
             {
               "name": "Scythe of Elune",
@@ -494,7 +566,8 @@
               "detail_fr": "Équilibre",
               "group_fr": "Druide",
               "note": "Introduction quests in progress",
-              "note_fr": "Quêtes d'introduction en cours"
+              "note_fr": "Quêtes d'introduction en cours",
+              "icon": "images/armes/inv_staff_2h_artifactelune_d_01.jpg"
             },
             {
               "name": "Fangs of Ashamane",
@@ -503,7 +576,8 @@
               "status": "untested",
               "name_fr": "Les crocs d’Ashamane",
               "detail_fr": "Farouche",
-              "group_fr": "Druide"
+              "group_fr": "Druide",
+              "icon": "images/armes/inv_knife_1h_artifactfrostsaber_d_01.jpg"
             },
             {
               "name": "Claws of Ursoc",
@@ -512,7 +586,8 @@
               "status": "untested",
               "name_fr": "Les griffes d’Ursoc",
               "detail_fr": "Gardien",
-              "group_fr": "Druide"
+              "group_fr": "Druide",
+              "icon": "images/armes/inv_hand_1h_artifactursoc_d_01.jpg"
             },
             {
               "name": "G'Hanir, the Mother Tree",
@@ -521,7 +596,8 @@
               "status": "untested",
               "name_fr": "G’Hanir, l’Arbre-Mère",
               "detail_fr": "Restauration",
-              "group_fr": "Druide"
+              "group_fr": "Druide",
+              "icon": "images/armes/inv_staff_2h_artifactnordrassil_d_01.jpg"
             },
             {
               "name": "Maw of the Damned",
@@ -530,7 +606,8 @@
               "status": "untested",
               "name_fr": "Gueule-du-Damné",
               "detail_fr": "Sang",
-              "group_fr": "Chevalier de la mort"
+              "group_fr": "Chevalier de la mort",
+              "icon": "images/armes/inv_axe_2h_artifactmaw_d_01.jpg"
             },
             {
               "name": "Blades of the Fallen Prince",
@@ -539,7 +616,8 @@
               "status": "untested",
               "name_fr": "Lames du prince déchu",
               "detail_fr": "Givre",
-              "group_fr": "Chevalier de la mort"
+              "group_fr": "Chevalier de la mort",
+              "icon": "images/armes/inv_sword_1h_artifactruneblade_d_01.jpg"
             },
             {
               "name": "Apocalypse",
@@ -547,7 +625,8 @@
               "detail": "Unholy",
               "status": "untested",
               "detail_fr": "Impie",
-              "group_fr": "Chevalier de la mort"
+              "group_fr": "Chevalier de la mort",
+              "icon": "images/armes/inv_sword_2h_artifactsoulrend_d_01.jpg"
             },
             {
               "name": "Twinblades of the Deceiver",
@@ -556,7 +635,8 @@
               "status": "untested",
               "name_fr": "Les lames jumelles du Trompeur",
               "detail_fr": "Dévastation",
-              "group_fr": "Chasseur de démons"
+              "group_fr": "Chasseur de démons",
+              "icon": "images/armes/inv_glaive_1h_artifactazgalor_d_01.jpg"
             },
             {
               "name": "Aldrachi Warblades",
@@ -564,7 +644,8 @@
               "detail": "Vengeance",
               "status": "working",
               "name_fr": "Les lames de guerre des Aldrachi",
-              "group_fr": "Chasseur de démons"
+              "group_fr": "Chasseur de démons",
+              "icon": "images/armes/inv_glaive_1h_artifactaldrochi_d_01.jpg"
             }
           ],
           "title_fr": "Quêtes d'arme prodigieuse"
@@ -1111,14 +1192,16 @@
             {
               "name": "Brawler's Guild",
               "status": "working",
-              "name_fr": "Guilde des Bastonneurs"
+              "name_fr": "Guilde des Bastonneurs",
+              "icon": "images/autres/inv_tabard_brawlersguildalliance.jpg"
             },
             {
               "name": "Isle of Thunder opening",
               "status": "untested",
               "note": "Base code in place, untested",
               "name_fr": "Ouverture de l'île du Tonnerre",
-              "note_fr": "Code de base en place, non testé"
+              "note_fr": "Code de base en place, non testé",
+              "icon": "images/autres/spell_nature_callstorm.jpg"
             }
           ]
         },
@@ -1129,17 +1212,20 @@
             {
               "name": "Garrison (overall)",
               "status": "progress",
-              "name_fr": "Fief (ensemble)"
+              "name_fr": "Fief (ensemble)",
+              "icon": "images/fief/achievement_garrison_tier03_alliance.jpg"
             },
             {
               "name": "Garrison invasions",
               "name_fr": "Invasions du fief",
-              "status": "partial"
+              "status": "partial",
+              "icon": "images/fief/achievement_garrison_invasion.jpg"
             },
             {
               "name": "Apexis assaults",
               "name_fr": "Assauts Apexis",
-              "status": "partial"
+              "status": "partial",
+              "icon": "images/fief/inv_apexis_draenor.jpg"
             }
           ]
         },
@@ -1152,70 +1238,80 @@
               "name_fr": "Laboratoire d’alchimie",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/trade_alchemy.jpg"
             },
             {
               "name": "Enchanter's Study",
               "name_fr": "Cabinet d’enchanteur",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/trade_engraving.jpg"
             },
             {
               "name": "Engineering Works",
               "name_fr": "Pôle d’ingénierie",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/trade_engineering.jpg"
             },
             {
               "name": "Scribe's Quarters",
               "name_fr": "Étude de scribe",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/inv_inscription_tradeskill01.jpg"
             },
             {
               "name": "Gem Boutique",
               "name_fr": "Boutique de gemmes",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/inv_misc_gem_01.jpg"
             },
             {
               "name": "The Tannery",
               "name_fr": "Tannerie",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/inv_misc_armorkit_17.jpg"
             },
             {
               "name": "Tailoring Emporium",
               "name_fr": "Atelier de couture",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/trade_tailoring.jpg"
             },
             {
               "name": "The Forge",
               "name_fr": "Forge",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/trade_blacksmithing.jpg"
             },
             {
               "name": "Salvage Yard",
               "name_fr": "Centre de tri",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_salvageyard.jpg"
             },
             {
               "name": "Storehouse",
               "name_fr": "Entrepôt",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_storehouse.jpg"
             }
           ]
         },
@@ -1228,35 +1324,40 @@
               "name_fr": "Grange",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_barn.jpg"
             },
             {
               "name": "Gladiator's Sanctum",
               "name_fr": "Sanctum du Gladiateur",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_sparringarena.jpg"
             },
             {
               "name": "Lumber Mill",
               "name_fr": "Scierie",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_lumbermill.jpg"
             },
             {
               "name": "Trading Post",
               "name_fr": "Comptoir",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_tradingpost.jpg"
             },
             {
               "name": "Lunarfall Inn / Frostwall Tavern",
               "name_fr": "Auberge de Chutelune / Taverne de Mur-de-Givre",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/inv_misc_rune_01.jpg"
             }
           ]
         },
@@ -1269,35 +1370,40 @@
               "name_fr": "Caserne",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_barracks.jpg"
             },
             {
               "name": "Dwarven Bunker / War Mill",
               "name_fr": "Fortin nain / Usine de guerre",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_armory.jpg"
             },
             {
               "name": "Gnomish Gearworks / Goblin Workshop",
               "name_fr": "Atelier gnome / Atelier gobelin",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_workshop.jpg"
             },
             {
               "name": "Mage Tower / Spirit Lodge",
               "name_fr": "Tour des mages / Autel des esprits",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_magetower.jpg"
             },
             {
               "name": "Stables",
               "name_fr": "Écuries",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_stables.jpg"
             }
           ]
         },
@@ -1310,42 +1416,48 @@
               "name_fr": "Hôtel de ville (niveau du fief)",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/achievement_garrison_tier01_alliance.jpg"
             },
             {
               "name": "Herb Garden",
               "name_fr": "Jardin de simples",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/inv_misc_herb_sansamroot.jpg"
             },
             {
               "name": "Lunarfall Excavation / Frostwall Mines",
               "name_fr": "Excavation de Chutelune / Mine de Mur-de-Givre",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/trade_mining.jpg"
             },
             {
               "name": "Fishing Shack",
               "name_fr": "Cabane de pêche",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/trade_fishing.jpg"
             },
             {
               "name": "Menagerie",
               "name_fr": "Ménagerie",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/garrison_building_menagerie.jpg"
             },
             {
               "name": "Lunarfall Shipyard / Frostwall Shipyard",
               "name_fr": "Chantier naval de Chutelune / Chantier naval de Mur-de-Givre",
               "status": "untested",
               "detail": "Levels 1 to 3",
-              "detail_fr": "Niveaux 1 à 3"
+              "detail_fr": "Niveaux 1 à 3",
+              "icon": "images/fief/inv_garrison_cargoship.jpg"
             }
           ]
         }

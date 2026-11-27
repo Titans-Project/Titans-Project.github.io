@@ -106,7 +106,7 @@ h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: v
 .label.also { opacity: .9; }
 .tile.with-icon { flex-direction: row; align-items: center; gap: 12px; }
 .tile .tbody { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
-.tile .ticon { flex: none; width: 40px; height: 40px; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,.35); }
+.tile .ticon { flex: none; width: 40px; height: 40px; border-radius: 8px; border: 1px solid rgba(0,0,0,.45); box-shadow: 0 1px 4px rgba(0,0,0,.35); }
 .tile .ticon.wide { width: 64px; height: 32px; border-radius: 0; box-shadow: none; filter: drop-shadow(0 1px 3px rgba(0,0,0,.4)); }
 
 /* dungeons and raids: picture with the name over it, as on the project site */
@@ -122,10 +122,14 @@ h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .06em; color: v
 
 /* classes: one card per class with its specializations */
 .classes { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 12px; }
-.class { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; overflow: hidden; }
-.class h4 { margin: 0; padding: 10px 14px; font-size: 15px; background: var(--surface-2); border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.class { background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--cc, var(--line)); border-radius: 12px; overflow: hidden; box-shadow: var(--shadow); }
+.class h4 { margin: 0; padding: 10px 14px; font-size: 15px; background: linear-gradient(90deg, color-mix(in srgb, var(--cc, transparent) 16%, var(--surface-2)), var(--surface-2) 70%); border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.class h4 .cname { display: inline-flex; align-items: center; gap: 10px; }
+.class h4 img { width: 28px; height: 28px; border-radius: 6px; border: 1px solid rgba(0,0,0,.45); box-shadow: 0 1px 3px rgba(0,0,0,.3); }
 .class h4 .pips { gap: 3px; }
 .spec { display: grid; grid-template-columns: 10px 1fr auto; gap: 10px; align-items: center; padding: 9px 14px; border-top: 1px solid var(--line); }
+.spec.iconed { grid-template-columns: 32px 1fr auto; }
+.spec .sicon { width: 32px; height: 32px; border-radius: 6px; border: 1px solid rgba(0,0,0,.45); box-shadow: 0 1px 3px rgba(0,0,0,.3); }
 .spec:first-of-type { border-top: 0; }
 .spec .w { min-width: 0; }
 .spec .w div { font-weight: 600; font-size: 14px; line-height: 1.3; }
@@ -192,6 +196,11 @@ footer { margin-top: 44px; color: var(--muted); font-size: 13px; border-top: 1px
 </div>
 <script>
 const ORDER = ['working', 'partial', 'progress', 'broken', 'untested'];
+const CLASSES = {
+  'Warrior': ['warrior', '#C69B6D'], 'Paladin': ['paladin', '#F48CBA'], 'Hunter': ['hunter', '#AAD372'], 'Rogue': ['rogue', '#FFF468'],
+  'Priest': ['priest', '#D8D8D8'], 'Shaman': ['shaman', '#0070DD'], 'Mage': ['mage', '#3FC7EB'], 'Warlock': ['warlock', '#8788EE'],
+  'Monk': ['monk', '#00FF98'], 'Druid': ['druid', '#FF7C0A'], 'Death Knight': ['deathknight', '#C41E3A'], 'Demon Hunter': ['demonhunter', '#A330C9']
+};
 const T = {
   en: {
     tagline: 'Development tracker: what works, what is in progress and what is still untested.',
@@ -274,9 +283,10 @@ function classCards(g, s) {
   for (const it of g.items) if (matches(it, s, g)) { if (!by.has(it.group)) by.set(it.group, []); by.get(it.group).push(it); }
   if (!by.size) return '';
   return `<div class="classes">` + [...by.values()].map(list => {
-    const name = tr(list[0], 'group');
-    return `<div class="class"><h4><span>${esc(name)}</span>${pips(list)}</h4>` + list.map(it =>
-      `<div class="spec"><span class="dot" style="background:var(--${it.status})"></span><div class="w"><div>${esc(tr(it, 'name'))}</div>${it.detail || it.note ? `<small>${[it.detail && esc(tr(it, 'detail')), it.note && esc(tr(it, 'note'))].filter(Boolean).join(' · ')}</small>` : ''}</div>${label(it.status)}</div>`).join('') + `</div>`;
+    const name = tr(list[0], 'group'), cls = CLASSES[list[0].group];
+    const head = cls ? `<span class="cname"><img src="images/classes/classicon_${cls[0]}.jpg" alt="">${esc(name)}</span>` : `<span>${esc(name)}</span>`;
+    return `<div class="class"${cls ? ` style="--cc:${cls[1]}"` : ''}><h4>${head}${pips(list)}</h4>` + list.map(it =>
+      `<div class="spec${it.icon ? ' iconed' : ''}">${it.icon ? `<img class="sicon" src="${esc(it.icon)}" alt="" loading="lazy">` : `<span class="dot" style="background:var(--${it.status})"></span>`}<div class="w"><div>${esc(tr(it, 'name'))}</div>${it.detail || it.note ? `<small>${[it.detail && esc(tr(it, 'detail')), it.note && esc(tr(it, 'note'))].filter(Boolean).join(' · ')}</small>` : ''}</div>${label(it.status)}</div>`).join('') + `</div>`;
   }).join('') + `</div>`;
 }
 

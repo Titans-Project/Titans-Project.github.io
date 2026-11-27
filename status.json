@@ -1056,19 +1056,19 @@
             },
             {
               "name": "March of the Tadpoles",
-              "status": "untested",
+              "status": "progress",
               "name_fr": "Marche des têtards",
               "icon": "images/fetes/marchofthetadpoles.jpg"
             },
             {
               "name": "Moonkin Festival",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Fête des Séléniens",
               "icon": "images/fetes/moonkinfestival.jpg"
             },
             {
               "name": "Spring Balloon Festival",
-              "status": "untested",
+              "status": "progress",
               "name_fr": "Printemps des montgolfières",
               "icon": "images/fetes/springballoonfestivalstart.jpg"
             },

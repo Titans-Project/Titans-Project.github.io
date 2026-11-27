@@ -7575,25 +7575,25 @@
             },
             {
               "name": "Iron Docks",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Quais de Fer",
               "image": "images/draenor/iron_docks.jpg"
             },
             {
               "name": "Auchindoun",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Auchindoun",
               "image": "images/draenor/auchindoun.jpg"
             },
             {
               "name": "Skyreach",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Orée-du-Ciel",
               "image": "images/draenor/skyreach.jpg"
             },
             {
               "name": "Grimrail Depot",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Dépôt de Tristerail",
               "image": "images/draenor/grimrail_depot.jpg"
             },

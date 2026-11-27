@@ -1,0 +1,1896 @@
+[
+ {
+  "links": [
+   [
+    "How To Win Friends And Influence Enemies",
+    "quest=12720"
+   ],
+   [
+    "Master Hunter's Seeking Crystal",
+    "item=128503"
+   ],
+   [
+    "The Gift That Keeps On Giving",
+    "quest=12698"
+   ],
+   [
+    "Invoke Niuzao, the Black Ox",
+    "spell=132578"
+   ],
+   [
+    "Blades of the Fallen Prince",
+    "item=128293"
+   ],
+   [
+    "The Goblins Stole Our Bombs",
+    "quest=45811"
+   ],
+   [
+    "Audience with the Warchief",
+    "quest=40976"
+   ],
+   [
+    "Scale of the Earth-Warder",
+    "item=128289"
+   ],
+   [
+    "Into the Realm of Shadows",
+    "quest=12687"
+   ],
+   [
+    "Massacre At Light's Point",
+    "quest=12701"
+   ],
+   [
+    "Huntress Sandrya Moonfall",
+    "npc=33178"
+   ],
+   [
+    "Headless Horseman's Mount",
+    "npc=24814"
+   ],
+   [
+    "The Might of the Scourge",
+    "quest=12657"
+   ],
+   [
+    "Highlord Darion Mograine",
+    "npc=28444"
+   ],
+   [
+    "The Future of Gnomeregan",
+    "quest=41217"
+   ],
+   [
+    "Last Rites, First Rites",
+    "quest=24861"
+   ],
+   [
+    "The Keys to the Hot Rod",
+    "quest=28607"
+   ],
+   [
+    "Firemaul of Destruction",
+    "item=123987"
+   ],
+   [
+    "In the Blink of an Eye",
+    "quest=44663"
+   ],
+   [
+    "An End To All Things..",
+    "quest=12779"
+   ],
+   [
+    "Rolling with my Homies",
+    "quest=14071"
+   ],
+   [
+    "Cloak of Blade Turning",
+    "item=133459"
+   ],
+   [
+    "Storm, Earth, and Fire",
+    "spell=137639"
+   ],
+   [
+    "Way of the Mok'Nathal",
+    "spell=201082"
+   ],
+   [
+    "Fangs of the Devourer",
+    "item=128479"
+   ],
+   [
+    "Taldath the Destroyer",
+    "npc=94731"
+   ],
+   [
+    "Frostbrood Vanquisher",
+    "npc=28670"
+   ],
+   [
+    "The Might of Mograine",
+    "spell=53642"
+   ],
+   [
+    "A Favor for Evershine",
+    "quest=319"
+   ],
+   [
+    "The Ways of the World",
+    "quest=46064"
+   ],
+   [
+    "Call of the Marksman",
+    "quest=40392"
+   ],
+   [
+    "An Eye for a Scepter",
+    "quest=43153"
+   ],
+   [
+    "Vault of the Wardens",
+    "quest=44261"
+   ],
+   [
+    "Call of the Illidari",
+    "quest=39261"
+   ],
+   [
+    "The Power to Survive",
+    "quest=40816"
+   ],
+   [
+    "Grand Theft Palomino",
+    "quest=12680"
+   ],
+   [
+    "Salanar the Horseman",
+    "npc=28653"
+   ],
+   [
+    "Dentaria Silverglade",
+    "npc=32973"
+   ],
+   [
+    "Escaped From Gilneas",
+    "quest=24992"
+   ],
+   [
+    "A Letter Undelivered",
+    "quest=361"
+   ],
+   [
+    "The Great Bank Heist",
+    "quest=14122"
+   ],
+   [
+    "Balanced Perspective",
+    "quest=29784"
+   ],
+   [
+    "Xin the Weaponmaster",
+    "npc=61398"
+   ],
+   [
+    "Celestial Blacksmith",
+    "npc=69828"
+   ],
+   [
+    "Greater Invisibility",
+    "spell=16380"
+   ],
+   [
+    "Terms of Engagement",
+    "spell=203754"
+   ],
+   [
+    "The Fourth Horseman",
+    "quest=43686"
+   ],
+   [
+    "Dancing Rune Weapon",
+    "spell=49028"
+   ],
+   [
+    "Making Arrangements",
+    "quest=41120"
+   ],
+   [
+    "Warchief's Blessing",
+    "quest=13189"
+   ],
+   [
+    "Koltira Deathweaver",
+    "npc=26581"
+   ],
+   [
+    "Muffinus Chromebrew",
+    "npc=103614"
+   ],
+   [
+    "Return to Bellowfiz",
+    "quest=320"
+   ],
+   [
+    "Dirania Silvershine",
+    "npc=8583"
+   ],
+   [
+    "A Thorn in our Side",
+    "quest=24981"
+   ],
+   [
+    "X-53 Touring Rocket",
+    "npc=40725"
+   ],
+   [
+    "A Tadpole's Request",
+    "quest=46062"
+   ],
+   [
+    "Jedoga Shadowseeker",
+    "npc=29310"
+   ],
+   [
+    "Supreme Lord Kazzak",
+    "npc=94015"
+   ],
+   [
+    "Unstable Affliction",
+    "spell=30108"
+   ],
+   [
+    "Visage of Ohn'ahra",
+    "npc=102694"
+   ],
+   [
+    "Deadwind Harvester",
+    "spell=199440"
+   ],
+   [
+    "Seed of Corruption",
+    "spell=27243"
+   ],
+   [
+    "Skull of Shar'thos",
+    "item=140659"
+   ],
+   [
+    "Return to Karazhan",
+    "quest=44556"
+   ],
+   [
+    "A Village in Peril",
+    "quest=39149"
+   ],
+   [
+    "Brackwater Barrage",
+    "spell=202088"
+   ],
+   [
+    "The Eye of Acherus",
+    "quest=12636"
+   ],
+   [
+    "Stormwind Infantry",
+    "npc=16864"
+   ],
+   [
+    "Extinguishing Hope",
+    "quest=26391"
+   ],
+   [
+    "Down with Crushcog",
+    "quest=26364"
+   ],
+   [
+    "The Sleeping Druid",
+    "quest=2541"
+   ],
+   [
+    "Unexpected Results",
+    "quest=8488"
+   ],
+   [
+    "Delios Silverblade",
+    "npc=43010"
+   ],
+   [
+    "Fanning the Flames",
+    "quest=29523"
+   ],
+   [
+    "Love is in the Air",
+    "spell=27741"
+   ],
+   [
+    "Death Metal Knight",
+    "npc=122899"
+   ],
+   [
+    "Call of the Scarab",
+    "quest=45787"
+   ],
+   [
+    "Grog, Rum, and Ale",
+    "quest=45809"
+   ],
+   [
+    "Volatile Anomalies",
+    "spell=157265"
+   ],
+   [
+    "Shadow Empowerment",
+    "spell=127485"
+   ],
+   [
+    "Mercenary Contract",
+    "spell=193472"
+   ],
+   [
+    "Return to Dalaran",
+    "spell=210358"
+   ],
+   [
+    "Fury of the Eagle",
+    "spell=203413"
+   ],
+   [
+    "Echoes of Ohn'ara",
+    "spell=238125"
+   ],
+   [
+    "Fangs of Ashamane",
+    "item=128860"
+   ],
+   [
+    "Maw of the Damned",
+    "item=128402"
+   ],
+   [
+    "Rampaging Torrent",
+    "spell=217229"
+   ],
+   [
+    "Demons Among Them",
+    "quest=44463"
+   ],
+   [
+    "Spoils of Victory",
+    "quest=41070"
+   ],
+   [
+    "The Hunter's Gaze",
+    "quest=41066"
+   ],
+   [
+    "Death's Challenge",
+    "quest=12733"
+   ],
+   [
+    "The Light of Dawn",
+    "quest=12801"
+   ],
+   [
+    "Rejold's New Brew",
+    "quest=415"
+   ],
+   [
+    "Nature's Reprisal",
+    "quest=13946"
+   ],
+   [
+    "Unbidden Visitors",
+    "quest=25194"
+   ],
+   [
+    "Safety in Numbers",
+    "quest=14291"
+   ],
+   [
+    "Eck the Ferocious",
+    "npc=29932"
+   ],
+   [
+    "Drakkari Colossus",
+    "npc=29307"
+   ],
+   [
+    "Animal Instincts",
+    "spell=203149"
+   ],
+   [
+    "Marked for Death",
+    "spell=67823"
+   ],
+   [
+    "Symbols of Death",
+    "spell=212283"
+   ],
+   [
+    "Call to the Void",
+    "spell=193371"
+   ],
+   [
+    "Cloudburst Totem",
+    "npc=78001"
+   ],
+   [
+    "Special Delivery",
+    "spell=196730"
+   ],
+   [
+    "Demonic Appetite",
+    "spell=206478"
+   ],
+   [
+    "Northern Barrens",
+    "spell=258477"
+   ],
+   [
+    "Turbulent Vortex",
+    "spell=217360"
+   ],
+   [
+    "Securing the Way",
+    "quest=42872"
+   ],
+   [
+    "Swift Discipline",
+    "quest=9066"
+   ],
+   [
+    "Warrior Training",
+    "quest=9289"
+   ],
+   [
+    "Sassy Hardwrench",
+    "npc=34668"
+   ],
+   [
+    "Pilgrim's Bounty",
+    "item=116404"
+   ],
+   [
+    "Spectral Feather",
+    "item=142259"
+   ],
+   [
+    "Anti-Magic Shell",
+    "spell=31662"
+   ],
+   [
+    "Phoenix's Flames",
+    "spell=194466"
+   ],
+   [
+    "The Silver Hand",
+    "item=137660"
+   ],
+   [
+    "Krasus' Landing",
+    "quest=32410"
+   ],
+   [
+    "Hunter's Bounty",
+    "spell=203749"
+   ],
+   [
+    "The Kingslayers",
+    "item=128870"
+   ],
+   [
+    "Restless Blades",
+    "spell=79096"
+   ],
+   [
+    "Surge of Toxins",
+    "spell=192424"
+   ],
+   [
+    "Shadow Gestures",
+    "spell=252732"
+   ],
+   [
+    "Ritual Reagents",
+    "quest=42128"
+   ],
+   [
+    "Elusive Brawler",
+    "spell=195630"
+   ],
+   [
+    "Black Ox Statue",
+    "spell=163177"
+   ],
+   [
+    "Betrayer's Fury",
+    "spell=252165"
+   ],
+   [
+    "Black Rook Hold",
+    "quest=38716"
+   ],
+   [
+    "The Call of War",
+    "quest=39692"
+   ],
+   [
+    "Varedis Felsoul",
+    "npc=94310"
+   ],
+   [
+    "Felsoul Crusher",
+    "npc=95452"
+   ],
+   [
+    "Bloody Breakout",
+    "quest=12727"
+   ],
+   [
+    "Orbaz Bloodbane",
+    "npc=28448"
+   ],
+   [
+    "Rockjaw Invader",
+    "npc=37070"
+   ],
+   [
+    "Dwarven Digging",
+    "quest=14436"
+   ],
+   [
+    "Fourth and Goal",
+    "quest=28414"
+   ],
+   [
+    "Monkey Business",
+    "quest=14019"
+   ],
+   [
+    "Seek the Sister",
+    "quest=14278"
+   ],
+   [
+    "Children's Week",
+    "quest=10943"
+   ],
+   [
+    "Big Love Rocket",
+    "npc=38204"
+   ],
+   [
+    "Celestial Steed",
+    "npc=40625"
+   ],
+   [
+    "Garbage Fishing",
+    "quest=45807"
+   ],
+   [
+    "Beach Ball Bash",
+    "quest=45808"
+   ],
+   [
+    "Quick-Dry Resin",
+    "spell=121447"
+   ],
+   [
+    "Seeping Shadows",
+    "spell=103175"
+   ],
+   [
+    "Demonic Gateway",
+    "npc=59262"
+   ],
+   [
+    "The Expendables",
+    "spell=211218"
+   ],
+   [
+    "Death's Embrace",
+    "quest=8186"
+   ],
+   [
+    "Controlled Burn",
+    "spell=151530"
+   ],
+   [
+    "Critical Strike",
+    "spell=1132"
+   ],
+   [
+    "Seaforium Blast",
+    "spell=52408"
+   ],
+   [
+    "Pillar of Frost",
+    "spell=51271"
+   ],
+   [
+    "Spitting Cobra",
+    "spell=194407"
+   ],
+   [
+    "Roll the Bones",
+    "spell=140293"
+   ],
+   [
+    "Gift of the Ox",
+    "spell=124502"
+   ],
+   [
+    "Claws of Ursoc",
+    "item=128822"
+   ],
+   [
+    "Rescue Koltira",
+    "npc=108703"
+   ],
+   [
+    "Feast of Souls",
+    "spell=181973"
+   ],
+   [
+    "Artisan Riding",
+    "spell=34091"
+   ],
+   [
+    "Prince Valanar",
+    "npc=25601"
+   ],
+   [
+    "Scarlet Cannon",
+    "npc=28833"
+   ],
+   [
+    "Eye of Acherus",
+    "npc=28511"
+   ],
+   [
+    "Brother Paxton",
+    "npc=951"
+   ],
+   [
+    "A Cry For Help",
+    "quest=9528"
+   ],
+   [
+    "Tree's Company",
+    "quest=9531"
+   ],
+   [
+    "Ever So Lonely",
+    "quest=24974"
+   ],
+   [
+    "Oomlot Warrior",
+    "npc=38531"
+   ],
+   [
+    "Number One Fan",
+    "spell=245102"
+   ],
+   [
+    "Abyssal Crests",
+    "quest=8362"
+   ],
+   [
+    "Stone Guardian",
+    "npc=6560"
+   ],
+   [
+    "Clean-Up Canoe",
+    "npc=118114"
+   ],
+   [
+    "Trial of Style",
+    "spell=243549"
+   ],
+   [
+    "Ancient Flames",
+    "spell=40657"
+   ],
+   [
+    "Mark of Kazzak",
+    "spell=21056"
+   ],
+   [
+    "Grimrail Depot",
+    "npc=79905"
+   ],
+   [
+    "All Will Serve",
+    "spell=194916"
+   ],
+   [
+    "Demonic Circle",
+    "npc=77808"
+   ],
+   [
+    "Focus in Chaos",
+    "spell=200871"
+   ],
+   [
+    "Touch of Elune",
+    "spell=154748"
+   ],
+   [
+    "Grappling Hook",
+    "npc=83859"
+   ],
+   [
+    "Hunter's Call",
+    "item=136855"
+   ],
+   [
+    "Throwing Axes",
+    "spell=200163"
+   ],
+   [
+    "Mortal Wounds",
+    "spell=115804"
+   ],
+   [
+    "Chimaera Shot",
+    "spell=53209"
+   ],
+   [
+    "Lock and Load",
+    "spell=194594"
+   ],
+   [
+    "Beast Mastery",
+    "spell=198433"
+   ],
+   [
+    "Light's Wrath",
+    "item=128868"
+   ],
+   [
+    "Dark Whispers",
+    "quest=42125"
+   ],
+   [
+    "Sow the Seeds",
+    "spell=196226"
+   ],
+   [
+    "Blackout Kick",
+    "spell=100784"
+   ],
+   [
+    "Rend and Tear",
+    "spell=155060"
+   ],
+   [
+    "Flame Fissure",
+    "npc=110023"
+   ],
+   [
+    "Massive Spout",
+    "spell=217249"
+   ],
+   [
+    "Burning Earth",
+    "spell=215856"
+   ],
+   [
+    "Immortal Soul",
+    "quest=42510"
+   ],
+   [
+    "Much to Learn",
+    "quest=30045"
+   ],
+   [
+    "Auction House",
+    "npc=91914"
+   ],
+   [
+    "Fhwoor Smash!",
+    "quest=9729"
+   ],
+   [
+    "Herald Volazj",
+    "npc=29311"
+   ],
+   [
+    "Blasted Lands",
+    "spell=258505"
+   ],
+   [
+    "Thunder Forge",
+    "npc=70061"
+   ],
+   [
+    "Manifest Rage",
+    "spell=147011"
+   ],
+   [
+    "Risen Skulker",
+    "npc=99541"
+   ],
+   [
+    "Diffuse Magic",
+    "spell=122783"
+   ],
+   [
+    "Ebon Gargoyle",
+    "npc=27829"
+   ],
+   [
+    "Spirit Winds",
+    "spell=144455"
+   ],
+   [
+    "Snake Hunter",
+    "spell=201078"
+   ],
+   [
+    "Eagle's Bite",
+    "spell=203757"
+   ],
+   [
+    "Talon Strike",
+    "spell=32909"
+   ],
+   [
+    "True Bearing",
+    "spell=193359"
+   ],
+   [
+    "Void Tendril",
+    "spell=250834"
+   ],
+   [
+    "Healing Rain",
+    "spell=73920"
+   ],
+   [
+    "Fatal Echoes",
+    "spell=199257"
+   ],
+   [
+    "Felfire Bomb",
+    "spell=217785"
+   ],
+   [
+    "Soul Barrier",
+    "spell=138979"
+   ],
+   [
+    "Demon Spikes",
+    "spell=203720"
+   ],
+   [
+    "Bound by Fel",
+    "spell=218350"
+   ],
+   [
+    "Maw of Souls",
+    "item=113653"
+   ],
+   [
+    "Second Sight",
+    "quest=44471"
+   ],
+   [
+    "By Any Means",
+    "quest=41121"
+   ],
+   [
+    "Lord Thorval",
+    "npc=28472"
+   ],
+   [
+    "Ram Delivery",
+    "quest=13637"
+   ],
+   [
+    "Gravity Flux",
+    "spell=36533"
+   ],
+   [
+    "Kill Command",
+    "spell=34026"
+   ],
+   [
+    "Dark Arbiter",
+    "spell=207349"
+   ],
+   [
+    "Violet Hold",
+    "quest=44259"
+   ],
+   [
+    "Titanstrike",
+    "item=128861"
+   ],
+   [
+    "Black Arrow",
+    "spell=20733"
+   ],
+   [
+    "Loaded Dice",
+    "spell=238139"
+   ],
+   [
+    "Felo'melorn",
+    "item=128820"
+   ],
+   [
+    "Solar Wrath",
+    "spell=5176"
+   ],
+   [
+    "Bloody Gash",
+    "spell=252750"
+   ],
+   [
+    "Soul Cleave",
+    "spell=58913"
+   ],
+   [
+    "Spirit Bomb",
+    "spell=73572"
+   ],
+   [
+    "Shadow Gale",
+    "spell=75664"
+   ],
+   [
+    "The New You",
+    "quest=14110"
+   ],
+   [
+    "Huojin Monk",
+    "npc=60176"
+   ],
+   [
+    "Magic Broom",
+    "npc=23966"
+   ],
+   [
+    "Molten Core",
+    "spell=150678"
+   ],
+   [
+    "Lord Kazzak",
+    "npc=12397"
+   ],
+   [
+    "Pet Trainer",
+    "spell=170758"
+   ],
+   [
+    "Runic Power",
+    "spell=138214"
+   ],
+   [
+    "Ashbringer",
+    "item=137582"
+   ],
+   [
+    "Truthguard",
+    "item=137661"
+   ],
+   [
+    "Cobra Spit",
+    "spell=206685"
+   ],
+   [
+    "Fluffy, Go",
+    "spell=203669"
+   ],
+   [
+    "Mind Blast",
+    "spell=8092"
+   ],
+   [
+    "Flame Rift",
+    "spell=238146"
+   ],
+   [
+    "Yigthregor",
+    "npc=109820"
+   ],
+   [
+    "Death Coil",
+    "spell=28412"
+   ],
+   [
+    "Death Gate",
+    "spell=50977"
+   ],
+   [
+    "Oakenscowl",
+    "npc=2166"
+   ],
+   [
+    "Ilthalaine",
+    "npc=2079"
+   ],
+   [
+    "Trading Up",
+    "quest=24741"
+   ],
+   [
+    "Happy Feet",
+    "spell=243138"
+   ],
+   [
+    "Lorthalium",
+    "npc=115537"
+   ],
+   [
+    "Dying Wish",
+    "quest=33973"
+   ],
+   [
+    "Fiery Edge",
+    "spell=142808"
+   ],
+   [
+    "Dire Beast",
+    "spell=120679"
+   ],
+   [
+    "Drain Soul",
+    "spell=32862"
+   ],
+   [
+    "Chaos Tear",
+    "spell=215276"
+   ],
+   [
+    "Heating Up",
+    "spell=48107"
+   ],
+   [
+    "Fresh Meat",
+    "spell=179408"
+   ],
+   [
+    "Dark Rider",
+    "npc=99871"
+   ],
+   [
+    "Talonclaw",
+    "item=128808"
+   ],
+   [
+    "Xal'atath",
+    "npc=111221"
+   ],
+   [
+    "Void Bolt",
+    "spell=7588"
+   ],
+   [
+    "Mind Flay",
+    "spell=15407"
+   ],
+   [
+    "Jagganoth",
+    "npc=98831"
+   ],
+   [
+    "Stave Off",
+    "spell=238093"
+   ],
+   [
+    "Shar'thos",
+    "npc=108678"
+   ],
+   [
+    "Nythendra",
+    "npc=102672"
+   ],
+   [
+    "Lich King",
+    "npc=86096"
+   ],
+   [
+    "Dino Mojo",
+    "item=144228"
+   ],
+   [
+    "Boat Tour",
+    "quest=45806"
+   ],
+   [
+    "Face Palm",
+    "spell=213116"
+   ],
+   [
+    "Thoradin",
+    "npc=103144"
+   ],
+   [
+    "Prustaga",
+    "npc=104949"
+   ],
+   [
+    "Mongoose",
+    "npc=65190"
+   ],
+   [
+    "Eye Beam",
+    "spell=26134"
+   ],
+   [
+    "Levantus",
+    "npc=108829"
+   ],
+   [
+    "Karazhan",
+    "npc=115829"
+   ],
+   [
+    "The Hunt",
+    "quest=41119"
+   ],
+   [
+    "Fel Tome",
+    "npc=114816"
+   ],
+   [
+    "Eversong",
+    "npc=93705"
+   ],
+   [
+    "Amanitar",
+    "npc=30258"
+   ],
+   [
+    "Azuregos",
+    "npc=6109"
+   ],
+   [
+    "Calydus",
+    "npc=99178"
+   ],
+   [
+    "Sheilun",
+    "npc=102479"
+   ],
+   [
+    "G'Hanir",
+    "npc=104726"
+   ],
+   [
+    "Val'kyr",
+    "npc=45249"
+   ],
+   [
+    "Zidormi",
+    "npc=31848"
+   ],
+   [
+    "Thunder",
+    "item=28440"
+   ],
+   [
+    "XR9-47",
+    "npc=105016"
+   ],
+   [
+    "T'uure",
+    "npc=99904"
+   ],
+   [
+    "Fu Zan",
+    "npc=109432"
+   ],
+   [
+    "Yu'lon",
+    "npc=56762"
+   ],
+   [
+    "Niuzao",
+    "npc=61093"
+   ],
+   [
+    "Breach",
+    "npc=121605"
+   ],
+   [
+    "Kae Ti",
+    "npc=68402"
+   ],
+   [
+    "Smelly",
+    "item=75273"
+   ],
+   [
+    "Halion",
+    "npc=39863"
+   ],
+   [
+    "Velen",
+    "npc=76754"
+   ],
+   [
+    "Grash",
+    "npc=105298"
+   ],
+   [
+    "Marla",
+    "npc=121739"
+   ],
+   [
+    "Mrrga",
+    "npc=118662"
+   ],
+   [
+    "Ordos",
+    "npc=72057"
+   ],
+   [
+    "Billy",
+    "npc=1367"
+   ]
+  ],
+  "tag": "0.6",
+  "date": "2026-11-27",
+  "url": "https://github.com/Titans-Project/LegionCore-Reforged/releases/tag/0.6",
+  "prerelease": true,
+  "banner": "images/versions/0.6.webp",
+  "body": "## Legion: class halls and artifacts\n\n### Artifacts\n\n- **[Fix]** Core/Items: artifact weapons are equipped on receipt in their scenario.\n- **[Fix]** Core/Items: the off-hand of a two-piece artifact weapon is kept when swapping.\n- **[Fix]** DB/Quests: artifact weapon choice panels show their real artwork (demon hunter, warrior, mage).\n- **[Fix]** DB/Quests: artifact weapon choice panels read in French.\n\n### Class halls\n\n- **[Fix]** DB/Quests: class campaign quests are limited to their class.\n- **[Fix]** Core/Quests: class hall scouting map (option shown, zones taken, window closed).\n- **[Fix]** DB/Order halls: the original repack's acolytes no longer offer every campaign quest a second time.\n- **[Fix]** DB/Quests: Dalaran class calls after the arrival and class couriers summoned before their quest, for every class.\n- **[Fix]** DB/SpellArea: Dalaran phases, quest-bound auras apply in the right quest states.\n- **[Fix]** Core/Scenarios: class scenarios on maps shared by several classes (demon hunters no longer get the hunter's in the Violet Hold).\n- **[Fix]** Scripts/Artifacts: the Dreadblades scenario is registered on its map; Felo'melorn's Violet Hold is registered.\n\n*The artifact scenarios below received fixes; they have not all been played through to the end yet.*\n\n### Warrior\n\n- **[Fix]** Scripts/Strom'kar: Execute only targets Zakajz.\n- **[Fix]** Scripts/Strom'kar: the recoil throws the players back from the sword; Zakajz then engages them.\n- **[Fix]** Scripts/Strom'kar: Thoradin comes at the end of the fight and gives the way back to Skyhold.\n- **[Fix]** DB/Quests: Strom'kar quest objectives no longer share one counter.\n- **[Fix]** DB/Loot: the Strom'kar chest gives the blade.\n- **[Fix]** Scripts/Warswords: a corpse goes to a grounded graveyard; no second fall through the opening after a relog.\n- **[Fix]** Scripts/Scale of the Earth-Warder: a summon killed outside a wave no longer breaks the wave counter.\n- **[Fix]** Scripts/Warrior introduction: Malgalor's end and the victory for every member of the group.\n- **[Fix]** DB/Scenarios: the three weapons are equipped at the end of their scene.\n- **[Fix]** DB/Conditions: Odyn only offers the artifacts not acquired yet.\n- **[Fix]** Scripts/Spells: War Machine (Fury talent) gives its buff to the warrior when an enemy dies.\n- **[Fix]** Scripts/Spells: Fury T21 2-piece, each hit leaves its bleed.\n\n### Paladin\n\n- **[Fix]** Scripts/Ashbringer: the weapon can still be taken with full bags.\n- **[Fix]** Scripts/The Silver Hand: the chest gives the weapon.\n- **[Fix]** Scripts/Truthguard: storms no longer stay stuck in the corridor.\n- **[Fix]** Scripts/Spells: Protection T21 2-piece, its buff is refreshed once per second instead of on every server update.\n\n### Hunter\n\n- **[Fix]** DB/Titanstrike: introduction in order (Grif, Prustaga); rifle props.\n- **[Fix]** Scripts/Titanstrike: rune ritual waves count every kill, from range or by a pet.\n- **[Fix]** DB/Titanstrike: runes shown, their anchors in the air.\n- **[Fix]** Scripts/Titanstrike: XR9-47 waits for its three constructs.\n- **[Fix]** Scripts/Titanstrike: Mimiron's lines; his fusion waits for both cores.\n- **[Fix]** Scripts/Titanstrike: Spirit Winds in the tomb corridor.\n- **[Fix]** DB/Titanstrike: conversations no longer cut before their last lines.\n- **[Fix]** Scripts/Thas'dorah: only a hunter on the quest takes the bow; it is equipped after the scene.\n- **[Fix]** Scripts/Thas'dorah: credits and conversations triggered by the pet.\n- **[Fix]** Scripts/Thas'dorah: signals wait for their step; Orestes opens the exit door after his farewell.\n- **[Fix]** Scripts/Thas'dorah: Vereesa's way out for the whole group; a relog returns to the entrance.\n- **[Fix]** DB/Quests: Call of the Marksman objectives no longer share one counter.\n- **[Fix]** DB/Dungeon finder: Thas'dorah scenario entrance.\n- **[Fix]** Scripts/Talonclaw: the spear claim is saved.\n- **[Fix]** Scripts/Talonclaw: Dakarr's death no longer completes Return to Dalaran.\n- **[Fix]** Scripts/Talonclaw: Dorro's farewell and portal to Dalaran; spear carrier model.\n- **[Fix]** DB/Trueshot Lodge: Hunter's Call, Krasus' Landing hippogryph and Visage of Ohn'ahra.\n- **[Fix]** Scripts/Spells: Spitting Cobra (Survival talent), the cobra casts Cobra Spit.\n- **[Fix]** Scripts/Spells: Animal Instincts (Survival talent), triggered by Flanking Strike only.\n- **[Fix]** Scripts/Spells: Fury of the Eagle (Survival artifact), Mongoose Fury counted at the start of the channel.\n- **[Fix]** Scripts/Spells: Survival artifact traits Throwing Axes, Mortal Wounds, Way of the Mok'Nathal, Snake Hunter, Eagle's Bite, Talon Strike, Echoes of Ohn'ara.\n- **[Fix]** Scripts/Spells: Chimaera Shot, a Nature head and a Frost head, 10 Focus each.\n- **[Fix]** Scripts/Spells: Bombardment (Marksmanship talent), only a critical Multi-Shot triggers it.\n- **[Fix]** Scripts/Spells: Lock and Load (Marksmanship talent), no longer used up by other shots.\n- **[Fix]** Scripts/Spells: Fluffy, Go (Beast Mastery artifact), the active pet's haste follows the trait.\n- **[Fix]** Scripts/Spells: kill-triggered traits Black Arrow, Hunter's Bounty and Terms of Engagement.\n\n### Rogue\n\n- **[Fix]** Scripts/Rogue artifacts: the Dreadblades, Fangs of the Devourer and The Kingslayers chests give their weapon.\n- **[Fix]** Scripts/Rogue artifacts: a rogue already holding the weapon finishes the pickup.\n- **[Fix]** Scripts/Rogue artifacts: pet and guardian kills credit the rogue.\n- **[Fix]** Scripts/Spells: Roll the Bones (Outlaw), 7.2.5 odds: 79% one buff, 20% two, 1% five.\n- **[Fix]** Scripts/Spells: Loaded Dice (Outlaw artifact), rerolls a single-buff Roll the Bones.\n- **[Fix]** Scripts/Spells: Restless Blades and True Bearing (Outlaw), cooldown reduction per combo point spent.\n- **[Fix]** Scripts/Spells: Alacrity (talent), chance per combo point spent.\n- **[Fix]** Scripts/Spells: Marked for Death (talent), cooldown reset when the target dies.\n- **[Fix]** Scripts/Spells: Surge of Toxins (Assassination artifact), 2% per combo point spent.\n- **[Fix]** Scripts/Spells: Subtlety T21 2-piece, finishers reduce the cooldown of Symbols of Death.\n- **[Fix]** Scripts/Spells: Subtlety T21 4-piece, Shadow Gestures gives back combo points.\n- **[Crash]** Scripts/Rogue artifacts: logging out in the acquisition scenarios.\n\n### Priest\n\n- **[Fix]** Scripts/Netherlight Temple: \"Follow Velen to the portal\" counted at the portal.\n- **[Fix]** Scripts/Netherlight Temple: promotion scene, ritual bar per specialization, ritual target.\n- **[Fix]** Scripts/Netherlight Temple: Life Grip pulls the priest to the end of its path.\n- **[Fix]** Scripts/T'uure: only the priest on the quest advances the scenario.\n- **[Fix]** Scripts/T'uure: the victory counts for a dead priest; an evading boss is no victory.\n- **[Fix]** Scripts/T'uure: the staff comes from the chest and is equipped after the scene.\n- **[Fix]** Scripts/T'uure: released at its own entrance.\n- **[Fix]** DB/Loot: Light's Wrath chest.\n- **[Fix]** Scripts/Xal'atath: the blade and its off-hand are equipped after the scene.\n- **[Fix]** Scripts/Spells: Void Bolt (Shadow), extends the priest's damage over time effects.\n- **[Fix]** Scripts/Spells: Shadowy Insight (Shadow talent), also resets the cooldown of Mind Blast.\n- **[Fix]** Scripts/Spells: Void Tendril (Call to the Void, Shadow artifact), channels Mind Flay on the priest's target with the priest's power.\n\n### Shaman\n\n- **[Fix]** Scripts/Sharas'dal: kill credits go to the player who took the kill.\n- **[Fix]** Scripts/Sharas'dal: the wall is credited once Grash has opened it.\n- **[Fix]** Scripts/Sharas'dal: the chest gives the weapon; no credit while it stays in the chest.\n- **[Fix]** Scripts/Sharas'dal: the weapon is equipped after the scene.\n- **[Fix]** Scripts/Spells: Cloudburst Totem (Restoration talent), its stored healing is shared between the injured allies.\n- **[Fix]** Scripts/Spells: Restoration T21 2-piece, heals the most wounded players in Healing Rain.\n- **[Fix]** Scripts/Spells: Elemental and Restoration T21 4-piece.\n\n### Mage\n\n- **[Fix]** DB/Lyandra: her 80% and 20% casts no longer fire at once; Awaken.\n- **[Fix]** Scripts/Lyandra: Aethas opens the way back even after a single killing blow.\n- **[Fix]** Scripts/Mage artifacts: kills by the water elemental or mirror images credit the mage.\n- **[Fix]** DB/Loot: Felo'melorn chest; the weapon is equipped after the scene.\n- **[Fix]** DB/Loot: Aluneth's Nexus chest.\n- **[Fix]** Scripts/Spells: Cinderstorm (Fire talent), cinders hit harder on a target carrying the mage's Ignite.\n\n### Warlock\n\n- **[Fix]** Scripts/Dark Whispers: skull handoff, ritual beams and Mephistroth's approach.\n- **[Fix]** Scripts/Dark Whispers: leaders and doomweavers; pet kills credit the warlock.\n- **[Fix]** Scripts/Dark Whispers: Mephistroth's finale only in stage 5.\n- **[Fix]** DB/Quests: Ritual Reagents asks for a single blood sample.\n- **[Fix]** Scripts/Ulthalesh: Ariden's defeat dialogue; the chest waits for its step; the compass drops its quest item.\n- **[Fix]** DB/Dreadscar Rift: scouting map, Ritssyn's greeting, return to Dreadscar, Jagganoth.\n- **[Fix]** DB/Conditions: Calydus no longer offers the artifacts already acquired.\n- **[Fix]** DB/An Eye for a Scepter: scenario conditions and credits.\n- **[Fix]** DB/Loot: the three weapon chests give their weapon.\n- **[Fix]** Scripts/Spells: Fatal Echoes (Affliction artifact), restores the affliction only when it runs out; Deadwind Harvester doubles it.\n- **[Fix]** Scripts/Spells: Seed of Corruption, Sow the Seeds (talent) caps its targets.\n- **[Fix]** Scripts/Spells: Flame Rift (Destruction artifact), exactly twenty bolts.\n\n### Monk\n\n- **[Fix]** Scripts/Fu Zan: Yu'lon replies once the wave is cleared.\n- **[Fix]** Scripts/Fu Zan: Yigthregor leaves no Felfire Bomb field behind.\n- **[Fix]** DB/Conditions: Li Li's kite carries only a monk on the quest.\n- **[Fix]** Scripts/Monk introduction: Chuan and Hait's lines; only a monk on the quest starts the scene.\n- **[Fix]** Scripts/Sheilun: heal thresholds.\n- **[Fix]** DB/Loot: the weapon chests give their weapon.\n- **[Fix]** Scripts/Spells: Gift of the Ox (Brewmaster), orb chance from the damage taken; Gift of the Mists.\n- **[Fix]** Scripts/Spells: Stave Off (Brewmaster artifact), two extra casts at most.\n- **[Fix]** Scripts/Spells: Elusive Brawler (Brewmaster mastery), Fortification keeps the stacks through dodges.\n- **[Fix]** Scripts/Spells: Special Delivery (Brewmaster talent), the keg deals its landing damage.\n- **[Fix]** Scripts/Spells: Black Ox Statue, threat pulse every second.\n- **[Fix]** Scripts/Niuzao: Invoke Niuzao, the Black Ox has its script.\n- **[Fix]** Scripts/Spells: Brewmaster T21 4-piece and Windwalker T21 4-piece (Blackout Kick).\n\n### Druid\n\n- **[Fix]** Scripts/Druid artifacts: the Fangs of Ashamane, Claws of Ursoc and G'Hanir chests give the weapon at the final step.\n- **[Fix]** Scripts/Druid artifacts: the scene starts only for the weapon's owner.\n- **[Fix]** DB/Fangs of Ashamane: equipped after the scene.\n- **[Fix]** Scripts/Claws of Ursoc: Ursoc's Lair waves.\n- **[Fix]** DB/Claws of Ursoc: Malithar's speech.\n- **[Fix]** Scripts/Spells: Earthwarden (Guardian talent), only direct Thrash damage grants a charge.\n- **[Fix]** Scripts/Spells: Rend and Tear (Guardian talent), reduction per Thrash stack on the attacker.\n- **[Fix]** Scripts/Spells: Solar Wrath (Balance), extends every Sunfire of the druid, up to the pandemic cap.\n- **[Fix]** Scripts/Spells: Incarnation of every specialization.\n- **[Fix]** Scripts/Spells: Feral T21 2-piece, Bloody Gash repeats the Rip tick.\n- **[Fix]** Scripts/Spells: Guardian T21 2-piece (Mangle) and 4-piece (Barkskin).\n\n### Death knight\n\n- **[Fix]** DB/Dungeon finder: entrances of Rescue Koltira, The Fourth Horseman and The Fleshripper's Harvest.\n- **[Fix]** DB/Loot: Maw of the Damned and Blades of the Fallen Prince chests; the weapon is equipped after the scene.\n- **[Fix]** DB/Death knight artifacts: guard-clear check of the acquisition fights.\n- **[Fix]** DB/Death knight artifacts: the Fleshripper and the three Frost souls speak when a pet is their victim.\n- **[Fix]** Scripts/Spells: Unholy T21 2-piece, a share of the Death Coil hit spread over the damage over time.\n- **[Fix]** Scripts/Spells: Unholy T21 4-piece; Blood T21 4-piece (Dancing Rune Weapon).\n\n### Demon hunter\n\n- **[Fix]** Scripts/Vengeance scenario: deaths without a killer, second introduction, jump.\n- **[Fix]** DB/Dungeon finder: Mardum scenario entrance.\n- **[Fix]** Scripts/Spells: Soul Cleave (Vengeance), heal and damage scale with the pain spent; Feast of Souls once per cast.\n- **[Fix]** Scripts/Spells: Spirit Bomb (Vengeance talent), Frailty applied before the explosion.\n- **[Fix]** Scripts/Spells: Soul Barrier (Vengeance talent), each soul fragment consumed adds to the absorb.\n- **[Fix]** Scripts/Spells: Shear (Vengeance), fragment chance grows with every miss; Sever always shatters one.\n- **[Fix]** Scripts/Spells: Demon Spikes (Vengeance), recasting extends the buff up to three durations.\n- **[Fix]** Scripts/Spells: Razor Spikes (Vengeance talent), slows the victim of every melee hit.\n- **[Fix]** Scripts/Spells: Demonic (Havoc talent), only the first Eye Beam of a Metamorphosis extends it.\n- **[Fix]** Scripts/Spells: Demonic Appetite (Havoc talent), Fury from consumed souls only with the talent.\n- **[Fix]** Scripts/Spells: Havoc T21 4-piece, Betrayer's Fury only after a full Eye Beam channel.\n\n---\n\n## Legion: world\n\n### Pre-patch demon invasions\n\n- **[Fix]** Scripts/Invasions: each invasion runs the official scenario of its zone, with its invasion frame and victory window.\n- **[Fix]** Scripts/Invasions: kill bars scaled to the players present; elites count three.\n- **[Fix]** Scripts/Invasions: official rhythm, chosen in the configuration.\n- **[Fix]** Scripts/Invasions: Legion sky over the invaded zones.\n- **[Fix]** Scripts/Invasions: demon lord, Shadow Gale and Flame Fissure.\n- **[Fix]** DB/Invasions: Northern Barrens invasion.\n- **[Change]** Scripts/Invasions: experience halved from level 100.\n- **[Change]** Scripts/Commands: `.demoninvasion`, invaded zones and time left.\n\n### World bosses\n\n- **[Fix]** Scripts/Levantus: gusts of wind, Massive Spout, Electrify, Turbulent Vortex, Rampaging Torrent.\n- **[Fix]** Scripts/Shar'thos: drops the Skull of Shar'thos (hidden Fury warrior appearance).\n- **[Fix]** Core/AreaTriggers: Shar'thos' Burning Earth hits within its visible size.\n- **[Fix]** Core/Creatures: world bosses keep their fight up to 120 yards.\n\n### World quests\n\n- **[Change]** Core/WorldQuests: rewards follow the content tiers, from 840 to 860.\n- **[Change]** Core/WorldQuests: dungeon world quests give item level 825 or mythic 0, from their dungeon's loot.\n- **[Change]** Core/WorldQuests: PvP world quests no longer give a fixed 890.\n- **[Fix]** DB/WorldQuests: Black Rook Hold: The Sorrow gives Black Rook Hold loot.\n\n### Mythic+\n\n- **[Fix]** Core/Challenge: Grand Challenger's Bounty gives back a destroyed keystone.\n- **[Fix]** Scripts/Challenge: Grand Challenger's Bounty stays shut below level 110.\n\n### Zones\n\n- **[Fix]** Scripts/Deadwind Pass: Deadwind Widows hang from their thread and drop onto their foe.\n- **[Fix]** Scripts/Deadwind Pass: Legion ship over Karazhan; Legion sky.\n- **[Fix]** DB/Return to Karazhan: Kirin Tor camp, quest order, Karlain for both factions, quest creatures.\n- **[Fix]** Core/Collision: Dalaran over Deadwind Pass, creatures find the right floor.\n- **[Fix]** DB/Quests: A Village in Peril (Bradensbrook), one version only.\n- **[Fix]** Core/Quests: world map story markers follow the story (22 Broken Isles lines).\n\n### Raids and dungeons\n\n- **[Fix]** Core/Creature: Nythendra and every rogue class creature get their energy.\n- **[Fix]** Scripts/Antorus: Bound by Fel chains the two players.\n- **[Fix]** Scripts/Vault of the Wardens: Ash'golm's Brittle.\n- **[Fix]** Scripts/Maw of Souls: Helya's Brackwater Barrage.\n\n---\n\n## Demon hunter\n\n- **[Fix]** DB/Quests: In the Blink of an Eye (Varian's funeral in Stormwind Keep).\n- **[Fix]** DB/Quests: Demons Among Them.\n- **[Fix]** DB/Quests: Second Sight.\n- **[Fix]** Scripts/Stormwind City: throne scene phases, one Jace and one Anduin; the other classes' Jace hidden from the demon hunter.\n- **[Fix]** Scripts/Demon Hunter: Audience with the Warchief, given to Horde demon hunters instead of the unused The Call of War.\n- **[Fix]** DB/Quests: Call of the Illidari.\n- **[Fix]** DB/Quests: The Power to Survive.\n- **[Fix]** DB/Quests: Making Arrangements.\n- **[Fix]** Scripts/Quests: By Any Means.\n- **[Fix]** Scripts/Quests: The Hunt.\n- **[Fix]** Scripts/Demon Hunter: Securing the Way.\n- **[Fix]** Scripts/Demon Hunter: Spoils of Victory.\n- **[Fix]** Scripts/Demon Hunter: The Hunter's Gaze.\n- **[Fix]** Scripts/Demon Hunter: Immortal Soul.\n- **[Fix]** Scripts/Vault of the Wardens: Khadgar's raven, leaving the Vault and in Stormwind and Orgrimmar.\n- **[Fix]** Scripts/Quests: Taldath the Destroyer.\n- **[Fix]** Scripts/Quests: Varedis Felsoul, the Felsoul Crusher, the Felsoul Obliterators and the Illidari fel bats.\n- **[Fix]** Scripts/Demon Hunter: Illidari and prisoners of the Fel Hammer.\n- **[Fix]** Scripts/Demon Hunter: leaders of the Illidari Redoubt in Dalaran.\n- **[Fix]** Scripts/Demon Hunter: Fel Tome, one demon a day.\n- **[Fix]** DB/Mardum: fel engine of the Legion ship.\n- **[Fix]** Scripts/Demon Hunter: demon hunters start with Artisan Riding.\n\n---\n\n## Death knight\n\n- **[Fix]** Scripts/Ebon Hold: The Eye of Acherus.\n- **[Fix]** Scripts/Ebon Hold: Death's Challenge.\n- **[Fix]** DB/Ebon Hold: The Might of the Scourge.\n- **[Fix]** Scripts/Ebon Hold: Grand Theft Palomino.\n- **[Fix]** Scripts/Ebon Hold: Into the Realm of Shadows.\n- **[Fix]** Scripts/Ebon Hold: The Gift That Keeps On Giving.\n- **[Fix]** Scripts/Ebon Hold: How To Win Friends And Influence Enemies.\n- **[Fix]** Scripts/Ebon Hold: Bloody Breakout.\n- **[Fix]** Scripts/Ebon Hold: Massacre At Light's Point.\n- **[Fix]** Scripts/Ebon Hold: The Light of Dawn.\n- **[Fix]** DB/Ebon Hold: An End To All Things...\n- **[Fix]** DB/Ebon Hold: Warchief's Blessing map point.\n- **[Fix]** Scripts/Ebon Hold: Highlord Darion Mograine, Prince Valanar, the Val'kyr Battle-maidens.\n- **[Fix]** Scripts/Ebon Hold: Salanar the Horseman, Koltira Deathweaver, Valroth, Noth, Orbaz Bloodbane, Lord Thorval.\n- **[Fix]** DB/Ebon Hold: the Lich King and the Frostbrood Vanquisher at Death's Breach.\n- **[Fix]** Scripts/Ebon Hold: Scarlet Ghouls, Unworthy Initiates, Havenshire peasants and horses.\n- **[Fix]** DB/Ebon Hold: Havenshire and New Avalon placements, numbers and patrols of retail.\n- **[Fix]** DB/Ebon Hold: Scarlet Cannon vehicle.\n- **[Fix]** Core/Spells: Death Gate is learned from The Light of Dawn only.\n- **[Fix]** Core/Spells: The Might of Mograine no longer spreads to other players and the army.\n- **[Fix]** Core/Player: the Eye of Acherus shows what is around it.\n- **[Fix]** Core/Vehicles: the Frostbrood Vanquisher starts with full mana.\n- **[Fix]** DB/Texts: Stormwind insults death knights in Common.\n\n---\n\n## Starting zones\n\n- **[Fix]** DB/SmartAI: NPC scripts of every starting zone imported from TDB 7.3.5.\n- **[Fix]** DB/Quests: the 83 class quests removed in 7.0.3 are no longer offered.\n- **[Fix]** DB/Quests: starting zone quests open on their text instead of being accepted on the spot.\n- *Kezan, Lost Isles, Teldrassil, Azuremyst Isle, Durotar, Mulgore, Tirisfal Glades, Dun Morogh, Eversong Woods and Wandering Isle quest fixes thanks to DjusikW.*\n\n### Northshire\n\n- **[Fix]** Scripts/Northshire: Stormwind Infantry and Blackrock worgs really fight.\n- **[Fix]** Scripts/Northshire: Brother Paxton heals the wounded infantry around him.\n- **[Fix]** DB/Northshire: Blackrock Spies, one pose each, hostile to players.\n- **[Fix]** DB/Northshire: Goblin Assassins and Blackrock Invaders health and damage.\n- **[Fix]** DB/Northshire: Extinguishing Hope, the extinguisher carried on the back during the quest.\n\n### Dun Morogh\n\n- **[Fix]** DB/Quests: Down with Crushcog!\n- **[Fix]** DB/Coldridge Valley: Follow that Gyro-Copter!, Milo and his gyro-copter hidden until the quest.\n- **[Fix]** DB/New Tinkertown: The Future of Gnomeregan, Muffinus Chromebrew spawned.\n- **[Fix]** DB/Quests: quests removed in Cataclysm no longer offered (Rejold's New Brew, Ram Delivery, Evershine, A Favor for Evershine, Return to Bellowfiz).\n- **[Fix]** DB/Coldridge Valley: doubled Rockjaw Invader and mountaineer removed.\n\n### Teldrassil\n\n- **[Fix]** DB/Quests: Nature's Reprisal.\n- **[Fix]** DB/Quests: Mist.\n- **[Fix]** DB/Quests: The Sleeping Druid.\n- **[Fix]** DB/Quests: Teldrassil: The Burden of the Kaldorei before Teldrassil: The Coming Dawn.\n- **[Fix]** DB/Teldrassil: Oakenscowl spawned.\n- **[Fix]** DB/Teldrassil: 9 doubled Gnarlpine removed.\n- **[Fix]** DB/Shadowglen: Dirania Silvershine sits with Melithar; Dentaria Silverglade and Huntress Sandrya Moonfall ride near Ilthalaine.\n\n### Azuremyst Isle\n\n- **[Fix]** DB/Quests: A Cry For Help.\n- **[Fix]** DB/Quests: Tree's Company.\n- **[Fix]** DB/Ammen Vale: Botanist Taerix's caged mutation spawned.\n\n### Eversong Woods\n\n- **[Fix]** DB/Quests: Swift Discipline.\n- **[Fix]** DB/Quests: Unexpected Results.\n- **[Fix]** DB/Sunstrider Isle: Warrior Training, Delios Silverblade spawned.\n\n### Tirisfal Glades\n\n- **[Fix]** DB/Quests: A Thorn in our Side.\n- **[Fix]** DB/Quests: Ever So Lonely.\n- **[Fix]** DB/Quests: Escaped From Gilneas.\n- **[Fix]** DB/Spells: Recruitment.\n- **[Fix]** DB/Quests: A Letter Undelivered, removed in Cataclysm, no longer offered.\n\n### Durotar\n\n- **[Fix]** DB/Quests: Unbidden Visitors.\n\n### Mulgore\n\n- **[Fix]** DB/Quests: Last Rites, First Rites.\n- **[Fix]** DB/Quests: Dwarven Digging, removed in Cataclysm, no longer offered.\n\n### Kezan\n\n- **[Fix]** DB/Quests: The New You.\n- **[Fix]** DB/Quests: Rolling with my Homies.\n- **[Fix]** DB/Quests: The Great Bank Heist.\n- **[Fix]** DB/Quests: Fourth and Goal.\n- **[Fix]** Scripts/Kezan: 447.\n- **[Fix]** DB/Quests: The Keys to the Hot Rod, without a giver, no longer offered.\n- **[Fix]** DB/Kezan: spirit healer at the Port of Bilgewater graveyard.\n\n### Lost Isles\n\n- **[Fix]** DB/Quests: Monkey Business.\n- **[Fix]** DB/Quests: Trading Up.\n- **[Fix]** DB/Lost Isles: Sassy Hardwrench at the volcano; Oomlot Warrior patrol.\n\n### Wandering Isle\n\n- **[Fix]** DB/Quests: Much to Learn.\n- **[Fix]** DB/Quests: Balanced Perspective, Huojin Monk spawned.\n- **[Fix]** Scripts/Wandering Isle: Fanning the Flames.\n\n### Gilneas\n\n- **[Fix]** DB/Quests: Seek the Sister leads priests straight to Safety in Numbers.\n\n---\n\n## Holidays and micro-holidays\n\n- **[Fix]** DB/Events: holidays start at the in-game calendar hour.\n- **[Fix]** Core/Events: yearly holidays keep their date.\n- **[Fix]** Hotfixes/Holidays: Pilgrim's Bounty, the Lunar Festival, Love is in the Air, Noblegarden, Children's Week and the Harvest Festival show in the calendar again.\n- **[Fix]** Hotfixes/Holidays: moving holidays no longer show a second start in the calendar.\n- **[Fix]** Core/Quests: quests of an inactive holiday no longer show on the world map.\n- **[Change]** Core/Transmog: festival appearances can only be transmogrified during their festival.\n- **[Change]** Scripts/Holidays: old speed-tier mount scripts removed (Magic Broom, Headless Horseman's Mount, Big Love Rocket, Invincible, Celestial Steed, X-53 Touring Rocket); they scale on their own in Legion.\n- **[Change]** Scripts/Brewfest: Coren Direbrew's script moves from Molten Core to Brewfest, inactive until the holiday is tested.\n\n### Darkmoon Faire\n\n- **[Fix]** Core/Events: the faire shows in the calendar and opens on the first Sunday of the month.\n- **[Fix]** Scripts/Darkmoon Faire: the carousel takes a ride ticket and gives WHEE!\n- **[Fix]** Scripts/Darkmoon Faire: Kae Ti only sells the ride ticket book of the player's level range.\n\n### Darkmoon Faire Concert (Blight Boar)\n\n- **[Fix]** Scripts/Concert: fan score and its casual, serious and hardcore tiers.\n- **[Fix]** Scripts/Concert: end of the show, achievements, band role, Number One Fan.\n- **[Fix]** Scripts/Concert: Death Metal Knight, ghoul waves at 60% and 30%, corpse kept for the loot.\n- **[Fix]** Core/Creatures: Death Metal Knight's health and damage.\n- **[Fix]** Scripts/Concert: Devlynn Styx's stage dive and screams.\n- **[Fix]** Scripts/Concert: Jay starts the concert as soon as he reaches the stage.\n- **[Fix]** Scripts/Concert: ghouls walk slowly and resume their way after every blow.\n- **[Fix]** DB/Concert: graves no longer clickable; two fans sit on their stools.\n- **[Fix]** DB/Loot: rare loot once per Faire; plate cage helm added.\n\n### Auction House Dance Party\n\n- **[Fix]** Scripts/Dance Party: auctioneers and guards leave for the day and come back at the end.\n- **[Fix]** DB/Events: starts on 22 July at midnight.\n- **[Fix]** Scripts/Dance Party: Horde and Alliance music the right way round.\n- **[Fix]** Scripts/Dance Party: Happy Feet restores health and mana while dancing.\n- **[Fix]** Scripts/Dance Party: Marla removes the right aura in Stormwind.\n- **[Fix]** Scripts/Dance Party: the music comes back on stage and stops after leaving the floor.\n- **[Fix]** Scripts/Dance Party: the second light of Stormwind turns above the floor.\n- **[Fix]** Scripts/Dance Party: the blood elf line no longer runs into the Highmountain tauren one.\n- **[Crash]** Scripts/Dance Party: teleport off the stage.\n\n### Call of the Scarab\n\n- **[Fix]** Scripts/Call of the Scarab: held in old Silithus; Zidormi takes back to the present.\n- **[Fix]** Scripts/Call of the Scarab: old Silithus creatures scale up to level 110.\n- **[Fix]** DB/WorldQuests: the fourteen world quests open with the holiday.\n- **[Fix]** Scripts/Call of the Scarab: Silithyst handed in at one's faction camp, credits the whole group and flags its carrier for PvP.\n- **[Fix]** Scripts/Call of the Scarab: the introduction and the trophies of the dukes and lords can be done again every year.\n- **[Fix]** Scripts/Call of the Scarab: scores, winner and banners by the Scarab Gong.\n- **[Fix]** Scripts/Call of the Scarab: wind stones open to the full Twilight cultist outfit only.\n- **[Fix]** DB/Loot: Twilight cultists drop their robe, mantle and cowl.\n- **[Fix]** DB/Loot: Abyssal Crests, colossi and bosses loot.\n- **[Fix]** Core/Quests: meat quests show the blue question mark.\n\n### Un'Goro Madness\n\n- **[Fix]** Scripts/Events: holiday added, ten elite dinosaurs, Dino Mojo.\n- **[Fix]** Scripts/Events: Dino Mojo adaptations paused in instances and PvP.\n- **[Fix]** Scripts/Events: Zavas despawns her own larvae; Sherazin's script registered.\n- **[Fix]** DB/Loot: the Stone Guardian always gives an ore.\n\n### Glowcap Festival\n\n- **[Fix]** DB/Glowcap Festival: festival mushrooms no longer come back at once.\n- **[Fix]** DB/Loot: the Smelly Truffle gives the truffle of the player's reputation.\n- **[Fix]** DB/Quests: Fhwoor Smash! asks for honored with Sporeggar.\n- **[Fix]** Scripts/Glowcap Festival: speed steps of the festival aura.\n\n### Great Gnomeregan Run\n\n- **[Fix]** DB/Great Gnomeregan Run: 34 gates, none doubled.\n- **[Fix]** Scripts/Great Gnomeregan Run: gates only react during the race; the race can be run again.\n\n### Hatching of the Hippogryphs\n\n- **[Fix]** DB/Loot: Lorthalium drops the Spectral Feather.\n- **[Fix]** Scripts/Hatching of the Hippogryphs: the Spectral Feather extends the hatchling to five days.\n\n### March of the Tadpoles\n\n- **[Fix]** DB/March of the Tadpoles: The Ways of the World, Mrrga spawned.\n- **[Fix]** DB/Quests: A Tadpole's Request and the third quest read in French.\n- **[Fix]** DB/Gameobjects: Winterfin Clams no longer come back at once.\n- **[Fix]** Scripts/March of the Tadpoles: each tadpole calls its own; credit only with the quest in progress.\n\n### Moonkin Festival\n\n- **[Fix]** Scripts/Moonkin Festival: quest credit to the players present at the start.\n- **[Fix]** Scripts/Moonkin Festival: moonkin hat.\n\n### Spring Balloon Festival\n\n- **[Fix]** Scripts/Spring Balloon Festival: answering the balloon pilots queues the ride.\n- **[Fix]** Scripts/Spring Balloon Festival: Uldum, Schnottz's balloon comes; votes counted once.\n\n### Thousand Boat Bash\n\n- **[Fix]** Scripts/Thousand Boat Bash: the festival hands out its boats.\n- **[Fix]** Scripts/Thousand Boat Bash: the boat keeps the player on the surface and leaves with the festival.\n- **[Fix]** Scripts/Thousand Boat Bash: the free boat is announced once.\n- **[Fix]** Scripts/Thousand Boat Bash: festival conversations only start for players doing the quest.\n- **[Fix]** Scripts/Thousand Boat Bash: rope ladders can be climbed and lead onto the decks.\n- **[Fix]** DB/Thousand Boat Bash: world quests Boat Tour, Garbage Fishing, Beach Ball Bash, Grog, Rum, and Ale, The Goblins Stole Our Bombs!\n- **[Fix]** DB/Quests: world quests read in French.\n- **[Fix]** DB/Thousand Boat Bash: Tar-Covered Fish sit on the water.\n- **[Fix]** DB/Thousand Boat Bash: the Clean-Up Canoe rows on the lake surface.\n- **[Fix]** Core/Creatures: Sea Cyclones no longer show as an infernal.\n\n### Trial of Style\n\n- **[Fix]** DB/Trial of Style: entry option of the transmogrifiers.\n- **[Fix]** Core/Gossip: the queue no longer costs money.\n- **[Fix]** Scripts/Trial of Style: transmogrification free during the show.\n- **[Fix]** Scripts/Trial of Style: the outfit lasts the show only.\n- **[Fix]** Scripts/Trial of Style: contestants stop where they stand when sent on stage.\n- **[Fix]** Scripts/Trial of Style: votes go to the contestant shown.\n- **[Fix]** Scripts/Trial of Style: three places, then the consolation prize for everybody else.\n- **[Fix]** Scripts/Trial of Style: the contest ends even when the winner has left.\n- **[Change]** Scripts/Trial of Style: with the queue test mode (`.debug lfg`) the show starts with fewer than six contestants.\n- **[Fix]** Scripts/Trial of Style: contestants go back home after the show.\n- **[Crash]** Scripts/Trial of Style: greeting of a contestant who left.\n\n### Volunteer Guard Day\n\n- **[Fix]** Scripts/Volunteer Guard Day: City Invaders appear.\n- **[Fix]** Scripts/Volunteer Guard Day: every capital's guards take volunteers.\n- **[Fix]** Scripts/Volunteer Guard Day: the eight invader classes come.\n- **[Fix]** Scripts/Volunteer Guard Day: kill counter on the Alliance side.\n- **[Fix]** Scripts/Volunteer Guard Day: the guard aura checks the player's zone and rewards the player.\n\n---\n\n## Timewalking\n\n- **[Fix]** DB/Loot: timewarped pieces drop from Yor, Eck the Ferocious, Amanitar, Jedoga Shadowseeker, Herald Volazj, the Drakkari Colossus and Xin the Weaponmaster.\n- **[Change]** Hotfixes/Items: Firemaul of Destruction and Cloak of Blade Turning no longer carry PvP resilience.\n- **[Fix]** Core/Auras: weekly timewalking markers shown to their owner only.\n\n---\n\n## Older content\n\n### World bosses\n\n- **[Fix]** Scripts/World Bosses: Lord Kazzak (Blasted Lands).\n- **[Fix]** Scripts/World Bosses: Azuregos (Azshara).\n- **[Fix]** Scripts/World Bosses: Ordos (Timeless Isle) and his Ancient Flames.\n- **[Fix]** DB/Loot: Azuregos, Kazzak and the four Emerald Dragons drop their items.\n- **[Fix]** Scripts/Tanaan Jungle: Supreme Lord Kazzak respawns in 15 minutes.\n- **[Fix]** Scripts/Tanaan Jungle: Supreme Lord Kazzak seen in every quest phase of the zone.\n- **[Fix]** Scripts/Tanaan Jungle: Mark of Kazzak also triggers on healing.\n\n### Stormwind and Orgrimmar\n\n- **[Fix]** DB/Stormwind: patrols walk their rounds.\n- **[Fix]** DB/Stormwind: toy vendor and prisoner convoy walk their rounds.\n- **[Fix]** DB/Stormwind: Adam and Billy stay out of the canal.\n- **[Fix]** DB/Gossip: city guards, Reforge and the doubled Battle Pet Trainer removed.\n\n### Kalimdor\n\n- **[Fix]** DB/Silithus: world map of the Wound.\n- **[Crash]** DB/Silithus: the client no longer crashes anywhere on Kalimdor.\n- **[Fix]** DB/Silithus: Hive'Zora wasps, old Silithus population, rares at level 40-60.\n\n### Draenor\n\n- **[Fix]** DB/Talador: Ahm no longer duplicated after Dying Wish.\n- **[Fix]** Scripts/Highmaul: Mar'gok's Volatile Anomalies at their spots.\n- **[Fix]** DB/Grimrail Depot: moving scenery.\n- **[Fix]** Scripts/Draenor: scenarios Battle of Thunder Pass, Grommashar, Trial of Faith and Iron Approach bound to their maps.\n\n### Pandaria and older dungeons\n\n- **[Fix]** Scripts/Scholomance: Jandice Barov's Gravity Flux.\n- **[Fix]** Scripts/Siege of Niuzao Temple: Quick-Dry Resin.\n- **[Fix]** Scripts/Thunder Forge: the small sha rush the Celestial Blacksmith.\n- **[Fix]** Scripts/Siege of Orgrimmar: Paragons of the Klaxxi's Fiery Edge.\n- **[Fix]** Scripts/Siege of Orgrimmar: Garrosh's Manifest Rage.\n- **[Fix]** Scripts/Throne of Thunder: Council of Elders' Sandstorm.\n- **[Fix]** DB/Spells: End Time, Echo of Sylvanas' Seeping Shadows.\n\n---\n\n## Classes and characters\n\n### Pets\n\n- **[Fix]** Core/Pets: hunter stable, pets can be moved between slots and the stable.\n- **[Fix]** Core/Pets: new and tamed pets start on Assist.\n- **[Fix]** Core/Pets: Defensive pets only defend; Move To no longer blocks attacks.\n- **[Fix]** Core/Pets: tamed pets keep their auras (Kill Command).\n- **[Fix]** Core/Pets: demons' spell power follows their owner.\n- **[Fix]** Core/Pets: All Will Serve keeps one Risen Skulker.\n- **[Fix]** Core/Pets: Passive no longer calls back a pet told to stay.\n- **[Fix]** Core/Pets: a heal or buff cast by the pet no longer leaves it commanded to attack.\n- **[Fix]** Core/Pets: the ghoul no longer leaps onto an enemy nobody has engaged.\n- **[Fix]** Core/Pets: declined names saved on rename.\n\n### Characters\n\n- **[Fix]** Core/Player: new characters keep their recommended specialization.\n- **[Fix]** Core/Player: action bars of a new specialization are saved.\n- **[Change]** DB/Character templates: level 110 tiers at the Raid Finder item level of their raid (835 to 915).\n\n### Spells\n\n- **[Fix]** Scripts/Monk: Diffuse Magic sends debuffs back to valid targets.\n- **[Fix]** Scripts/Monk: Face Palm reduces the brew cooldowns.\n- **[Fix]** Core/Spells: Mastery Harmony (Restoration druid), only Restoration heals over time count; Efflorescence uses the druid's mastery.\n- **[Fix]** Scripts/Spells: Storm, Earth, and Fire ends properly.\n- **[Fix]** Scripts/Death Knight: Anti-Magic Shell gives Runic Power from absorbed damage.\n- **[Fix]** Core/Spells: runes counted once; Shadow Empowerment goes to the Dark Arbiter.\n- **[Fix]** Scripts/Pets: Ebon Gargoyle timers; Dire Beast Stomp on summon.\n- **[Fix]** Scripts/Warlock: Demonic Circle can no longer be placed on the pipes of the Dalaran Sewers arena.\n- **[Fix]** Scripts/Warlock: Demonic Gateway height check below the map's zero level.\n- **[Fix]** Scripts/Warlock: Drain Soul extends the right Unstable Affliction.\n- **[Fix]** Scripts/Spells: Immolate ends properly.\n- **[Fix]** Core/Spells: The Expendables and Death's Embrace (Affliction talents); Chaos Tear uses the warlock's critical chance.\n- **[Fix]** Core/Spells: Phoenix's Flames always crit; Controlled Burn removes Heating Up (Fire talents).\n- **[Fix]** Core/Spells: Fresh Meat; Focus in Chaos (Fury talents).\n- **[Fix]** Scripts/Priest: Shadowform recasts its Insanity visuals once per second.\n- **[Fix]** Scripts/Items: Master Hunter's Seeking Crystal queues one teleport per use.\n- **[Fix]** Scripts/Spells: Touch of Elune (night elf racial), Critical Strike by day, Haste at night.\n- **[Fix]** Scripts/Spells: Mercenary Contract disguise removed after a battleground.\n\n---\n\n## Game fixes\n\n### Creatures\n\n- **[Fix]** DB/Creatures: health and damage of 27,291 creatures restored.\n- **[Fix]** Core/Creatures: 2,960 creatures with billions of health points.\n- **[Fix]** Core/Combat: damage dealt to level-scaled creatures.\n- **[Fix]** Core/Creatures: health of personal creatures in the open world.\n- **[Fix]** Core/Creatures: invisible creatures no longer show as an infernal.\n- **[Fix]** Core/Movement: patrols follow the ground over hills and hollows.\n- **[Fix]** Core/Creatures: NPCs resume their path one minute after an interaction.\n\n### Quests\n\n- **[Fix]** Core/Quests: objectives keep their display order (1,020 quests).\n- **[Fix]** Core/Quests: item counters follow the bags and the bank.\n- **[Fix]** DB/Quests: 20 quests with shared counters, 79 objective amounts set to 7.3.\n- **[Fix]** Core/Quests: quests with a money reward no longer turn incomplete.\n- **[Fix]** Core/Player: a kill credit naming the creature itself counts once.\n\n### Interface\n\n- **[Fix]** DB/Gossip: 567 gossip options lead to their sub-menu again.\n- **[Fix]** Core/Gossip: translated options of menus above 65535.\n- **[Fix]** Core/Achievements: no banner for an achievement the account already holds.\n- **[Fix]** Core/Achievements: Class Hall helm progress no longer announced at every login.\n- **[Fix]** Core/Achievements: after a relog, the other characters' criteria are no longer shown as completed.\n- **[Fix]** Core/Players: player choice conditions enforced and checked again on the answer.\n\n### World\n\n- **[Fix]** Core/Scenarios: scenarios keep their progress after a disconnection or a restart.\n- **[Fix]** Core/Phasing: phases follow quest objectives and world states.\n- **[Fix]** Core/Maps: far teleports land in the right zone map.\n- **[Fix]** Core/Loot: skinned or mined corpses are never empty.\n- **[Fix]** Core/DungeonFinder: replacements and lead change.\n- **[Fix]** Core/GameObjects: use-only objects answer the click (Acherus soul prisons, Algalon, Halion, Vengeance portals, Sheilun and T'uure crates, Kingslayers, Devourer, Broken Shore, Warswords).\n- **[Fix]** Core/Units: a creature no longer reacts to a click every click spell refused.\n- **[Fix]** Core/Spells: proc events know their spell and school.\n- **[Fix]** Core/Items: relic and bonus list enchantments applied by the item itself.\n\n---\n\n## Stability\n\n- **[Crash]** Core/Creature: invalid spawn movement types.\n- **[Crash]** Core/GameObjects: phase masks above 16 bits.\n- **[Crash]** Scripts/Hunter: Blink Strikes cast by a wild beast.\n- **[Crash]** Scripts/Paladin: Judgment.\n- **[Crash]** Scripts/Mage: Greater Invisibility.\n- **[Crash]** Scripts/Ebon Hold: the Dark Rider and Unworthy Initiates.\n- **[Crash]** Scripts/Ebon Hold: Valroth out of combat.\n- **[Crash]** Core/Pets: owner gone during a stat update; temporary pet out of a slot.\n- **[Memory Leak]** Scripts/Rogue: Grappling Hook.\n\n---\n\n## Data and technical\n\n- **[Fix]** DB/Quests: 9,778 missing English quest titles and texts filled.\n- **[Fix]** DB/Locales: French names for 3,365 gameobjects.\n- **[Fix]** DB/Quests: French texts of the starting zones and micro-holidays.\n- **[Fix]** DB/Scripts: old script tables deduplicated (12,760 rows).\n- **[Fix]** DB/World: startup data errors fixed.\n- **[Fix]** DB/World: the NPCs added by the original Russian server removed from every table.\n- **[Fix]** DB/Spells: Seaforium Blast script bound to its 7.3.5 spell.\n- **[Change]** Scripts/Spells: old Pillar of Frost script removed (its immunity no longer exists in Legion).\n- **[Fix]** Core/Creatures: models without gender in the client data taken as male, without startup error.\n- **[Change]** Core/WorldQuests: the WorldQuest, WorldQuest.ItemLevel.Min and WorldQuest.ItemLevel.Max settings leave the configuration.\n- **[Fix]** Scripts/Spells: spell scripts bound to the effects their spells really have.\n- **[Fix]** DB/SpellArea: 194 rows converted to the new quest status meaning.\n- **[Change]** Scripts: script folders reorganized (expansions, holidays, micro-holidays, class halls).\n- **[Change]** README: rewritten; content status moves to the [development tracker](https://titans-project.github.io/).\n\n---\n\n> [!NOTE]\n>\n> | Type | Count |\n> |---|---:|\n> | Fixes | 430 |\n> | Changes | 15 |\n> | Crashes fixed | 12 |\n> | Memory leaks fixed | 1 |\n> | **Total** | **458** |\n"
+ },
+ {
+  "links": [
+   [
+    "Illidari, We Are Leaving",
+    "quest=39690"
+   ],
+   [
+    "Weighted Jack-o'-Lantern",
+    "item=34068"
+   ],
+   [
+    "Harbingers of the Past",
+    "quest=39687"
+   ],
+   [
+    "Between Us and Freedom",
+    "quest=40256"
+   ],
+   [
+    "Delegating on Draenor",
+    "quest=34692"
+   ],
+   [
+    "Shade of the Horseman",
+    "npc=23543"
+   ],
+   [
+    "Stop the Bombardment",
+    "quest=38727"
+   ],
+   [
+    "Vault of the Wardens",
+    "quest=44261"
+   ],
+   [
+    "Rise of the Illidari",
+    "quest=38690"
+   ],
+   [
+    "Sunstrider Guardian",
+    "npc=15371"
+   ],
+   [
+    "Grand Theft Felbat",
+    "quest=39682"
+   ],
+   [
+    "Instructor Antheol",
+    "npc=15970"
+   ],
+   [
+    "Machinist B'randt",
+    "npc=80962"
+   ],
+   [
+    "Foreman Zipfizzle",
+    "npc=81912"
+   ],
+   [
+    "Shadowmoon Valley",
+    "spell=258516"
+   ],
+   [
+    "Headless Horseman",
+    "npc=23682"
+   ],
+   [
+    "Touch of the Void",
+    "item=128318"
+   ],
+   [
+    "Vengeful Retreat",
+    "spell=190229"
+   ],
+   [
+    "Sergeant Crowler",
+    "npc=78564"
+   ],
+   [
+    "Stink Bombs Away",
+    "quest=29374"
+   ],
+   [
+    "Wretched Captive",
+    "npc=16916"
+   ],
+   [
+    "Sergeant Kan'ren",
+    "npc=16924"
+   ],
+   [
+    "Swift Discipline",
+    "quest=9066"
+   ],
+   [
+    "A New Direction",
+    "quest=40373"
+   ],
+   [
+    "The Call of War",
+    "quest=39692"
+   ],
+   [
+    "Migrant Workers",
+    "quest=34778"
+   ],
+   [
+    "Taking the Fall",
+    "quest=9064"
+   ],
+   [
+    "Forged in Fire",
+    "quest=40254"
+   ],
+   [
+    "Frozen in Time",
+    "quest=39685"
+   ],
+   [
+    "All The Way Up",
+    "quest=39686"
+   ],
+   [
+    "Coren Direbrew",
+    "npc=23872"
+   ],
+   [
+    "Stop the Fires",
+    "quest=11219"
+   ],
+   [
+    "Spires of Woe",
+    "npc=127062"
+   ],
+   [
+    "Stop Gul'dan!",
+    "quest=40253"
+   ],
+   [
+    "Novice Ranger",
+    "npc=16923"
+   ],
+   [
+    "Breaking Out",
+    "quest=41226"
+   ],
+   [
+    "Fel Infusion",
+    "quest=38689"
+   ],
+   [
+    "Exarch Akama",
+    "npc=72413"
+   ],
+   [
+    "Soul Engine",
+    "npc=48438"
+   ],
+   [
+    "Beam Me Up",
+    "quest=39684"
+   ],
+   [
+    "Auchindoun",
+    "npc=87219"
+   ],
+   [
+    "Ji Firepaw",
+    "npc=54568"
+   ],
+   [
+    "Kethrazor",
+    "npc=96997"
+   ],
+   [
+    "Bastillax",
+    "npc=96783"
+   ],
+   [
+    "Iron Star",
+    "npc=77153"
+   ],
+   [
+    "Time Stop",
+    "spell=23171"
+   ],
+   [
+    "Blackhand",
+    "npc=76831"
+   ],
+   [
+    "New Goods",
+    "quest=38427"
+   ],
+   [
+    "Ash'golm",
+    "npc=95886"
+   ],
+   [
+    "Felblade",
+    "item=134069"
+   ],
+   [
+    "Eversong",
+    "npc=93705"
+   ],
+   [
+    "Crusher",
+    "item=127868"
+   ],
+   [
+    "Azeroth",
+    "npc=34246"
+   ],
+   [
+    "Sledge",
+    "npc=92990"
+   ],
+   [
+    "Sleyin",
+    "npc=18926"
+   ],
+   [
+    "K'ara",
+    "npc=74364"
+   ],
+   [
+    "Pride",
+    "item=40704"
+   ],
+   [
+    "Ahune",
+    "npc=25740"
+   ],
+   [
+    "Marty",
+    "npc=61895"
+   ],
+   [
+    "Josie",
+    "npc=61896"
+   ]
+  ],
+  "tag": "0.5",
+  "date": "2026-11-11",
+  "url": "https://github.com/Titans-Project/LegionCore-Reforged/releases/tag/0.5",
+  "prerelease": true,
+  "banner": "images/versions/0.5.webp",
+  "body": "⠀\n\n## Legion : Demon Hunter Introduction\n\nThe whole introduction is in place; a few finishing touches remain.\n\n- **[Fix]** **Mardum (part 1):** arrival scene, Legion banner, battlefield cleared through phases; Illidari and demons fight to the end, the fallen come back 15 seconds later; quest chain in its official order (specialization quest following the chosen specialization); Beliash, Caza, the Spires of Woe, Volroth; the Soul Engine; Stop the Bombardment (banners, one group per cannon, explosions); Tyranna's bridge conversation and her fight on the Fel Hammer with Kayn, Jace, Allari and Kor'vas; the Illidari Outpost and the departure.\n- **[Fix]** **Vault of the Wardens (part 2):** Breaking Out, Fel Infusion and Rise of the Illidari (cells, freed Illidari, Legion Portals sending demons at the Illidari); Stop Gul'dan! (scene, door and seal of the Vault of the Betrayer, Kayn and Altruis against Crusher and Sledge, Kethrazor and his eyes); Grand Theft Felbat, Forged in Fire, Beam Me Up (Glazer's mirrors and beams) and Frozen in Time (Ash'golm and the Freeze Statues).\n- **[Fix]** **End of the Vault:** All The Way Up (elevator kept for the quest, Bastillax's taunts), Harbingers of the Past (Kayn and Altruis fighting, Pool of Judgment and its movie), A New Direction (follower choice, the one left aside leaves), Between Us and Freedom (Bastillax fought with the Illidari, his demons fall with him, the Illidari gather outside); Khadgar lands as a raven.\n- **[Fix]** **Arrival in Stormwind or Orgrimmar:** Illidari, We Are Leaving lands before Khadgar, who gives The Call of War (also to the Horde) and flies off as a raven; Varian's coffin and the leaders of the Alliance in Stormwind Keep.\n- **[Fix]** Conversation lines no longer overlap: each one starts once the previous voice is over, in English and in French.\n- **[Fix]** Felblade did not charge while the demon hunter was still in the leap of one of its own spells (after Vengeful Retreat, for instance).\n- **[Fix]** A chosen talent saved with its spell disabled (Felblade) is learned back at login; level achievements are earned at login for characters created above level 1.\n- **[Fix]** Blood elf demon hunters start with the same action bar as night elves.\n\n## Warlords of Draenor\n\n- **[Fix]** **Ashran is an epic battleground** with its own queue, its own engine per game, base gates closed until the start, its own creature levels, and PvP bonus objectives given only in the battleground to their own side and shown during a game only. \n\n> _Note :_ _In Legion, Ashran is an outdoor world PvP zone; it joined the battleground list with Battle for Azeroth (8.2), whose system is used here._\n\n- **[Fix]** Ashran outside the battleground was empty: 50 ambient NPCs of the bases and roads are back.\n- **[Fix]** **Battle for Shattrath scenario :** entered through the Arch of Sha'tar with the quest (Alliance 34099, Horde 33731); Thaelin and the Iron Star rolling down the avenue to the harbor; Khadgar levitating and casting Time Stop under the Iron Horde waves; the battleship and Machinist B'randt; the flagship facing Blackhand, its explosion, the movie and the closing scene at the foot of the ship. The ship turrets fire and the defense crystal reacts as in Talador.\n- **[Fix]** **Defense of Karabor scenario :** Exarch Akama sends the player into a private scenario, also offered by the group finder and started at the temple entrance. The steps follow retail: Arnokk and his flamethrower, the grunts, the dock waves, K'ara above the harbor, with the fights spread along the way. The reached step is saved and resumed after a restart; a reconnection brings the player back while the instance runs, and leaving returns them where they came from; kill credits also count for the steps.\n- **[Fix]** **Auchindoun :** the instance is repopulated and its texts completed; Tuulani follows her scene to the end; Kaathar is woken by Nyami, the corridor changes phase after him, and the sequence resumes after a reconnection. The guardians hold the barrier; Azzakel's pyromancers keep their circle; the warlocks feed Teron'gor's shield while they live; Kaathar's holy shield only protects behind its wall.\n- **[Fix]** **Lunarfall:** the mission table only opens after \"Delegating on Draenor\" (or the Horde equivalent); Sergeant Crowler counts for \"New Goods\" and his area shows at every garrison level; the area of \"Migrant Workers\" is where Foreman Zipfizzle waits; the hammering laborer strikes wood, and the lumberjack no longer chops his logs inside the cart.\n- **[Fix]** **Talador:** the zone comes to life (Astalor, fel pyres, Archenon siege yard, Tuurem troops, lumber camps); Archenon siege engines sabotaged then rebuilt, siegesmiths on fire; quest and war council phases; mounted defenders around the camp; Fort Wrynn and Vol'jin's Pride at work.\n- **[Fix]** **Nagrand comes to life:** war riders, windrocs, talbuk families, gladiators, Highmaul patrols, Telaar peacekeepers.\n- **[Fix]** **Shadowmoon Valley, Karabor and Elodor:** free-flying kaliri, herds following a leader, hippos drinking, priestesses channeling, villagers at work, patrolling defenders.\n- **[Fix]** Waypoint script delays count in seconds: emotes and work gestures fired hours too late.\n\n\n## Pet battles\n\n- **[Fix]** **Wild battle pets:** pets spawned from the database were no longer registered when their grid loaded, stayed level 0 and could not be battled, and critters were no longer replaced by wild pets.\n- **[Fix]** **Respawn by rarity:** a defeated wild pet comes back after 2 minutes if common, 5 if uncommon, 10 if rare; wild pets share their spots per species and zone (75 pools) and come back on a random one; a replaced critter leaves its slot empty as long.\n- **[Fix]** **Battle start:** the wild creature is hidden during the battle (the client shows its own model), the player takes their place facing the opponent, trainer battles protect the player from nearby monsters, and request failures say \"in combat\" or \"too far\".\n- **[Fix]** **During the battle:** an aura ends on a dead pet, an ability no longer strikes a pet killed earlier in the round, a killed pet no longer plays a second hit, and the trap throws once per round, never at a pet already caught or dead.\n- **[Crash]** Pools queued while the world was still loading crashed the startup.\n\n## World events\n\n- **[Fix]** **Headless Horseman, arrival and fight:** he follows his flight in (the path was missing from the database), lands, engages the whole courtyard group and chases it; without his head, his body wanders instead of standing still, and the head flees its attacker while staying near the body instead of flying straight back; if the group dies, he rides off and the soil can call him again; his lines use the official text.\n- **[Fix]** **Headless Horseman, event dungeon:** the Loosely Turned Soil also calls him for a group finder group; he, his head, his pumpkins and their fiends match each hero's level from 20 to 110; loot a little above a heroic dungeon of the hero's expansion, his Draenor rings from 90 to 99 and Legion rings from 100 (5.5% each), the Weighted Jack-o'-Lantern to everyone.\n- **[Fix]** **Event dungeons in the group finder** (Headless Horseman, Ahune, Coren Direbrew, Crown Chemical Co.): they open in their own difficulty instead of falling back to normal and reusing the bound normal instance; leaving a queue lost after a reconnection no longer leaves it stuck in the interface.\n- **[Crash]** A head that could not appear crashed the server.\n- **[Fix]** **Hallow's End village fires:** the Shade of the Horseman gallops in the air around the Falconwing Square fountain instead of hovering still; one bucket puts a fire out, fewer fires grow slower when alone, a fifth less damage against a single player; the matron calls the Shade back after a restart; the throw button comes back with every bucket; the jack-o'-lantern sits on the ground.\n- **[Fix]** **Water barrels** hand out a bucket on every click instead of locking for a minute then disappearing; the matron shows the \"Stop the Fires!\" marker only while the Shade is there.\n- **[Fix]** **Stink Bombs Away!:** the broom follows its route above the enemy town on its own, \"Return\" works with a single button, the Horde broom is summoned; a stink bomb counts only when it lands near someone, who reacts; the objective area on the map is the Undercity on the Alliance side.\n- **[Fix]** French texts: the Wickerman Reveler's flames line matches the spoken one, and \"Let the Fires Come!\" (Horde) has its French reminder text.\n\n## Eastern Kingdoms\n\n- **[Fix]** **Stormwind, gryphon riders:** the 32 gryphon riders fly wide loops above the city without crossing the buildings.\n- **[Fix]** **Stormwind, patrols:** the 29 patrollers walk their rounds in the streets, traced on the navigation mesh; the two Valley of Heroes patrollers follow real streets; the other guards stay at their post.\n- **[Fix]** **Stormwind, city life:** the toy vendor pushes his cart along the canal and a prisoner is marched between two guards; Marty and Josie are removed from their spot by the Trade District canal.\n- **[Fix]** **Pandaren arrival in Stormwind and Orgrimmar:** Shang Xi's balloon, Aysa and Ji Firepaw are only seen by a pandaren of their faction who has not yet joined the Alliance or the Horde; in Stormwind, the citizens react to the arrival and Anduin is there to take the quest back.\n\n## Blood elf starting zone\n\n- **[Fix]** **Blood elf starting zone, level scaling:** the creatures of Sunstrider Isle and Falthrien Academy follow the player from level 1 to 10, and 75 Eversong Woods creatures left without scaling follow the player from 5 to 20, like the rest of the zone and the other starting zones.\n- **[Fix]** **Sunstrider Isle:** the Sunstrider Guardian walks his official round again and turns back in front of the Sunspire; the Wretched Captive stands still behind Sergeant Kan'ren and begs from time to time; creatures no longer walk around the stone stairs west of the Sunspire (their foot was cut from the ground in the navigation mesh).\n- **[Fix]** **Springpaw cubs and lynxes:** they no longer cast Claw, which hit far too hard at that level, and they show in their tooltip the quest item they drop.\n- **[Fix]** **Quests:** Taking the Fall and Swift Discipline showed their start item objective undone, and the turn-in marker only after a relog.\n- **[Fix]** **Falconwing Square:** the Novice Ranger walks from the foot of the stairs around the fountain and back instead of climbing the walls; Sleyin stays still.\n- **[Fix]** **Young dragonhawks:** 13 fly irregular rounds of 180 to 315 m across the paths without going through trees, 22 wander 2 to 2.7 m above the ground, the others stay near the ground; they land when attacked.\n- **[Fix]** **Silvermoon apprentices:** in front of Instructor Antheol, they channel arcane magic, cheer at a success, sometimes turn into a sheep or botch the spell and cry, and their classmates laugh at them.\n\n## Classes and characters\n\n- **[Fix]** **Demon hunter, Felblade:** it did not charge while the demon hunter was still in the leap or knockback of one of its own spells (after Vengeful Retreat, for instance).\n- **[Fix]** A chosen talent saved with its spell disabled could not be used at any login (Felblade); it is learned back.\n- **[Fix]** **Priest, Penance:** its ticks no longer hit the priest.\n- **[Fix]** Blood elf demon hunters start with the same action bar as night elves.\n- **[Fix]** Every race and class starts at its 7.3.5 spot and orientation; the Alliance classes were greyed out at character creation (wrong faction group in the templates).\n\n## Game fixes\n\n- **[Fix]** Grouped loot of rare creatures and chests was never rolled: some chests opened empty.\n- **[Fix]** **Quests:** a quest in the log can be turned in wherever it was taken; start item objectives shown done at once; package rewards shown and given on the 7.3.5 client, in the quest log too; hidden tracking quests complete without a sound; quest map zones without points no longer sent; five quests no longer complete on accept.\n- **[Fix]** A quest object opens for its twin quest of the other faction.\n- **[Fix]** Level achievements are earned at login for characters created above level 1 (demon hunters, boosts), instead of at their first level up.\n- **[Fix]** Creatures notice the hostile neighbours standing next to them; formation members keep the leader's pace; smooth waypoint paths, random flight and underwater wandering.\n- **[Fix]** Spawns placed in game keep their phases; vehicles spawned from the database are seen from afar; spell casts of distant objects reach their viewers.\n- **[Fix]** Only walls block a spell cast on a game object (its own model and small decor no longer do).\n- **[Fix]** Touch of the Void: the tendrils stay rooted and channel on the player's target.\n- **[Fix]** Brawls: adventure guide card and rewards.\n\n## Stability\n\n- **[Crash]** `.reload all` no longer crashes the server (the command entry being run was destroyed).\n\n## Data and technical\n\n- **[Fix]** English texts stored as mis-encoded Russian restored, database and hotfixes (#27).\n- **[Fix]** French texts added: 11,336 quests, 9,062 gossip options, 2,885 pages, gameobject and creature names.\n- **[Fix]** 4,698 creatures show their quest item in the tooltip again.\n- **[Fix]** Models showing as cubes go back to the client's data; low-level beasts no longer use Claw (#28).\n- **[Fix]** `creature_template.VisibilityDistance` column added (#30); missing public accessor for the Auchindoun script (#31).\n- **[Fix]** The base databases no longer carry updates shipped by mistake (#32).\n- **[Change]** Realm list refreshed every 2 seconds.\n- **[Change]** The custom content of the original LegionCore server is removed (events, donation shop items, related quests).\n- **[Change]** Archived updates sorted by year; scenarios sorted by expansion; scenario base code for the remaining Draenor scenarios.\n\n## Tools\n\n- **[Fix]** Off-mesh link for the Sunstrider Isle stairs (Extractor Tools v1.0.5).\n"
+ },
+ {
+  "links": [
+   [
+    "Shadowmoon Burial Grounds",
+    "quest=37792"
+   ],
+   [
+    "Bloodmaul Slag Mines",
+    "quest=37795"
+   ],
+   [
+    "Nitrogg Thundertower",
+    "npc=79545"
+   ],
+   [
+    "When All Is Aligned",
+    "quest=35704"
+   ],
+   [
+    "Finding a Foothold",
+    "quest=34582"
+   ],
+   [
+    "Assault on Skettis",
+    "quest=36688"
+   ],
+   [
+    "Shadowmoon Valley",
+    "spell=258516"
+   ],
+   [
+    "Qiana Moonshadow",
+    "quest=34646"
+   ],
+   [
+    "Migrant Workers",
+    "quest=34778"
+   ],
+   [
+    "Frostfire Ridge",
+    "spell=258537"
+   ],
+   [
+    "Fel Lord Betrug",
+    "npc=102446"
+   ],
+   [
+    "Archmage Timear",
+    "npc=31439"
+   ],
+   [
+    "Pale Moonlight",
+    "quest=35174"
+   ],
+   [
+    "Grimrail Depot",
+    "npc=79905"
+   ],
+   [
+    "Spires of Arak",
+    "spell=258540"
+   ],
+   [
+    "The Everbloom",
+    "quest=37790"
+   ],
+   [
+    "Skylord Tovra",
+    "npc=80005"
+   ],
+   [
+    "Rain of Fire",
+    "spell=4629"
+   ],
+   [
+    "Violet Hold",
+    "quest=44259"
+   ],
+   [
+    "Iron Docks",
+    "quest=37793"
+   ],
+   [
+    "Auchindoun",
+    "npc=87219"
+   ],
+   [
+    "New Goods",
+    "quest=38427"
+   ],
+   [
+    "Doomguard",
+    "npc=11859"
+   ],
+   [
+    "Darkglare",
+    "npc=103673"
+   ],
+   [
+    "Gug'rokk",
+    "npc=74790"
+   ],
+   [
+    "Sael'orn",
+    "npc=102387"
+   ],
+   [
+    "Fel Axe",
+    "npc=90108"
+   ],
+   [
+    "Lyndras",
+    "npc=93967"
+   ],
+   [
+    "Bordos",
+    "npc=82635"
+   ],
+   [
+    "Thysta",
+    "npc=1387"
+   ],
+   [
+    "Velen",
+    "npc=76754"
+   ],
+   [
+    "Yalnu",
+    "npc=83846"
+   ]
+  ],
+  "tag": "0.4",
+  "date": "2026-10-22",
+  "url": "https://github.com/Titans-Project/LegionCore-Reforged/releases/tag/0.4",
+  "prerelease": true,
+  "banner": "images/versions/0.4.webp",
+  "body": "> [!NOTE]\n> _This update starts the work on the content that comes before Legion. Warlords of Draenor sets up the story of Legion, so the road to the Legion expansion goes through Draenor. We are reworking the whole expansion (zones, quests, dungeons) so that it is at least playable and functional, and adding the details of the environment: animations and a living world as on the official servers, instead of motionless creatures._\n\n## Warlords of Draenor : Garrison (Preliminary version)\n\n- **[Fix]** **Garrison invasions:** turning in an Apexis assault angers its faction and opens its invasion until the weekly reset. Six scenario invasions (Iron Horde, Shadow Council, ogres, Primals, goren, Shadowmoon) with waves, an 8-minute defense, villagers to rescue, a boss, bronze to platinum medals and weekly bags (mailed when bags are full).\n- **[Fix]** **Apexis assaults rotate daily, as on retail:** the war planning map offers two a day, the same for the whole realm, and only one can be taken; zone tasks and bonuses appear with their order or chapter, and assaults complete on their own.\n- **[Fix]** **Shipyard (6.2):** construction, ships from work orders, naval missions and achievements, shipyard quests, harbor work orders and NPCs, bay fleets that appear once it is built.\n- **[Fix]** **One campaign chapter a week**, drawn among those left and the same all week; Awakening comes last. 41 campaign NPCs placed (17 of 22 chapters playable).\n- **[Fix]** **Town hall dailies:** one category a day per player, the quest of the day shared by the realm, the raid weekly, the profession vendors rotating.\n- **[Fix]** **The architect table opens its window** (the server never sent it). The outpost tables in Spires, Gorgrond, Talador and Nagrand replace the plot with the chosen building and give the zone ability.\n- **[Fix]** Garrison quest givers and chains: Alliance bounty board, New Goods, Migrant Workers, architect prerequisites, bulletin board quests; 554 English texts and 340 French completion logs.\n- **[Fix]** Workers labor on every construction site of both garrisons; guards walk rounds on the roads (levels 1-3, Frostwall); laborers, cook and footmen at work in Lunarfall; seated workers around the game table.\n- **[Fix]** The List of Ingredients notice sat inside the food cart wall; guards had a Rally click tied to no quest; the plot finalization object was not translated.\n- **[Fix]** A garrison and a dungeon sharing an instance id mixed their scenarios; they are now tied to their map.\n- **[Fix]** Garrison shipments credit the resource currency correctly.\n\n## Warlords of Draenor : Shadowmoon Valley introduction and Lunarfall\n\n- **[Fix]** **Establishing Lunarfall:** Baros creates the garrison even when the player is mounted, and the creation no longer leaves a black screen (its spell teleported to nowhere); Finding a Foothold completes when Velen reaches Lunarfall, not halfway.\n- **[Fix]** **Lunarfall quests:** Keeping it Together (Shelly's report, the end of the break), Pale Moonlight (its area was shown inside the garrison), Qiana Moonshadow (she cowers until the wounded stalkers are dead), the architect chain up to the barracks; ravens and lumberjacks animate.\n- **[Change]** **Horde (Frostfire Ridge): a few fixes only, not yet reworked or fully checked** (Frostwall guard rounds, Horde bulletin boards).\n\n## Warlords of Draenor : Dungeons\n\n- **[Fix]** **Draenor dungeons:** Bloodmaul Slag Mines never saved Rol'tall and Gug'rokk; script bugs fixed in Iron Docks (a cage 6,000 yards off, array overflows), Shadowmoon Burial Grounds (Deathspike cast once, soul check stopped by a dead player) and The Everbloom (Yalnu, globules, protectors' heals).\n- **[Fix]** The doors and objects of the six Draenor dungeons were missing in Mythic.\n- **[Change]** **Grimrail Depot added (preliminary version):** Rocketspark and Borka, Nitrogg Thundertower, Skylord Tovra and the train; the escape scene and scrolling scenery are still missing.\n\n## Warlords of Draenor : Zones brought to life\n\n- **[Fix]** **Spires of Arak, Assault on Skettis:** the bonus area gets back its Skyreach forces, outcasts and objectives; both Dusk-Seers give credit; chained outcasts are freed with a click; the objective area shows on the world map.\n- **[Fix]** **Spires of Arak flights:** kaliris, wasps, birds, bats and rylaks fly in wide free loops that rise and fall and go around trees; ground birds hover; rylak corpses rest on branches and gibbet hooks and cannot be attacked.\n- **[Fix]** **Spires of Arak camps and quests:** Bloodmane camp, Southport and the Shattered Hand arena brought to life (sparring, patrols, sleeping, working); missing quest NPCs and clues, official quest order and prerequisites, When All Is Aligned; 20 quests had Russian or empty English texts.\n- **[Fix]** **2,998 Draenor creatures follow their patrol path again** (the paths were not linked to them, so they stood still); back-and-forth paths of 3 points or fewer are removed; the Bloodsinger walks her round.\n- **[Fix]** **Talador, Shattrath:** the Iron Horde cannons fire at the air defense crystals one after another, with shields, lasers and bursting shells; Terrorwing riders and batriders fly over the city instead of falling; siegebreakers man their cannons; 19 harbor duels; peacekeepers and honor guards on foot; felbats perched; Bordos at his anvil.\n- **[Fix]** **Shadowmoon Valley:** void priestesses channel on the spirit stones; pearltusk herds walk together.\n- **[Fix]** **Stormshield** brought to life: 112 missing gameobjects restored (portals, mailboxes, anvils, forge, chairs, benches), NPCs seated, working and sleeping, a patrolling officer, the alchemist, conversations.\n- **[Fix]** 41 of the 54 inert Draenor gossip options are scripted (innkeepers, vendors, trainers, pet healing, information pages, movies, building switch, quest credits).\n\n## Legion : Dungeons and raids\n\n- **[Fix]** **Legion dungeon and raid portals:** the 7.3.5 client has no area trigger for them, so the server now places every entrance and exit and sends players to the official arrival points. The Dungeon Finder no longer drops groups at the graveyard.\n- **[Fix]** **Normal and heroic dungeons no longer leave a permanent lockout** (\"already in this instance\" until the reset); only raids and mythic dungeons lock. \"Reset all instances\" resets heroic dungeons.\n- **[Fix]** **Assault on Violet Hold follows retail:** three steps of 75 invasion points, two prisoners among six, Sael'orn or Fel Lord Betrug as final boss; the intro with demons from three portals, guards and defense crystal; Malgath's and the guardians' portals; elite squads; a failed run resets the step and resumes.\n- **[Fix]** Violet Hold: creatures of the squads and the Fel Axe were level 1 and the axe chased players; Lyndras' barrier needs the Prison Key and Lyndras fights once it is open.\n- **[Fix]** Violet Hold boss loot checked against the Adventure Guide: four pieces missing from each final boss, three bosses dropped another boss's piece.\n- **[Fix]** **Dungeon item levels follow a content tier:** the Adventure Guide always advertised 7.3 rewards (845/865/885) even when the realm gave launch values. Legion dungeons, Mythic+ levels, end-of-run caps and the weekly chest follow the tier, and Mythic+ dungeons not yet open leave the client's list. Older expansions keep Blizzard's values.\n- **[Fix]** **Mythic+:** an abandoned key stayed bound to its old instance until the weekly reset (now depleted); the Grand Challenger's Bounty gave an item that does not exist and now stays closed in place with its currency; Mythic Keystone and chest texts translated.\n- **[Change]** The Mythic+ history is pruned at startup: realm and guild records, best and last result per player, last two weeks for the weekly chest.\n- **[Fix]** Leaving a group inside a Dungeon Finder dungeon starts the one-minute countdown instead of an immediate teleport.\n- **[Fix]** `AccountInstancesPerHour` was never applied: an account now enters at most 10 different instances an hour outside the Dungeon Finder.\n- **[Fix]** Pools rotate inside instances (the creature or object never respawned elsewhere).\n\n## Timewalking\n\n- **[Fix]** **Weekly Timewalking rotation:** one week every `Timewalking.Interval` weeks, expansions in release order, shown in the calendar without duplicates or daylight saving shift; Archmage Timear offers the week's quest; the week's visible buff is given at login, on map change and at week start.\n- **[Fix]** Combat follows the effective level, bosses are at the target's level, the difficulty is no longer lost at login, and all loot of the instance is timewalking loot.\n\n## World events\n\n- **[Fix]** **Hallow's End:** the Headless Horseman's shade attacks the starting villages with scripted fires and water buckets; Elwynn Wickerman revelers; stink bomb quests can be turned in; Goldshire camp fixed.\n- **[Fix]** **Great Gnomeregan Run:** dates computed at startup (every `Custom.GnomereganRun.Months` months for `Custom.GnomereganRun.Days` days), calendar announcements can repeat in months, the 34th gate stands on the road.\n\n## Game fixes\n\n- **[Fix]** Treasure chests drop their loot: currencies always drop and 1,102 item rows stuck at zero chance take their official chances.\n- **[Fix]** **Reputation:** paragon counts only what goes past exalted; quest penalties are negative again (signed values); Recruit-a-Friend only multiplies gains; kill rewards credit only the player's side faction (Auchindoun and elsewhere credited both); friendship rank shows in the gossip window (Sunsong Ranch farmers).\n- **[Fix]** **Quests:** a profession quest now requires the profession (402 quests); hidden area quests no longer show in the log; money rewards are exact (a few copper were lost on large rewards); no more absurd objective counters (\"32758/-168305937\") when a script completes a quest; the quest window closes after accepting when the giver has nothing else to offer.\n- **[Fix]** A gossip option that costs gold is refused without the money; a full-bags message shows when an item cannot be given.\n- **[Fix]** **Pets:** a pet dismissed during a flight comes back on landing; the saved health is kept at login (every relog took a share of it); combat-only buffs no longer loop out of combat; controlled creatures regenerate 1.5 % of their health per step (pets barely healed); delayed pet auras are cast; a follower waits for its falling target to land.\n- **[Fix]** **Warlock guardians** (Doomguard, Infernal, Darkglare) attack the summon target, cast their spells and only follow their master's fights.\n- **[Fix]** Rain of Fire and other area triggers placed by a player now hit creatures without a phase, such as the Orgrimmar training dummies.\n- **[Fix]** The healing training dummy stays at 1 hp and is only healed by players; the allied race banners open the race presentation.\n- **[Fix]** Brawler's Guild: a boss killed by anything but the player, his pet or totem now gives a loss, not the win.\n- **[Fix]** A finished PvP season shows as ended to the client.\n- **[Fix]** The custom XP and gold rule was applied once per registered player script instead of once per kill.\n- **[Fix]** **Ashran and capture points:** object and creature guids were built in the wrong order, so they were never found or removed; the world PvP engine got zone 0 on arrival and never saw players leave the map.\n- **[Fix]** Pet battles are released when a player leaves and unanswered challenges expire.\n- **[Fix]** Archaeology: a keystone listed several times counts once, and keystones worth more than the project no longer give fragments back.\n- **[Fix]** Loot recipient of a creature is looked up on its map (a player who left kept the loot).\n- **[Fix]** A threat change below -100 % removes the reference instead of leaving a negative threat.\n- **[Change]** Neighbouring creatures chat in turns, with reactions and gestures (`creature_idle_chat`).\n- **[Fix]** Duplicate gameobjects standing close together were deleted from the database at startup; only identical ones are skipped now.\n- **[Fix]** A GM save on a transport wrote the wrong position; invisible bunnies showed an infernal placeholder model.\n- **[Fix]** `.wp load` keeps the creature's mount and template addon; `.additem` keeps the scaling of an Adventure Guide link.\n- **[Fix]** Kharanos blacksmiths work at the forge; the Gilneas merchant square door gets its own AI; the wyvern to the hideout is offered by Thysta only.\n\n## Security\n\n- **[Change]** **Passwords are stored as Argon2id hashes** (needs OpenSSL 3.2+); old SHA-256 hashes still work and are converted at the first successful login.\n- **[Exploit]** **Progressive wrong-password blocking:** the IP address, then the account, with increasing durations (`WrongPass.BanSteps`), reset after `WrongPass.ResetTime` or a successful login. A banned IP gets no web login ticket, a second ticket on an authenticated session is refused, a client stalling in the TLS handshake is dropped after 2 s.\n- **[Exploit]** RA passwords are masked in the log; `Ra.IP` defaults to 127.0.0.1.\n- **[Exploit]** **Network hardening:** an exception in a socket handler no longer ends the process; an account with no session key, an early encryption confirmation and an unvalidated instance key are refused.\n- **[Exploit]** **Client packets are checked** (range, ownership, state) for items, trade, void storage, toys, movement, taxi, chat, who, calendar, tickets, quests, NPCs, queries, professions, spells, pets, artifacts, authentication, account, garrison, challenge mode, duels, scenes and loot (master loot could give an item to a player on another map).\n- **[Exploit]** Element counts and strings sent by the client are bounded before any allocation; character screen requests are refused while a character is in the world; a client without a character can only queue a few delayed packets; spell projectile data and Warden lengths are bounded.\n- **[Exploit]** Characters: ownership checks, asynchronous rename, undelete cooldown; one open ticket per account.\n- **[Crash]** Client packets above 64 KB cut the connection (hotfix requests past about 5,700 hotfixes); the limit is 256 KB.\n- **[Change]** zlib updated to 1.3.1 (security fixes).\n\n## Stability\n\n- **[Thread Safety]** **Players on other maps are reached through their own thread** instead of directly: groups, guilds, friends, mail, auctions, black market, petitions, trade, whispers, creature texts, loot, world states, corpses, calendar, channels, scenarios, battleground queues, Dungeon Finder, group finder, world broadcasts and bans, GM commands, world PvP, pet battles, meeting stones; a stale battleground queue registration is dropped when a player joins again.\n- **[Thread Safety]** Groups, instance binds and resets, Mythic+ records and key state, transports changing map, caster aura lists, pools, creature texts, the game time and the mailbox queue are guarded by locks or made atomic.\n- **[Crash]** The worldserver crashed at load on gossip option locales whose menu id did not fit on 16 bits; such rows are skipped with an error.\n- **[Crash]** A duel with an opponent who just logged out; a black market winner offline; a session blocked by an exception in a packet.\n- **[Memory Leak]** Custom formation infos were never freed.\n- **[Out of Bounds]** Achievement criteria trees past the limits overflowed the arrays; spell tables skipped negative or out-of-range rows.\n- **[Fix]** A spline with fewer than two points is refused, waypoint paths end cleanly, movement generators keep target guids instead of pointers.\n- **[Fix]** Failed aura applications are no longer left in the target's list.\n- **[Fix]** Channel flags were truncated on 8 bits (flag 0x100 lost in the member list).\n- **[Fix]** Reset times move by local days (daylight saving) and skip missed days; a reset interval of 0 no longer freezes the world.\n- **[Performance]** Artifact powers are saved with a single REPLACE; the quest object refresh runs once per burst instead of once per item.\n\n## Data and technical\n\n- **[Data Loss]** Deleting a character left 17 tables behind (honor, kills, cooldowns, Mythic+ deserter, archaeology...), inherited by a new character reusing the guid; item refunds are removed too.\n- **[Data Loss]** Group loot method, master and threshold are saved and restored after a restart.\n- **[Fix]** An account achievement earned again on another character kept counting its points and rewrote the first earner.\n- **[Fix]** The spell flyout hotfix table was silently rejected (missing parent column).\n- **[Fix]** Mail with an unknown item is deleted instead of retried forever; money is attached to the first mail only.\n- **[Fix]** Word filter: a word made only of ignored characters matched every text.\n- **[Fix]** Setting names the server ignored were renamed to what the core reads (`BattleGround.PrematureFinishTimer`, `BattleGround.PremadeGroupWaitForMatch`, `Ra.MinLevel`, `AllowTwoSide.Trade`, `Visibility.Distance.BG` and `.Arenas`); the values are the defaults.\n- **[Fix]** Occlusion planes (antiportal groups) were extracted as walls and cut navigation and line of sight (Ashran's Alliance gate); extractor tools are v1.0.3.\n\n---\n\n## Configuration\n\n| Option | Change |\n|---|---|\n| `Custom.ItemLevel.DungeonTier` | **New.** Content tier of the dungeon item levels shown by the client; 0 leaves the client data alone. |\n| `Timewalking.Enable`, `Timewalking.Interval` | **New.** Weekly Timewalking rotation and its interval in weeks. |\n| `Custom.GnomereganRun.Months`, `Custom.GnomereganRun.Days` | **New.** Dates of the Great Gnomeregan Run (12 and 1 by default). |\n| `WrongPass.BanSteps`, `WrongPass.ResetTime` | **New.** Progressive wrong-password blocking. |\n| `Ra.IP` | Now 127.0.0.1 by default. |\n"
+ },
+ {
+  "links": [
+   [
+    "Wings Over Mount Hyjal",
+    "quest=25985"
+   ],
+   [
+    "Aessina's Miracle",
+    "quest=25372"
+   ],
+   [
+    "Tiala Whitemane",
+    "npc=40833"
+   ],
+   [
+    "Neferset Jailer",
+    "npc=46780"
+   ],
+   [
+    "Tundra Stalker",
+    "spell=204132"
+   ],
+   [
+    "War Supplies",
+    "quest=13509"
+   ],
+   [
+    "Mount Hyjal",
+    "spell=258526"
+   ],
+   [
+    "Mage Tower",
+    "quest=37303"
+   ],
+   [
+    "Easy Money",
+    "quest=27003"
+   ],
+   [
+    "Lady Humps",
+    "npc=45121"
+   ],
+   [
+    "Arcane Orb",
+    "npc=59118"
+   ],
+   [
+    "Sentinax",
+    "npc=127264"
+   ],
+   [
+    "Karazhan",
+    "npc=115829"
+   ],
+   [
+    "Sargeras",
+    "npc=113978"
+   ],
+   [
+    "Aessina",
+    "npc=41406"
+   ],
+   [
+    "Adarrah",
+    "npc=24405"
+   ],
+   [
+    "Siamat",
+    "npc=44819"
+   ],
+   [
+    "Aviana",
+    "npc=40982"
+   ],
+   [
+    "Argus",
+    "npc=125111"
+   ]
+  ],
+  "tag": "0.3",
+  "date": "2026-10-05",
+  "url": "https://github.com/Titans-Project/LegionCore-Reforged/releases/tag/0.3",
+  "prerelease": true,
+  "banner": "images/versions/0.3.webp",
+  "body": "## Databases\n\n> [!IMPORTANT]\n> `sql/base` is now available : `auth` and `characters` (structure only), `hotfixes` in 2 parts, `world` in 5, each part importable on its own. Auto-setup applies them in name order.\n\n\n## The Broken Shore (Patch 7.2)\n\n- **[Fix]** Legionfall buildings work: contribute War Supplies to the Mage Tower, Command Center and Nether Disruptor. Each goes through its full cycle: construction, active 2 days, under attack 1 day, destroyed 1 day. Contributing always failed before, and nothing was saved.\n- **[Fix]** The three contribution quests are repeatable, as on retail; the personal tracker counts by 1 (it doubled).\n- **[Fix]** The \"Legionfall\" point shows on the Broken Isles map from 7.2 on.\n- **[Fix]** Broken Shore rares show on the map, and only 3 are out at a time; a rare nobody kills leaves after 30 minutes. They were all out at once, back 3 min after death.\n- **[Fix]** The Sentinax shows at its real place on the map. Three of its nine places were wrong or empty.\n- **[Change]** Nothing of the Broken Shore runs below 7.2: no Sentinax, no rares, no contributions.\n- **[Change]** World quests and emissaries follow the content tier: Broken Isles up to 7.2, the Broken Shore from 7.2, Argus from 7.3. A realm on 7.0 offered Argus world quests.\n\n## PvP seasons\n\n- **[Change]** One setting, `PvP.ActiveSeason`, drives everything; the season number shown in game follows it. Two unrelated settings existed before.\n- **[Fix]** Rewards follow the season: arena and battleground loot started from the end-of-Legion levels (915-950 in Season 1, up to 1045 in Season 7).\n- **[Fix]** Ratings are saved per season and reset when the season changes; going back to a season restores its ratings.\n- **[Fix]** Gladiator Quartermasters sell the set of the active season, from Season 3 on (they sold Season 6 gear at 940 from Season 1). PvP gear can be obliterated from Season 3 on, as on retail.\n\n## Mythic+\n\n- **[Fix]** Key levels per tier checked against retail: best loot at +10 (7.0), +12 (7.1), +15 (7.1.5), +20 (7.2), +25 (7.3). Higher keys stay open: harder, no better loot.\n- **[Fix]** Records ranked a fast +2 above a +15; the key level now comes first.\n- **[Fix]** Affixes were one week late every week, and manual affixes were overwritten at each reset.\n- **[Fix]** Upper and Lower Karazhan shared their records after a restart.\n- **[Fix]** A key that failed to start left a broken run that scaled creatures at random.\n\n## Quests and zones\n\n- **[Fix]** Quest texts: about 3,400 reward and request texts were mis-encoded Russian (a few German); the English text is back.\n- **[Fix]** French end-of-quest texts: the French rows held the English text.\n- **[Fix]** Mount Hyjal stays burned until Aessina's Miracle is rewarded.\n- **[Fix]** Grove of Aessina: two Archdruid Hamuuls stood on the same spot, the clickable one could not take the quest back; one at a time now.\n- **[Fix]** Nordune Ridge troops before the ritual showed in every phase.\n- **[Fix]** Wings Over Mount Hyjal is given by Tiala Whitemane, as on retail.\n- **[Fix]** Uldum, Easy Money: Lady Humps gave the credit and teleported anyone who clicked her; the introduction is scripted: Adarrah's lines, the pygmy ambush, waking up caged in the Lost City, the lock pick on turn-in, the Neferset Jailer.\n- **[Fix]** Uldum quest chains checked against retail: breadcrumbs locked the quests after them, Adarrah offered nothing.\n- **[Fix]** Uldum, Traitors!: the credit came on the spot; the screen now fades to black over Siamat's lines first.\n- **[Fix]** Siamat and the Neferset sentinels stand guard, two of them patrol.\n- **[Fix]** Sanctuary of Aviana: 312 event object conditions used the wrong source type and forced the scenario on everyone.\n- **[Fix]** Creatures placed in the air with a flying animation fell to the ground; they keep flying.\n- **[Fix]** Event decorations no longer stand around the ruined Auberdine.\n\n## Stability\n\n- **[Thread Safety]** Maps run on their own threads, the shared data now has locks: item, mail, auction and character ids could be drawn twice; the player and creature tables, the sessions, the Dungeon Finder, the friend lists and the world events were changed while another map read them.\n- **[Thread Safety]** Grid unloading, transport passengers, totems and keystones no longer touch other maps' objects or containers that change under them.\n- **[Performance]** Condition checks copied their whole list each time; they return a reference.\n\n---\n\n## Fixes\n\n- **[Crash]** Path finding with `MapUpdate.Map.Threads` above 1: one search state was shared between threads.\n- **[Crash]** Dungeon Finder: a forged dungeon id or role stopped the server.\n- **[Out of Bounds]** Spell effects and game tables read past their data.\n- **[Out of Bounds]** `PvP.ActiveSeason` at 8 or more read past the season table.\n- **[Crash]** Aura removal (null caller, lock taken too late, iterators invalidated), delayed casts on a destroyed item or aura.\n- **[Crash]** Area triggers on a vanished caster or a nested despawn.\n- **[Memory Leak]** Vehicle join events were never freed.\n- **[Crash]** Pets: wrong stable slot, missing current pet.\n- **[Crash]** Items: dangling pointers, and an assertion a client could trigger.\n- **[Memory Leak]** Items lost on some save and enchantment paths.\n- **[Crash]** PvP reward rows without a Horde item.\n- **[Exploit]** Any player could abandon somebody else's hunter pet.\n- **[Exploit]** Transmogrification applied appearances the player never collected.\n- **[Exploit]** Void Storage: one fee for several items, swap without the vault keeper.\n- **[Data Loss]** Void Storage: a failed withdrawal erased the deposits.\n- **[Exploit]** Bank and reagent bank slots, artifact packets, garrison packets (plot swap, shipments, troops), quest rewards, character reorder (own account only), battlefield port, game object gossip distance.\n- **[Exploit]** A loot item used up by its on-obtain spell stayed lootable, recasting the spell each time.\n\n## Characters\n- **[Data Loss]** **Deleting a character deleted another player's item**, the one sharing its guid.\n- **[Data Loss]** Equipment sets: an unknown guid from the client created a set, a later delete removed another player's set; new sets replaced each other.\n- **[Data Loss]** Pets lost their cooldowns, auras and specialization on recall and autosave.\n- **[Fix]** The login unlock never kept deserter debuffs and resurrection sickness.\n- **[Fix]** Honor levels cost the price of another level.\n- **[Fix]** The currency gain multiplier also applied to spending; weekly caps.\n- **[Fix]** Quest completion bits were offset; dailies stayed done after the reset.\n- **[Fix]** Raid resets looked in the dungeon difficulty; the daily random dungeon cooldown did not end on time.\n\n## Combat and spells\n- **[Fix]** Line of sight starts at each unit's collision height; ground-targeted spells check it from their impact point.\n- **[Fix]** Chain spells jump only to targets the previous one sees; non-boss melee needs line of sight in instances.\n- **[Fix]** Proc depth was never given back, which ended up blocking every proc.\n- **[Fix]** Split damage flags; the owner of a killing pet gets its kill proc.\n- **[Fix]** Versatility counted twice on some damage; damage shield absorb; Tundra Stalker; pet absorb capped.\n- **[Fix]** Crowd control duration modifiers apply; diminishing returns last 18 s, as on retail.\n- **[Fix]** Spell and periodic damage interrupt channels (bandages).\n- **[Fix]** Arcane Orb put every enemy in sight in combat.\n- **[Fix]** Spell charge timers could wrap into huge values; cooldowns keep their fraction of a second.\n- **[Fix]** Fear check, faction fallback, pet speed in combat, an endless loop in StopAttackFaction.\n\n## Creatures and movement\n- **[Fix]** Evading creatures walk home along a path instead of through walls; an unreachable target is given up on time.\n- **[Fix]** Waypoint movement only asks for a path where a wall cuts the leg.\n- **[Fix]** Opened doors and buttons are no longer solid; a game object changing model keeps its collision.\n- **[Fix]** A phase-neutral game object stays visible to phased creatures; list searches no longer return other phases.\n- **[Fix]** Broken Shore rares flagged as despawning no longer fought.\n- **[Fix]** Conversations started by a creature never ended.\n\n## Items and collections\n- **[Fix]** Artifact powers were listed twice.\n- **[Data Loss]** Artifact experience was read on 32 bits.\n- **[Fix]** A learned appearance was not recognised.\n- **[Performance]** Every mount was rewritten at each save.\n- **[Data Loss]** Toy favourites were never saved.\n- **[Fix]** Loot: bones open their loot window; a solo killer gets personal loot.\n\n## Garrison and class hall\n- **[Fix]** Completed shipments go by mail when bags are full.\n- **[Fix]** Shaman followers; follower vitality is saved; the research timer runs; the workshop draws its whole range.\n\n## Dungeon Finder\n- **[Fix]** Several groups formed at once: only the last one got its proposal.\n- **[Fix]** Accepting a proposal could leave players in the real queue.\n- **[Fix]** Vote kick showed 0 s left; a heroic instance could load the normal scenario.\n\n## Gameplay\n- **[Fix]** Healers and supports (buffs, dispels) now enter combat with the mobs fighting their target.\n- **[Fix]** Bound loot was tradeable to the group everywhere, not only in dungeons and raids.\n- **[Fix]** 28 item level selectors (world quest rewards) gave epic items instead of rare ones.\n- **[Fix]** Reputation requirements of player conditions were never checked.\n- **[Fix]** Brawler's Guild: a double death blocked the queue for 2 minutes; \"leave the queue\" did nothing; the reward was lost with full bags.\n- **[Fix]** Calendar: no limit on events and invites; events of deleted characters stayed.\n\n## Moderation\n- **[Log]** GM commands are logged again (off since the start of the repository).\n- **[Change]** `_scan` showed any player every aura of their target: now off by default.\n- **[Fix]** Muted players still spoke through addon messages and away texts.\n\n## World\n- **[Fix]** Silithus and the Sword of Sargeras were drawn off Westfall, Stranglethorn and Outland: a Kalimdor terrain swap was given to zones of other continents.\n- **[Fix]** Darkmoon Faire music restarted every 5 s over the zone music, heard 150 yards away. Now only near the portals, fading with distance.\n- **[Fix]** A Stormwind guard sat down every time his patrol stopped.\n\n## Data\n- **[Data Loss]** Invalid conditions deleted whole database rows at startup.\n- **[Out of Bounds]** Artifact experience past 4.29 billion restarted from zero in conditions.\n- **[Fix]** `disables` rows rejected at load were still applied.\n- **[Fix]** `AreaPOI` fields were declared in the wrong order, and `AreaPOI.db2` was never loaded.\n- **[Log]** The reason an instance connection cannot be linked is logged.\n\n---\n\n## Configuration\n\n| Option | Change |\n|---|---|\n| `PvP.ActiveSeason` | Now the only season setting. `PvP.ActiveStep` and `PvP.LevelEnable` are documented. |\n| `Arena.ArenaSeason.ID` | **Removed.** Derived from `PvP.ActiveSeason`. |\n| `Legionfall.ContributionsRequired` | **New.** Contributions per building (200). |\n| `Legionfall.MageTower.AlwaysBuilt` | **New.** Keeps the Mage Tower built, as Blizzard did in 2018. |\n| `PlayerCommand.AuraScan` | **New.** `_scan` for players, off by default. |\n| `Challenge.LevelLimit` | Now 255 by default: no practical key cap. |\n\n**New GM commands:** `.legionfall info / state / progress`, `.pvpseason info / reset / restore / cancel`."
+ },
+ {
+  "links": [
+   [
+    "Boon of the Builder",
+    "item=144328"
+   ],
+   [
+    "Return to Karazhan",
+    "quest=44556"
+   ],
+   [
+    "Call of the Scarab",
+    "quest=45787"
+   ],
+   [
+    "Karazhan",
+    "npc=115829"
+   ],
+   [
+    "Sargeras",
+    "npc=113978"
+   ],
+   [
+    "Suramar",
+    "npc=108786"
+   ],
+   [
+    "Argus",
+    "npc=125111"
+   ]
+  ],
+  "tag": "0.2.1",
+  "date": "2026-09-25",
+  "url": "https://github.com/Titans-Project/LegionCore-Reforged/releases/tag/0.2.1",
+  "prerelease": true,
+  "banner": "images/versions/0.2.1.webp",
+  "body": "## Content tiers\n\n- **`Game.Patch` now opens and closes content by itself.** At startup, for each tier (7.1, 7.1.5, 7.2, 7.3), the server compares `Game.Patch` with the world database and runs the matching `enable` or `disable` script of `sql/optional` when they no longer match. A script only runs when the tier changes, not at every startup. Each file runs in a transaction: if it fails, the database stays as it was and the server stops.\n- **New 7.1 and 7.1.5 scripts**, on the model of 7.2 and 7.3:\n\n| Tier | Closed below it |\n|---|---|\n| 7.1 | Return to Karazhan; the first quests of the Suramar Insurrection chapter, of the Karazhan attunement and of the Trial of Valor introduction |\n| 7.1.5 | Boon of the Builder; the micro-holidays (Hatching of the Hippogryphs, Volunteer Guard Day, Call of the Scarab, Kirin Tor Tavern Crawl, Spring Balloon Festival, Glowcap Festival, March of the Tadpoles, Thousand Boat Bash); Mists of Pandaria Timewalking |\n\n- A player logging in inside closed content (Argus below 7.3, the Broken Shore below 7.2, a map closed as a whole) is sent to Stormwind or Orgrimmar. GMs are not affected.\n- The 7.2 and 7.3 scripts no longer touch Tomb of Sargeras and Antorus: raids only follow the new raid settings below.\n- The 7.3 script restored the Argus invasion times two hours off those of the database; closing then opening the tier now changes nothing.\n\n---\n\n## Raids\n\n- **New `RAID OPENING` section in `worldserver.conf`:** one switch per difficulty and per Raid Finder wing for the five Legion raids, such as `Raid.EmeraldNightmare.LFR.Wing1 = 1`. Open by default, and independent from `Game.Patch`.\n- Underneath, the flags of `disables` map rows now list the closed difficulties instead of being ignored:\n- A single Raid Finder wing is closed with an LFG row (`sourceType` 8). The `.conf` and the table add up: a raid is closed as soon as either one closes it.\n- Players already inside keep playing; GM accounts pass. A closed difficulty shows the client's \"difficulty mode is not available\" message, and the group finder shows closed wings as temporarily disabled.\n\n---\n\n## Mail, guild and battlegrounds\n\n- **Cash on delivery above 214,748 gold** was cast to 32 bits: the recipient gained gold instead of paying, which let two players create gold.\n- **Mail money and cash on delivery** were saved on 32 bits when a mail changed state: a 500,000 gold mail came back as about 70,500 gold.\n- **Guild bank money log** showed amounts above 429,496 gold wrong; the balance itself was right.\n- **Battlegrounds:** after a relog inside a battleground, leaving it gave back the wrong mount (most Legion mounts did not fit in 16 bits) and failed to restore the specialization of priests, rogues, shamans, warlocks, monks and demon hunters.\n- **Summons:** the free summon slot search read and wrote one slot past the end of the array when every slot was taken.\n\n---\n\n## GM commands\n\n- **Crashes fixed:**\n  - `.npc flags` crashed the server on every use;\n  - a timed `.ban`, `.mute` and `.unmute` crashed it when typed from the console;\n  - `.list mail` crashed it on most attached items;\n  - the appearance commands (`.head`, `.chest`...), `.banlist account` and `.lookup player ip/account/email` crashed it from the console: they are now in-game only;\n  - `.debug battlepeterequestfailed` crashed it with nothing selected.\n- `.ban character` and `.ban playeraccount` were swapped: banning a character banned the whole account.\n- `.reset talents` did nothing on an offline character.\n- `.cheat explore` changed the GM's map instead of the target's, and `0` cleared nothing.\n- `.cheat all` without an argument never switched off.\n- `.account set gmlevel` reported success for an account that does not exist.\n- `.scenario info` and `.scenario step` printed a formatting error.\n- `.disable remove map` closed the map again instead of opening it.\n- Ten missing texts are added (`.list mail`, `.account create`, GM notices for mutes and bans): they showed `<error>`.\n"
+ },
+ {
+  "links": [
+   [
+    "Honorable Medallion",
+    "spell=195710"
+   ],
+   [
+    "Artifact Knowledge",
+    "spell=227850"
+   ],
+   [
+    "Battle for Gilneas",
+    "spell=78528"
+   ],
+   [
+    "Eye of the Storm",
+    "npc=101758"
+   ],
+   [
+    "The Nighthold",
+    "quest=45177"
+   ],
+   [
+    "Kil'jaeden",
+    "npc=25315"
+   ],
+   [
+    "Jin'thala",
+    "npc=37951"
+   ],
+   [
+    "Karazhan",
+    "npc=115829"
+   ],
+   [
+    "Sargeras",
+    "npc=113978"
+   ],
+   [
+    "Burning",
+    "npc=78826"
+   ],
+   [
+    "William",
+    "npc=2533"
+   ],
+   [
+    "Argus",
+    "npc=125111"
+   ]
+  ],
+  "tag": "0.2",
+  "date": "2026-09-25",
+  "url": "https://github.com/Titans-Project/LegionCore-Reforged/releases/tag/0.2",
+  "prerelease": true,
+  "banner": "images/versions/0.2.webp",
+  "body": "## Mythic+\n\nMost of this section brings Mythic+ back in line with the official game. What departs from it on purpose is marked **(custom)**.\n\n**Keys and difficulty**\n\n- Creature scaling counted one key level short of retail: a +2 was worth 1.00x instead of 1.08x. A +N key is now worth `(1 + slope)^(N-1)`, which gives back the 7.0 values: **2.00x at +10, 2.94x at +15**.\n- The move from 8% to 10% per level happened in **7.2.5**, not in 7.3; the documentation now says so.\n- Keys stop at **+25**: `Challenge.LevelLimit` defaulted to 30, so keys +26 to +30 were harder for the same loot.\n- Keys only draw the dungeons of the open content tier: Karazhan and Cathedral of Eternal Night join in 7.2, Seat of the Triumvirate in 7.3.\n- A failed run no longer loops until it draws another dungeon.\n\n**Rewards**\n\n- **(custom)** Linear item level curve: the original pace up to +8, then 5 item levels per key up to 945 at +25. The old curve sped up at the top (2.5, then 5, then 9 per key).\n- **(custom)** The weekly chest gives 5 item levels above the end-of-run loot and is capped at heroic raid + 5 (950 at Antorus), 10 below the mythic raid.\n- **(custom)** One setting per content tier: `ItemLevel.MythicPlus.Cap`. The weekly chest cap and the highest key follow from it.\n\n| Tier | End of run | Weekly chest | Highest key |\n|---|---|---|---|\n| 7.0 | 865 | 870 | +10 |\n| 7.1 | 875 | 880 | +11 |\n| 7.1.5 | 890 | 895 | +15 |\n| 7.2 | 915 | 920 | +20 |\n| 7.3 | 945 | 950 | +25 |\n\n- End-of-run chest as in **7.2.5**: 2 items, 3 in time, plus 40% more per key level **above +15**. Extra items started above +10, which gave 9 items at +25 instead of 7.\n- Saved affixes were all written to the first slot; the weekly chest level is bounded by its reward tables; records keep the key level and are looked up by challenge id.\n\n**Weekly reset**\n\n- **(custom)** Keys decay instead of vanishing. At the weekly reset the next key is the best key of the week minus one, or the last level minus two without a completed key, never below +2.\n- **(custom)** The class hall chest hands the key back to any player without one, with no gear when no key was completed.\n- The key row of the past week survived the reset, so offline players could not loot a key at the end of a mythic dungeon.\n\n---\n\n## Raids\n\n- Raid item levels now match the client's item level selectors, the ones the Adventure Guide shows:\n\n| Raid | Before (LFR / N / H / M) | Now |\n|---|---|---|\n| Trial of Valor | 840 / 855 / 870 / 885 | 845 / 860 / 875 / 890 |\n| The Nighthold | 845 / 875 / 890 / 905 | 860 / 875 / 890 / 905 |\n| Tomb of Sargeras | unchanged | Kil'jaeden +10 |\n| Antorus, the Burning Throne | unchanged | Argus +10 |\n\n- The Knowledge book (+1 Artifact Knowledge rank) now drops by default, one per player and per week, from raid bosses, PvP victory chests and both Mythic+ chests. Its Mythic+ entry sat in a loot table that was never read, so it had never dropped.\n\n---\n\n## Battlegrounds and arenas\n\n- Warsong Gulch and Twin Peaks: a player standing in the capture area blocked the flag carrier; a refused click on a dropped flag deleted it (Eye of the Storm too).\n- Premature ends: ties went to the Alliance. Alterac Valley and Isle of Conquest now compare the reinforcements left.\n- Arathi Basin and Battle for Gilneas: defending a contested node kept its assault timer, which captured the node a second time.\n- Isle of Conquest: re-assaulting a node now starts the clicking team's own countdown.\n- Alterac Valley:\n  - the 5 minute first capture applied to every node instead of neutral Snowfall only;\n  - end reputation was never given;\n  - surviving towers counted for the Alliance only.\n- Warsong Gulch showed 10 captures to win instead of 3.\n- Rated arenas:\n  - a player leaving mid-match lost rating twice;\n  - a draw was computed against a rating of 16;\n  - the 25 minute rule compared the wrong counts.\n- Spirit healers resurrect ghosts only, within 60 yards; a living player got a full heal every 30 seconds.\n- Gameobject use (flags, banners, carts) now requires the interaction range; it worked from anywhere with a forged packet.\n- Seething Shore:\n  - a gunship was created on every teleport;\n  - a node could score twice in one update;\n  - the fissure loop could hang.\n- The Honorable Medallion is taught in battlegrounds and arenas only, not by fighting a guard.\n\n---\n\n## Auction house\n\n- Auctions built from stacks of different items, a freed entry read on every expiry, out of bounds writes from a search filter.\n- Items deleted when the winner was offline; bids stored on 32 bits.\n- The deposit is refunded when the auction cannot be created.\n- The seller is told of a new bid.\n- The pending sales tab lists every payment on its way.\n- Auctions close at the time shown, not up to a minute earlier.\n\n---\n\n## AI and scripts\n\n- **EventMap:**\n  - groups and phases were lost in a 32-bit value, so group cancels, grouped delays and phase filters never worked;\n  - remaining times no longer wrap around.\n- **SmartAI:**\n  - stored targets kept as GUIDs instead of raw pointers;\n  - events created during processing are queued;\n  - `event_param5` no longer overwrites param4;\n  - removed events are really removed;\n  - random picks no longer read past the list;\n  - area triggers no longer run on exit;\n  - many null checks added.\n- An overridden SmartAI base object that despawns hands the script back instead of crashing.\n- **Crashes fixed** in escorts, delayed events, caster, pet and totem AI.\n- **Other AI fixes:**\n  - turrets engage targets in range;\n  - boss despawn delays are in seconds;\n  - AI cast delays no longer overflow.\n- Taunt: the target was read from the first taunt and walked past the end of the list when its caster was dead.\n\n---\n\n## Achievements\n\n- Progress lost on logout, guild progress not saved, phantom progress entries crashing `.reset achievements`.\n- The team was stored on 8 bits (Alliance became 213).\n- Health criteria read on the target; death statistics no longer require an arena.\n\n---\n\n## Chat, calendar and Brawler's Guild\n\n- **Chat channels:**\n  - kicking oneself no longer writes into freed memory;\n  - a new owner must be a member;\n  - joins and leaves update the player's list at once.\n- **Chat parsing:**\n  - addon prefixes are capped;\n  - chat links and command arguments are bounds checked.\n- **Calendar:**\n  - every handler checks that the player may see or edit the event, and that the invite belongs to it;\n  - freeing invite id 0 no longer wraps the id counters.\n- **Brawler's Guild:** a player is queued once, alive, not while fighting, and only when a boss exists for their rank.\n\n---\n\n## World and texts\n\n- **Creature texts:**\n  - `creature_text_locale` is now read;\n  - about 34,000 texts from a Russian source are cleaned up: missing groups and foreign lines restored from TDB, the rest translated, with French lines.\n- **French translations:** 128,314 broadcast texts and 4,387 quest fields from TDB 12.1, only where the English text matches.\n- **Quest map markers:** about 6,000 quests pointed at another quest's area; merged and filled from TDB 7.3.5 and 12.1.\n- **Patrols:** 3,621 looped patrol paths linked; about 18,000 spawns had a path but never moved.\n- **Holiday quests** were offered twice, or outside their season.\n- **Legacy honor items:** 7,996 vendor lines using removed currencies now cost 1 gold.\n- **Starting action bars** use Legion spells.\n- **Race intros:** troll and undead start poses are held through the intro; Zuni and Jin'thala are scripted.\n- **Flight paths:**\n  - the alpha Lorlathil node is removed;\n  - William Keilar no longer unlocks every flight path.\n- **Phasing:** the phase filter compared each target with itself, so players in another phase saw each other move.\n\n---\n\n## Stability and clean-up\n\n- `.account delete` wrote into freed memory and left the characters behind.\n- **Accounts:** an account with several access rows gets its highest GM level.\n- **Map timers:** the battle pet timer now ticks; an unused object timer is removed.\n- **Dead code removed:**\n  - the addons module;\n  - unused AI helpers and prepared statements.\n\n---\n\n## Configuration changes\n\n| Option | Change |\n|---|---|\n| `WeeklyReset.Day`, `WeeklyReset.Hour` | **New.** Weekly quests, currency caps, raid lockouts and Mythic+ keys reset together, in the server's local time. Default Tuesday 19:00. The day used to be the one of the first server start. |\n| `Currency.ResetDay`, `Currency.ResetHour` | **Removed**, replaced by the two above. |\n| `ItemLevel.MythicPlus.Cap` | One value per tier drives the weekly chest cap and the highest key. Leave commented out to follow `Game.Patch`. |\n| `Challenge.LevelLimit` | Now follows the cap (+25 at most). |\n| `Challenge.BaseKeyScaling`, `Challenge.HighKeyScaling` | Same defaults (8 and 5); the curve counts levels as on retail. |\n| `Artifact.Knowledge.BookLoot.Enable` | Now **on** by default. |\n| `Damage.Variance.Pct` | Now applies to PvP as well. Default 5. |\n| `Custom.GainHonorOnEliteKill`, `Custom.GainHonorOnGuardKill` | Default off in code as documented. |\n"
+ },
+ {
+  "links": [
+   [
+    "Artifact Knowledge",
+    "spell=227850"
+   ],
+   [
+    "Hand of Gul'dan",
+    "npc=46157"
+   ],
+   [
+    "Iron Demolisher",
+    "npc=75984"
+   ],
+   [
+    "Legion Assault",
+    "spell=235122"
+   ],
+   [
+    "Spires of Arak",
+    "spell=258540"
+   ],
+   [
+    "Dreadstalkers",
+    "npc=99738"
+   ],
+   [
+    "Blasted Lands",
+    "spell=258505"
+   ],
+   [
+    "Nethershard",
+    "item=29457"
+   ],
+   [
+    "Dark Portal",
+    "npc=75987"
+   ],
+   [
+    "Wild Imps",
+    "npc=99739"
+   ],
+   [
+    "Doom Bolt",
+    "spell=40876"
+   ],
+   [
+    "Doomguard",
+    "npc=11859"
+   ],
+   [
+    "Blackwing",
+    "npc=15198"
+   ],
+   [
+    "WoW Token",
+    "item=122284"
+   ],
+   [
+    "Karazhan",
+    "npc=115829"
+   ],
+   [
+    "Nefarian",
+    "npc=11583"
+   ],
+   [
+    "Rukhmar",
+    "npc=83746"
+   ],
+   [
+    "Argus",
+    "npc=125111"
+   ]
+  ],
+  "tag": "0.1",
+  "date": "2026-09-23",
+  "url": "https://github.com/Titans-Project/LegionCore-Reforged/releases/tag/0.1",
+  "prerelease": true,
+  "banner": "images/versions/0.1.webp",
+  "body": "### Progression and rewards\n_`Everything in this section is a deliberate departure from the official game, not a restoration of it. The realm reopens Legion tier by tier, and these settings exist to make that pacing hold.`_\n⠀\n- `Game.Patch` takes one value per Legion patch (7.0 → 7.3) instead of three.\n- Item levels are pinned server-side instead of read from the client: dungeons at 805 / 825 / 840 for the whole expansion, raids attached to their own map, Karazhan per boss. The client's DB2 data holds the 7.3.5 catch-up values, which were inflated at the end of the expansion to let latecomers skip ahead. Using them made a normal dungeon out-reward the first raid.\n- Mythic+ loot follows the key up to +25, where the original game stopped at +15. It stays capped by the heroic raid of the open tier, so a high key never out-rewards unreleased content.\n- Creature scaling is computed from two tunable slopes instead of the client tables: 8% per key up to +15, 5% above. A +15 is worth 2.72x and a +25 4.43x. The client's own tables would put that same +25 at 9.85x: they rise by 10% compounded per key and never flatten.\n- Artifact Knowledge advances per character through the class hall order again, capped by tier (25 / 40 / 55). The realm used the late 7.3 design: one world state bumped weekly and forced onto every character at login, which leaves no individual progression at all.\n- A Knowledge book drops from current-tier raids, the Mythic+ chest and PvP chests: free-for-all, one per player per week. Off by default.\n- A catch-up quest rerolls an alt to rank 10, gated on a new account-wide condition type.\n- The weekly chest has its own item level cap.\n- The per-tier item level penalty that still applied to dungeon loot is gone, now that dungeon levels are pinned.\n- Legion Assaults and the pre-patch invasions get their own options, independent of the patch level.\n\n### Combat\n\n- **[Damage variance system]** Carried over from 9.x. Minimum and maximum damage are computed from a variance that falls back to 0.3466 when the client data is missing or zero, and every hit swings ±5% either way.\n  > `Damage.Variance.Pct` sets the spread, and 0 makes every hit deterministic again. It sits on top of the weapon's own min/max damage, which only spreads weapon swings.\n\n### Items\n\n- Artifact research notes restored — both work, refresh the artifact window, and consume the note actually clicked.\n  > 7.3 emptied both items when Knowledge became automatic: the use effect stripped, the text replaced by one saying they were obsolete. Neither had an `ItemEffect` entry left, so the whole research loop had been dead, hidden by the weekly increment.\n- Spell 235765, dropped from `Spell.db2` in 7.3, restored by hotfix in English and French.\n  > Its mechanics survived elsewhere, so the item worked — but with no text the client drew no \"Use:\" line, and therefore never sent the use packet.\n- Bag filters work: the opcodes were unhandled and the backpack's own one undeclared. Bank bag filters and the auto-sort checkboxes came with them — three more unhandled opcodes.\n- Cleanup sorting repeats until nothing moves, so one Clean Up is enough. Bank and reagent bank sorting return a result instead of stopping early.\n- `.additem` honours the difficulty picked in the adventure guide.\n- The auction house bot is removed entirely — sources, hooks, table and 390 lines of config.\n\n### Classes and pets\n\n- Warlock Dreadstalkers land on opposite flanks of the target instead of stacking on each other, and Hand of Gul'dan drops its Wild Imps next to the caster rather than at the target.\n- Warlock Vilefiend summons no longer overlap their caster.\n- Doom Bolt can be cast at all: the Doomguard was charged Energy it does not have, having only a mana bar, so the cost is hotfixed to zero.\n- Cripple stops being cast on targets already in melee range, and on the elites and bosses that are immune to it.\n- Loading a pet matched on creature id instead of pet number, so a player with two pets of the same kind could get the wrong one back.\n- A pet keeps its own follow distance and angle when leaving combat instead of snapping back to the hardcoded pair, and the default distance goes from 1 to 2 yards.\n- A creature's channelled spell starts its cooldown when the channel ends, not when it begins.\n\n### Social\n\n- **[Recruit-A-Friend]** Answered with `.account raf list / accept / refuse` or over an addon chat prefix for a client-side interface, and announced in chat at every login until answered.\n- The bonus is a flat +50% to experience and reputation, replacing the two configurable rates, and adds to rested experience instead of replacing it. Another deliberate departure. Replacing it made the bonus a net loss for a rested player.\n- **[Deleted character restoration]** Deleted characters can be restored. The list showed the character's live name instead of the one recorded at deletion, and its level came from a cache that could be stale.\n\n### Calendar\n\n- Content openings are announced from one world table: a name, a date, `Enabled` set to 1.\n  > The client only draws holidays, read from its own files. A scheduled opening sent as a calendar event shows up as a player event authored by \"Unknown\", so the core translates the table into the holiday hotfixes the client does read.\n- The 21 Legion openings are already in the table — every raid wing, the 7.2 and 7.3 dungeons, Broken Shore, Argus, the demon invasion. Nothing to create: fill in a date, set Enabled to 1.\n- Announcements can repeat, up to ten occurrences, and can drive a game event.\n- `HolidayDescriptions` is loaded — the store was commented out, so no holiday description ever reached the client.\n\n### Security\n\n- Guildless players no longer see each other's private calendar events.\n- Editing and deleting a calendar event now check ownership: neither checked anything at all.\n  > An event id is a plain number the client sends, so any player could alter or wipe any other player's event, invitation mail included.\n- Anticheat gains a dry run mode, on by default, plus configurable thresholds and a staff exemption.\n  > Detections were acted on immediately against hardcoded margins, so a lift, a fall or a lag spike could kick a legitimate player, and `.mod speed` is indistinguishable from a speed hack.\n- `outAnticheat` was an empty stub, so every detection was written nowhere.\n\n### World and content\n\n- Argus is drawn in the sky. Off by default. The client draws a celestial body from `MapCelestialBody` but never evaluates that table on its own: `SMSG_UPDATE_CELESTIAL_BODY` is the signal, and the core never sent it.\n- Silithus: Zidormi's timeline switch works, and the Wound is reachable without the Antorus questline.\n- Legion Assault bonus objectives show on the map again, expired world quests stop being sent to the client, and a command forces an assault into a chosen zone. The client hid them because of a `PlayerCondition` shipped in DB2 that a private realm cannot satisfy, and world quest states were never cleaned up once they expired.\n- The pre-patch demon invasion reaches its fourth phase, with the Nethershard vendor, experience, achievements and progress tracking.\n- The Adventure Guide works: adventure map objectives are added and completed on their own, while journal entries open the quest and wait for the player to accept it.\n- Brawler's Guild queues again — both faction handlers were unscripted, and two creatures had no AI attached.\n- Blasted Lands: the Iron Demolisher aims, fires and can be destroyed, with the missile speed and damage it should have.\n- `gameobject_template.VisibilityDistance` — a sight range an object carries on its own.\n- Dark Portal introduction scenario, replacing 45 `phase_definitions` rows.\n- Objects are visible immediately on entering a map, instead of arriving after a distance delay. That delay dropped the player into the void for a second after the loading screen.\n- A phase-neutral object is visible to everyone, instead of hidden from anything carrying a phase.\n- Elite, rare and boss creatures hit as hard as they should. The damage modifier was missing from the base formula while the health one was applied, so they had the expected health and hit like a regular mob.\n- Waypoint movement starts at once and no longer stalls between points, and a creature holds still while a player is talking to it.\n- Rukhmar patrols low enough to be fought from the Skyreach platform.\n\n### Stability\n\n- **[Crash]** `UpdateTargetMap`, on an iterator its own loop had invalidated.\n- **[Crash]** Rolling loot from a creature that had despawned.\n- **[Crash]** Naming a pet with no creature template.\n- **[Crash]** Brawler's Guild ranks 2, 3, 5 and 6 dereferenced owners, creatures and spell entries without checking any of them.\n- **[Out of Bounds]** Relic talent tiers read past the end when a tier is empty.\n- **[Data Loss]** Artifact power above 4 294 967 295 lost to a 32-bit read of a 64-bit field.\n- **[Memory Leak]** The auction house kept the entry when the item could not be created.\n- **[Memory Leak]** Nefarian never released his object list in Blackwing Lair.\n- **[Memory Leak]** The two Dark Portal greeters recorded every player they had spoken to and never dropped an entry, not even on reset.\n- **[Fix]** Every creature with both scaling bounds left at zero died to its first hit.\n- **[Fix]** Creature, item and quest names written twice through UTF-8 encoding.\n- **[Log]** Exceptions swallowed by the map loops were written nowhere, and so were tick timings — both were empty stubs. Exceptions now log at ERROR, which the root logger carries without any configuration; timings go to a `diff` filter.\n- **[Log]** Phase recalculation logged under the wrong category.\n- **[Log]** Time sync acks and unimplemented protobuf calls drop from ERROR to DEBUG, both are normal traffic, and four client messages become authenticated no-ops instead of unhandled.\n- **[Fix]** All three extractors failed on a working directory with no `ClientData` yet.\n\n### Performance\n\n- The send buffer is only built when there is something to send, instead of being zeroed for every player every millisecond, almost always for an empty queue.\n- `Map.NumThreads` at 1 runs inline, instead of paying the queue handoff and the condition variable wait for a single worker that brings no parallelism.\n- An instanceable map with no instance idles instead of spinning for the rest of the uptime.\n- Creatures keep their ground height until they move, instead of walking two spatial trees every update.\n- Creature spell lists become a vector — 100k templates paid for a bucket array to hold 8 spells.\n- Map lookups move to unordered containers, and the pull cell size is read once rather than on every pull.\n- The DAMAGE_BUG diagnostic drops from error to debug, so it stops hitting the disk on every low-damage hit.\n\n### Pathfinding\n\n- Navigation queries get twice the node budget, and a unit standing above the navmesh, on a moving object, for instance, is snapped onto the nearest polygon before the path is built. Starting from the wrong polygon produced a path through the floor.\n\n### Tools\n\n- Model conversion runs on every core instead of one.\n- The extractors try each locale until one has readable DB2 files, rather than giving up on the first.\n- They print the path they are reading and wait before closing, so a double-click is enough to see what happened.\n\n### Miscellaneous\n\n- GM flight survives a logout.\n- Quest accept and abandon hooks for scripts.\n- SoloCraft is removed, and the 6.0.2 Iron Horde invasion quests are disabled.\n\n### Data\n\n- French names for creatures, items and quests.\n- 328 applied SQL files archived rather than deleted. A row in the `updates` table with no file behind it is a dead reference, and the server stops starting past three of them.\n- About a thousand rows of database errors fixed, over several passes.\n\n### Build\n\n- The core and the scripts compile without warnings, across some 150 files: double-to-float truncations, C-style casts, signed and unsigned comparisons. No behaviour was changed.\n\n---\n\n### Known limitations\n\n- BattlePay and the WoW Token are present but unfinished; the Token is missing opcodes and ships disabled.\n- The Solar Skyreach event in Spires of Arak is a work in progress.\n- Calendar announcements ship disabled and undated, and opening a date does not open the content it announces — the config option has to follow, with `.reload config`.\n- Most announcement icons are one image repeated three times instead of a start / ongoing / end triptych.\n- Anticheat defaults to dry run: nothing is punished until the log has been read against real play.\n- `Custom.ArgusInSky.Enable` and the Knowledge book loot default to off."
+ }
+]

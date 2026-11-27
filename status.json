@@ -613,7 +613,7 @@
             },
             {
               "name": "Alliance Gladiator's Banner",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Barrière du gladiateur de l'Alliance",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_banner_03.jpg",
               "wowhead": "item=119220"
@@ -795,7 +795,7 @@
             },
             {
               "name": "Berglrgl Perrgl Girggrlf",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Berglrgl perrgl girggrlf",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_bluemurlocegg.jpg",
               "wowhead": "item=141879"
@@ -942,7 +942,7 @@
             },
             {
               "name": "Brazier of Dancing Flames",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Brasero des flammes dansantes",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_firedancer_01.jpg",
               "wowhead": "item=34686"
@@ -956,7 +956,7 @@
             },
             {
               "name": "Brewfest Banner",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bannière de la fête des Brasseurs",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_holiday_brewfestbuff_01.jpg",
               "wowhead": "item=116758"
@@ -984,14 +984,14 @@
             },
             {
               "name": "Bubble Wand",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Baguette à bulles",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_wand_05.jpg",
               "wowhead": "item=114227"
             },
             {
               "name": "Burgy Blackheart's Handsome Hat",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Beau chapeau de Burgy Cœur-noir",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_66.jpg",
               "wowhead": "item=134022"
@@ -1362,7 +1362,7 @@
             },
             {
               "name": "Darnassus Banner",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bannière de Darnassus",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_tournaments_banner_nightelf.jpg",
               "wowhead": "item=45021"
@@ -1390,7 +1390,7 @@
             },
             {
               "name": "Deceptia's Smoldering Boots",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bottes fumantes de Deceptia",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_mail_pvpshaman_e_01.jpg",
               "wowhead": "item=108743"
@@ -1607,7 +1607,7 @@
             },
             {
               "name": "Exodar Banner",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bannière de l'Exodar",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_tournaments_banner_draenei.jpg",
               "wowhead": "item=45020"
@@ -1726,7 +1726,7 @@
             },
             {
               "name": "Flimsy Yellow Balloon",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Ballon jaune fragile",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_balloon_01.jpg",
               "wowhead": "item=75042"
@@ -1789,7 +1789,7 @@
             },
             {
               "name": "Frenzyheart Brew",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bière frénécœur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_drink_04.jpg",
               "wowhead": "item=44719"
@@ -1873,7 +1873,7 @@
             },
             {
               "name": "Gnomeregan Banner",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bannière de Gnomeregan",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_tournaments_banner_gnome.jpg",
               "wowhead": "item=45019"
@@ -1950,7 +1950,7 @@
             },
             {
               "name": "Green Balloon",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Ballon vert",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_food_45.jpg",
               "wowhead": "item=69895"
@@ -2069,7 +2069,7 @@
             },
             {
               "name": "Horde Gladiator's Banner",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Barrière du gladiateur de la Horde",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_banner_03.jpg",
               "wowhead": "item=119221"
@@ -2097,7 +2097,7 @@
             },
             {
               "name": "Hozen Beach Ball",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Ballon de plage hozen",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_throwingball_01.jpg",
               "wowhead": "item=86593"
@@ -2167,7 +2167,7 @@
             },
             {
               "name": "Ironforge Banner",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bannière de Forgefer",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_tournaments_banner_dwarf.jpg",
               "wowhead": "item=45018"
@@ -2188,7 +2188,7 @@
             },
             {
               "name": "Jin Warmkeg's Brew",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bière de Jin Chaud Tonneau",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cask_04.jpg",
               "wowhead": "item=88579"
@@ -2251,7 +2251,7 @@
             },
             {
               "name": "Kirin Tor Beacon",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Balise du Kirin Tor",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/achievement_reputation_kirintor_offensive.jpg",
               "wowhead": "item=95567"
@@ -2349,7 +2349,7 @@
             },
             {
               "name": "Leylight Brazier",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Brasero de lumière tellurique",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_twilightfire.jpg",
               "wowhead": "item=128536"
@@ -2538,7 +2538,7 @@
             },
             {
               "name": "Mr. Smite's Brass Compass",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Boussole de cuivre de M. Châtiment",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cat_trinket10.jpg",
               "wowhead": "item=86568"
@@ -2629,7 +2629,7 @@
             },
             {
               "name": "Nightmarish Hitching Post",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Barre d'attache cauchemardesque",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_steel_hitching_post2.jpg",
               "wowhead": "item=112324"
@@ -2867,7 +2867,7 @@
             },
             {
               "name": "Prismatic Bauble",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Babiole prismatique",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_enchant_prismaticsphere.jpg",
               "wowhead": "item=140309"
@@ -2888,7 +2888,7 @@
             },
             {
               "name": "Puzzle Box of Yogg-Saron",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Boîte à secret de Yogg-Saron",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_cthunspuzzlebox.jpg",
               "wowhead": "item=64482"
@@ -3105,7 +3105,7 @@
             },
             {
               "name": "Set of Matches",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Boîte d'allumettes",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_matchbook.jpg",
               "wowhead": "item=141649"
@@ -3252,7 +3252,7 @@
             },
             {
               "name": "Spirit Wand",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Baguette à esprit",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_wand_16.jpg",
               "wowhead": "item=127695"
@@ -3336,7 +3336,7 @@
             },
             {
               "name": "Stormwind Banner",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bannière de Hurlevent",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_tournaments_banner_human.jpg",
               "wowhead": "item=45011"
@@ -3350,7 +3350,7 @@
             },
             {
               "name": "Sunreaver Beacon",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Balise des Saccage-soleil",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/achievement_faction_sunreaveronslaught.jpg",
               "wowhead": "item=95568"
@@ -3378,7 +3378,7 @@
             },
             {
               "name": "Sylvanas' Music Box",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Boîte à musique de Sylvanas",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_enggizmos_18.jpg",
               "wowhead": "item=52253"
@@ -3462,7 +3462,7 @@
             },
             {
               "name": "The Perfect Blossom",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bourgeon parfait",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_herb_felblossom.jpg",
               "wowhead": "item=127766"
@@ -3490,7 +3490,7 @@
             },
             {
               "name": "Thistleleaf Branch",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Branche de chardofeuille",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_herb_goldthorn_bramble.jpg",
               "wowhead": "item=130147"
@@ -3721,7 +3721,7 @@
             },
             {
               "name": "Unusual Compass",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Boussole insolite",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_idol_05.jpg",
               "wowhead": "item=45984"
@@ -3798,14 +3798,14 @@
             },
             {
               "name": "Wand of Simulated Life",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Baguette d'existence artificielle",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_discoball_01.jpg",
               "wowhead": "item=143534"
             },
             {
               "name": "War Party Hitching Post",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Barre d'attache de la compagnie",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_mount_ridinghorse.jpg",
               "wowhead": "item=69215"
@@ -3980,7 +3980,7 @@
             },
             {
               "name": "Yellow Balloon",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Ballon jaune",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_throwingball_01.jpg",
               "wowhead": "item=69896"

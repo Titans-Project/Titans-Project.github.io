@@ -4859,13 +4859,13 @@
             },
             {
               "name": "Darkheart Thicket",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Fourré Sombrecœur",
               "image": "images/instances/darkheart-thicket.jpg"
             },
             {
               "name": "Eye of Azshara",
-              "status": "untested",
+              "status": "working",
               "name_fr": "L’Œil d’Azshara",
               "image": "images/instances/eye-of-azshara.jpg"
             },

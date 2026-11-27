@@ -708,39 +708,39 @@
             {
               "name": "Calamir",
               "detail": "Azsuna",
-              "status": "untested",
+              "status": "partial",
               "icon": "images/boss/calamir.png"
             },
             {
               "name": "Levantus",
               "detail": "Azsuna",
-              "status": "untested",
+              "status": "partial",
               "icon": "images/boss/levantus.png"
             },
             {
               "name": "Withered J'im",
               "detail": "Azsuna",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "J’im le Flétri",
               "icon": "images/boss/withered-jim.png"
             },
             {
               "name": "Ana-Mouz",
               "detail": "Suramar",
-              "status": "untested",
+              "status": "partial",
               "icon": "images/boss/ana-mouz.png"
             },
             {
               "name": "Na'zak the Fiend",
               "detail": "Suramar",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Na’zak le démon",
               "icon": "images/boss/nazak-the-fiend.png"
             },
             {
               "name": "Humongris",
               "detail": "Val'sharah",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Balmorgue",
               "detail_fr": "Val’sharah",
               "icon": "images/boss/humongris.png"
@@ -756,7 +756,7 @@
             {
               "name": "Drugon the Frostblood",
               "detail": "Highmountain",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Drugon le Givre-Sang",
               "detail_fr": "Haut-Roc",
               "icon": "images/boss/drugon-the-frostblood.png"
@@ -764,7 +764,7 @@
             {
               "name": "Flotsam",
               "detail": "Highmountain",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Débris",
               "detail_fr": "Haut-Roc",
               "icon": "images/boss/flotsam.png"
@@ -772,14 +772,14 @@
             {
               "name": "Nithogg",
               "detail": "Stormheim",
-              "status": "untested",
+              "status": "partial",
               "detail_fr": "Tornheim",
               "icon": "images/boss/nithogg.png"
             },
             {
               "name": "The Soultakers",
               "detail": "Stormheim",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Les faucheurs d’âmes",
               "detail_fr": "Tornheim",
               "icon": "images/boss/the-soultakers.png"

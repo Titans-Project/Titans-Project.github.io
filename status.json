@@ -4794,17 +4794,17 @@
           "items": [
             {
               "name": "Krokuun",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Krokuun"
             },
             {
               "name": "Mac'Aree",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Mac’Aree"
             },
             {
               "name": "Antoran Wastes",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Étendues Antoréennes"
             }
           ]
@@ -4815,17 +4815,17 @@
           "items": [
             {
               "name": "The Vindicaar",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Le Vindicaar"
             },
             {
               "name": "Lightforged Warframe",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Armure de guerre sancteforgée"
             },
             {
               "name": "Netherlight Crucible (relics)",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Creuset de Lumière-du-Néant (reliques)"
             }
           ]

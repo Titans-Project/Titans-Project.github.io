@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-27",
+  "updated": "2026-11-28",
   "sections": [
     {
       "title": "Systems",
@@ -5350,7 +5350,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_15.jpg",
-              "wowhead": "item=151822"
+              "wowhead": "item=151822",
+              "specs": [
+                73
+              ]
             },
             {
               "name": "Archavon's Heavy Hand",
@@ -5359,7 +5362,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gloves_plate_raidwarrior_m_01.jpg",
-              "wowhead": "item=137060"
+              "wowhead": "item=137060",
+              "specs": [
+                71
+              ]
             },
             {
               "name": "Ayala's Stone Heart",
@@ -5368,7 +5374,11 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_ring_firelands_1.jpg",
-              "wowhead": "item=137052"
+              "wowhead": "item=137052",
+              "specs": [
+                71,
+                72
+              ]
             },
             {
               "name": "Ceann-Ar Charger",
@@ -5377,7 +5387,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_03.jpg",
-              "wowhead": "item=137088"
+              "wowhead": "item=137088",
+              "specs": [
+                72
+              ]
             },
             {
               "name": "Destiny Driver",
@@ -5386,7 +5399,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate07.jpg",
-              "wowhead": "item=137018"
+              "wowhead": "item=137018",
+              "specs": [
+                73
+              ]
             },
             {
               "name": "Kakushan's Stormscale Gauntlets",
@@ -5395,7 +5411,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_05.jpg",
-              "wowhead": "item=137108"
+              "wowhead": "item=137108",
+              "specs": [
+                73
+              ]
             },
             {
               "name": "Kazzalax, Fujieda's Fury",
@@ -5404,7 +5423,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_pandaria_c_04.jpg",
-              "wowhead": "item=137053"
+              "wowhead": "item=137053",
+              "specs": [
+                72
+              ]
             },
             {
               "name": "Mannoroth's Bloodletting Manacles",
@@ -5422,7 +5444,11 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_plate_legionquest100_b_01.jpg",
-              "wowhead": "item=137087"
+              "wowhead": "item=137087",
+              "specs": [
+                71,
+                72
+              ]
             },
             {
               "name": "Soul of the Battlelord",
@@ -5449,7 +5475,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_plate_raiddeathknight_o_01helm.jpg",
-              "wowhead": "item=151823"
+              "wowhead": "item=151823",
+              "specs": [
+                71
+              ]
             },
             {
               "name": "The Walls Fell",
@@ -5458,7 +5487,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_142.jpg",
-              "wowhead": "item=137054"
+              "wowhead": "item=137054",
+              "specs": [
+                73
+              ]
             },
             {
               "name": "Thundergod's Vigor",
@@ -5467,7 +5499,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_plate_raiddeathknight_j_01.jpg",
-              "wowhead": "item=137089"
+              "wowhead": "item=137089",
+              "specs": [
+                73
+              ]
             },
             {
               "name": "Timeless Stratagem",
@@ -5485,7 +5520,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_raiddeathknight_i_01.jpg",
-              "wowhead": "item=151824"
+              "wowhead": "item=151824",
+              "specs": [
+                72
+              ]
             },
             {
               "name": "Weight of the Earth",
@@ -5494,7 +5532,10 @@
               "group": "Warrior",
               "group_fr": "Guerrier",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_25.jpg",
-              "wowhead": "item=137077"
+              "wowhead": "item=137077",
+              "specs": [
+                71
+              ]
             },
             {
               "name": "Aegisjalmur, the Armguards of Awe",
@@ -5503,7 +5544,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_plate_raidpaladin_m_01.jpg",
-              "wowhead": "item=140846"
+              "wowhead": "item=140846",
+              "specs": [
+                70
+              ]
             },
             {
               "name": "Ashes to Dust",
@@ -5512,7 +5556,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_plate_firelands_d_01.jpg",
-              "wowhead": "item=144358"
+              "wowhead": "item=144358",
+              "specs": [
+                70
+              ]
             },
             {
               "name": "Breastplate of the Golden Val'kyr",
@@ -5521,7 +5568,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate05.jpg",
-              "wowhead": "item=137017"
+              "wowhead": "item=137017",
+              "specs": [
+                66
+              ]
             },
             {
               "name": "Chain of Thrayn",
@@ -5539,7 +5589,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_72.jpg",
-              "wowhead": "item=137047"
+              "wowhead": "item=137047",
+              "specs": [
+                66
+              ]
             },
             {
               "name": "Ilterendi, Crown Jewel of Silvermoon",
@@ -5548,7 +5601,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_firelandsraid_03a.jpg",
-              "wowhead": "item=137046"
+              "wowhead": "item=137046",
+              "specs": [
+                65
+              ]
             },
             {
               "name": "Justice Gaze",
@@ -5557,7 +5613,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_134.jpg",
-              "wowhead": "item=137065"
+              "wowhead": "item=137065",
+              "specs": [
+                70
+              ]
             },
             {
               "name": "Liadrin's Fury Unleashed",
@@ -5566,7 +5625,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_61.jpg",
-              "wowhead": "item=137048"
+              "wowhead": "item=137048",
+              "specs": [
+                70
+              ]
             },
             {
               "name": "Light-Bound Reliquary",
@@ -5584,7 +5646,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_41.jpg",
-              "wowhead": "item=144273"
+              "wowhead": "item=144273",
+              "specs": [
+                65
+              ]
             },
             {
               "name": "Obsidian Stone Spaulders",
@@ -5593,7 +5658,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_plate_pvppaladin_o_01.jpg",
-              "wowhead": "item=137076"
+              "wowhead": "item=137076",
+              "specs": [
+                65
+              ]
             },
             {
               "name": "Pillars of Inmost Light",
@@ -5602,7 +5670,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_126.jpg",
-              "wowhead": "item=151812"
+              "wowhead": "item=151812",
+              "specs": [
+                66
+              ]
             },
             {
               "name": "Saruan's Resolve",
@@ -5611,7 +5682,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_plate_draenorcrafted_d_01helm.jpg",
-              "wowhead": "item=144275"
+              "wowhead": "item=144275",
+              "specs": [
+                66
+              ]
             },
             {
               "name": "Scarlet Inquisitor's Expurgation",
@@ -5620,7 +5694,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate_raidpaladin_j_01.jpg",
-              "wowhead": "item=151813"
+              "wowhead": "item=151813",
+              "specs": [
+                70
+              ]
             },
             {
               "name": "Soul of the Highlord",
@@ -5638,7 +5715,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helm_plate_raidpaladin_n_01.jpg",
-              "wowhead": "item=151782"
+              "wowhead": "item=151782",
+              "specs": [
+                65
+              ]
             },
             {
               "name": "Tyelca, Ferren Marcus's Stature",
@@ -5647,7 +5727,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_raidwarrior_n_01.jpg",
-              "wowhead": "item=137070"
+              "wowhead": "item=137070",
+              "specs": [
+                66
+              ]
             },
             {
               "name": "Tyr's Hand of Faith",
@@ -5656,7 +5739,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_28.jpg",
-              "wowhead": "item=137059"
+              "wowhead": "item=137059",
+              "specs": [
+                65
+              ]
             },
             {
               "name": "Uther's Guard",
@@ -5665,7 +5751,11 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_17.jpg",
-              "wowhead": "item=137105"
+              "wowhead": "item=137105",
+              "specs": [
+                65,
+                66
+              ]
             },
             {
               "name": "Whisper of the Nathrezim",
@@ -5674,7 +5764,10 @@
               "group": "Paladin",
               "group_fr": "Paladin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_pandaria_d_04.jpg",
-              "wowhead": "item=137020"
+              "wowhead": "item=137020",
+              "specs": [
+                70
+              ]
             },
             {
               "name": "Butcher's Bone Apron",
@@ -5683,7 +5776,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_chain_07.jpg",
-              "wowhead": "item=144361"
+              "wowhead": "item=144361",
+              "specs": [
+                255
+              ]
             },
             {
               "name": "Call of the Wild",
@@ -5692,7 +5788,11 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_28b.jpg",
-              "wowhead": "item=137101"
+              "wowhead": "item=137101",
+              "specs": [
+                253,
+                255
+              ]
             },
             {
               "name": "Celerity of the Windrunners",
@@ -5701,7 +5801,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_430dungeon_c_04.jpg",
-              "wowhead": "item=151803"
+              "wowhead": "item=151803",
+              "specs": [
+                254
+              ]
             },
             {
               "name": "Deepwood Ranger's Quiver",
@@ -5719,7 +5822,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_archaeology_ogres_sorcerer_king_toe_ring.jpg",
-              "wowhead": "item=137043"
+              "wowhead": "item=137043",
+              "specs": [
+                255
+              ]
             },
             {
               "name": "Helbrine, Rope of the Mist Marauder",
@@ -5728,7 +5834,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_18.jpg",
-              "wowhead": "item=137082"
+              "wowhead": "item=137082",
+              "specs": [
+                255
+              ]
             },
             {
               "name": "MKII Gyroscopic Stabilizer",
@@ -5737,7 +5846,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_glove_mail_raidshamanmythic_o_01.jpg",
-              "wowhead": "item=144303"
+              "wowhead": "item=144303",
+              "specs": [
+                254
+              ]
             },
             {
               "name": "Magnetized Blasting Cap Launcher",
@@ -5746,7 +5858,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_mail_raidhunter_j_01.jpg",
-              "wowhead": "item=141353"
+              "wowhead": "item=141353",
+              "specs": [
+                254
+              ]
             },
             {
               "name": "Nesingwary's Trapping Treads",
@@ -5755,7 +5870,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_12.jpg",
-              "wowhead": "item=137034"
+              "wowhead": "item=137034",
+              "specs": [
+                255
+              ]
             },
             {
               "name": "Parsel's Tongue",
@@ -5764,7 +5882,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_mail_dungeonmail_c_03.jpg",
-              "wowhead": "item=151805"
+              "wowhead": "item=151805",
+              "specs": [
+                253
+              ]
             },
             {
               "name": "Qa'pla, Eredun War Order",
@@ -5773,7 +5894,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boot_mail_raidhunter_n_01.jpg",
-              "wowhead": "item=137227"
+              "wowhead": "item=137227",
+              "specs": [
+                253
+              ]
             },
             {
               "name": "Roar of the Seven Lions",
@@ -5782,7 +5906,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_48c.jpg",
-              "wowhead": "item=137080"
+              "wowhead": "item=137080",
+              "specs": [
+                253
+              ]
             },
             {
               "name": "Soul of the Huntmaster",
@@ -5800,7 +5927,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_100.jpg",
-              "wowhead": "item=137382"
+              "wowhead": "item=137382",
+              "specs": [
+                253
+              ]
             },
             {
               "name": "The Mantle of Command",
@@ -5809,7 +5939,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_mail_raidshaman_m_01.jpg",
-              "wowhead": "item=144326"
+              "wowhead": "item=144326",
+              "specs": [
+                253
+              ]
             },
             {
               "name": "The Shadow Hunter's Voodoo Mask",
@@ -5827,7 +5960,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_mail_08.jpg",
-              "wowhead": "item=137033"
+              "wowhead": "item=137033",
+              "specs": [
+                254
+              ]
             },
             {
               "name": "Unseen Predator's Cloak",
@@ -5836,7 +5972,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_05.jpg",
-              "wowhead": "item=151807"
+              "wowhead": "item=151807",
+              "specs": [
+                255
+              ]
             },
             {
               "name": "War Belt of the Sentinel Army",
@@ -5845,7 +5984,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_60.jpg",
-              "wowhead": "item=137081"
+              "wowhead": "item=137081",
+              "specs": [
+                254
+              ]
             },
             {
               "name": "Zevrim's Hunger",
@@ -5854,7 +5996,10 @@
               "group": "Hunter",
               "group_fr": "Chasseur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_36.jpg",
-              "wowhead": "item=137055"
+              "wowhead": "item=137055",
+              "specs": [
+                254
+              ]
             },
             {
               "name": "Denial of the Half-Giants",
@@ -5863,7 +6008,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_panda_b_02_crimson.jpg",
-              "wowhead": "item=137100"
+              "wowhead": "item=137100",
+              "specs": [
+                261
+              ]
             },
             {
               "name": "Duskwalker's Footpads",
@@ -5872,7 +6020,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_8.jpg",
-              "wowhead": "item=137030"
+              "wowhead": "item=137030",
+              "specs": [
+                259
+              ]
             },
             {
               "name": "Greenskin's Waterlogged Wristcuffs",
@@ -5881,7 +6032,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_raidrogue_k_01.jpg",
-              "wowhead": "item=137099"
+              "wowhead": "item=137099",
+              "specs": [
+                260
+              ]
             },
             {
               "name": "Hollow Skeleton Key",
@@ -5917,7 +6071,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather01.jpg",
-              "wowhead": "item=137032"
+              "wowhead": "item=137032",
+              "specs": [
+                261
+              ]
             },
             {
               "name": "Shivarran Symmetry",
@@ -5926,7 +6083,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_83.jpg",
-              "wowhead": "item=141321"
+              "wowhead": "item=141321",
+              "specs": [
+                260
+              ]
             },
             {
               "name": "Soul of the Shadowblade",
@@ -5944,7 +6104,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_21.jpg",
-              "wowhead": "item=151817"
+              "wowhead": "item=151817",
+              "specs": [
+                260
+              ]
             },
             {
               "name": "The Dreadlord's Deceit",
@@ -5953,7 +6116,11 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_pandaria_d_03.jpg",
-              "wowhead": "item=137021"
+              "wowhead": "item=137021",
+              "specs": [
+                259,
+                261
+              ]
             },
             {
               "name": "The Empty Crown",
@@ -5962,7 +6129,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_crown_02.jpg",
-              "wowhead": "item=151815"
+              "wowhead": "item=151815",
+              "specs": [
+                259
+              ]
             },
             {
               "name": "The First of the Dead",
@@ -5971,7 +6141,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_65.jpg",
-              "wowhead": "item=151818"
+              "wowhead": "item=151818",
+              "specs": [
+                261
+              ]
             },
             {
               "name": "Thraxi's Tricksy Treads",
@@ -5980,7 +6153,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_05.jpg",
-              "wowhead": "item=137031"
+              "wowhead": "item=137031",
+              "specs": [
+                260
+              ]
             },
             {
               "name": "Will of Valeera",
@@ -5998,7 +6174,10 @@
               "group": "Rogue",
               "group_fr": "Voleur",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_legionquest100_b_01.jpg",
-              "wowhead": "item=137098"
+              "wowhead": "item=137098",
+              "specs": [
+                259
+              ]
             },
             {
               "name": "Al'maiesh, the Cord of Hope",
@@ -6007,7 +6186,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_10.jpg",
-              "wowhead": "item=132445"
+              "wowhead": "item=132445",
+              "specs": [
+                257
+              ]
             },
             {
               "name": "Anund's Seared Shackles",
@@ -6016,7 +6198,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_47.jpg",
-              "wowhead": "item=132409"
+              "wowhead": "item=132409",
+              "specs": [
+                258
+              ]
             },
             {
               "name": "Coffer of Twin Faiths",
@@ -6034,7 +6219,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_03.jpg",
-              "wowhead": "item=133800"
+              "wowhead": "item=133800",
+              "specs": [
+                256
+              ]
             },
             {
               "name": "Entrancing Trousers of An'juna",
@@ -6043,7 +6231,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pant_cloth_pvppriest_f_01.jpg",
-              "wowhead": "item=132447"
+              "wowhead": "item=132447",
+              "specs": [
+                257
+              ]
             },
             {
               "name": "Estel, Dejahna's Inspiration",
@@ -6052,7 +6243,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_cloth_43.jpg",
-              "wowhead": "item=132861"
+              "wowhead": "item=132861",
+              "specs": [
+                256
+              ]
             },
             {
               "name": "Heart of the Void",
@@ -6061,7 +6255,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cloth_raidpriest_m_01robe.jpg",
-              "wowhead": "item=151814"
+              "wowhead": "item=151814",
+              "specs": [
+                258
+              ]
             },
             {
               "name": "Inner Hallation",
@@ -6070,7 +6267,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_robe_raidpriest_k_01.jpg",
-              "wowhead": "item=151786"
+              "wowhead": "item=151786",
+              "specs": [
+                256
+              ]
             },
             {
               "name": "Kam Xi'raff",
@@ -6079,7 +6279,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_robe_raidpriest_j_01.jpg",
-              "wowhead": "item=144244"
+              "wowhead": "item=144244",
+              "specs": [
+                256
+              ]
             },
             {
               "name": "Mangaza's Madness",
@@ -6088,7 +6291,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_01.jpg",
-              "wowhead": "item=132864"
+              "wowhead": "item=132864",
+              "specs": [
+                258
+              ]
             },
             {
               "name": "Mother Shahraz's Seduction",
@@ -6097,7 +6303,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_cloth_raidmage_o_01.jpg",
-              "wowhead": "item=132437"
+              "wowhead": "item=132437",
+              "specs": [
+                258
+              ]
             },
             {
               "name": "Muze's Unwavering Will",
@@ -6106,7 +6315,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_09.jpg",
-              "wowhead": "item=132450"
+              "wowhead": "item=132450",
+              "specs": [
+                257
+              ]
             },
             {
               "name": "N'ero, Band of Promises",
@@ -6115,7 +6327,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_54.jpg",
-              "wowhead": "item=137276"
+              "wowhead": "item=137276",
+              "specs": [
+                256
+              ]
             },
             {
               "name": "Phyrix's Embrace",
@@ -6124,7 +6339,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_94.jpg",
-              "wowhead": "item=132449"
+              "wowhead": "item=132449",
+              "specs": [
+                257
+              ]
             },
             {
               "name": "Rammal's Ulterior Motive",
@@ -6133,7 +6351,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cloth_draenorcrafted_d_01gloves_horde.jpg",
-              "wowhead": "item=144247"
+              "wowhead": "item=144247",
+              "specs": [
+                257
+              ]
             },
             {
               "name": "Skjoldr, Sanctuary of Ivagont",
@@ -6142,7 +6363,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_13.jpg",
-              "wowhead": "item=132436"
+              "wowhead": "item=132436",
+              "specs": [
+                256
+              ]
             },
             {
               "name": "Soul of the High Priest",
@@ -6160,7 +6384,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_136.jpg",
-              "wowhead": "item=151787"
+              "wowhead": "item=151787",
+              "specs": [
+                257
+              ]
             },
             {
               "name": "The Twins' Painful Touch",
@@ -6169,7 +6396,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_ringwod_d4_2.jpg",
-              "wowhead": "item=133973"
+              "wowhead": "item=133973",
+              "specs": [
+                258
+              ]
             },
             {
               "name": "X'anshi, Shroud of Archbishop Benedictus",
@@ -6178,7 +6408,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_20.jpg",
-              "wowhead": "item=137109"
+              "wowhead": "item=137109",
+              "specs": [
+                257
+              ]
             },
             {
               "name": "Xalan the Feared's Clench",
@@ -6187,7 +6420,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_robe_pvppriest_c_02.jpg",
-              "wowhead": "item=132461"
+              "wowhead": "item=132461",
+              "specs": [
+                256
+              ]
             },
             {
               "name": "Zeks Exterminatus",
@@ -6196,7 +6432,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_pandariapvp_d_01.jpg",
-              "wowhead": "item=144438"
+              "wowhead": "item=144438",
+              "specs": [
+                258
+              ]
             },
             {
               "name": "Zenk'aram, Iridi's Anadem",
@@ -6205,7 +6444,10 @@
               "group": "Priest",
               "group_fr": "Prêtre",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helm_robe_raidwarlock_j_01.jpg",
-              "wowhead": "item=133971"
+              "wowhead": "item=133971",
+              "specs": [
+                258
+              ]
             },
             {
               "name": "Acherus Drapes",
@@ -6232,7 +6474,11 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_plate_raiddeathknight_p_01.jpg",
-              "wowhead": "item=151796"
+              "wowhead": "item=151796",
+              "specs": [
+                251,
+                252
+              ]
             },
             {
               "name": "Consort's Cold Core",
@@ -6241,7 +6487,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_10.jpg",
-              "wowhead": "item=144293"
+              "wowhead": "item=144293",
+              "specs": [
+                251
+              ]
             },
             {
               "name": "Death March",
@@ -6250,7 +6499,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helm_plate_pvpdeathknight_c_01.jpg",
-              "wowhead": "item=144280"
+              "wowhead": "item=144280",
+              "specs": [
+                252
+              ]
             },
             {
               "name": "Draugr, Girdle of the Everlasting King",
@@ -6259,7 +6511,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_plate_raiddeathknight_k_01.jpg",
-              "wowhead": "item=132441"
+              "wowhead": "item=132441",
+              "specs": [
+                252
+              ]
             },
             {
               "name": "Koltira's Newfound Will",
@@ -6268,7 +6523,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_14.jpg",
-              "wowhead": "item=132366"
+              "wowhead": "item=132366",
+              "specs": [
+                251
+              ]
             },
             {
               "name": "Lana'thel's Lament",
@@ -6277,7 +6535,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_118.jpg",
-              "wowhead": "item=133974"
+              "wowhead": "item=133974",
+              "specs": [
+                250
+              ]
             },
             {
               "name": "Perseverance of the Ebon Martyr",
@@ -6286,7 +6547,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helm_plate_raiddeathknight_k_01.jpg",
-              "wowhead": "item=132459"
+              "wowhead": "item=132459",
+              "specs": [
+                251
+              ]
             },
             {
               "name": "Rattlegore Bone Legplates",
@@ -6295,7 +6559,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_plate_raidwarrior_i_01.jpg",
-              "wowhead": "item=132453"
+              "wowhead": "item=132453",
+              "specs": [
+                250
+              ]
             },
             {
               "name": "Seal of Necrofantasia",
@@ -6304,7 +6571,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_86.jpg",
-              "wowhead": "item=137223"
+              "wowhead": "item=137223",
+              "specs": [
+                251
+              ]
             },
             {
               "name": "Service of Gorefiend",
@@ -6313,7 +6583,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_plate_deathknight_m_01.jpg",
-              "wowhead": "item=132367"
+              "wowhead": "item=132367",
+              "specs": [
+                250
+              ]
             },
             {
               "name": "Shackles of Bryndaor",
@@ -6322,7 +6595,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_07.jpg",
-              "wowhead": "item=132365"
+              "wowhead": "item=132365",
+              "specs": [
+                250
+              ]
             },
             {
               "name": "Skullflower's Haemostasis",
@@ -6331,7 +6607,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_plate_raiddeathknight_l_01.jpg",
-              "wowhead": "item=144281"
+              "wowhead": "item=144281",
+              "specs": [
+                250
+              ]
             },
             {
               "name": "Soul of the Deathlord",
@@ -6349,7 +6628,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_plate_raidwarrior_o_01chest.jpg",
-              "wowhead": "item=151795"
+              "wowhead": "item=151795",
+              "specs": [
+                250
+              ]
             },
             {
               "name": "Tak'theritrix's Shoulderpads",
@@ -6358,7 +6640,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_plate_deathknight_m_01.jpg",
-              "wowhead": "item=137075"
+              "wowhead": "item=137075",
+              "specs": [
+                252
+              ]
             },
             {
               "name": "The Instructor's Fourth Lesson",
@@ -6367,7 +6652,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_26b.jpg",
-              "wowhead": "item=132448"
+              "wowhead": "item=132448",
+              "specs": [
+                252
+              ]
             },
             {
               "name": "Toravon's Whiteout Bindings",
@@ -6376,7 +6664,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_plate_raidpaladin_l_01.jpg",
-              "wowhead": "item=132458"
+              "wowhead": "item=132458",
+              "specs": [
+                251
+              ]
             },
             {
               "name": "Uvanimor, the Unbeautiful",
@@ -6385,7 +6676,10 @@
               "group": "Death Knight",
               "group_fr": "Chevalier de la mort",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_121.jpg",
-              "wowhead": "item=137037"
+              "wowhead": "item=137037",
+              "specs": [
+                252
+              ]
             },
             {
               "name": "Akainu's Absolute Justice",
@@ -6394,7 +6688,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_mail_pvphunter_c_02.jpg",
-              "wowhead": "item=137084"
+              "wowhead": "item=137084",
+              "specs": [
+                263
+              ]
             },
             {
               "name": "Al'Akir's Acrimony",
@@ -6403,7 +6700,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_07.jpg",
-              "wowhead": "item=137102"
+              "wowhead": "item=137102",
+              "specs": [
+                262
+              ]
             },
             {
               "name": "Echoes of the Great Sundering",
@@ -6412,7 +6712,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_23.jpg",
-              "wowhead": "item=137074"
+              "wowhead": "item=137074",
+              "specs": [
+                262
+              ]
             },
             {
               "name": "Elemental Rebalancers",
@@ -6421,7 +6724,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_mail_raidshaman_j_01.jpg",
-              "wowhead": "item=137036"
+              "wowhead": "item=137036",
+              "specs": [
+                264
+              ]
             },
             {
               "name": "Emalon's Charged Core",
@@ -6430,7 +6736,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_mail_raidshaman_l_01.jpg",
-              "wowhead": "item=137616"
+              "wowhead": "item=137616",
+              "specs": [
+                263
+              ]
             },
             {
               "name": "Eye of the Twisting Nether",
@@ -6439,7 +6748,11 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_ahnqiraj_02.jpg",
-              "wowhead": "item=137050"
+              "wowhead": "item=137050",
+              "specs": [
+                262,
+                263
+              ]
             },
             {
               "name": "Fire in the Deep",
@@ -6448,7 +6761,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_mail_raidshaman_m_01.jpg",
-              "wowhead": "item=151785"
+              "wowhead": "item=151785",
+              "specs": [
+                264
+              ]
             },
             {
               "name": "Focuser of Jonat, the Elder",
@@ -6457,7 +6773,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_96.jpg",
-              "wowhead": "item=137051"
+              "wowhead": "item=137051",
+              "specs": [
+                264
+              ]
             },
             {
               "name": "Giant Elemental's Closed Stone Fist",
@@ -6475,7 +6794,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_24.jpg",
-              "wowhead": "item=137085"
+              "wowhead": "item=137085",
+              "specs": [
+                264
+              ]
             },
             {
               "name": "Nobundo's Redemption",
@@ -6484,7 +6806,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_02.jpg",
-              "wowhead": "item=137104"
+              "wowhead": "item=137104",
+              "specs": [
+                264
+              ]
             },
             {
               "name": "Praetorian's Tidecallers",
@@ -6493,7 +6818,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_26.jpg",
-              "wowhead": "item=137058"
+              "wowhead": "item=137058",
+              "specs": [
+                264
+              ]
             },
             {
               "name": "Pristine Proto-Scale Girdle",
@@ -6502,7 +6830,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_mail_panda_b_01white.jpg",
-              "wowhead": "item=137083"
+              "wowhead": "item=137083",
+              "specs": [
+                262
+              ]
             },
             {
               "name": "Smoldering Heart",
@@ -6511,7 +6842,11 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_25.jpg",
-              "wowhead": "item=151819"
+              "wowhead": "item=151819",
+              "specs": [
+                262,
+                263
+              ]
             },
             {
               "name": "Soul of the Farseer",
@@ -6529,7 +6864,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boot_mail_raidhunter_m_01.jpg",
-              "wowhead": "item=138117"
+              "wowhead": "item=138117",
+              "specs": [
+                263
+              ]
             },
             {
               "name": "Storm Tempests",
@@ -6538,7 +6876,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_mail_raidshaman_i_01.jpg",
-              "wowhead": "item=137103"
+              "wowhead": "item=137103",
+              "specs": [
+                263
+              ]
             },
             {
               "name": "The Deceiver's Blood Pact",
@@ -6547,7 +6888,10 @@
               "group": "Shaman",
               "group_fr": "Chaman",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_chain_07.jpg",
-              "wowhead": "item=137035"
+              "wowhead": "item=137035",
+              "specs": [
+                262
+              ]
             },
             {
               "name": "Uncertain Reminder",
@@ -6574,7 +6918,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_cloth_raidwarlock_q_01.jpg",
-              "wowhead": "item=151809"
+              "wowhead": "item=151809",
+              "specs": [
+                63
+              ]
             },
             {
               "name": "Cord of Infinity",
@@ -6583,7 +6930,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_31.jpg",
-              "wowhead": "item=132442"
+              "wowhead": "item=132442",
+              "specs": [
+                62
+              ]
             },
             {
               "name": "Darckli's Dragonfire Diadem",
@@ -6592,7 +6942,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/spell_fire_fire.jpg",
-              "wowhead": "item=132863"
+              "wowhead": "item=132863",
+              "specs": [
+                63
+              ]
             },
             {
               "name": "Gravity Spiral",
@@ -6601,7 +6954,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_14.jpg",
-              "wowhead": "item=144274"
+              "wowhead": "item=144274",
+              "specs": [
+                62
+              ]
             },
             {
               "name": "Ice Time",
@@ -6610,7 +6966,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_110.jpg",
-              "wowhead": "item=144260"
+              "wowhead": "item=144260",
+              "specs": [
+                64
+              ]
             },
             {
               "name": "Koralon's Burning Touch",
@@ -6619,7 +6978,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_cloth_raidmage_m_01.jpg",
-              "wowhead": "item=132454"
+              "wowhead": "item=132454",
+              "specs": [
+                63
+              ]
             },
             {
               "name": "Lady Vashj's Grasp",
@@ -6628,7 +6990,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_52.jpg",
-              "wowhead": "item=132411"
+              "wowhead": "item=132411",
+              "specs": [
+                64
+              ]
             },
             {
               "name": "Magtheridon's Banished Bracers",
@@ -6637,7 +7002,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_07.jpg",
-              "wowhead": "item=138140"
+              "wowhead": "item=138140",
+              "specs": [
+                64
+              ]
             },
             {
               "name": "Mantle of the First Kirin Tor",
@@ -6646,7 +7014,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_94.jpg",
-              "wowhead": "item=151808"
+              "wowhead": "item=151808",
+              "specs": [
+                62
+              ]
             },
             {
               "name": "Marquee Bindings of the Sun King",
@@ -6655,7 +7026,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_robe_raidwarlock_j_01.jpg",
-              "wowhead": "item=132406"
+              "wowhead": "item=132406",
+              "specs": [
+                63
+              ]
             },
             {
               "name": "Mystic Kilt of the Rune Master",
@@ -6664,7 +7038,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_kilt_cloth_02.jpg",
-              "wowhead": "item=132451"
+              "wowhead": "item=132451",
+              "specs": [
+                62
+              ]
             },
             {
               "name": "Pyrotex Ignition Cloth",
@@ -6673,7 +7050,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_glove_cloth_raidpriest_p_01.jpg",
-              "wowhead": "item=144355"
+              "wowhead": "item=144355",
+              "specs": [
+                63
+              ]
             },
             {
               "name": "Rhonin's Assaulting Armwraps",
@@ -6682,7 +7062,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_35.jpg",
-              "wowhead": "item=132413"
+              "wowhead": "item=132413",
+              "specs": [
+                62
+              ]
             },
             {
               "name": "Shard of the Exodar",
@@ -6700,7 +7083,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_133.jpg",
-              "wowhead": "item=151810"
+              "wowhead": "item=151810",
+              "specs": [
+                64
+              ]
             },
             {
               "name": "Soul of the Archmage",
@@ -6727,7 +7113,10 @@
               "group": "Mage",
               "group_fr": "Mage",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_robe_pvpmage_d_01.jpg",
-              "wowhead": "item=133970"
+              "wowhead": "item=133970",
+              "specs": [
+                64
+              ]
             },
             {
               "name": "Alythess's Pyrogenics",
@@ -6736,7 +7125,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_65.jpg",
-              "wowhead": "item=132460"
+              "wowhead": "item=132460",
+              "specs": [
+                267
+              ]
             },
             {
               "name": "Feretory of Souls",
@@ -6745,7 +7137,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_cloth_raidwarlock_n_01.jpg",
-              "wowhead": "item=132456"
+              "wowhead": "item=132456",
+              "specs": [
+                267
+              ]
             },
             {
               "name": "Hood of Eternal Disdain",
@@ -6754,7 +7149,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_152.jpg",
-              "wowhead": "item=132394"
+              "wowhead": "item=132394",
+              "specs": [
+                265
+              ]
             },
             {
               "name": "Kazzak's Final Curse",
@@ -6763,7 +7161,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_cloth_raidwarlock_i_01.jpg",
-              "wowhead": "item=132374"
+              "wowhead": "item=132374",
+              "specs": [
+                266
+              ]
             },
             {
               "name": "Lessons of Space-Time",
@@ -6772,7 +7173,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_robe_pvpwarlock_d_01.jpg",
-              "wowhead": "item=144369"
+              "wowhead": "item=144369",
+              "specs": [
+                267
+              ]
             },
             {
               "name": "Magistrike Restraints",
@@ -6781,7 +7185,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_07.jpg",
-              "wowhead": "item=132407"
+              "wowhead": "item=132407",
+              "specs": [
+                267
+              ]
             },
             {
               "name": "Odr, Shawl of the Ymirjar",
@@ -6790,7 +7197,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_draenordungeon_c_04leather_base.jpg",
-              "wowhead": "item=132375"
+              "wowhead": "item=132375",
+              "specs": [
+                267
+              ]
             },
             {
               "name": "Pillars of the Dark Portal",
@@ -6817,7 +7227,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_04.jpg",
-              "wowhead": "item=132457"
+              "wowhead": "item=132457",
+              "specs": [
+                265
+              ]
             },
             {
               "name": "Reap and Sow",
@@ -6826,7 +7239,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_18.jpg",
-              "wowhead": "item=144364"
+              "wowhead": "item=144364",
+              "specs": [
+                265
+              ]
             },
             {
               "name": "Recurrent Ritual",
@@ -6835,7 +7251,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_cloth_raidwarlock_l_01.jpg",
-              "wowhead": "item=132393"
+              "wowhead": "item=132393",
+              "specs": [
+                266
+              ]
             },
             {
               "name": "Sacrolash's Dark Strike",
@@ -6844,7 +7263,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_66.jpg",
-              "wowhead": "item=132378"
+              "wowhead": "item=132378",
+              "specs": [
+                265
+              ]
             },
             {
               "name": "Sin'dorei Spite",
@@ -6853,7 +7275,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_44.jpg",
-              "wowhead": "item=132379"
+              "wowhead": "item=132379",
+              "specs": [
+                266
+              ]
             },
             {
               "name": "Soul of the Netherlord",
@@ -6871,7 +7296,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_cloth_raidwarlock_p_01.jpg",
-              "wowhead": "item=132381"
+              "wowhead": "item=132381",
+              "specs": [
+                265
+              ]
             },
             {
               "name": "The Master Harvester",
@@ -6889,7 +7317,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helm_cloth_raidwarlock_p_01.jpg",
-              "wowhead": "item=144385"
+              "wowhead": "item=144385",
+              "specs": [
+                266
+              ]
             },
             {
               "name": "Wilfred's Sigil of Superior Summoning",
@@ -6898,7 +7329,10 @@
               "group": "Warlock",
               "group_fr": "Démoniste",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_78.jpg",
-              "wowhead": "item=132369"
+              "wowhead": "item=132369",
+              "specs": [
+                266
+              ]
             },
             {
               "name": "Anvil-Hardened Wristwraps",
@@ -6907,7 +7341,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_raiddruid_p_01.jpg",
-              "wowhead": "item=144277"
+              "wowhead": "item=144277",
+              "specs": [
+                268
+              ]
             },
             {
               "name": "Cenedril, Reflector of Hatred",
@@ -6916,7 +7353,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_pandaria_b_02.jpg",
-              "wowhead": "item=137019"
+              "wowhead": "item=137019",
+              "specs": [
+                269
+              ]
             },
             {
               "name": "Doorway to Nowhere",
@@ -6925,7 +7365,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_cataclysm_healer_b_01.jpg",
-              "wowhead": "item=151784"
+              "wowhead": "item=151784",
+              "specs": [
+                270
+              ]
             },
             {
               "name": "Drinking Horn Cover",
@@ -6934,7 +7377,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_08.jpg",
-              "wowhead": "item=137097"
+              "wowhead": "item=137097",
+              "specs": [
+                269
+              ]
             },
             {
               "name": "Ei'thas, Lunar Glides of Eramas",
@@ -6943,7 +7389,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_panda_b_01dark.jpg",
-              "wowhead": "item=137028"
+              "wowhead": "item=137028",
+              "specs": [
+                270
+              ]
             },
             {
               "name": "Eye of Collidus the Warp-Watcher",
@@ -6952,7 +7401,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_45.jpg",
-              "wowhead": "item=137045"
+              "wowhead": "item=137045",
+              "specs": [
+                270
+              ]
             },
             {
               "name": "Firestone Walkers",
@@ -6961,7 +7413,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boot_leather_raidmonk_m_01.jpg",
-              "wowhead": "item=137027"
+              "wowhead": "item=137027",
+              "specs": [
+                268
+              ]
             },
             {
               "name": "Fundamental Observation",
@@ -6970,7 +7425,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helm_leather_challengemonk_d_01.jpg",
-              "wowhead": "item=137063"
+              "wowhead": "item=137063",
+              "specs": [
+                268
+              ]
             },
             {
               "name": "Gai Plin's Soothing Sash",
@@ -6979,7 +7437,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_15.jpg",
-              "wowhead": "item=137079"
+              "wowhead": "item=137079",
+              "specs": [
+                268
+              ]
             },
             {
               "name": "Hand-Carved Jade Puzzle Box",
@@ -6997,7 +7458,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlet_leather_raidrogue_j_01.jpg",
-              "wowhead": "item=137057"
+              "wowhead": "item=137057",
+              "specs": [
+                269
+              ]
             },
             {
               "name": "Jewel of the Lost Abbey",
@@ -7006,7 +7470,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_138.jpg",
-              "wowhead": "item=137044"
+              "wowhead": "item=137044",
+              "specs": [
+                268
+              ]
             },
             {
               "name": "Katsuo's Eclipse",
@@ -7015,7 +7482,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_05.jpg",
-              "wowhead": "item=137029"
+              "wowhead": "item=137029",
+              "specs": [
+                269
+              ]
             },
             {
               "name": "Leggings of The Black Flame",
@@ -7024,7 +7494,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_27.jpg",
-              "wowhead": "item=137068"
+              "wowhead": "item=137068",
+              "specs": [
+                270
+              ]
             },
             {
               "name": "March of the Legion",
@@ -7033,7 +7506,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_ringwod_d4_3.jpg",
-              "wowhead": "item=137220"
+              "wowhead": "item=137220",
+              "specs": [
+                269
+              ]
             },
             {
               "name": "Ovyd's Winter Wrap",
@@ -7042,7 +7518,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_leather_raidrogue_l_01.jpg",
-              "wowhead": "item=138879"
+              "wowhead": "item=138879",
+              "specs": [
+                270
+              ]
             },
             {
               "name": "Petrichor Lagniappe",
@@ -7051,7 +7530,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_41.jpg",
-              "wowhead": "item=137096"
+              "wowhead": "item=137096",
+              "specs": [
+                270
+              ]
             },
             {
               "name": "Sal'salabim's Lost Tunic",
@@ -7060,7 +7542,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_pvpmonk_o_01.jpg",
-              "wowhead": "item=137016"
+              "wowhead": "item=137016",
+              "specs": [
+                268
+              ]
             },
             {
               "name": "Shelter of Rin",
@@ -7069,7 +7554,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_leather_pvpdruid_o_01robe.jpg",
-              "wowhead": "item=144340"
+              "wowhead": "item=144340",
+              "specs": [
+                270
+              ]
             },
             {
               "name": "Soul of the Grandmaster",
@@ -7087,7 +7575,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_leather_pvpmonk_g_01.jpg",
-              "wowhead": "item=151788"
+              "wowhead": "item=151788",
+              "specs": [
+                268
+              ]
             },
             {
               "name": "The Emperor's Capacitor",
@@ -7096,7 +7587,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_raidrogue_l_01.jpg",
-              "wowhead": "item=144239"
+              "wowhead": "item=144239",
+              "specs": [
+                269
+              ]
             },
             {
               "name": "The Wind Blows",
@@ -7105,7 +7599,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_leather_raidmonk_l_01.jpg",
-              "wowhead": "item=151811"
+              "wowhead": "item=151811",
+              "specs": [
+                269
+              ]
             },
             {
               "name": "Unison Spaulders",
@@ -7114,7 +7611,10 @@
               "group": "Monk",
               "group_fr": "Moine",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_leather_legionquest100_b_01.jpg",
-              "wowhead": "item=137073"
+              "wowhead": "item=137073",
+              "specs": [
+                270
+              ]
             },
             {
               "name": "Ailuro Pouncers",
@@ -7123,7 +7623,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_8.jpg",
-              "wowhead": "item=137024"
+              "wowhead": "item=137024",
+              "specs": [
+                103
+              ]
             },
             {
               "name": "Aman'Thul's Wisdom",
@@ -7132,7 +7635,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_leather_raidmonk_n_01.jpg",
-              "wowhead": "item=137072"
+              "wowhead": "item=137072",
+              "specs": [
+                105
+              ]
             },
             {
               "name": "Behemoth Headdress",
@@ -7141,7 +7647,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_leather_draenorhonors2_c_01.jpg",
-              "wowhead": "item=151801"
+              "wowhead": "item=151801",
+              "specs": [
+                103
+              ]
             },
             {
               "name": "Chameleon Song",
@@ -7150,7 +7659,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_153.jpg",
-              "wowhead": "item=151783"
+              "wowhead": "item=151783",
+              "specs": [
+                105
+              ]
             },
             {
               "name": "Chatoyant Signet",
@@ -7159,7 +7671,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_ring_firelands_2.jpg",
-              "wowhead": "item=137040"
+              "wowhead": "item=137040",
+              "specs": [
+                103
+              ]
             },
             {
               "name": "Dual Determination",
@@ -7168,7 +7683,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_6_2raid_ring_4b.jpg",
-              "wowhead": "item=137041"
+              "wowhead": "item=137041",
+              "specs": [
+                104
+              ]
             },
             {
               "name": "Edraith, Bonds of Aglaya",
@@ -7177,7 +7695,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_legionendgame_c_01.jpg",
-              "wowhead": "item=137095"
+              "wowhead": "item=137095",
+              "specs": [
+                105
+              ]
             },
             {
               "name": "Ekowraith, Creator of Worlds",
@@ -7195,7 +7716,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_panda_b_02.jpg",
-              "wowhead": "item=137067"
+              "wowhead": "item=137067",
+              "specs": [
+                104
+              ]
             },
             {
               "name": "Essence of Infusion",
@@ -7204,7 +7728,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boot_leather_raiddruid_p_01.jpg",
-              "wowhead": "item=137026"
+              "wowhead": "item=137026",
+              "specs": [
+                105
+              ]
             },
             {
               "name": "Fiery Red Maimers",
@@ -7213,7 +7740,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pants_leather_03.jpg",
-              "wowhead": "item=144354"
+              "wowhead": "item=144354",
+              "specs": [
+                103
+              ]
             },
             {
               "name": "Fury of Nature",
@@ -7222,7 +7752,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_draenorquest90_b_03_mail.jpg",
-              "wowhead": "item=151802"
+              "wowhead": "item=151802",
+              "specs": [
+                104
+              ]
             },
             {
               "name": "Impeccable Fel Essence",
@@ -7231,7 +7764,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_ring_mop13.jpg",
-              "wowhead": "item=137039"
+              "wowhead": "item=137039",
+              "specs": [
+                102
+              ]
             },
             {
               "name": "Lady and the Child",
@@ -7240,7 +7776,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_leather_draenorcrafted_d_01_alliance.jpg",
-              "wowhead": "item=144295"
+              "wowhead": "item=144295",
+              "specs": [
+                102
+              ]
             },
             {
               "name": "Living Root-Bound Cache",
@@ -7258,7 +7797,11 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_raiddruid_p_01.jpg",
-              "wowhead": "item=137056"
+              "wowhead": "item=137056",
+              "specs": [
+                103,
+                104
+              ]
             },
             {
               "name": "Oakheart's Puny Quods",
@@ -7267,7 +7810,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helm_leather_raiddruid_m_01.jpg",
-              "wowhead": "item=144432"
+              "wowhead": "item=144432",
+              "specs": [
+                104
+              ]
             },
             {
               "name": "Oneth's Intuition",
@@ -7276,7 +7822,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_40.jpg",
-              "wowhead": "item=137092"
+              "wowhead": "item=137092",
+              "specs": [
+                102
+              ]
             },
             {
               "name": "Promise of Elune, the Moon Goddess",
@@ -7285,7 +7834,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_raiddruid_j_01.jpg",
-              "wowhead": "item=137023"
+              "wowhead": "item=137023",
+              "specs": [
+                102
+              ]
             },
             {
               "name": "Radiant Moonlight",
@@ -7294,7 +7846,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_felfire_raid_d_01.jpg",
-              "wowhead": "item=151800"
+              "wowhead": "item=151800",
+              "specs": [
+                102
+              ]
             },
             {
               "name": "Skysec's Hold",
@@ -7303,7 +7858,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_cloth_07.jpg",
-              "wowhead": "item=137025"
+              "wowhead": "item=137025",
+              "specs": [
+                104
+              ]
             },
             {
               "name": "Soul of the Archdruid",
@@ -7321,7 +7879,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_pearlring2.jpg",
-              "wowhead": "item=137042"
+              "wowhead": "item=137042",
+              "specs": [
+                105
+              ]
             },
             {
               "name": "The Dark Titan's Advice",
@@ -7330,7 +7891,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_belt_leather_raidrogue_l_01.jpg",
-              "wowhead": "item=137078"
+              "wowhead": "item=137078",
+              "specs": [
+                105
+              ]
             },
             {
               "name": "The Emerald Dreamcatcher",
@@ -7339,7 +7903,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_helmet_81.jpg",
-              "wowhead": "item=137062"
+              "wowhead": "item=137062",
+              "specs": [
+                102
+              ]
             },
             {
               "name": "The Wildshaper's Clutch",
@@ -7348,7 +7915,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_gauntlets_20.jpg",
-              "wowhead": "item=137094"
+              "wowhead": "item=137094",
+              "specs": [
+                103
+              ]
             },
             {
               "name": "X'oni's Caress",
@@ -7357,7 +7927,10 @@
               "group": "Druid",
               "group_fr": "Druide",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_glove_leather_raidrogue_m_01.jpg",
-              "wowhead": "item=144242"
+              "wowhead": "item=144242",
+              "specs": [
+                105
+              ]
             },
             {
               "name": "Achor, the Eternal Hunger",
@@ -7366,7 +7939,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_chest_leather_05.jpg",
-              "wowhead": "item=137014"
+              "wowhead": "item=137014",
+              "specs": [
+                577
+              ]
             },
             {
               "name": "Anger of the Half-Giants",
@@ -7375,7 +7951,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_60pvp_ring1a.jpg",
-              "wowhead": "item=137038"
+              "wowhead": "item=137038",
+              "specs": [
+                577
+              ]
             },
             {
               "name": "Chaos Theory",
@@ -7384,7 +7963,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_cape_draenorraid_d_01plate_dk.jpg",
-              "wowhead": "item=151798"
+              "wowhead": "item=151798",
+              "specs": [
+                577
+              ]
             },
             {
               "name": "Cloak of Fel Flames",
@@ -7393,7 +7975,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_cape_15.jpg",
-              "wowhead": "item=137066"
+              "wowhead": "item=137066",
+              "specs": [
+                581
+              ]
             },
             {
               "name": "Delusions of Grandeur",
@@ -7402,7 +7987,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_51.jpg",
-              "wowhead": "item=144279"
+              "wowhead": "item=144279",
+              "specs": [
+                577
+              ]
             },
             {
               "name": "Demonslayer's Soul-Sealed Satchel",
@@ -7420,7 +8008,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_jewelry_ring_134.jpg",
-              "wowhead": "item=138854"
+              "wowhead": "item=138854",
+              "specs": [
+                581
+              ]
             },
             {
               "name": "Kirel Narak",
@@ -7429,7 +8020,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boots_leather_dungeonleather_c_06.jpg",
-              "wowhead": "item=138949"
+              "wowhead": "item=138949",
+              "specs": [
+                581
+              ]
             },
             {
               "name": "Loramus Thalipedes' Sacrifice",
@@ -7438,7 +8032,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_boot_leather_raiddruid_k_01.jpg",
-              "wowhead": "item=137022"
+              "wowhead": "item=137022",
+              "specs": [
+                577
+              ]
             },
             {
               "name": "Mo'arg Bionic Stabilizers",
@@ -7447,7 +8044,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_raidrogue_n_01.jpg",
-              "wowhead": "item=137090"
+              "wowhead": "item=137090",
+              "specs": [
+                577
+              ]
             },
             {
               "name": "Oblivion's Embrace",
@@ -7456,7 +8056,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_leather_raiddruid_m_01pant.jpg",
-              "wowhead": "item=151799"
+              "wowhead": "item=151799",
+              "specs": [
+                581
+              ]
             },
             {
               "name": "Raddon's Cascading Eyes",
@@ -7465,7 +8068,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_bandana_03.jpg",
-              "wowhead": "item=137061"
+              "wowhead": "item=137061",
+              "specs": [
+                577
+              ]
             },
             {
               "name": "Runemaster's Pauldrons",
@@ -7474,7 +8080,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_shoulder_105.jpg",
-              "wowhead": "item=137071"
+              "wowhead": "item=137071",
+              "specs": [
+                581
+              ]
             },
             {
               "name": "Soul of the Slayer",
@@ -7492,7 +8101,10 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_glove_leather_legionendgame_c_01.jpg",
-              "wowhead": "item=144292"
+              "wowhead": "item=144292",
+              "specs": [
+                581
+              ]
             },
             {
               "name": "The Defiler's Lost Vambraces",
@@ -7501,14 +8113,18 @@
               "group": "Demon Hunter",
               "group_fr": "Chasseur de démons",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_bracer_leather_legionquest100_b_01.jpg",
-              "wowhead": "item=137091"
+              "wowhead": "item=137091",
+              "specs": [
+                581
+              ]
             }
           ]
         }
       ],
       "era": "legion",
       "optional": true,
-      "wide": true
+      "wide": true,
+      "bySpec": true
     },
     {
       "title": "Draenor",

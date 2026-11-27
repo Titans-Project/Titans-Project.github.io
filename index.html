@@ -181,6 +181,7 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .class.wide { grid-column: 1 / -1; }
 .class.wide .specs { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); column-gap: 18px; }
 .class.wide .spec { border-top: 0; border-bottom: 1px solid var(--line); }
+.spechead { grid-column: 1 / -1; padding: 10px 14px 4px; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
 .spec .w { min-width: 0; }
 .spec .w div { font-weight: 600; font-size: 14px; line-height: 1.3; }
 .spec .w small { color: var(--muted); font-size: 12.5px; }
@@ -314,6 +315,15 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
 
 <script>
 const ORDER = ['working', 'partial', 'progress', 'broken', 'untested'];
+const SPECS = {
+  62: ['Arcane', 'Arcanes'], 63: ['Fire', 'Feu'], 64: ['Frost', 'Givre'], 65: ['Holy', 'Sacré'], 66: ['Protection', 'Protection'], 70: ['Retribution', 'Vindicte'],
+  71: ['Arms', 'Armes'], 72: ['Fury', 'Fureur'], 73: ['Protection', 'Protection'], 102: ['Balance', 'Équilibre'], 103: ['Feral', 'Farouche'], 104: ['Guardian', 'Gardien'],
+  105: ['Restoration', 'Restauration'], 250: ['Blood', 'Sang'], 251: ['Frost', 'Givre'], 252: ['Unholy', 'Impie'], 253: ['Beast Mastery', 'Maîtrise des bêtes'],
+  254: ['Marksmanship', 'Précision'], 255: ['Survival', 'Survie'], 256: ['Discipline', 'Discipline'], 257: ['Holy', 'Sacré'], 258: ['Shadow', 'Ombre'],
+  259: ['Assassination', 'Assassinat'], 260: ['Outlaw', 'Hors-la-loi'], 261: ['Subtlety', 'Finesse'], 262: ['Elemental', 'Élémentaire'], 263: ['Enhancement', 'Amélioration'],
+  264: ['Restoration', 'Restauration'], 265: ['Affliction', 'Affliction'], 266: ['Demonology', 'Démonologie'], 267: ['Destruction', 'Destruction'],
+  268: ['Brewmaster', 'Maître brasseur'], 269: ['Windwalker', 'Marche-vent'], 270: ['Mistweaver', 'Tisse-brume'], 577: ['Havoc', 'Dévastation'], 581: ['Vengeance', 'Vengeance'],
+};
 const CLASSES = {
   'Warrior': ['warrior', '#C69B6D'], 'Paladin': ['paladin', '#F48CBA'], 'Hunter': ['hunter', '#AAD372'], 'Rogue': ['rogue', '#FFF468'],
   'Priest': ['priest', '#D8D8D8'], 'Shaman': ['shaman', '#0070DD'], 'Mage': ['mage', '#3FC7EB'], 'Warlock': ['warlock', '#8788EE'],
@@ -326,7 +336,7 @@ const T = {
     tracker: 'Development tracker', updates: 'Updates',
     working: 'Working', partial: 'Partially working', progress: 'In progress', broken: 'Not working', untested: 'Untested',
     search: 'Search a dungeon, a class, a holiday…',
-    back: '← All categories', results: n => n + (n === 1 ? ' result' : ' results'), none: 'Nothing matches.', page: 'Page',
+    back: '← All categories', results: n => n + (n === 1 ? ' result' : ' results'), none: 'Nothing matches.', page: 'Page', allspecs: 'All specializations',
     versions: 'Versions', latest: 'Latest', pre: 'Pre-release', ongh: 'View on GitHub', released: d => 'Released ' + d,
     fixes: 'fixes', changes: 'changes', crashes: 'crashes fixed', loading: 'Loading the release notes…', noreleases: 'The release notes could not be loaded.',
     footer: '<b>Working</b> does not mean bug-free: small bugs may remain. When something does not behave as it did on retail, please <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">open an issue</a>. Item, quest and creature tooltips by <a href="https://www.wowhead.com">Wowhead</a>.',
@@ -338,7 +348,7 @@ const T = {
     tracker: 'Suivi du développement', updates: 'Mises à jour',
     working: 'Fonctionnel', partial: 'Partiellement fonctionnel', progress: 'En cours', broken: 'Non fonctionnel', untested: 'Non testé',
     search: 'Chercher un donjon, une classe, une fête…',
-    back: '← Toutes les catégories', results: n => n + ' résultat' + (n > 1 ? 's' : ''), none: 'Aucun résultat.', page: 'Page',
+    back: '← Toutes les catégories', results: n => n + ' résultat' + (n > 1 ? 's' : ''), none: 'Aucun résultat.', page: 'Page', allspecs: 'Toutes les spécialisations',
     versions: 'Versions', latest: 'Dernière', pre: 'Préversion', ongh: 'Voir sur GitHub', released: d => 'Publiée le ' + d,
     fixes: 'correctifs', changes: 'changements', crashes: 'plantages corrigés', loading: 'Chargement des notes de version…', noreleases: 'Les notes de version n’ont pas pu être chargées.',
     footer: '<b>Fonctionnel</b> ne veut pas dire sans bug : de petits défauts peuvent rester. Quand quelque chose ne se comporte pas comme sur les serveurs officiels, <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">ouvrez un ticket</a>. Infobulles des objets, quêtes et créatures par <a href="https://www.wowhead.com/fr">Wowhead</a>.',
@@ -424,8 +434,16 @@ function classCards(g, s) {
     const name = tr(list[0], 'group'), cls = CLASSES[list[0].group];
     const head = cls ? `<span class="cname"><img src="images/classes/classicon_${cls[0]}.jpg" alt="">${esc(name)}</span>` : `<span>${esc(name)}</span>`;
     // a long list (legendary items, or a card that is no class) runs the whole width, its rows in columns
-    return `<div class="class${!cls || s.wide ? ' wide' : ''}"${cls ? ` style="--cc:${cls[1]}"` : ''}><h4>${head}</h4><div class="specs">` + list.map(it =>
-      `<div class="spec${it.icon ? ' iconed' : ''}" style="--c:var(--${it.status})">${it.icon ? `<img class="sicon" src="${esc(it.icon)}" alt="" loading="lazy">` : `<span class="dot" style="background:var(--${it.status})"></span>`}<div class="w"><div>${whName(it)}</div>${it.detail || it.note ? `<small>${[it.detail && esc(tr(it, 'detail')), it.note && esc(tr(it, 'note'))].filter(Boolean).join(' · ')}</small>` : ''}</div>${label(it.status)}</div>`).join('') + `</div></div>`;
+    const row = it => `<div class="spec${it.icon ? ' iconed' : ''}" style="--c:var(--${it.status})">${it.icon ? `<img class="sicon" src="${esc(it.icon)}" alt="" loading="lazy">` : `<span class="dot" style="background:var(--${it.status})"></span>`}<div class="w"><div>${whName(it)}</div>${it.detail || it.note ? `<small>${[it.detail && esc(tr(it, 'detail')), it.note && esc(tr(it, 'note'))].filter(Boolean).join(' · ')}</small>` : ''}</div>${label(it.status)}</div>`;
+    let rows = list.map(row).join('');
+    // legendaries a single specialization (or two) can wear are listed under it; those for the whole class come first
+    if (s.bySpec && cls) {
+      const bySpec = new Map();
+      for (const it of list) { const k = (it.specs || []).join(','); if (!bySpec.has(k)) bySpec.set(k, []); bySpec.get(k).push(it); }
+      const keys = [...bySpec.keys()].sort((a, b) => (a === '' ? -1 : b === '' ? 1 : (b.split(',').length - a.split(',').length) || (+a.split(',')[0] - +b.split(',')[0])));
+      rows = keys.map(k => `<div class="spechead">${k === '' ? t('allspecs') : k.split(',').map(id => SPECS[id][lang === 'fr' ? 1 : 0]).join(lang === 'fr' ? ' et ' : ' and ')}</div>` + bySpec.get(k).map(row).join('')).join('');
+    }
+    return `<div class="class${!cls || s.wide ? ' wide' : ''}"${cls ? ` style="--cc:${cls[1]}"` : ''}><h4>${head}</h4><div class="specs">` + rows + `</div></div>`;
   }).join('') + `</div>`;
 }
 

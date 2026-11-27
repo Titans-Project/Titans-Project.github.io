@@ -578,7 +578,7 @@
             },
             {
               "name": "Adopted Puppy Crate",
-              "status": "partial",
+              "status": "working",
               "name_fr": "Caisse de chiots adoptés",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_crate_02.jpg",
               "wowhead": "item=144072"
@@ -683,7 +683,7 @@
             },
             {
               "name": "Archmage Vargoth's Spare Staff",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Bâton de rechange de l'archimage Vargoth",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_staff_45.jpg",
               "wowhead": "item=118191"
@@ -858,14 +858,14 @@
             },
             {
               "name": "Blingtron 4000",
-              "status": "partial",
+              "status": "working",
               "name_fr": "Bling-o-tron 4000",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_lilsmoky.jpg",
               "wowhead": "item=87214"
             },
             {
               "name": "Blingtron 5000",
-              "status": "partial",
+              "status": "working",
               "name_fr": "Bling-o-tron 5000",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_blingtron.jpg",
               "wowhead": "item=111821"
@@ -942,7 +942,7 @@
             },
             {
               "name": "Brazier of Dancing Flames",
-              "status": "partial",
+              "status": "working",
               "name_fr": "Brasero des flammes dansantes",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_firedancer_01.jpg",
               "wowhead": "item=34686"
@@ -1726,7 +1726,7 @@
             },
             {
               "name": "Flimsy Yellow Balloon",
-              "status": "partial",
+              "status": "working",
               "name_fr": "Ballon jaune fragile",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_balloon_01.jpg",
               "wowhead": "item=75042"
@@ -1950,7 +1950,7 @@
             },
             {
               "name": "Green Balloon",
-              "status": "partial",
+              "status": "working",
               "name_fr": "Ballon vert",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_food_45.jpg",
               "wowhead": "item=69895"
@@ -3287,7 +3287,7 @@
             },
             {
               "name": "Star Chart",
-              "status": "partial",
+              "status": "working",
               "name_fr": "Carte du ciel",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/spell_arcane_starfire.jpg",
               "wowhead": "item=109739"
@@ -3980,7 +3980,7 @@
             },
             {
               "name": "Yellow Balloon",
-              "status": "partial",
+              "status": "working",
               "name_fr": "Ballon jaune",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_throwingball_01.jpg",
               "wowhead": "item=69896"

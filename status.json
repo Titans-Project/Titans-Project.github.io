@@ -1050,7 +1050,7 @@
             },
             {
               "name": "Kirin Tor Tavern Crawl",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Tournée des tavernes du Kirin Tor",
               "icon": "images/fetes/taverncrawl.jpg"
             },

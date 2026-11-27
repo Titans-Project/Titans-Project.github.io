@@ -211,12 +211,19 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .ver { text-align: left; border: 1px solid var(--line); background: var(--surface); border-radius: 11px; padding: 10px 12px; cursor: pointer; display: flex; flex-direction: column; gap: 2px; }
 .ver:hover { border-color: var(--accent); }
 .ver[aria-current="true"] { border-color: var(--accent); background: var(--accent-soft); }
+.ver.dev { border-style: dashed; }
+.ver.dev .latest { color: var(--progress); }
+.rhead .pre.devbadge { color: var(--accent-strong); background: var(--accent-soft); }
+.devnote { margin: 12px 24px 0; padding: 10px 14px; border-left: 4px solid var(--progress); background: var(--surface-2); border-radius: 0 10px 10px 0; color: var(--muted); font-size: 14px; }
 .ver b { font-size: 15px; }
 .ver span { color: var(--muted); font-size: 12.5px; }
 .ver .latest { align-self: flex-start; font-size: 10.5px; font-weight: 700; color: var(--accent-strong); text-transform: uppercase; letter-spacing: .06em; }
 .release { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; min-width: 0; }
 .release .banner { background: var(--surface); }
 .release .banner img { display: block; width: 100%; height: auto; }
+.release .banner.small { padding: 18px 24px 0; }
+.release .banner.small img { width: auto; max-width: min(100%, 640px); margin: 0 auto; border-radius: 10px; }
+.ver b.long { font-size: 14px; line-height: 1.25; }
 .rhead { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding: 18px 24px 4px; }
 .rhead h2 { margin: 0; font-size: 30px; line-height: 1.15; }
 .rhead .meta { color: var(--muted); font-size: 14px; display: flex; gap: 10px; align-items: center; flex-wrap: wrap; }
@@ -338,7 +345,7 @@ const T = {
     search: 'Search a dungeon, a class, a holiday…',
     back: '← All categories', results: n => n + (n === 1 ? ' result' : ' results'), none: 'Nothing matches.', page: 'Page', allspecs: 'All specializations',
     versions: 'Versions', latest: 'Latest', pre: 'Pre-release', ongh: 'View on GitHub', released: d => 'Released ' + d,
-    fixes: 'fixes', changes: 'changes', crashes: 'crashes fixed', loading: 'Loading the release notes…', noreleases: 'The release notes could not be loaded.',
+    fixes: 'fixes', changes: 'changes', crashes: 'crashes fixed', loading: 'Loading the release notes…', noreleases: 'The release notes could not be loaded.', indev: 'In progress', devbadge: 'Not released yet', devupdated: d => 'Updated ' + d, devnote: 'The fixes made since the last version. The list grows as they land, and they will make up the next version.',
     footer: '<b>Working</b> does not mean bug-free: small bugs may remain. When something does not behave as it did on retail, please <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">open an issue</a>. Item, quest and creature tooltips by <a href="https://www.wowhead.com">Wowhead</a>.',
     title: 'Reforged Development Tracker', locale: 'en-GB'
   },
@@ -350,7 +357,7 @@ const T = {
     search: 'Chercher un donjon, une classe, une fête…',
     back: '← Toutes les catégories', results: n => n + ' résultat' + (n > 1 ? 's' : ''), none: 'Aucun résultat.', page: 'Page', allspecs: 'Toutes les spécialisations',
     versions: 'Versions', latest: 'Dernière', pre: 'Préversion', ongh: 'Voir sur GitHub', released: d => 'Publiée le ' + d,
-    fixes: 'correctifs', changes: 'changements', crashes: 'plantages corrigés', loading: 'Chargement des notes de version…', noreleases: 'Les notes de version n’ont pas pu être chargées.',
+    fixes: 'correctifs', changes: 'changements', crashes: 'plantages corrigés', loading: 'Chargement des notes de version…', noreleases: 'Les notes de version n’ont pas pu être chargées.', indev: 'En cours', devbadge: 'Pas encore publiés', devupdated: d => 'Mise à jour le ' + d, devnote: 'Les correctifs faits depuis la dernière version. La liste s’allonge au fil des corrections, et ils formeront la prochaine version.',
     footer: '<b>Fonctionnel</b> ne veut pas dire sans bug : de petits défauts peuvent rester. Quand quelque chose ne se comporte pas comme sur les serveurs officiels, <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">ouvrez un ticket</a>. Infobulles des objets, quêtes et créatures par <a href="https://www.wowhead.com/fr">Wowhead</a>.',
     title: 'Suivi du développement de Reforged', locale: 'fr-FR'
   }
@@ -361,7 +368,7 @@ const store = {
 };
 let lang = new URLSearchParams(location.search).get('lang') || store.get('lang') || ((navigator.language || 'en').toLowerCase().startsWith('fr') ? 'fr' : 'en');
 if (!T[lang]) lang = 'en';
-let data, releases, releasesFailed = false, query = '';
+let data, releases, upcoming = null, releasesFailed = false, query = '';
 const active = new Set();
 const rendered = new Map();
 
@@ -610,17 +617,23 @@ function linkWowhead(box, links) {
 function updates(tag) {
   if (releasesFailed) return `<p class="empty">${t('noreleases')}</p>`;
   if (!releases) return `<p class="empty">${t('loading')}</p>`;
-  const r = releases.find(x => x.tag === tag) || releases[0];
+  // the next version is followed while it is being built; the last published one stays the default
+  const dev = upcoming && tag === upcoming.tag;
+  const r = dev ? upcoming : (releases.find(x => x.tag === tag) || releases[0]);
   const st = stats(r.body);
-  const list = releases.map((x, i) => `<button class="ver" data-ver="${esc(x.tag)}" aria-current="${x.tag === r.tag}">
+  const devButton = upcoming ? `<button class="ver dev" data-ver="${esc(upcoming.tag)}" aria-current="${dev}">
+      <span class="latest">${t('indev')}</span><b class="long">${esc(tr(upcoming, 'title'))}</b><span>${fmtDate(upcoming.date)}</span></button>` : '';
+  const list = devButton + releases.map((x, i) => `<button class="ver" data-ver="${esc(x.tag)}" aria-current="${!dev && x.tag === r.tag}">
       ${i === 0 ? `<span class="latest">${t('latest')}</span>` : ''}<b>${esc(x.tag)}</b><span>${fmtDate(x.date)}</span></button>`).join('');
   const chips = [['fix', st.fix, 'fixes'], ['change', st.change, 'changes'], ['crash', st.crash, 'crashes']]
     .filter(c => c[1]).map(([k, n, l]) => `<span class="rstat"><span class="tag ${k}" style="margin:0">${k}</span><b>${n}</b> ${t(l)}</span>`).join('');
+  const badge = dev ? `<span class="pre devbadge">${t('devbadge')}</span>` : r.prerelease ? `<span class="pre">${t('pre')}</span>` : '';
+  const meta = dev ? `<span>${T[lang].devupdated(fmtDate(r.date))}</span>`
+    : `<span>${T[lang].released(fmtDate(r.date))}</span><a class="gh" href="${esc(r.url)}" target="_blank" rel="noopener">${t('ongh')} ↗</a>`;
   return `<div class="updates"><aside class="versions"><div class="vtitle">${t('versions')}</div>${list}</aside>
-    <article class="release">${r.banner ? `<div class="banner"><img src="${esc(r.banner)}" alt="Version ${esc(r.tag)}"></div>` : ''}
-    <div class="rhead"><div class="rtitle"><h2 class="gradient-title">Version ${esc(r.tag)}</h2>${r.prerelease ? `<span class="pre">${t('pre')}</span>` : ''}</div><div class="meta"><span>${T[lang].released(fmtDate(r.date))}</span>
-    <a class="gh" href="${esc(r.url)}" target="_blank" rel="noopener">${t('ongh')} ↗</a></div></div>
-    ${chips ? `<div class="rstats">${chips}</div>` : ''}<div class="md">${renderMarkdown(r)}</div></article></div>`;
+    <article class="release">${r.banner ? `<div class="banner${r.small_banner ? ' small' : ''}"><img src="${esc(r.banner)}" alt="${dev ? esc(tr(r, 'title')) : 'Version ' + esc(r.tag)}"></div>` : ''}
+    <div class="rhead"><div class="rtitle"><h2 class="gradient-title">${dev ? esc(tr(r, 'title')) : 'Version ' + esc(r.tag)}</h2>${badge}</div><div class="meta">${meta}</div></div>
+    ${chips ? `<div class="rstats">${chips}</div>` : ''}${dev ? `<p class="devnote">${t('devnote')}</p>` : ''}<div class="md">${renderMarkdown(r)}</div></article></div>`;
 }
 
 /* ---------- render ---------- */
@@ -681,6 +694,7 @@ window.addEventListener('DOMContentLoaded', render);
 render();
 fetch('status.json', { cache: 'no-cache' }).then(r => r.json()).then(d => { data = d; render(); })
   .catch(() => { document.getElementById('main').innerHTML = '<p class="empty">status.json ?</p>'; });
+fetch('upcoming.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(d => { upcoming = d; if (releases) render(); }).catch(() => {});
 fetch('releases.json', { cache: 'no-cache' }).then(r => r.json()).then(d => { releases = d; render(); })
   .catch(() => { releasesFailed = true; render(); });
 </script>

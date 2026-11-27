@@ -858,14 +858,14 @@
             },
             {
               "name": "Blingtron 4000",
-              "status": "working",
+              "status": "partial",
               "name_fr": "Bling-o-tron 4000",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_pet_lilsmoky.jpg",
               "wowhead": "item=87214"
             },
             {
               "name": "Blingtron 5000",
-              "status": "working",
+              "status": "partial",
               "name_fr": "Bling-o-tron 5000",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_blingtron.jpg",
               "wowhead": "item=111821"
@@ -921,7 +921,7 @@
             },
             {
               "name": "Botani Camouflage",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Camouflage botani",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/achievement_dungeon_everbloom.jpg",
               "wowhead": "item=119432"
@@ -1054,14 +1054,14 @@
             },
             {
               "name": "Chalice of Secrets",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Calice de secrets",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_offhand_pvealliance_d_01.jpg",
               "wowhead": "item=86575"
             },
             {
               "name": "Chalice of the Mountain Kings",
-              "status": "untested",
+              "status": "broken",
               "name_fr": "Calice des rois de la montagne",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_chalice-of-mountainkings.jpg",
               "wowhead": "item=64373"
@@ -1243,7 +1243,7 @@
             },
             {
               "name": "Critter Hand Cannon",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Canon à main lance-bestioles",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_weapon_rifle_41.jpg",
               "wowhead": "item=131933"
@@ -1824,7 +1824,7 @@
             },
             {
               "name": "Gastropod Shell",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Carapace de gastéropode",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_shell_04.jpg",
               "wowhead": "item=98136"
@@ -1915,14 +1915,14 @@
             },
             {
               "name": "Gokk'lok's Shell",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Carapace de Gokk'lok",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_abyssalclam.jpg",
               "wowhead": "item=88417"
             },
             {
               "name": "Golden Hearthstone Card: Lord Jaraxxus",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Carte dorée de Hearthstone : seigneur Jaraxxus",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/item_hearthstone_card_purple.jpg",
               "wowhead": "item=119211"
@@ -2209,7 +2209,7 @@
             },
             {
               "name": "Kaldorei Wind Chimes",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Carillon à vent kaldorei",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/trade_archaeology_kaldoreiwindchimes.jpg",
               "wowhead": "item=64383"
@@ -2391,7 +2391,7 @@
             },
             {
               "name": "Love Boat",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Canot de l'amour",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_love_gondola.jpg",
               "wowhead": "item=142341"
@@ -2825,7 +2825,7 @@
             },
             {
               "name": "Podling Camouflage",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Camouflage boguelin",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_podling_red.jpg",
               "wowhead": "item=127394"
@@ -3175,7 +3175,7 @@
             },
             {
               "name": "Sira's Extra Cloak",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Cape de rechange de Sira",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_tabard_a_86warden.jpg",
               "wowhead": "item=147843"
@@ -3287,7 +3287,7 @@
             },
             {
               "name": "Star Chart",
-              "status": "untested",
+              "status": "partial",
               "name_fr": "Carte du ciel",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/spell_arcane_starfire.jpg",
               "wowhead": "item=109739"
@@ -3854,7 +3854,7 @@
             },
             {
               "name": "Whitewater Carp",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Carpe eau-pâle",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/inv_misc_fish_42.jpg",
               "wowhead": "item=131814"
@@ -3924,7 +3924,7 @@
             },
             {
               "name": "Wormhole Centrifuge",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Centrifugeuse spatiotemporelle",
               "icon": "https://wow.zamimg.com/images/wow/icons/large/ability_siege_engineer_pattern_recognition.jpg",
               "wowhead": "item=112059"

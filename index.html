@@ -216,6 +216,10 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .ver.newest b { color: var(--accent-strong); }
 .ver.dev .latest { color: var(--progress); }
 .rhead .pre.devbadge { color: var(--accent-strong); background: var(--accent-soft); }
+.rart { display: flex; align-items: center; }
+.rart > img { display: block; flex: none; align-self: flex-start; width: 200px; height: 200px; object-fit: contain; object-position: left top; }
+.rart-txt { flex: 1; min-width: 0; }
+@media (max-width: 760px) { .rart { flex-direction: column; align-items: stretch; } }
 .devnote { margin: 12px 24px 0; padding: 10px 14px; border-left: 4px solid var(--progress); background: var(--surface-2); border-radius: 0 10px 10px 0; color: var(--muted); font-size: 14px; }
 .ver b { font-size: 15px; }
 .ver span { color: var(--muted); font-size: 12.5px; }
@@ -629,13 +633,13 @@ function updates(tag) {
       ${i === 0 ? `<span class="latest">${t('latest')}</span>` : ''}<b>${esc(x.tag)}</b><span>${fmtDate(x.date)}</span></button>`).join('');
   const chips = [['fix', st.fix, 'fixes'], ['change', st.change, 'changes'], ['crash', st.crash, 'crashes']]
     .filter(c => c[1]).map(([k, n, l]) => `<span class="rstat"><span class="tag ${k}" style="margin:0">${k}</span><b>${n}</b> ${t(l)}</span>`).join('');
-  const badge = dev ? `<span class="pre devbadge">${t('devbadge')}</span>` : r.prerelease ? `<span class="pre">${t('pre')}</span>` : '';
+  const badge = dev ? '' : r.prerelease ? `<span class="pre">${t('pre')}</span>` : '';
   const meta = dev ? `<span>${T[lang].devupdated(fmtDate(r.date))}</span>`
     : `<span>${T[lang].released(fmtDate(r.date))}</span><a class="gh" href="${esc(r.url)}" target="_blank" rel="noopener">${t('ongh')} ↗</a>`;
   return `<div class="updates"><aside class="versions"><div class="vtitle">${t('versions')}</div>${list}</aside>
     <article class="release">${r.banner ? `<div class="banner${r.small_banner ? ' small' : ''}"><img src="${esc(r.banner)}" alt="${dev ? esc(tr(r, 'title')) : 'Version ' + esc(r.tag)}"></div>` : ''}
-    <div class="rhead"><div class="rtitle"><h2 class="gradient-title">${dev ? esc(tr(r, 'title')) : 'Version ' + esc(r.tag)}</h2>${badge}</div><div class="meta">${meta}</div></div>
-    ${chips ? `<div class="rstats">${chips}</div>` : ''}${dev ? `<p class="devnote">${t('devnote')}</p>` : ''}<div class="md">${renderMarkdown(r)}</div></article></div>`;
+    ${r.art ? `<div class="rart"><img src="${esc(r.art)}" alt=""><div class="rart-txt">` : ''}<div class="rhead"><div class="rtitle"><h2 class="gradient-title">${dev ? esc(tr(r, 'title')) : 'Version ' + esc(r.tag)}</h2>${badge}</div><div class="meta">${meta}</div></div>
+    ${chips ? `<div class="rstats">${chips}</div>` : ''}${dev ? `<p class="devnote">${t('devnote')}</p>` : ''}${r.art ? '</div></div>' : ''}<div class="md">${renderMarkdown(r)}</div></article></div>`;
 }
 
 /* ---------- render ---------- */

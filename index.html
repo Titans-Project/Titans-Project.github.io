@@ -246,7 +246,7 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .md h3 { font-size: 15px; margin: 20px 0 8px; color: var(--accent-strong); }
 .md hr { border: 0; height: 1px; background: var(--line); margin: 28px 0; }
 .md ul { padding-left: 0; list-style: none; margin: 8px 0; }
-.md li { padding: 5px 0 5px 2px; border-bottom: 1px dashed var(--line); }
+.md li { padding: 6px 0 6px 2px; border-bottom: 1px dashed color-mix(in srgb, var(--muted) 45%, transparent); }
 .md li:last-child { border-bottom: 0; }
 .md li ul { margin: 4px 0 0 18px; }
 .md em { color: var(--muted); }
@@ -256,6 +256,9 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .md td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
 .md th { background: var(--surface-2); }
 .md blockquote { margin: 12px 0; padding: 10px 16px; border-left: 4px solid var(--line); background: var(--surface-2); border-radius: 0 10px 10px 0; color: var(--muted); }
+.md li blockquote { margin: 3px 0 6px; padding: 4px 12px; font-size: 12.5px; font-style: italic; line-height: 1.45; border-left-width: 2px; background: transparent; }
+.md li blockquote p { margin: 0; }
+.md li blockquote code { font-style: normal; font-size: 12px; }
 .md blockquote.callout { border-left-color: var(--change); color: var(--text); }
 .md .ctitle { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; color: var(--change); }
 .md img { max-width: 100%; height: auto; }
@@ -539,7 +542,7 @@ function tracker(cat) {
 }
 
 /* ---------- updates ---------- */
-const TAGS = { fix: 'fix', change: 'change', crash: 'crash', exploit: 'exploit', 'data loss': 'data-loss' };
+const TAGS = { fix: 'fix', change: 'change', crash: 'crash', exploit: 'exploit', 'data loss': 'data-loss', 'memory leak': 'leak' };
 
 // every entry counts, tagged or not: a [Crash] or a memory leak apart, a [Change] or a line of a section presented as a
 // deliberate departure as a change, anything else as a fix; a line ending with a colon counts its sub-items instead
@@ -719,7 +722,10 @@ render();
 fetch('status.json', { cache: 'no-cache' }).then(r => r.json()).then(d => { data = d; render(); })
   .catch(() => { document.getElementById('main').innerHTML = '<p class="empty">status.json ?</p>'; });
 fetch('upcoming.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : null).then(d => { upcoming = d; if (releases) render(); }).catch(() => {});
-fetch('releases.json', { cache: 'no-cache' }).then(r => r.json()).then(d => { releases = d; render(); })
+// the early notes are shown here in the layout of the later ones; GitHub keeps them as published
+Promise.all([fetch('releases.json', { cache: 'no-cache' }).then(r => r.json()),
+  fetch('notes_site.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : {}).catch(() => ({}))])
+  .then(([d, notes]) => { for (const x of d) if (notes[x.tag]) x.body = notes[x.tag]; releases = d; render(); })
   .catch(() => { releasesFailed = true; render(); });
 </script>
 </body>

@@ -473,9 +473,9 @@ function feature(it) {
 function groupHtml(g, s) {
   const head = g.title ? `<h3 class="group">${esc(tr(g, 'title'))}</h3>` : '';
   if (g.items.some(i => i.group)) { const body = classCards(g, s); return body ? head + body : ''; }
-  // same order and pages as the in-game collection: names compared character by character, capitals before small letters and accented letters after z
+  // same order and pages as the in-game collection of the French client, in both languages: names compared character by character, capitals before small letters and accented letters after z
   if (s.paged) {
-    const sorted = [...g.items].sort((a, b) => { const x = tr(a, 'name'), y = tr(b, 'name'); return x < y ? -1 : x > y ? 1 : 0; });
+    const sorted = [...g.items].sort((a, b) => { const x = a.name_fr || a.name, y = b.name_fr || b.name; return x < y ? -1 : x > y ? 1 : 0; });
     let html = '';
     for (let first = 0; first < sorted.length; first += s.paged) {
       // each toy keeps its in-game slot, three per row; read column after column, as listed when testing

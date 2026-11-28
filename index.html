@@ -264,6 +264,7 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .tag.change { color: var(--change); background: color-mix(in srgb, var(--change) 14%, transparent); }
 .tag.crash, .tag.exploit, .tag.data-loss { color: var(--broken); background: var(--broken-bg); }
 .tag.other { color: var(--progress); background: var(--progress-bg); }
+.tag.leak { color: var(--progress); background: var(--progress-bg); }
 .scope { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: 12px; color: var(--muted); margin-right: 2px; }
 .md a.wh { text-decoration: none; border-bottom: 1px dotted currentColor; }
 
@@ -353,7 +354,7 @@ const T = {
     search: 'Search a dungeon, a class, a holiday…',
     back: '← All categories', results: n => n + (n === 1 ? ' result' : ' results'), none: 'Nothing matches.', page: 'Page', allspecs: 'All specializations',
     versions: 'Versions', latest: 'Latest update', pre: 'Pre-release', ongh: 'View on GitHub', released: d => 'Released ' + d,
-    fixes: 'fixes', changes: 'changes', crashes: 'crashes fixed', loading: 'Loading the release notes…', noreleases: 'The release notes could not be loaded.', indev: 'In progress', devbadge: 'Already pushed', devupdated: d => 'Updated ' + d, devnote: 'The fixes pushed since the last version: they are already in the repository, and the list grows as new ones land until the next version gathers them.',
+    fixes: n => n > 1 ? 'fixes' : 'fix', changes: n => n > 1 ? 'changes' : 'change', crashes: n => n > 1 ? 'crashes fixed' : 'crash fixed', leaks: n => n > 1 ? 'memory leaks fixed' : 'memory leak fixed', loading: 'Loading the release notes…', noreleases: 'The release notes could not be loaded.', indev: 'In progress', devbadge: 'Already pushed', devupdated: d => 'Updated ' + d, devnote: 'The fixes pushed since the last version: they are already in the repository, and the list grows as new ones land until the next version gathers them.',
     footer: '<b>Working</b> does not mean bug-free: small bugs may remain. When something does not behave as it did on retail, please <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">open an issue</a>. Item, quest and creature tooltips by <a href="https://www.wowhead.com">Wowhead</a>.',
     title: 'Reforged Development Tracker', locale: 'en-GB'
   },
@@ -365,7 +366,7 @@ const T = {
     search: 'Chercher un donjon, une classe, une fête…',
     back: '← Toutes les catégories', results: n => n + ' résultat' + (n > 1 ? 's' : ''), none: 'Aucun résultat.', page: 'Page', allspecs: 'Toutes les spécialisations',
     versions: 'Versions', latest: 'Dernière mise à jour', pre: 'Préversion', ongh: 'Voir sur GitHub', released: d => 'Publiée le ' + d,
-    fixes: 'correctifs', changes: 'changements', crashes: 'plantages corrigés', loading: 'Chargement des notes de version…', noreleases: 'Les notes de version n’ont pas pu être chargées.', indev: 'En cours', devbadge: 'Déjà poussés', devupdated: d => 'Mise à jour le ' + d, devnote: 'Les correctifs poussés depuis la dernière version : ils sont déjà dans le dépôt, et la liste s’allonge au fil des corrections jusqu’à ce que la prochaine version les regroupe.',
+    fixes: n => n > 1 ? 'correctifs' : 'correctif', changes: n => n > 1 ? 'changements' : 'changement', crashes: n => n > 1 ? 'plantages corrigés' : 'plantage corrigé', leaks: n => n > 1 ? 'fuites mémoire corrigées' : 'fuite mémoire corrigée', loading: 'Chargement des notes de version…', noreleases: 'Les notes de version n’ont pas pu être chargées.', indev: 'En cours', devbadge: 'Déjà poussés', devupdated: d => 'Mise à jour le ' + d, devnote: 'Les correctifs poussés depuis la dernière version : ils sont déjà dans le dépôt, et la liste s’allonge au fil des corrections jusqu’à ce que la prochaine version les regroupe.',
     footer: '<b>Fonctionnel</b> ne veut pas dire sans bug : de petits défauts peuvent rester. Quand quelque chose ne se comporte pas comme sur les serveurs officiels, <a href="https://github.com/Titans-Project/LegionCore-Reforged/issues/new?template=bug_report.md">ouvrez un ticket</a>. Infobulles des objets, quêtes et créatures par <a href="https://www.wowhead.com/fr">Wowhead</a>.',
     title: 'Suivi du développement de Reforged', locale: 'fr-FR'
   }
@@ -540,9 +541,24 @@ function tracker(cat) {
 /* ---------- updates ---------- */
 const TAGS = { fix: 'fix', change: 'change', crash: 'crash', exploit: 'exploit', 'data loss': 'data-loss' };
 
+// every entry counts, tagged or not: a [Crash] or a memory leak apart, a [Change] or a line of a section presented as a
+// deliberate departure as a change, anything else as a fix; a line ending with a colon counts its sub-items instead
 function stats(body) {
-  const n = re => (body.match(re) || []).length;
-  return { fix: n(/^\s*- \*\*\[Fix\]\*\*/gm), change: n(/^\s*- \*\*\[Change\]\*\*/gm), crash: n(/^\s*- \*\*\[Crash\]\*\*/gm) };
+  const c = { fix: 0, change: 0, crash: 0, leak: 0 };
+  let departure = false, parent = null;
+  for (const line of body.split('\n')) {
+    if (line.startsWith('#')) { departure = false; parent = null; continue; }
+    if (line.includes('deliberate departure')) departure = true;
+    const top = line.match(/^- (?:\*\*\[([^\]]+)\]\*\*)?/);
+    if (top) {
+      if (line.startsWith('- *') && !line.startsWith('- **')) { parent = null; continue; }
+      const tag = (top[1] || '').toLowerCase();
+      const kind = tag === 'crash' ? 'crash' : tag.startsWith('memory leak') ? 'leak' : tag === 'change' || (!tag && departure) ? 'change' : 'fix';
+      if (line.trimEnd().endsWith(':')) { parent = kind; continue; }
+      parent = null; c[kind]++;
+    } else if (parent && /^\s+- /.test(line)) c[parent]++;
+  }
+  return c;
 }
 
 function renderMarkdown(r) {
@@ -633,8 +649,8 @@ function updates(tag) {
       <span class="latest">${t('indev')}</span><b class="long">${esc(tr(upcoming, 'title'))}</b><span>${fmtDate(upcoming.date)}</span></button><div class="vsep"></div>` : '';
   const list = devButton + releases.map((x, i) => `<button class="ver${i === 0 ? ' newest' : ''}" data-ver="${esc(x.tag)}" aria-current="${!dev && x.tag === r.tag}">
       ${i === 0 ? `<span class="latest">${t('latest')}</span>` : ''}<b>${esc(x.tag)}</b><span>${fmtDate(x.date)}</span></button>`).join('');
-  const chips = [['fix', st.fix, 'fixes'], ['change', st.change, 'changes'], ['crash', st.crash, 'crashes']]
-    .filter(c => c[1]).map(([k, n, l]) => `<span class="rstat"><span class="tag ${k}" style="margin:0">${k}</span><b>${n}</b> ${t(l)}</span>`).join('');
+  const chips = [['fix', st.fix, 'fixes'], ['change', st.change, 'changes'], ['crash', st.crash, 'crashes'], ['leak', st.leak, 'leaks']]
+    .filter(c => c[1]).map(([k, n, l]) => `<span class="rstat"><span class="tag ${k}" style="margin:0">${k === 'leak' ? 'leak' : k}</span><b>${n}</b> ${T[lang][l](n)}</span>`).join('');
   const badge = dev ? '' : r.prerelease ? `<span class="pre">${t('pre')}</span>` : '';
   const meta = dev ? `<span>${T[lang].devupdated(fmtDate(r.date))}</span>`
     : `<span>${T[lang].released(fmtDate(r.date))}</span><a class="gh" href="${esc(r.url)}" target="_blank" rel="noopener">${t('ongh')} ↗</a>`;

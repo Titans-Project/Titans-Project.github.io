@@ -211,7 +211,8 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .ver { text-align: left; border: 1px solid var(--line); background: var(--surface); border-radius: 11px; padding: 10px 12px; cursor: pointer; display: flex; flex-direction: column; gap: 2px; }
 .ver:hover { border-color: var(--accent); }
 .ver[aria-current="true"] { border-color: var(--accent); background: var(--accent-soft); }
-.ver.dev { border-style: dashed; margin-bottom: 14px; }
+.ver.dev { border-style: dashed; }
+.vsep { height: 1px; width: 60%; margin: 12px auto; background: var(--muted); opacity: .45; flex: none; }
 .ver.newest { border: 2px solid var(--accent); box-shadow: 0 0 0 3px var(--accent-soft), 0 0 18px -4px var(--accent); }
 .ver.newest b { color: var(--accent-strong); }
 .ver.dev .latest { color: var(--progress); }
@@ -273,6 +274,7 @@ footer { color: var(--muted); font-size: 13px; border-top: 1px solid var(--line)
   .versions { position: static; flex-direction: row; overflow-x: auto; padding-bottom: 6px; scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
   .versions .vtitle { display: none; }
   .ver { flex: none; }
+  .vsep { width: 1px; height: auto; margin: 4px 6px; align-self: stretch; }
   .rhead, .rstats, .md { padding-left: 16px; padding-right: 16px; }
 }
 @media (max-width: 720px) {
@@ -628,7 +630,7 @@ function updates(tag) {
   const r = dev ? upcoming : (releases.find(x => x.tag === tag) || releases[0]);
   const st = stats(r.body);
   const devButton = upcoming ? `<button class="ver dev" data-ver="${esc(upcoming.tag)}" aria-current="${dev}">
-      <span class="latest">${t('indev')}</span><b class="long">${esc(tr(upcoming, 'title'))}</b><span>${fmtDate(upcoming.date)}</span></button>` : '';
+      <span class="latest">${t('indev')}</span><b class="long">${esc(tr(upcoming, 'title'))}</b><span>${fmtDate(upcoming.date)}</span></button><div class="vsep"></div>` : '';
   const list = devButton + releases.map((x, i) => `<button class="ver${i === 0 ? ' newest' : ''}" data-ver="${esc(x.tag)}" aria-current="${!dev && x.tag === r.tag}">
       ${i === 0 ? `<span class="latest">${t('latest')}</span>` : ''}<b>${esc(x.tag)}</b><span>${fmtDate(x.date)}</span></button>`).join('');
   const chips = [['fix', st.fix, 'fixes'], ['change', st.change, 'changes'], ['crash', st.crash, 'crashes']]

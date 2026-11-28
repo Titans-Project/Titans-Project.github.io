@@ -4661,7 +4661,7 @@
               "name": "Twinblades of the Deceiver",
               "group": "Demon Hunter",
               "detail": "Havoc",
-              "status": "untested",
+              "status": "working",
               "name_fr": "Les lames jumelles du Trompeur",
               "detail_fr": "Dévastation",
               "group_fr": "Chasseur de démons",
@@ -4671,7 +4671,7 @@
               "name": "Aldrachi Warblades",
               "group": "Demon Hunter",
               "detail": "Vengeance",
-              "status": "working",
+              "status": "untested",
               "name_fr": "Les lames de guerre des Aldrachi",
               "group_fr": "Chasseur de démons",
               "icon": "images/armes/inv_glaive_1h_artifactaldrochi_d_01.jpg"

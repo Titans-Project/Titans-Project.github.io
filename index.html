@@ -256,6 +256,7 @@ h3.group::after { content: ""; flex: 1; height: 1px; background: var(--line); }
 .md td:last-child { text-align: right; font-variant-numeric: tabular-nums; }
 .md th { background: var(--surface-2); }
 .md blockquote { margin: 12px 0; padding: 10px 16px; border-left: 4px solid var(--line); background: var(--surface-2); border-radius: 0 10px 10px 0; color: var(--muted); }
+.md del.reverted { color: var(--broken); text-decoration: line-through; text-decoration-color: var(--broken); cursor: help; }
 .md li blockquote { margin: 3px 0 6px; padding: 4px 12px; font-size: 12.5px; font-style: italic; line-height: 1.45; border-left-width: 2px; background: transparent; }
 .md li blockquote p { margin: 0; }
 .md li blockquote code { font-style: normal; font-size: 12px; }
@@ -575,6 +576,8 @@ function renderMarkdown(r) {
     (m, k) => `> <span class="ctitle">ⓘ ${k.charAt(0) + k.slice(1).toLowerCase()}</span>`);
   let html = marked.parse(md, { gfm: true });
   if (window.DOMPurify) html = DOMPurify.sanitize(html);
+  // a line struck through as reverted tells why on hover, in the page language
+  html = html.replace(/<del([^>]*class="reverted"[^>]*)>/g, (m, attrs) => { const v = (attrs.match(new RegExp('data-' + lang + '="([^"]*)"')) || [])[1] || ''; return `<del class="reverted" title="${v}">`; });
   const box = document.createElement('div');
   box.innerHTML = html;
   box.querySelectorAll('blockquote').forEach(q => { if (q.querySelector('.ctitle')) q.classList.add('callout'); });
